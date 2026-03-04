@@ -144,7 +144,7 @@ export default function Home() {
   <div className="hero-grid"></div>
   <div className="hero-content">
     <div className="hero-tag">The World's Digital Asset Intelligence Platform</div>
-    <h1 className="hero-h1">The Complete <em>Codex</em> of<br>Tokenization &<br>Digital Assets</h1>
+    <h1 className="hero-h1">The Complete <em>Codex</em> of<br />Tokenization &<br />Digital Assets</h1>
     <p className="hero-sub">From the fundamentals of blockchain to institutional RWA strategies, stablecoin infrastructure, CBDC policy, and the future of money — everything you need to understand the $19 trillion transformation of global finance. All content is educational. None of it is financial advice.</p>
     <div className="hero-ctas">
       <button className="btn-primary" onClick={() => document.getElementById("tokenization").scrollIntoView({behavior:"smooth"})}>Start Learning</button>
@@ -1565,7 +1565,7 @@ export default function Home() {
                 id="chat-input"
                 placeholder="Ask about tokenization, RWAs, stablecoins..."
                 value={inputValue}
-                onChange={e => setInputValue(e.target.value)}
+                onChange={e =/> setInputValue(e.target.value)}
                 onKeyDown={handleKeyDown}
               />
               <button id="chat-send" onClick={() => sendMessage(inputValue)}>➤</button>
