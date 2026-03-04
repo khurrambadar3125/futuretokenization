@@ -84,7 +84,7 @@ export default function Home() {
         <title>FutureTokenization.com — The World's Digital Asset Codex</title>
       </Head>
 
-<!-- NAV -->
+{/* NAV */}
 <nav>
   <div className="nav-inner">
     <div className="logo" id="logo-scroll">Future<span>Tokenization</span></div>
@@ -96,18 +96,18 @@ export default function Home() {
           <a href="#tokenization">What is Tokenization</a>
           <a href="#how-it-works">How It Works</a>
           <a href="#tech-stack">Technology Stack</a>
-          <a href="#timeline">History & Timeline</a>
+          <a href="#timeline">History &amp; Timeline</a>
         </div>
       </li>
       <li>
         <a href="#rwa">Real World Assets ▾</a>
         <div className="dropdown">
           <a href="#rwa">Overview</a>
-          <a href="#treasuries">Treasuries & Bonds</a>
+          <a href="#treasuries">Treasuries &amp; Bonds</a>
           <a href="#real-estate">Real Estate</a>
           <a href="#private-credit">Private Credit</a>
-          <a href="#commodities">Commodities & Gold</a>
-          <a href="#equities">Equities & IP</a>
+          <a href="#commodities">Commodities &amp; Gold</a>
+          <a href="#equities">Equities &amp; IP</a>
         </div>
       </li>
       <li>
@@ -115,7 +115,7 @@ export default function Home() {
         <div className="dropdown">
           <a href="#stablecoins">What Are Stablecoins</a>
           <a href="#stable-vs-crypto">Stablecoins vs Crypto</a>
-          <a href="#stable-types">Types & Mechanics</a>
+          <a href="#stable-types">Types &amp; Mechanics</a>
           <a href="#stable-regulation">Regulation (GENIUS Act)</a>
         </div>
       </li>
@@ -138,7 +138,7 @@ export default function Home() {
   </div>
 </nav>
 
-<!-- ===================== HERO ===================== -->
+{/* ===================== HERO ===================== */}
 <div id="home">
   <div className="hero-bg"></div>
   <div className="hero-grid"></div>
@@ -176,7 +176,7 @@ export default function Home() {
   </div>
 </div>
 
-<!-- ===================== TOKENIZATION ===================== -->
+{/* ===================== TOKENIZATION ===================== */}
 <section id="tokenization" style="padding-top:100px;">
   <div className="sec-tag">Foundation</div>
   <h2 className="sec-h2">What is <em>Tokenization</em>?</h2>
@@ -280,7 +280,7 @@ export default function Home() {
     </div>
     <div className="layer">
       <div className="layer-num">L4</div>
-      <div className="layer-name">Oracle & Data Layer</div>
+      <div className="layer-name">Oracle &amp; Data Layer</div>
       <div className="layer-detail">Chainlink (price feeds, CCIP cross-chain), API3, Pyth Network — bridge real-world data (prices, yields, valuations) onto the blockchain so smart contracts can reflect accurate asset values.</div>
       <div className="layer-badge"><span className="card-tag tag-green">Data</span></div>
     </div>
@@ -292,13 +292,13 @@ export default function Home() {
     </div>
     <div className="layer">
       <div className="layer-num">L6</div>
-      <div className="layer-name">Custody & Legal Layer</div>
+      <div className="layer-name">Custody &amp; Legal Layer</div>
       <div className="layer-detail">BitGo, Anchorage, Copper, Fireblocks — institutional-grade digital asset custody. Paralleled by legal custodians (title registries, notaries, land departments) holding the physical or legal claim.</div>
       <div className="layer-badge"><span className="card-tag tag-gold">Legal</span></div>
     </div>
     <div className="layer">
       <div className="layer-num">L7</div>
-      <div className="layer-name">Regulatory & Compliance</div>
+      <div className="layer-name">Regulatory &amp; Compliance</div>
       <div className="layer-detail">SEC (US), MiCA (EU), MAS (Singapore), VARA (UAE), HKMA (Hong Kong), FCA (UK), PVARA (Pakistan) — jurisdiction-specific frameworks governing issuance, trading, and custody of tokenized securities.</div>
       <div className="layer-badge"><span className="card-tag tag-red">Compliance</span></div>
     </div>
@@ -315,7 +315,7 @@ export default function Home() {
     <div className="tl-item">
       <div className="tl-dot"></div>
       <div className="tl-year">2015</div>
-      <div className="tl-h">Ethereum & Smart Contracts</div>
+      <div className="tl-h">Ethereum &amp; Smart Contracts</div>
       <div className="tl-p">Vitalik Buterin's Ethereum enables programmable money. For the first time, complex financial logic can run autonomously on-chain. The ERC-20 standard makes token creation trivial.</div>
     </div>
     <div className="tl-item">
@@ -327,7 +327,7 @@ export default function Home() {
     <div className="tl-item">
       <div className="tl-dot"></div>
       <div className="tl-year">2021</div>
-      <div className="tl-h">NFT Moment — IP & Art Tokenization</div>
+      <div className="tl-h">NFT Moment — IP &amp; Art Tokenization</div>
       <div className="tl-p">The NFT boom validates the concept of unique digital ownership. Billions flow into tokenized art and collectibles, demonstrating consumer appetite for digital asset ownership.</div>
     </div>
     <div className="tl-item">
@@ -345,7 +345,7 @@ export default function Home() {
     <div className="tl-item">
       <div className="tl-dot"></div>
       <div className="tl-year">2025</div>
-      <div className="tl-h">Tokenized Stocks & Regulatory Clarity</div>
+      <div className="tl-h">Tokenized Stocks &amp; Regulatory Clarity</div>
       <div className="tl-p">Coinbase launches tokenized stocks for US investors. Nasdaq files with SEC. DTCC pilot for tokenized clearing. The GENIUS Act passes, creating the first federal stablecoin framework.</div>
     </div>
     <div className="tl-item">
@@ -356,7 +356,7 @@ export default function Home() {
     </div>
   </div>
 
-  <!-- RWA CATALYST DEEP DIVE -->
+  {/* RWA CATALYST DEEP DIVE */}
   <div style="margin-top:60px;" id="rwa-catalyst">
     <div className="sec-tag" style="margin-bottom:12px;">The Real Catalyst</div>
     <h2 className="sec-h2" style="margin-bottom:20px;">Why <em>Right Now</em> Is the Inflection Point</h2>
@@ -422,7 +422,7 @@ export default function Home() {
       </div>
       <div className="layer">
         <div className="layer-num">03</div>
-        <div className="layer-name">Independent Valuation & Audit</div>
+        <div className="layer-name">Independent Valuation &amp; Audit</div>
         <div className="layer-detail">Certified appraisers, lawyers, and auditors verify value, title clarity, liabilities, and regulatory compliance. For real estate: property survey, title search, rental income audit. For private credit: borrower creditworthiness, collateral value, loan documentation. For Treasuries: custodian attestation of underlying securities. This valuation anchors token pricing and must be updated regularly — the oracle problem.</div>
         <div className="layer-badge"><span className="card-tag tag-blue">Weeks 2–6</span></div>
       </div>
@@ -434,7 +434,7 @@ export default function Home() {
       </div>
       <div className="layer">
         <div className="layer-num">05</div>
-        <div className="layer-name">Regulatory Filing & Approval</div>
+        <div className="layer-name">Regulatory Filing &amp; Approval</div>
         <div className="layer-detail">Jurisdiction-specific: SEC Reg D / Reg A+ (US), VARA license (Dubai), MAS license (Singapore), MiCA registration (EU). This determines who can legally invest and classifies the token as a security, fund share, or novel category. Historically the biggest bottleneck — but 2024–2025 regulatory frameworks have dramatically compressed approval timelines from 12 months to weeks in progressive jurisdictions.</div>
         <div className="layer-badge"><span className="card-tag tag-red">Weeks 4–16</span></div>
       </div>
@@ -474,12 +474,12 @@ export default function Home() {
         <p>The most technically complex challenge in RWA tokenization is the "oracle problem": how does a blockchain know what a physical asset is worth in real-time? Blockchains cannot independently verify off-chain data. Solutions are maturing: Chainlink provides tamper-resistant price feeds from multiple independent data sources. Real estate uses automated valuation models updated by certified appraisers. For commodities, exchange-traded reference prices are posted on-chain. For private credit, NAV is computed off-chain by fund administrators and cryptographically signed on-chain. The reliability of these oracles directly determines the trustworthiness of every tokenized asset built on top of them.</p>
       </div>
     </div>
-  </div><!-- end rwa-catalyst -->
+  </div>{/* end rwa-catalyst */}
 </section>
 
 <div className="divider"></div>
 
-<!-- ===================== RWA ===================== -->
+{/* ===================== RWA ===================== */}
 <section id="rwa">
   <div className="sec-tag">Asset Classes</div>
   <h2 className="sec-h2">Real World <em>Assets</em></h2>
@@ -497,7 +497,7 @@ export default function Home() {
     </thead>
     <tbody>
       <tr>
-        <td><strong>US Treasuries & Money Markets</strong></td>
+        <td><strong>US Treasuries &amp; Money Markets</strong></td>
         <td className="num">$26T</td>
         <td className="num green">$8.7B</td>
         <td>BlackRock BUIDL, Ondo, Franklin Templeton</td>
@@ -511,21 +511,21 @@ export default function Home() {
         <td>Fractional access, global investor base</td>
       </tr>
       <tr>
-        <td><strong>Private Credit & Loans</strong></td>
+        <td><strong>Private Credit &amp; Loans</strong></td>
         <td className="num">$1.5T</td>
         <td className="num green">$12B</td>
         <td>Figure, Maple, Centrifuge, Goldfinch</td>
         <td>Higher yield, DeFi composability</td>
       </tr>
       <tr>
-        <td><strong>Gold & Commodities</strong></td>
+        <td><strong>Gold &amp; Commodities</strong></td>
         <td className="num">$12T</td>
         <td className="num green">$1.5B</td>
         <td>Paxos Gold, Tether Gold, AURUS</td>
         <td>Digital gold standard, collateral layer</td>
       </tr>
       <tr>
-        <td><strong>Equities & Funds</strong></td>
+        <td><strong>Equities &amp; Funds</strong></td>
         <td className="num">$100T</td>
         <td className="num green">$800M</td>
         <td>Backed, Dinari, Ondo Global Markets</td>
@@ -546,7 +546,7 @@ export default function Home() {
         <td>Speed, SME access to capital</td>
       </tr>
       <tr>
-        <td><strong>Art, IP & Collectibles</strong></td>
+        <td><strong>Art, IP &amp; Collectibles</strong></td>
         <td className="num">$3T</td>
         <td className="num green">$450M</td>
         <td>Story Protocol, Bolero Music, Kettle</td>
@@ -608,7 +608,7 @@ export default function Home() {
 
 <div className="divider"></div>
 
-<!-- ===================== STABLECOINS ===================== -->
+{/* ===================== STABLECOINS ===================== */}
 <section id="stablecoins" style="position:relative;">
   <div className="sec-tag">Digital Infrastructure</div>
   <h2 className="sec-h2"><em>Stablecoins</em> — Not Crypto</h2>
@@ -726,7 +726,7 @@ export default function Home() {
     </div>
   </div>
 
-  <h3 id="stable-regulation" style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin:40px 0 20px;">Regulatory Landscape (GENIUS Act & Beyond)</h3>
+  <h3 id="stable-regulation" style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin:40px 0 20px;">Regulatory Landscape (GENIUS Act &amp; Beyond)</h3>
   <div className="info-block">
     <h4>United States — GENIUS Act (2025)</h4>
     <p>The GENIUS Act created the first comprehensive federal stablecoin framework in US history. It establishes reserve requirements (full backing by high-quality liquid assets), licensing requirements for issuers, and consumer protection provisions. The unresolved "Clarity Act" question — whether crypto platforms can pay customers yield/interest on stablecoin balances — is considered the single biggest regulatory catalyst for the entire crypto market in 2026. If passed, it could unleash billions in retail stablecoin adoption.</p>
@@ -771,7 +771,7 @@ export default function Home() {
         <td><strong>USDC</strong></td>
         <td>Circle</td>
         <td className="num green">$55B+</td>
-        <td>100% cash & T-Bills (monthly audit)</td>
+        <td>100% cash &amp; T-Bills (monthly audit)</td>
         <td>ETH, SOL, Avalanche</td>
         <td>Institutional DeFi, B2B payments</td>
       </tr>
@@ -787,7 +787,7 @@ export default function Home() {
         <td><strong>USD1</strong></td>
         <td>World Liberty Financial</td>
         <td className="num green">$5B+</td>
-        <td>100% US cash & equivalents (BitGo)</td>
+        <td>100% US cash &amp; equivalents (BitGo)</td>
         <td>ETH, BNB</td>
         <td>Binance partnerships, RWA suite</td>
       </tr>
@@ -821,7 +821,7 @@ export default function Home() {
 
 <div className="divider"></div>
 
-<!-- ===================== CBDCs ===================== -->
+{/* ===================== CBDCs ===================== */}
 <section id="cbdc" style="position:relative;">
   <div className="sec-tag">Government Digital Money</div>
   <h2 className="sec-h2">Central Bank Digital <em>Currencies</em></h2>
@@ -923,7 +923,7 @@ export default function Home() {
       <div className="cbdc-flag">🇬🇧</div>
       <div className="cbdc-country">United Kingdom</div>
       <div className="cbdc-name">Digital Pound "Britcoin"</div>
-      <div className="cbdc-desc">Bank of England & HM Treasury in design phase. Public consultation showed privacy concerns as top citizen worry. Proposed £10,000–£20,000 per person holding limit.</div>
+      <div className="cbdc-desc">Bank of England &amp; HM Treasury in design phase. Public consultation showed privacy concerns as top citizen worry. Proposed £10,000–£20,000 per person holding limit.</div>
       <span className="cbdc-status status-research">Design Phase</span>
     </div>
     <div className="cbdc-card">
@@ -973,7 +973,7 @@ export default function Home() {
 
 <div className="divider"></div>
 
-<!-- ===================== CASE STUDIES ===================== -->
+{/* ===================== CASE STUDIES ===================== */}
 <section id="case-studies">
   <div className="sec-tag">Real World Evidence</div>
   <h2 className="sec-h2">Case <em>Studies</em></h2>
@@ -1030,7 +1030,7 @@ export default function Home() {
           <strong style="color:var(--gold);">The Result:</strong> First offering launched May 2025. Sold out in 24 hours. 224 investors across 44 countries participated. The speed and geographic distribution validated the core thesis: fractional entry points unlock global demand that traditional real estate distribution never reaches. In 2026, DAMAC signed a $1 billion deal with MANTRA chain, cementing its position as the MENA region's tokenization anchor institution.
         </div>
         <div style="border-top:1px solid var(--border2);padding-top:16px;margin-top:8px;">
-          <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--text-dim);margin-bottom:12px;">Technology & Banking Partner Ecosystem</div>
+          <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--text-dim);margin-bottom:12px;">Technology &amp; Banking Partner Ecosystem</div>
           <div className="player-grid" style="gap:8px;margin-bottom:0;">
             <div className="player-card" style="padding:12px;">
               <div className="player-name" style="font-size:12px;">XRP Ledger (Ripple)</div>
@@ -1049,7 +1049,7 @@ export default function Home() {
             </div>
             <div className="player-card" style="padding:12px;">
               <div className="player-name" style="font-size:12px;">Zand Bank (UAE AED)</div>
-              <div className="player-cat">Banking & Stablecoin Partner</div>
+              <div className="player-cat">Banking &amp; Stablecoin Partner</div>
               <div className="player-detail">UAE's first digital bank. Provides AED banking rails and Zand AED stablecoin for dirham-denominated settlement. Enables fiat on/off ramps without requiring crypto wallets for mainstream investors.</div>
             </div>
             <div className="player-card" style="padding:12px;">
@@ -1094,7 +1094,7 @@ export default function Home() {
     <div className="case-card">
       <div className="case-card-head">
         <div className="case-logo">World Liberty Financial / USD1</div>
-        <div className="case-sub">Trump-backed Stablecoin & RWA Platform · 2025</div>
+        <div className="case-sub">Trump-backed Stablecoin &amp; RWA Platform · 2025</div>
       </div>
       <div className="case-card-body">
         <div className="case-stat-row">
@@ -1136,7 +1136,7 @@ export default function Home() {
     <div className="case-card">
       <div className="case-card-head">
         <div className="case-logo">Pakistan National Strategy</div>
-        <div className="case-sub">Sovereign RWA & Digital Asset Architecture · 2025–26</div>
+        <div className="case-sub">Sovereign RWA &amp; Digital Asset Architecture · 2025–26</div>
       </div>
       <div className="case-card-body">
         <div className="case-stat-row">
@@ -1166,7 +1166,7 @@ export default function Home() {
 
 <div className="divider"></div>
 
-<!-- ===================== MAJOR PLAYERS ===================== -->
+{/* ===================== MAJOR PLAYERS ===================== */}
 <section id="players">
   <div className="sec-tag">Ecosystem</div>
   <h2 className="sec-h2">Major <em>Players</em></h2>
@@ -1186,7 +1186,7 @@ export default function Home() {
     </div>
     <div className="player-card">
       <div className="player-name">Fireblocks</div>
-      <div className="player-cat">Custody & Infrastructure</div>
+      <div className="player-cat">Custody &amp; Infrastructure</div>
       <div className="player-detail">$10T+ secured transactions. Enterprise wallet, tokenization, and DeFi infrastructure.</div>
     </div>
     <div className="player-card">
@@ -1216,7 +1216,7 @@ export default function Home() {
     </div>
   </div>
 
-  <h3 style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;margin:32px 0 16px;color:var(--gold);">Institutional Finance & Banks</h3>
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;margin:32px 0 16px;color:var(--gold);">Institutional Finance &amp; Banks</h3>
   <div className="player-grid">
     <div className="player-card">
       <div className="player-name">BlackRock</div>
@@ -1287,7 +1287,7 @@ export default function Home() {
 
 <div className="divider"></div>
 
-<!-- ===================== MONETARY SYSTEM ===================== -->
+{/* ===================== MONETARY SYSTEM ===================== */}
 <section id="monetary">
   <div className="sec-tag">Macro Context</div>
   <h2 className="sec-h2">The Monetary System <em>Shift</em></h2>
@@ -1335,10 +1335,10 @@ export default function Home() {
 
 <div className="divider"></div>
 
-<!-- ===================== PAKISTAN / EMERGING MARKETS ===================== -->
+{/* ===================== PAKISTAN / EMERGING MARKETS ===================== */}
 <section id="pakistan">
   <div className="sec-tag">Emerging Markets</div>
-  <h2 className="sec-h2">Emerging Markets & the <em>New Frontier</em></h2>
+  <h2 className="sec-h2">Emerging Markets &amp; the <em>New Frontier</em></h2>
   <p className="sec-sub">Tokenization's greatest untapped opportunity is not in New York or London — it is in economies with massive real assets, large unbanked populations, and governments bold enough to move first.</p>
 
   <div className="country-banner">
@@ -1401,10 +1401,10 @@ export default function Home() {
 
 <div className="divider"></div>
 
-<!-- FINTECH & BLOCKCHAIN -->
+{/* FINTECH &amp; BLOCKCHAIN */}
 <section id="fintech" style="padding-top:60px;">
   <div className="sec-tag">Technology Context</div>
-  <h2 className="sec-h2">Fintech, Blockchain & the <em>New Stack</em></h2>
+  <h2 className="sec-h2">Fintech, Blockchain &amp; the <em>New Stack</em></h2>
   <p className="sec-sub">Blockchain is the infrastructure layer enabling tokenization. But it exists within a broader fintech revolution that is reshaping every aspect of financial services — payments, lending, identity, compliance, and market infrastructure.</p>
 
   <div className="three-col">
@@ -1422,7 +1422,7 @@ export default function Home() {
     </div>
   </div>
 
-  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin:40px 0 20px;">Investment Considerations & Risk Framework</h3>
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin:40px 0 20px;">Investment Considerations &amp; Risk Framework</h3>
   <div className="risk-bars">
     <div style="margin-bottom:8px;font-size:12px;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.8px;">Asset Class Risk Profile</div>
     <div className="risk-row"><div className="risk-name">Tokenized Treasuries</div><div className="risk-bar-bg"><div className="risk-bar-fill" style="width:15%;background:var(--green);"></div></div><div className="risk-val">Low</div></div>
@@ -1439,7 +1439,7 @@ export default function Home() {
   </div>
 </section>
 
-<!-- ===================== DISCLAIMER ===================== -->
+{/* ===================== DISCLAIMER ===================== */}
 <div style="background:var(--bg3);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:48px 24px;margin-top:80px;" id="disclaimer">
   <div style="max-width:960px;margin:0 auto;">
     <div style="display:flex;align-items:flex-start;gap:20px;">
@@ -1470,7 +1470,7 @@ export default function Home() {
   </div>
 </div>
 
-<!-- ===================== FOOTER ===================== -->
+{/* ===================== FOOTER ===================== */}
 <div style="background:var(--bg2);border-top:1px solid var(--border);padding:48px 24px;">
   <div style="max-width:1400px;margin:0 auto;">
     <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:48px;">
@@ -1515,7 +1515,7 @@ export default function Home() {
   </div>
 </div>
 
-<!-- chatbot rendered below -->
+{/* chatbot rendered below */}
       {/* ========== DIGITAL CZAR CHATBOT ========== */}
       <div id="chat-widget">
         <button
