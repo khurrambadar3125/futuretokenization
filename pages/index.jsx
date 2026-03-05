@@ -63,11 +63,10 @@ const BODY_HTML = `<!-- NAV -->
   <div class="hero-content">
     <div class="hero-tag">The World's Digital Asset Intelligence Platform</div>
     <h1 class="hero-h1">The Complete <em>Codex</em> of<br>Tokenization &<br>Digital Assets</h1>
-    <p class="hero-sub">From the fundamentals of blockchain to institutional RWA strategies, stablecoin infrastructure, CBDC policy, and the future of money — everything you need to understand the $19 trillion transformation of global finance. All content is educational. None of it is financial advice.</p>
+    <p class="hero-sub">The $19 trillion revolution is happening now. Master it here.</p>
     <div class="hero-ctas">
-      <button class="btn-primary" onclick="document.getElementById('tokenization').scrollIntoView({behavior:'smooth'})">Start Learning</button>
-      <button class="btn-secondary" onclick="document.getElementById('case-studies').scrollIntoView({behavior:'smooth'})">View Case Studies</button>
-      <button class="btn-secondary" onclick="document.getElementById('chat-panel').classList.add('open')">⚡ Ask the Digital Czar</button>
+      <button class="btn-primary" onclick="document.getElementById('tokenization').scrollIntoView({behavior:'smooth'})">📚 Start Learning</button>
+      <button class="btn-czar" onclick="document.getElementById('chat-panel').classList.add('open')">⚡ Ask the Digital Czar</button>
     </div>
   </div>
   <div class="stats-bar" style="padding:0 24px;margin:0 auto 0;max-width:1400px;">
