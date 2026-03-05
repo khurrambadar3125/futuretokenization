@@ -53,7 +53,12 @@ const BODY_HTML = `<!-- NAV -->
     <div class="nav-right">
       <button class="btn-ai" onclick="document.getElementById('chat-panel').classList.toggle('open')">⚡ Ask the Digital Czar</button>
     </div>
-  </div>
+  <button id="hamburger-btn" aria-label="Menu" style="display:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;background:rgba(6,9,16,0.9);border:1px solid rgba(212,168,67,0.5);border-radius:8px;cursor:pointer;padding:10px;position:fixed;top:10px;right:14px;z-index:9999;">
+    <span style="display:block;width:22px;height:2px;background:#e8eaf0;border-radius:2px;"></span>
+    <span style="display:block;width:22px;height:2px;background:#e8eaf0;border-radius:2px;"></span>
+    <span style="display:block;width:22px;height:2px;background:#e8eaf0;border-radius:2px;"></span>
+  </button>
+</div>
 </nav>
 
 <!-- ===================== HERO ===================== -->
@@ -1465,6 +1470,15 @@ export default function Home() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, isThinking]);
 
+  // Wire the HTML hamburger button to React state
+  useEffect(() => {
+    const btn = document.getElementById('hamburger-btn');
+    if (btn) {
+      btn.style.display = 'flex';
+      btn.onclick = () => setMenuOpen(o => !o);
+    }
+  }, []);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
@@ -1519,15 +1533,7 @@ export default function Home() {
 
       <div dangerouslySetInnerHTML={{ __html: BODY_HTML }} />
 
-      {/* ── HAMBURGER + MOBILE DRAWER ── */}
-      <button
-        className={`hamburger${menuOpen ? ' open' : ''}`}
-        onClick={() => setMenuOpen(o => !o)}
-        aria-label="Toggle menu"
-        style={{position:'fixed',top:'9px',right:'14px',zIndex:'1100'}}
-      >
-        <span/><span/><span/>
-      </button>
+      {/* ── HAMBURGER via HTML button above ── */}
 
       <div className={`mobile-nav${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
         <div className="mobile-nav-label">Navigation</div>
