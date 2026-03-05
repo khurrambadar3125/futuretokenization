@@ -2071,8 +2071,9 @@ export default function Home() {
   // ── SESSION LIMIT: 3 per day ──
   function getSessionData() {
     try {
+      if (typeof window === 'undefined') return { date: '', count: 0 };
       const today = new Date().toISOString().slice(0, 10);
-      const raw = localStorage.getItem('czar_sessions');
+      const raw = window.localStorage.getItem('czar_sessions');
       const data = raw ? JSON.parse(raw) : {};
       if (data.date !== today) return { date: today, count: 0 };
       return data;
@@ -2080,9 +2081,10 @@ export default function Home() {
   }
   function incrementSession() {
     try {
+      if (typeof window === 'undefined') return 1;
       const data = getSessionData();
       data.count += 1;
-      localStorage.setItem('czar_sessions', JSON.stringify(data));
+      window.localStorage.setItem('czar_sessions', JSON.stringify(data));
       return data.count;
     } catch { return 1; }
   }
