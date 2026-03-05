@@ -23,9 +23,11 @@ body {
   font-family: 'DM Sans', sans-serif;
   background: var(--bg);
   color: var(--text);
-  overflow-x: hidden;
   line-height: 1.6;
 }
+
+/* Prevent horizontal scroll without breaking fixed positioning */
+#__next { overflow-x: hidden; }
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
