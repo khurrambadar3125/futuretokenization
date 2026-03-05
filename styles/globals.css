@@ -18,7 +18,7 @@
   --radius: 6px;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: clip; }
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--bg);
@@ -26,8 +26,7 @@ body {
   line-height: 1.6;
 }
 
-/* Prevent horizontal scroll without breaking fixed positioning */
-#__next { overflow-x: hidden; }
+/* No overflow-x hidden anywhere - it breaks fixed positioning on mobile */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
@@ -528,3 +527,26 @@ section { padding: 80px 16px 60px; max-width: 1400px; margin: 0 auto; }
   .stat-num { font-size: 22px !important; }
   .stat-label { font-size: 9px !important; }
 }
+
+/* ── THREE COLUMN GRID ── */
+.three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+@media (max-width: 900px) { .three-col { grid-template-columns: 1fr; } }
+
+/* ── INFO BLOCK ── */
+.info-block { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; margin-bottom: 20px; }
+.info-block h4 { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 600; color: var(--gold); margin-bottom: 10px; line-height: 1.3; }
+.info-block p { color: var(--text-muted); font-size: 14px; line-height: 1.7; }
+
+/* ── LAYER BADGE ── */
+.layer-badge { margin-top: 10px; }
+
+/* ── RISK BARS SECTION ── */
+.risk-bars { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; }
+.risk-row { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.risk-name { width: 220px; font-size: 13px; color: var(--text-muted); flex-shrink: 0; }
+.risk-bar-fill { height: 100%; border-radius: 3px; transition: width 1s ease; }
+@media (max-width: 600px) { .risk-name { width: 120px; font-size: 11px; } }
+
+/* ── NUMBER HIGHLIGHT ── */
+.num { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 700; }
+.num.green { color: var(--green); }
