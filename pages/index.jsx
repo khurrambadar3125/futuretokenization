@@ -53,7 +53,7 @@ const BODY_HTML = `<!-- NAV -->
     <div class="nav-right">
       <button class="btn-ai" onclick="document.getElementById('chat-panel').classList.toggle('open')">⚡ Ask the Digital Czar</button>
     </div>
-  <button id="hamburger-btn" aria-label="Menu" style="display:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;background:rgba(6,9,16,0.9);border:1px solid rgba(212,168,67,0.5);border-radius:8px;cursor:pointer;padding:10px;position:fixed;top:10px;right:14px;z-index:9999;">
+  <button id="hamburger-btn" aria-label="Menu" style="display:flex;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;background:rgba(6,9,16,0.9);border:1px solid rgba(212,168,67,0.5);border-radius:8px;cursor:pointer;padding:10px;position:fixed;top:10px;right:14px;z-index:9999;">
     <span style="display:block;width:22px;height:2px;background:#e8eaf0;border-radius:2px;"></span>
     <span style="display:block;width:22px;height:2px;background:#e8eaf0;border-radius:2px;"></span>
     <span style="display:block;width:22px;height:2px;background:#e8eaf0;border-radius:2px;"></span>
