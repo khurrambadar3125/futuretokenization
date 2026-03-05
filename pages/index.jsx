@@ -1704,7 +1704,244 @@ const BODY_HTML = `<!-- NAV -->
   </div>
 </section>
 
+
 <div class="divider"></div>
+
+<!-- ===================== NEWS ===================== -->
+<section id="news" style="padding-top:80px;">
+  <div class="sec-tag">Updated Daily</div>
+  <h2 class="sec-h2">Global Tokenization <em>News</em> & Intelligence</h2>
+  <p class="sec-sub">The most important tokenization, digital assets, CBDC, and stablecoin developments from every major jurisdiction — Pakistan first, then the world. Curated daily by the Digital Czar.</p>
+
+  <!-- PAKISTAN NEWS FIRST -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
+    <span style="font-size:28px;">🇵🇰</span>
+    <h3 style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:var(--gold);margin:0;">Pakistan — Digital Assets & Tokenization</h3>
+  </div>
+
+  <div class="news-grid" style="margin-bottom:56px;">
+    <div class="news-card news-featured">
+      <div class="news-meta"><span class="news-tag tag-gold">BREAKING</span><span class="news-date">Feb 2026</span></div>
+      <h4>Virtual Asset Act 2026 Clears Senate Committee — Full Parliament Vote Imminent</h4>
+      <p>Pakistan's Senate Standing Committee approved the Virtual Asset Act 2026, which will convert the temporary Pakistan Virtual Assets Ordinance 2025 into permanent legislation. The bill creates PVARA (Pakistan Virtual Assets Regulatory Authority) as a permanent, independent 11-member federal regulator — including the SBP Governor, SECP Chair, FBR, and FIA. Final approval from both chambers is pending. When passed, crypto mining becomes fully legal under license, digital rupee CBDC integrates with Raast, and a Shariah Advisory framework accommodates Pakistan's Islamic banking system — a unique feature globally. PVARA's three-phase licensing process is already live for exchanges.</p>
+      <div class="news-footer"><span class="news-source">Sources: Dawn, Pakistan News Desk, FAFEN</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-green">REGULATORY</span><span class="news-date">Dec 2025</span></div>
+      <h4>Binance & HTX Receive PVARA NOCs — Pakistan's Crypto Market Opens</h4>
+      <p>On December 12, 2025, PVARA issued No Objection Certificates to Binance and HTX, allowing both to establish local entities in Pakistan and begin full license applications. PVARA Chairman Bilal Bin Saqib MBE confirmed these are Phase 1 approvals — not full licenses — but mark the official start of Pakistan's phased crypto licensing process. CZ (Changpeng Zhao) serves as strategic advisor to Pakistan Crypto Council. Pakistan ranks 3rd globally for crypto adoption after India and the US.</p>
+      <div class="news-footer"><span class="news-source">Sources: PVARA, Dawn, Sumsub</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-blue">STRATEGY</span><span class="news-date">Jul 2025</span></div>
+      <h4>Pakistan Announces Strategic Bitcoin Reserve & 2,000 MW for Mining/AI</h4>
+      <p>At Bitcoin Vegas 2025, the Pakistan Crypto Council announced Pakistan's first government-backed Strategic Bitcoin Reserve. Prime Minister Shehbaz Sharif simultaneously announced the allocation of 2,000 megawatts of surplus electricity for Bitcoin mining and AI data centers. The IMF raised initial concerns over subsidized tariffs, fiscal risks, and grid strain — consultations are ongoing. Bilal Bin Saqib was elevated to Special Assistant to the PM on Blockchain and Cryptocurrency with the rank of Minister of State.</p>
+      <div class="news-footer"><span class="news-source">Sources: PCC, IMF, Wikipedia</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-gold">CBDC</span><span class="news-date">Jul 2025</span></div>
+      <h4>SBP Announces Digital Rupee CBDC Pilot — Integration with Raast</h4>
+      <p>The State Bank of Pakistan announced a pilot for a Central Bank Digital Currency (Digital Rupee) in July 2025. Unlike cryptocurrency, the Digital Rupee will be issued and controlled by the SBP and integrated with Pakistan's Raast instant payment system to improve financial inclusion. The SBP simultaneously maintains that cryptocurrency is not legal tender, even as PVARA moves to license private virtual asset services — creating a two-track system: regulated state digital currency plus licensed private digital assets.</p>
+      <div class="news-footer"><span class="news-source">Sources: SBP, FAFEN, Business Recorder</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-red">TOKENIZATION</span><span class="news-date">2025–2026</span></div>
+      <h4>PDAA Mandated to Tokenize National Assets & Government Debt</h4>
+      <p>The Pakistan Digital Asset Authority (PDAA) has been formally tasked with tokenizing national assets and government debt — making Pakistan one of the first developing economies to explicitly mandate sovereign asset tokenization. This includes supporting blockchain-based startups and facilitating electricity monetization via Bitcoin mining. Pakistan's informal crypto sector is already estimated at $25 billion. SECP is developing a framework for Digital Asset Trading Platforms alongside the PVARA licensing regime.</p>
+      <div class="news-footer"><span class="news-source">Sources: Crypto for Innovation, SECP</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-blue">TAX</span><span class="news-date">Oct 2025</span></div>
+      <h4>FBR Begins Crypto Taxation Framework Consultations</h4>
+      <p>The Federal Board of Revenue has initiated consultations on Pakistan's first crypto taxation framework. Proposed structure: scheduler-based taxation aligned with existing securities tax law, differentiating trading gains, mining income, staking rewards, and NFT transactions. OECD's Crypto Asset Reporting Framework (CARF) alignment is a key target. Exchanges would withhold tax at disposal and remit to FBR directly, mirroring the capital markets model. Inter-agency coordination between FBR, SBP, SECP, and FIA is identified as critical for success.</p>
+      <div class="news-footer"><span class="news-source">Source: Business Recorder</span></div>
+    </div>
+  </div>
+
+  <!-- UNITED STATES -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
+    <span style="font-size:28px;">🇺🇸</span>
+    <h3 style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:var(--gold);margin:0;">United States — Regulation, Markets & Innovation</h3>
+  </div>
+
+  <div class="news-grid" style="margin-bottom:56px;">
+    <div class="news-card news-featured">
+      <div class="news-meta"><span class="news-tag tag-gold">LANDMARK LAW</span><span class="news-date">Jul 18, 2025</span></div>
+      <h4>GENIUS Act Signed Into Law — US Stablecoin Framework Goes Live</h4>
+      <p>President Trump signed the GENIUS Act on July 18, 2025 — the first comprehensive US federal stablecoin legislation. Requirements: 1-to-1 reserve backing by USD or low-risk assets, monthly transparency disclosures, strict AML/KYC standards, and defined regulatory oversight. The same week, the House passed the CLARITY Act (294-134) defining SEC vs. CFTC jurisdiction over digital assets. Result: Bank of America, Deutsche Bank, Goldman Sachs, Citi, ING, Barclays, and Santander all began stablecoin projects. PayPal expanded PYUSD. World Liberty Financial (Trump-linked) launched USD1. The US has simultaneously barred the Federal Reserve from issuing a retail CBDC via the Anti-CBDC Surveillance State Act.</p>
+      <div class="news-footer"><span class="news-source">Sources: PwC, TRM Labs, Decentral Network</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-blue">INSTITUTIONAL</span><span class="news-date">Feb 2026</span></div>
+      <h4>Ethereum RWA Market Tops $17B — 315% Year-on-Year Growth</h4>
+      <p>Ethereum's tokenized real-world asset market crossed $17 billion in value on mainnet, representing a 315% increase from $4.1 billion a year earlier. BlackRock's BUIDL fund leads at $2.5B+. JPMorgan launched its first tokenized money-market fund on Ethereum in December 2025, seeding with $100M. Wintermute launched institutional trading for tokenized gold, forecasting the tokenized commodities segment could reach $15B in 2026. Ethereum hosts 65% of all tokenized assets globally, per BlackRock's 2026 thematic outlook.</p>
+      <div class="news-footer"><span class="news-source">Sources: The Block, BlackRock, Decrypt</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-green">MARKET</span><span class="news-date">Mar 2026</span></div>
+      <h4>RWA Market Crosses $25B — Is It Real Adoption or Just Branding?</h4>
+      <p>Total on-chain RWA value crossed $25 billion in Q1 2026, with XRP Ledger adding $1.3B in just January–February 2026 alone — more than all of 2025. XRP Ledger now holds 63% of all tokenized US Treasury supply. Franklin Templeton's BENJI fund reached $844M. BlackRock enabled direct on-chain BUIDL trading via UniswapX in collaboration with Securitize and Uniswap Labs. Critics argue most tokenized assets still settle in USD and enforce through courts — the "blockchain costume" debate heats up heading into Q2 2026.</p>
+      <div class="news-footer"><span class="news-source">Sources: Coinpedia, The Block, rwa.xyz</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-gold">EXCHANGES</span><span class="news-date">2025–2026</span></div>
+      <h4>Nasdaq Files With SEC to Bring Assets On-Chain — NYSE Monitors</h4>
+      <p>Nasdaq submitted a formal filing to the SEC in September 2025 as a first step toward bringing listed assets on-chain. Robinhood, Kraken, and Ondo have pioneered tokenized US stocks and ETFs in the EU via Arbitrum layer-2, offering 24/5 commission-free trading. WisdomTree, 21Shares, and Hashnote are running tokenized fund pilots. The DTCC tapped Canton Network for its tokenization pilot, with $362B in real-world assets now using it as a record-keeping layer. Polymarket reached $3.7B in monthly trading volume in November 2025.</p>
+      <div class="news-footer"><span class="news-source">Sources: Nasdaq, SVB, Decrypt</span></div>
+    </div>
+  </div>
+
+  <!-- UAE / MIDDLE EAST -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
+    <span style="font-size:28px;">🇦🇪</span>
+    <h3 style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:var(--gold);margin:0;">UAE & Middle East — The World's Tokenization Hub</h3>
+  </div>
+
+  <div class="news-grid" style="margin-bottom:56px;">
+    <div class="news-card news-featured">
+      <div class="news-meta"><span class="news-tag tag-gold">REGULATORY</span><span class="news-date">Jan 2026</span></div>
+      <h4>Dubai DFSA Bans Privacy Tokens, Tightens Stablecoin Rules in Major Crypto Reset</h4>
+      <p>Dubai's DFSA banned privacy tokens from DIFC exchanges (effective January 2026), citing AML and sanctions compliance risks. The updated Crypto Token Regulatory Framework shifts token approval responsibility to firms, tightens stablecoin definitions to focus on fiat-backed, high-quality assets, and bans algorithmic stablecoins UAE-wide. The UAE's multi-layer regulatory system (CBUAE, VARA, ADGM/FSRA, SCA, DFSA) now covers payment tokens, virtual assets, stablecoins, and tokenized securities across all jurisdictions. First dirham-backed stablecoin licenses expected in 2026 under the Payment Token Services Regulation.</p>
+      <div class="news-footer"><span class="news-source">Sources: CoinDesk, TRM Labs, Financier Worldwide</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-blue">REAL ESTATE</span><span class="news-date">2025</span></div>
+      <h4>Dubai Land Department Tokenizes Real Estate — World's First City Title Deeds on Blockchain</h4>
+      <p>Dubai Land Department (DLD) launched a real estate tokenization program, becoming the first city in the Middle East to issue property title deeds on blockchain. Partnership with Dubai's VARA enables fractionalized ownership rights with full legal recognition. By 2033, tokenized property is projected to account for 7% of Dubai's real estate — approximately $16 billion. Ctrl Alt became the first entity to receive a VARA licence for VA Issuance services and developed the framework for minting real estate tokens on-chain.</p>
+      <div class="news-footer"><span class="news-source">Sources: CoinGeek, Chambers & Partners</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-red">CBDC</span><span class="news-date">2025–2026</span></div>
+      <h4>mBridge Processes $55B — BRICS Alternative to SWIFT Accelerates</h4>
+      <p>The mBridge CBDC cross-border platform — involving UAE, China (PBOC), Hong Kong, Thailand, and BIS — has processed $55 billion in transactions as of March 2026, signaling a serious shift toward non-dollar settlement rails. The project began in 2022 and represents the most advanced multi-CBDC cross-border payment system in production. Saudi Arabia advanced its joint ABER project with the UAE. India is building a sovereign-backed stablecoin (Asset Reserve Certificate) targeting 2026. Pakistan's CBDC pilot is integration with the Raast system.</p>
+      <div class="news-footer"><span class="news-source">Sources: Gulf News, Decentral Network, CryptoTicker</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-green">FINANCE</span><span class="news-date">2025–2026</span></div>
+      <h4>Abu Dhabi (ADGM) Proposes Expanded Stablecoin Framework — Regional Leadership</h4>
+      <p>ADGM's FSRA published Consultation Paper No. 9 of 2025, proposing an expanded framework for Fiat-Referenced Tokens (FRTs) covering issuance, custody, intermediation, and usage — potentially defining the region's stablecoin taxonomy for 2026. UAE's SCA finalized its framework for security and commodity tokens, embedding tokenization within mainstream capital markets infrastructure. PwC identifies the UAE as the leading MENA jurisdiction for payment token adoption, particularly for the region's massive expatriate workforce remittances.</p>
+      <div class="news-footer"><span class="news-source">Sources: TRM Labs, PwC MENA</span></div>
+    </div>
+  </div>
+
+  <!-- EUROPE -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
+    <span style="font-size:28px;">🇪🇺</span>
+    <h3 style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:var(--gold);margin:0;">Europe — MiCA Era & Tokenized Finance</h3>
+  </div>
+
+  <div class="news-grid" style="margin-bottom:56px;">
+    <div class="news-card news-featured">
+      <div class="news-meta"><span class="news-tag tag-gold">REGULATION</span><span class="news-date">Dec 2024 – 2026</span></div>
+      <h4>MiCA Phase 2 Live — EU Becomes World's First Comprehensive Crypto Jurisdiction</h4>
+      <p>MiCA (Markets in Crypto Assets Regulation) Phase 2 took effect December 30, 2024, making the EU the world's first jurisdiction with comprehensive crypto regulation. All crypto asset service providers (CASPs) must obtain EU-passported licenses from national authorities — AML controls, operational resilience, IT governance, consumer protection. Stablecoin issuers maintain high-quality reserves and guarantee timely redemptions. ESMA's DLT Pilot Regime is live for tokenized securities trading and settlement. Robinhood, Kraken, and Ondo launched tokenized US stocks for EU investors on Arbitrum layer-2, offering 24/5 commission-free trading.</p>
+      <div class="news-footer"><span class="news-source">Sources: Sumsub, TRM Labs, Nasdaq</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-blue">BANKING</span><span class="news-date">2025–2026</span></div>
+      <h4>Major European Banks Launch Stablecoin Projects Post-GENIUS Act</h4>
+      <p>Deutsche Bank, ING, Barclays, and Santander all began stablecoin development projects following the US GENIUS Act, with the EU's MiCA providing the regulatory clarity for European operations. Alibaba's e-commerce division partnered with JPMorgan to develop "deposit tokens" — a compliant alternative to stablecoins for enterprise use. The UK's FCA published CP25/28 consultation on Fund Tokenisation in October 2025, exploring tokenized MMFs as collateral for derivatives and establishing the Blueprint model for fund tokenization in the UK.</p>
+      <div class="news-footer"><span class="news-source">Sources: Decentral Network, FCA</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-green">TOKENIZATION</span><span class="news-date">2025</span></div>
+      <h4>UBS Tokenized Bonds on SIX Digital Exchange — Switzerland Leads Institutional Adoption</h4>
+      <p>UBS tokenized $500M+ in bonds on the SIX Digital Exchange (SDX) in Zurich — the world's first fully regulated digital securities exchange. Bonds trade with atomic DvP settlement in tokenized CHF (1-to-1 CHF reserves at Swiss National Bank). From June 2025, digital bonds issued on SDX trade on SIX Swiss Exchange via a live operational link. The Swiss BIS Project Helvetia (wholesale CBDC for tokenized securities settlement) serves as the model for what atomic settlement looks like in a fully regulated environment.</p>
+      <div class="news-footer"><span class="news-source">Sources: IOSCO, BIS, SDX</span></div>
+    </div>
+  </div>
+
+  <!-- ASIA PACIFIC -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
+    <span style="font-size:28px;">🌏</span>
+    <h3 style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:var(--gold);margin:0;">Asia-Pacific — Singapore, Hong Kong, Japan & India</h3>
+  </div>
+
+  <div class="news-grid" style="margin-bottom:56px;">
+    <div class="news-card news-featured">
+      <div class="news-meta"><span class="news-tag tag-blue">MAS PROJECT</span><span class="news-date">Ongoing 2026</span></div>
+      <h4>MAS Project Guardian Expands — Singapore Remains Global Tokenization Lab</h4>
+      <p>Singapore's Monetary Authority continues expanding Project Guardian — the world's most extensive interbank tokenization pilot. 2025 additions: tokenized trade finance, fixed income, FX, and wealth management products tested across 24 financial institutions including JPMorgan, DBS, HSBC, and Standard Chartered. MAS introduced the Orchid Blueprint in 2025 — a common infrastructure for CBDCs, tokenized bank money, and purpose-bound money. The Singapore FinTech Festival remains the world's premier venue for government-private tokenization collaboration. Asia-Pacific leads all global regions in regulatory sandbox implementation.</p>
+      <div class="news-footer"><span class="news-source">Sources: MAS, Tokenize Event, TRM Labs</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-gold">STABLECOIN</span><span class="news-date">2025–2026</span></div>
+      <h4>Japan Stablecoin Law: Banks & Trust Companies Only — Strict Reserve Rules</h4>
+      <p>Japan's updated Payment Services Act restricts yen-backed stablecoin issuance to banks, trust companies, and licensed funds-transfer providers, with strict reserve, custody, and redemption obligations. This makes Japan's stablecoin framework among the world's most restrictive — in deliberate contrast to the US GENIUS Act approach. Japanese institutional adoption of tokenization is accelerating within this framework, particularly for cross-border settlement with Singapore and South Korea. Hong Kong's Red Date Technology explored CBDC and stablecoin integrations throughout 2025.</p>
+      <div class="news-footer"><span class="news-source">Sources: Sumsub, Decentral Network</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-red">POLICY</span><span class="news-date">2025–2026</span></div>
+      <h4>India Faces Policy Paralysis — CBDC Advances as Crypto Remains in Gray Zone</h4>
+      <p>India remains in regulatory limbo on cryptocurrency in 2026. The RBI continues to advocate against crypto legitimacy while expanding its e-rupee CBDC pilot, with several banks participating in a deposit tokenization pilot. India is developing a sovereign-backed stablecoin (Asset Reserve Certificate) targeting 2026 launch. Commerce Ministry says crypto trading is "at your own risk." India's digital public infrastructure (UPI, Aadhaar, DigiLocker) is cited by the World Bank as a blueprint for emerging markets — but crypto remains deliberately separated from this official stack.</p>
+      <div class="news-footer"><span class="news-source">Sources: TRM Labs, Decentral Network</span></div>
+    </div>
+  </div>
+
+  <!-- GLOBAL MARKET INTELLIGENCE -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
+    <span style="font-size:28px;">🌍</span>
+    <h3 style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:var(--gold);margin:0;">Global Market Intelligence — The Numbers Moving Markets</h3>
+  </div>
+
+  <div class="news-grid" style="margin-bottom:48px;">
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-green">FORECAST</span><span class="news-date">Apr 2025</span></div>
+      <h4>BCG + Ripple: $18.9T by 2033 at 53% CAGR — "Tipping Point" Reached</h4>
+      <p>In "Approaching the Tokenization Tipping Point," BCG and Ripple project tokenized assets reaching $18.9T by 2033 (base case), $23.4T (bull), $12.5T (bear) — all at 53% CAGR. BCG declares the tipping point has been reached: "The conditions for broader adoption are aligning. Technology is ready, regulation is evolving, and foundational use cases are in the market." ABN AMRO's digital assets lead Martijn Siebrand: "Most of these challenges will be solved over the next five years."</p>
+      <div class="news-footer"><span class="news-source">Sources: BCG, Ripple, CoinGeek</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-blue">VC</span><span class="news-date">2025</span></div>
+      <h4>US Crypto VC Rebounds 44% to $7.9B — Tokenization Drives Institutional Confidence</h4>
+      <p>Venture capital investment in US crypto companies rebounded sharply in 2025 to $7.9 billion — up 44% from 2024 — according to PitchBook. Tokenization infrastructure, custody technology, and stablecoin rails attracted the majority of institutional capital. Enterprises increasingly treat tokenized dollars as 24/7 liquid cash. Stablecoin issuers are becoming significant buyers of T-bills, creating a virtuous cycle between tokenized finance and sovereign debt markets.</p>
+      <div class="news-footer"><span class="news-source">Sources: SVB, PitchBook</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-gold">STABLECOINS</span><span class="news-date">2025</span></div>
+      <h4>Stablecoin Market Cap Grows 50% to $300B+ — GENIUS Act Boosts Trust</h4>
+      <p>Global stablecoin market cap grew 50% in 2025 to exceed $300 billion, driven by the GENIUS Act's transparency requirements. A survey found 41% of companies using stablecoins saved over 10% on cross-border payments. Google Cloud now accepts crypto payments. Walmart and Amazon are exploring corporate stablecoins. Meta is studying USDC/USDT integration for creator payouts. Standard Chartered CEO Bill Winters told a conference in late 2025 that "we'll eventually see the majority of transactions being settled on the blockchain."</p>
+      <div class="news-footer"><span class="news-source">Sources: Decentral Network, SVB, Arkham</span></div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-meta"><span class="news-tag tag-red">RISK</span><span class="news-date">Feb 2025</span></div>
+      <h4>North Korea Hacks Bybit for $1.5B — Largest Crypto Theft in History</h4>
+      <p>North Korean state actors executed the largest crypto theft in history in early 2025, stealing $1.5B in Ethereum from Bybit and laundering proceeds through unlicensed OTC brokers, cross-chain bridges, and DEXes — infrastructure largely outside existing regulatory perimeters. The incident demonstrated the critical importance of institutional-grade tokenization infrastructure with multi-party approvals, hardware-level security (IBM's Digital Asset Haven model), and jurisdictional regulatory coverage. TRM Labs identifies this as the defining compliance case for 2025–2026.</p>
+      <div class="news-footer"><span class="news-source">Sources: TRM Labs, CoinDesk</span></div>
+    </div>
+  </div>
+
+  <!-- WANT MORE BOX -->
+  <div class="highlight-box" style="text-align:center;">
+    <h3>This Page Is Updated Daily by the Digital Czar</h3>
+    <p>The tokenization revolution moves fast. Every day brings new regulatory decisions, institutional launches, and market developments that reshape the landscape. Ask the Digital Czar ⚡ for real-time intelligence on any story, jurisdiction, or development — or click <strong>Start Learning</strong> to understand the deeper context behind any of the news above.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
+      <button onclick="document.getElementById('chat-toggle').click()" class="btn-czar" style="padding:12px 28px;font-size:15px;">⚡ Ask About Any Story</button>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
 
 <!-- FINTECH & BLOCKCHAIN -->
 <section id="fintech" style="padding-top:60px;">
