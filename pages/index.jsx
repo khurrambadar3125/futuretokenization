@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useRef, useState, useEffect } from 'react';
+import { LANGUAGES, T } from '../lib/translations';
 
 const BODY_HTML = `<!-- NAV -->
 <nav>
@@ -1435,14 +1436,31 @@ const BODY_HTML = `<!-- NAV -->
 <!-- ===================== AI CHATBOT ===================== -->`;
 
 export default function Home() {
-  const [chatOpen, setChatOpen] = useState(false);
+  const [lang, setLang]           = useState('en');
+  const [langOpen, setLangOpen]   = useState(false);
+  const [menuOpen, setMenuOpen]   = useState(false);
+  const [chatOpen, setChatOpen]   = useState(false);
   const [inputValue, setInputValue] = useState('');
-  const [messages, setMessages] = useState([
-    { role: 'ai', text: "Welcome to FutureTokenization.com. I'm the <strong>Digital Czar</strong> — your AI intelligence guide to tokenization, real-world assets, stablecoins, CBDCs, and digital finance. Ask me anything. <em>Educational only — not financial advice.</em>" }
-  ]);
   const [isThinking, setIsThinking] = useState(false);
   const chatHistoryRef = useRef([]);
   const messagesEndRef = useRef(null);
+
+  const t = T[lang] || T['en'];
+  const langMeta = LANGUAGES.find(l => l.code === lang) || LANGUAGES[0];
+
+  const [messages, setMessages] = useState([
+    { role: 'ai', text: T['en'].chatWelcome }
+  ]);
+
+  // When language changes, update welcome message & document dir
+  useEffect(() => {
+    setMessages([{ role: 'ai', text: t.chatWelcome }]);
+    chatHistoryRef.current = [];
+    if (typeof document !== 'undefined') {
+      document.documentElement.dir = langMeta.dir;
+      document.documentElement.lang = lang;
+    }
+  }, [lang]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -1454,7 +1472,6 @@ export default function Home() {
       { threshold: 0.1 }
     );
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-
     const handleScroll = () => {
       const sections = document.querySelectorAll('section[id], div[id="home"]');
       const navLinks = document.querySelectorAll('.nav-links > li > a');
@@ -1466,15 +1483,7 @@ export default function Home() {
       });
     };
     window.addEventListener('scroll', handleScroll);
-
-    // Wire up nav Ask button to open chatbot
-    const btn = document.getElementById('chat-toggle-nav');
-    if (btn) btn.addEventListener('click', () => setChatOpen(true));
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener('scroll', handleScroll);
-    };
+    return () => { observer.disconnect(); window.removeEventListener('scroll', handleScroll); };
   }, []);
 
   async function sendMessage(userMsg) {
@@ -1488,15 +1497,15 @@ export default function Home() {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: history }),
+        body: JSON.stringify({ messages: history, language: lang }),
       });
       const data = await res.json();
-      const reply = data.reply || 'Sorry, could not process that. Please try again.';
+      const reply = data.reply || t.chatError;
       history.push({ role: 'assistant', content: reply });
       chatHistoryRef.current = history;
       setMessages(prev => [...prev, { role: 'ai', text: reply }]);
     } catch {
-      setMessages(prev => [...prev, { role: 'ai', text: 'Network error. Please try again.' }]);
+      setMessages(prev => [...prev, { role: 'ai', text: t.chatError }]);
     } finally {
       setIsThinking(false);
     }
@@ -1506,39 +1515,132 @@ export default function Home() {
     <>
       <Head>
         <title>FutureTokenization.com — The World\'s Digital Asset Codex</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
       <div dangerouslySetInnerHTML={{ __html: BODY_HTML }} />
 
-      {/* DIGITAL CZAR CHATBOT */}
+      {/* ── HAMBURGER + MOBILE DRAWER ── */}
+      <button
+        className={`hamburger${menuOpen ? ' open' : ''}`}
+        onClick={() => setMenuOpen(o => !o)}
+        aria-label="Toggle menu"
+        style={{position:'fixed',top:'10px',right:'16px',zIndex:'950'}}
+      >
+        <span/><span/><span/>
+      </button>
+
+      <div className={`mobile-nav${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
+        <div className="mobile-nav-label">Navigation</div>
+        <a href="#home">Home</a>
+        <div className="mobile-nav-label">Tokenization</div>
+        <a href="#tokenization" className="sub">What is Tokenization</a>
+        <a href="#how-it-works" className="sub">How It Works</a>
+        <a href="#tech-stack" className="sub">Technology Stack</a>
+        <a href="#timeline" className="sub">History &amp; Timeline</a>
+        <div className="mobile-nav-label">Real World Assets</div>
+        <a href="#rwa" className="sub">Overview</a>
+        <a href="#treasuries" className="sub">Treasuries &amp; Bonds</a>
+        <a href="#real-estate" className="sub">Real Estate</a>
+        <a href="#private-credit" className="sub">Private Credit</a>
+        <a href="#commodities" className="sub">Commodities &amp; Gold</a>
+        <div className="mobile-nav-label">More</div>
+        <a href="#stablecoins">Stablecoins</a>
+        <a href="#cbdc">CBDCs</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#players">Major Players</a>
+        <a href="#monetary">Monetary System</a>
+        <a href="#pakistan">Emerging Markets</a>
+        <button className="mobile-ask" onClick={() => { setChatOpen(true); setMenuOpen(false); }}>
+          {t.ask}
+        </button>
+      </div>
+
+      {/* ── LANGUAGE SWITCHER ── */}
+      <div style={{position:'fixed',top:'10px',right:'64px',zIndex:'960'}}>
+        <button
+          onClick={() => setLangOpen(o => !o)}
+          style={{
+            background:'var(--bg2)', border:'1px solid var(--border)',
+            color:'var(--text)', padding:'6px 10px', borderRadius:'var(--radius)',
+            cursor:'pointer', fontSize:'13px', display:'flex', alignItems:'center', gap:'6px'
+          }}
+        >
+          <span>{langMeta.flag}</span>
+          <span style={{display:'none'}} className="lang-code">{langMeta.code.toUpperCase()}</span>
+          <span style={{fontSize:'10px',opacity:0.6}}>▼</span>
+        </button>
+
+        {langOpen && (
+          <div style={{
+            position:'absolute', top:'38px', right:'0',
+            background:'var(--bg2)', border:'1px solid var(--border)',
+            borderRadius:'var(--radius)', width:'200px',
+            maxHeight:'320px', overflowY:'auto',
+            boxShadow:'0 8px 32px rgba(0,0,0,0.5)', zIndex:'999'
+          }}>
+            {LANGUAGES.map(l => (
+              <button key={l.code} onClick={() => { setLang(l.code); setLangOpen(false); }}
+                style={{
+                  display:'flex', alignItems:'center', gap:'10px',
+                  width:'100%', padding:'10px 14px',
+                  background: lang === l.code ? 'var(--gold-dim)' : 'transparent',
+                  border:'none', borderBottom:'1px solid var(--border2)',
+                  color: lang === l.code ? 'var(--gold)' : 'var(--text-muted)',
+                  cursor:'pointer', fontSize:'13px', textAlign:'left',
+                  transition:'background 0.15s',
+                }}
+              >
+                <span style={{fontSize:'18px'}}>{l.flag}</span>
+                <span>{l.name}</span>
+                {lang === l.code && <span style={{marginLeft:'auto',color:'var(--gold)'}}>✓</span>}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* ── DIGITAL CZAR CHATBOT ── */}
       <div id="chat-widget">
         <button id="chat-toggle" onClick={() => setChatOpen(o => !o)} aria-label="Open Digital Czar">🤖</button>
+
         {chatOpen && (
-          <div id="chat-panel" className="open">
+          <div id="chat-panel" className="open" dir={langMeta.dir}>
             <div id="chat-header">
               <div className="chat-avatar">A</div>
               <div>
-                <div className="chat-title">The Digital Czar</div>
-                <div className="chat-status">● AI Intelligence · FutureTokenization.com</div>
+                <div className="chat-title">{t.chatTitle}</div>
+                <div className="chat-status">{t.chatStatus}</div>
               </div>
               <button id="chat-close" onClick={() => setChatOpen(false)}>×</button>
             </div>
+
             <div id="chat-messages">
               {messages.map((msg, i) => (
-                <div key={i} className={msg.role === 'user' ? 'msg msg-user' : 'msg msg-ai'}
-                  dangerouslySetInnerHTML={{ __html: msg.text }} />
+                <div key={i}
+                  className={msg.role === 'user' ? 'msg msg-user' : 'msg msg-ai'}
+                  dangerouslySetInnerHTML={{ __html: msg.text }}
+                />
               ))}
-              {isThinking && <div className="msg msg-thinking">Thinking...</div>}
+              {isThinking && <div className="msg msg-thinking">{t.chatThinking}</div>}
               <div ref={messagesEndRef} />
             </div>
+
             <div className="quick-asks">
-              {["Stablecoins vs Crypto","How does BlackRock BUIDL work?","What is a CBDC?","Tokenized real estate today?","What is the GENIUS Act?"]
-                .map((q, i) => <button key={i} className="qa-btn" onClick={() => sendMessage(q)}>{q}</button>)}
+              {t.quickAsks.map((q, i) => (
+                <button key={i} className="qa-btn" onClick={() => sendMessage(q)}>{q}</button>
+              ))}
             </div>
+
             <div id="chat-input-row">
-              <input type="text" placeholder="Ask about tokenization, RWAs, stablecoins..."
-                value={inputValue} onChange={e => setInputValue(e.target.value)}
-                onKeyDown={e => e.key === 'Enter' && sendMessage(inputValue)} />
+              <input
+                type="text"
+                placeholder={t.chatPlaceholder}
+                value={inputValue}
+                onChange={e => setInputValue(e.target.value)}
+                onKeyDown={e => e.key === 'Enter' && sendMessage(inputValue)}
+                dir={langMeta.dir}
+              />
               <button id="chat-send" onClick={() => sendMessage(inputValue)}>➤</button>
             </div>
           </div>
