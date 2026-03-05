@@ -1538,12 +1538,12 @@ export default function Home() {
         onClick={() => setMenuOpen(o => !o)}
         aria-label="Menu"
         style={{
-          position:'fixed', bottom:'80px', left:'14px', zIndex:99999,
+          position:'fixed', bottom:'90px', right:'16px', zIndex:99999,
           display:'flex', alignItems:'center', justifyContent:'center',
-          width:'56px', height:'56px',
+          width:'52px', height:'52px',
           background:'#d4a843',
           border:'none', borderRadius:'50%',
-          cursor:'pointer', fontSize:'26px', color:'#000',
+          cursor:'pointer', fontSize:'24px', color:'#000',
           boxShadow:'0 4px 20px rgba(0,0,0,0.8)',
         }}
       >
