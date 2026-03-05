@@ -94,8 +94,9 @@ nav {
 /* HAMBURGER */
 .hamburger {
   display: none; flex-direction: column; justify-content: center; gap: 5px;
-  width: 40px; height: 40px; background: none; border: none;
-  cursor: pointer; margin-left: auto; padding: 8px; flex-shrink: 0;
+  width: 44px; height: 44px; background: rgba(6,9,16,0.8); border: 1px solid var(--border);
+  border-radius: 8px; cursor: pointer; padding: 10px; flex-shrink: 0;
+  position: fixed !important; top: 9px !important; right: 14px !important; z-index: 1100 !important;
 }
 .hamburger span {
   display: block; width: 22px; height: 2px;
@@ -456,6 +457,7 @@ section { padding: 80px 16px 60px; max-width: 1400px; margin: 0 auto; }
   .nav-links { display: none !important; }
   .nav-right { display: none !important; }
   .hamburger { display: flex !important; }
+  .lang-switcher { display: flex !important; }
 }
 
 /* LANGUAGE SWITCHER */
