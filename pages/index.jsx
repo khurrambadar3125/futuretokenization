@@ -1577,7 +1577,7 @@ export default function Home() {
       </div>
 
       {/* ── LANGUAGE SWITCHER ── */}
-      <div className='lang-switcher' style={{position:'fixed',top:'9px',right:'66px',zIndex:'1100',display:'none'}}>
+      <div className='lang-switcher' style={{position:'fixed',top:'9px',right:'66px',zIndex:'1100',display:'flex'}}>
         <button
           onClick={() => setLangOpen(o => !o)}
           style={{
