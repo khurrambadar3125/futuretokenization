@@ -1533,7 +1533,24 @@ export default function Home() {
 
       <div dangerouslySetInnerHTML={{ __html: BODY_HTML }} />
 
-      {/* ── HAMBURGER via HTML button above ── */}
+      {/* ── HAMBURGER ── */}
+      <button
+        onClick={() => setMenuOpen(o => !o)}
+        aria-label="Menu"
+        style={{
+          position:'fixed', top:'10px', right:'14px', zIndex:99999,
+          display:'flex', flexDirection:'column', justifyContent:'center',
+          alignItems:'center', gap:'5px',
+          width:'44px', height:'44px',
+          background:'rgba(6,9,16,0.95)',
+          border:'1px solid rgba(212,168,67,0.6)',
+          borderRadius:'8px', cursor:'pointer', padding:'10px',
+        }}
+      >
+        <span style={{display:'block',width:'22px',height:'2px',background:'#e8eaf0',borderRadius:'2px',transition:'all 0.3s',transform:menuOpen?'translateY(7px) rotate(45deg)':'none'}}/>
+        <span style={{display:'block',width:'22px',height:'2px',background:'#e8eaf0',borderRadius:'2px',opacity:menuOpen?0:1,transition:'all 0.3s'}}/>
+        <span style={{display:'block',width:'22px',height:'2px',background:'#e8eaf0',borderRadius:'2px',transition:'all 0.3s',transform:menuOpen?'translateY(-7px) rotate(-45deg)':'none'}}/>
+      </button>
 
       <div className={`mobile-nav${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
         <div className="mobile-nav-label">Navigation</div>
