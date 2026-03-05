@@ -77,13 +77,13 @@ const BODY_HTML = `<!-- NAV -->
   <div class="stats-bar" style="padding:0 24px;margin:0 auto 0;max-width:1400px;">
     <div class="stat-item">
       <div class="stat-num">$19T</div>
-      <div class="stat-label">Projected RWA Market by 2033</div>
-      <div class="stat-trend">↑ from $35B today</div>
+      <div class="stat-label">BCG/Ripple RWA Forecast 2033</div>
+      <div class="stat-trend">↑ 53% CAGR from $600B today</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">$250B</div>
-      <div class="stat-label">Stablecoin Supply in Circulation</div>
-      <div class="stat-trend">↑ 460% YoY growth (Visa)</div>
+      <div class="stat-num">$65B</div>
+      <div class="stat-label">Institutional RWA TVL 2025</div>
+      <div class="stat-trend">↑ 800% since 2023</div>
     </div>
     <div class="stat-item">
       <div class="stat-num">134</div>
@@ -91,9 +91,9 @@ const BODY_HTML = `<!-- NAV -->
       <div class="stat-trend">↑ 98% of global GDP</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">$8.7B</div>
-      <div class="stat-label">Tokenized Treasuries On-Chain</div>
-      <div class="stat-trend">↑ From $100M in 2023</div>
+      <div class="stat-num">72%</div>
+      <div class="stat-label">Institutions Investing by 2026</div>
+      <div class="stat-trend">↑ EY + Coinbase Survey 2025</div>
     </div>
   </div>
 </div>
@@ -397,6 +397,219 @@ const BODY_HTML = `<!-- NAV -->
       </div>
     </div>
   </div><!-- end rwa-catalyst -->
+</section>
+
+
+<!-- ===================== THE NUMBERS ===================== -->
+<div class="divider"></div>
+<section id="data-dashboard" style="padding-top:80px;">
+  <div class="sec-tag">Live Intelligence</div>
+  <h2 class="sec-h2">The <em>Numbers</em> That Define the Revolution</h2>
+  <p class="sec-sub">The most comprehensive aggregation of tokenization data from BCG, Ripple, Broadridge, EY, Coinbase, McKinsey, Standard Chartered, and the IMF. Updated 2025–2026.</p>
+
+  <!-- FORECAST WAR -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">The Forecast War — What Every Major Institution Predicts</h3>
+  <div style="overflow-x:auto;margin-bottom:48px;">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Institution</th>
+          <th>Forecast</th>
+          <th>Timeline</th>
+          <th>Scenario</th>
+          <th>Key Driver</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>BCG + Ripple</strong></td>
+          <td class="num green">$18.9T</td>
+          <td>2033</td>
+          <td>Base case (53% CAGR)</td>
+          <td>Stablecoins, private credit, real estate</td>
+        </tr>
+        <tr>
+          <td><strong>BCG + Ripple (Optimistic)</strong></td>
+          <td class="num green">$23.4T</td>
+          <td>2033</td>
+          <td>Bull case</td>
+          <td>Full regulatory clarity + DeFi integration</td>
+        </tr>
+        <tr>
+          <td><strong>BCG + Ripple (Conservative)</strong></td>
+          <td class="num">$12.5T</td>
+          <td>2033</td>
+          <td>Bear case</td>
+          <td>Regulatory fragmentation slows adoption</td>
+        </tr>
+        <tr>
+          <td><strong>Standard Chartered</strong></td>
+          <td class="num green">$30.1T</td>
+          <td>2034</td>
+          <td>Base case</td>
+          <td>Open financial system, trade finance, pension funds</td>
+        </tr>
+        <tr>
+          <td><strong>BCG + ADDX</strong></td>
+          <td class="num green">$16T</td>
+          <td>2030</td>
+          <td>Base case (= 10% of global GDP)</td>
+          <td>Illiquid asset tokenization at scale</td>
+        </tr>
+        <tr>
+          <td><strong>Bernstein</strong></td>
+          <td class="num">$5T</td>
+          <td>2028</td>
+          <td>Base case</td>
+          <td>Institutional RWA + tokenized equities</td>
+        </tr>
+        <tr>
+          <td><strong>Citi</strong></td>
+          <td class="num">$5T</td>
+          <td>2030</td>
+          <td>Base case</td>
+          <td>Private markets + fund tokenization</td>
+        </tr>
+        <tr>
+          <td><strong>McKinsey (Base)</strong></td>
+          <td class="num">$1.9T</td>
+          <td>2030</td>
+          <td>Conservative</td>
+          <td>Bonds, equities, real estate (excl. stablecoins)</td>
+        </tr>
+        <tr>
+          <td><strong>McKinsey (Bull)</strong></td>
+          <td class="num">$4T</td>
+          <td>2030</td>
+          <td>Optimistic</td>
+          <td>Accelerated regulatory clarity</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="highlight-box">
+    <h3>The Consensus: Even the Bears Are Bullish</h3>
+    <p>The most important takeaway from the forecasts above is not the spread — it is the floor. Even McKinsey, the most conservative major institution, projects nearly $2 trillion in tokenized assets by 2030. The current market is approximately $600 billion including stablecoins. That means even the pessimists expect 3x growth from here. The bulls — BCG, Standard Chartered, Ripple — see 30–50x growth. There is no credible institutional forecast that does not involve a multi-trillion dollar tokenization market within this decade. The debate is not whether this happens. It is how fast, how deep, and who captures the value.</p>
+  </div>
+
+  <!-- ADOPTION STATS -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin:48px 0 24px;">Institutional Adoption — The Data</h3>
+  <div class="card-grid" style="margin-bottom:48px;">
+    <div class="card">
+      <div class="card-icon">📈</div>
+      <div class="card-h">245x Growth Since 2020</div>
+      <div class="card-p">Tokenized assets grew from $85 million in 2020 to over $21 billion by April 2025 — a 245-fold increase in five years. This trajectory mirrors the early growth curves of ETFs and credit cards before mainstream adoption.</div>
+      <span class="card-tag tag-gold">2020→2025</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">🏛️</div>
+      <div class="card-h">800% TVL Growth Since 2023</div>
+      <div class="card-p">Institutional RWA tokenization TVL hit $65 billion in 2025 — an 800% jump from 2023. Over 200 active institutional projects are live. BCG calls this the "approaching tipping point."</div>
+      <span class="card-tag tag-green">$65B TVL</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">🏦</div>
+      <div class="card-h">63% of Custodians Already In</div>
+      <div class="card-p">Broadridge's 2025 survey of 300 financial institutions found 63% of custodians already offer tokenized assets. Another 30% are preparing to launch within two years. 91% of early adopters report tangible efficiency gains.</div>
+      <span class="card-tag tag-blue">Broadridge 2025</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">💼</div>
+      <div class="card-h">72% of Institutions to Invest by 2026</div>
+      <div class="card-p">EY and Coinbase surveyed 300+ institutional investors (all $1B+ AUM). 11% are already invested in tokenized assets. 61% expect to invest by 2026. That is 72% of institutional capital potentially entering within 12 months.</div>
+      <span class="card-tag tag-gold">EY + Coinbase 2025</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">💰</div>
+      <div class="card-h">$339B Daily Repo Volume</div>
+      <div class="card-p">Broadridge's Distributed Ledger Repo (DLR) — the largest institutional tokenized trading platform — processed an average of $339 billion in daily repo transactions in September 2025. Tokenized repo is already at scale.</div>
+      <span class="card-tag tag-blue">Live Production</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">⚡</div>
+      <div class="card-h">$27B Annual Savings from Blockchain</div>
+      <div class="card-p">Financial institutions collectively save $27 billion annually by integrating blockchain into payment and settlement infrastructure — eliminating correspondent bank chains, reducing reconciliation overhead, and cutting settlement time from T+2 to T+0.</div>
+      <span class="card-tag tag-green">Cost Savings</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">🤖</div>
+      <div class="card-h">Smart Contracts Cut Manual Errors 72%</div>
+      <div class="card-p">Smart contracts automated 22% of asset servicing processes in 2025, reducing manual errors by 72%. This is the operational case for tokenization: not just new products, but the replacement of error-prone human back-office work with deterministic code.</div>
+      <span class="card-tag tag-blue">Automation Impact</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">🔒</div>
+      <div class="card-h">43% Drop in Financial Data Breaches</div>
+      <div class="card-p">Financial institutions using blockchain for data encryption and storage reported a 43% reduction in data breaches in 2025. Tokenization's immutable ledger and cryptographic security provide a fundamentally different — and superior — security model vs. legacy databases.</div>
+      <span class="card-tag tag-green">Security Gain</span>
+    </div>
+  </div>
+
+  <!-- WHAT'S TOKENIZED TODAY -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">What's Actually Tokenized Today — The Breakdown</h3>
+  <div class="risk-bars" style="margin-bottom:48px;">
+    <div style="margin-bottom:16px;font-size:12px;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.8px;">Share of Tokenized Assets by Class (April 2025, excl. stablecoins)</div>
+    <div class="risk-row"><div class="risk-name">Private Credit</div><div class="risk-bar-bg"><div class="risk-bar-fill" style="width:61%;background:var(--gold);"></div></div><div class="risk-val">61%</div></div>
+    <div class="risk-row"><div class="risk-name">US Treasuries & Govt Bonds</div><div class="risk-bar-bg"><div class="risk-bar-fill" style="width:30%;background:var(--blue);"></div></div><div class="risk-val">30%</div></div>
+    <div class="risk-row"><div class="risk-name">Commodities (Gold etc.)</div><div class="risk-bar-bg"><div class="risk-bar-fill" style="width:7%;background:var(--green);"></div></div><div class="risk-val">7%</div></div>
+    <div class="risk-row"><div class="risk-name">Institutional Funds</div><div class="risk-bar-bg"><div class="risk-bar-fill" style="width:2%;background:var(--blue);"></div></div><div class="risk-val">2%</div></div>
+    <div style="margin-top:20px;font-size:12px;color:var(--text-dim);">Real estate, equities, art, carbon credits — currently small fractions, projected to be dominant by 2030–2033 per BCG Phase 3 adoption model.</div>
+  </div>
+
+  <!-- BCG 3 PHASES -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">BCG's Three-Phase Adoption Model</h3>
+  <div class="tech-stack" style="margin-bottom:48px;">
+    <div class="layer">
+      <div class="layer-num">01</div>
+      <div class="layer-name">Phase 1 — Low-Risk Adoption (NOW)</div>
+      <div class="layer-detail">Institutions tokenize familiar, regulated, highly liquid instruments: money market funds, government bonds, corporate bonds. Goal is institutional readiness, not scale. Efficiency gains are immediate. Settlement time drops from T+2 to T+0. Compliance is well-understood. BlackRock BUIDL and Franklin Templeton Benji are the Phase 1 exemplars. Phase 1 is largely complete among leading institutions.</div>
+      <div class="layer-badge"><span class="card-tag tag-green">Active 2023–2025</span></div>
+    </div>
+    <div class="layer">
+      <div class="layer-num">02</div>
+      <div class="layer-name">Phase 2 — Institutional Expansion (CURRENT)</div>
+      <div class="layer-detail">Institutions scale into higher-yield, more complex assets: private credit, structured finance, corporate bonds. Goal shifts from efficiency to return enhancement, liquidity creation, and DeFi composability. Institutions move from private blockchains to permissioned public blockchains. Secondary markets begin forming. Broadridge DLR ($339B daily), Figure Technologies ($10B loans), Centrifuge ($1.3B+) are Phase 2 leaders. This phase runs 2025–2028.</div>
+      <div class="layer-badge"><span class="card-tag tag-gold">Active 2025–2028</span></div>
+    </div>
+    <div class="layer">
+      <div class="layer-num">03</div>
+      <div class="layer-name">Phase 3 — Mainstream Transformation (COMING)</div>
+      <div class="layer-detail">The largest, most illiquid asset classes go on-chain: real estate ($300T), private equity, infrastructure, agricultural commodities, intellectual property, art. This is when tokenization crosses from institutional tool to global financial infrastructure. BCG projects this phase drives tokenization from today's ~$600B to $12–23T by 2033. Retail investors gain access to asset classes previously reserved for institutions. Secondary market depth achieves genuine liquidity. Cross-chain interoperability becomes seamless.</div>
+      <div class="layer-badge"><span class="card-tag tag-blue">2028–2033+</span></div>
+    </div>
+  </div>
+
+  <!-- LARRY FINK QUOTE BOX -->
+  <div class="highlight-box" style="margin-bottom:48px;">
+    <h3>BlackRock CEO Larry Fink on the Future of Every Asset</h3>
+    <p>When BlackRock launched its BUIDL tokenized fund in 2024, CEO Larry Fink told Bloomberg that the company believed the "next step going forward will be the tokenization of financial assets — meaning every stock, every bond will be on one general ledger." Fink, who manages $10 trillion in assets, does not make casual predictions. He was describing BlackRock's strategic roadmap. His vision: a single, global, blockchain-based ledger that eliminates the parallel infrastructure of exchanges, clearinghouses, custodians, transfer agents, and settlement systems — replacing all of them with smart contracts. This is not a fintech startup's vision. This is the world's largest asset manager's declared strategy.</p>
+  </div>
+
+  <!-- BARRIERS -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">The Barriers — What's Slowing Full-Scale Adoption</h3>
+  <div class="two-col">
+    <div>
+      <div class="info-block">
+        <h4>Regulatory Uncertainty — #1 Barrier (73% of Institutions)</h4>
+        <p>Broadridge's survey identified regulatory uncertainty as the top challenge for 73% of institutions. Despite major progress — GENIUS Act (US), MiCA (EU), MAS SCS (Singapore) — global fragmentation persists. An asset tokenized under US Reg D cannot automatically trade in the EU under MiCA without re-registration. Cross-border interoperability of regulatory regimes lags cross-border interoperability of blockchains. Harmonization is the decade's defining regulatory challenge.</p>
+      </div>
+      <div class="info-block">
+        <h4>Secondary Market Liquidity — The Unsolved Problem</h4>
+        <p>A 2026 academic study of $25B+ in tokenized RWAs found that despite explosive issuance growth, most tokenized assets exhibit critically low secondary-market depth. Technology creates supply of tokenized assets. It does not automatically create demand or market makers. Without deep secondary markets, tokenization creates more efficient paper — not genuine liquidity. Building secondary market depth is the industry's defining unsolved challenge.</p>
+      </div>
+    </div>
+    <div>
+      <div class="info-block">
+        <h4>Infrastructure Fragmentation — Multiple Incompatible Ecosystems</h4>
+        <p>A tokenized Treasury on Ethereum, a tokenized property on XRP Ledger, and a tokenized bond on Avalanche cannot natively interact. Each ecosystem has its own standards, bridges, and compliance rules. Chainlink CCIP, LayerZero, and Cosmos IBC are building the interoperability layer — but it is not yet seamless. Until a unified cross-chain standard emerges, capital efficiency remains constrained by ecosystem fragmentation.</p>
+      </div>
+      <div class="info-block">
+        <h4>Cultural Change — The Hardest Variable</h4>
+        <p>Broadridge notes: "The difference between a pilot and scaled adoption is the ability to deliver tokenized products at volume, across asset classes, and with the same reliability as traditional securities. Scaling tokenization will require cultural change, as institutions prioritize tokenization as a core strategy instead of a side project." Banks that have operated the same settlement infrastructure for 50 years do not rebuild overnight — regardless of how compelling the economics.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <div class="divider"></div>
@@ -1086,7 +1299,177 @@ const BODY_HTML = `<!-- NAV -->
   </div>
 </section>
 
+
 <div class="divider"></div>
+
+<!-- ===================== EXPERT INTELLIGENCE ===================== -->
+<section id="expert-intelligence" style="padding-top:80px;">
+  <div class="sec-tag">Global Expert Consensus</div>
+  <h2 class="sec-h2">What the World's Greatest <em>Institutions</em> Say</h2>
+  <p class="sec-sub">The IMF, World Bank, PwC, IBM, Mastercard, OECD, IOSCO, WEF, Fireblocks, Deloitte, and State Street have all published landmark analyses of tokenization. Here is the distilled intelligence — the most important insights from the world's most authoritative sources on what this technology actually means for global finance.</p>
+
+  <!-- LARRY FINK SECTION -->
+  <div class="highlight-box" style="margin-bottom:48px;">
+    <h3>Larry Fink, BlackRock CEO (2025 Annual Chairman's Letter to Shareholders)</h3>
+    <p>"Markets wouldn't need to close. Transactions that currently take days would clear in seconds. And billions of dollars currently immobilized by settlement delays could be reinvested immediately back into the economy, generating more growth. Perhaps most importantly, tokenization makes investing much more democratic. It allows for fractional ownership — assets could be sliced into infinitely small pieces. This lowers one of the barriers to investing in valuable, previously inaccessible assets like private real estate and private equity." This is not a speculative vision from a startup founder. This is the 2025 annual letter to shareholders from the CEO of the world's largest asset manager — sent to the pension funds, sovereign wealth funds, endowments, and institutions that represent the savings of billions of people. BlackRock is building this future, not observing it.</p>
+  </div>
+
+  <!-- PwC FRAMEWORK -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">The Three ROI Pathways — PwC's Value Framework</h3>
+  <div class="three-col" style="margin-bottom:48px;">
+    <div class="info-block">
+      <h4>Pathway 1 — Internal Efficiency (Fastest ROI)</h4>
+      <p>The easiest entry point: tokenize internal transfers and transactions within your own organization. Corporate treasurers who currently spend hours daily tracking cash movements can automate entirely via smart contracts. Settlement time drops to near-zero. Regulatory reporting becomes automatic — regulators can have a presence (node) on the blockchain with real-time visibility. No counterparty negotiation required. PwC identifies this as the quickest, least risky path to tokenization ROI for any financial institution.</p>
+    </div>
+    <div class="info-block">
+      <h4>Pathway 2 — Inter-Institutional Finance (Medium-Term)</h4>
+      <p>The second stage: tokenization between different institutions — banks, asset managers, counterparties. Collateral management becomes transformational: post tokenized Treasury bonds as margin instead of cash, lock collateral into a smart contract that automatically releases upon settlement of any predetermined condition. Trade a bond for tokenized cash peer-to-peer. Smart contracts execute complex multi-party transactions with pre-agreed codified terms, distributing funds automatically. What took armies of back-office staff takes milliseconds.</p>
+    </div>
+    <div class="info-block">
+      <h4>Pathway 3 — New Market Creation (Long-Term)</h4>
+      <p>The compounding payoff: once tokenization is embedded in your technology stack, entirely new asset classes and market segments become accessible that did not exist before. New collateral types. New investor bases. New geographies. New product structures with programmable tax efficiency, automated distributions, and on-chain basis tracking. PwC's conclusion: "Soon, you may find that tokenization has enabled a new paradigm — a trusted foundation for near-instant, transparent and hyper-personalized financial services, coupled with speedy, low-cost settlement and increased liquidity across a broad range of assets."</p>
+    </div>
+  </div>
+
+  <!-- POST TRADE SAVINGS -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">The Post-Trade Revolution — Where 80% of the Cost Lives</h3>
+  <div class="info-block" style="margin-bottom:32px;">
+    <h4>35–65% Cost Reduction in Post-Trade Processing (Fireblocks/WEF, 2025)</h4>
+    <p>Post-trade processing — clearing, settlement, reconciliation, custody, reporting — is where the vast majority of financial services operational cost lives, and where tokenization delivers its most dramatic efficiency gains. Fireblocks and the World Economic Forum estimate post-trade processing cost reductions of 35–65% depending on asset class, once tokenization reaches scale. The most complex asset classes (structured products, private credit, derivatives) see the largest savings because they currently require the most manual intervention. Today, a single complex OTC derivative can involve 20+ counterparties, days of reconciliation, and hundreds of manual data entry events across the transaction lifecycle. A tokenized equivalent executes atomically, settles instantly, updates all parties' records simultaneously, and triggers compliance reporting automatically. The human cost collapses by orders of magnitude.</p>
+  </div>
+
+  <!-- ATOMIC SETTLEMENT -->
+  <div class="two-col" style="margin-bottom:48px;">
+    <div>
+      <div class="info-block">
+        <h4>Atomic Settlement — The End of Counterparty Risk</h4>
+        <p>Traditional securities settlement involves a dangerous gap: you send a security, and then you wait for cash. Or you send cash, and wait for a security. During this gap — which in traditional markets is T+2 (two business days) — counterparty risk exists. One party could default between trade and settlement. This is why clearinghouses exist: to guarantee the gap. Tokenization enables "atomic" Delivery vs. Payment (DvP) settlement: the transfer of security and cash happen simultaneously, in the same blockchain transaction, or not at all. Counterparty risk is eliminated by design. Clearinghouses become unnecessary. The OECD identifies atomic settlement as one of tokenization's most structurally important capabilities — not just a speedup, but a fundamental redesign of how financial risk is managed.</p>
+      </div>
+    </div>
+    <div>
+      <div class="info-block">
+        <h4>Collateral Mobility — Unlocking $billions in Trapped Capital</h4>
+        <p>One of the most underappreciated benefits identified by the OECD and IOSCO: collateral mobility. In traditional markets, collateral is siloed. Posting collateral at one institution locks it — it cannot simultaneously be used elsewhere. This "trapped collateral" represents hundreds of billions in unnecessarily immobilized capital. Tokenization makes collateral programmable and portable: a single pool of tokenized Treasuries can simultaneously serve as repo collateral, derivatives margin, and fund redemption buffer — with smart contracts automatically managing allocation and priority in real-time. The UK's FCA identified this specifically in its 2025 consultation: tokenized money market funds as collateral for derivatives could have prevented the forced selling spiral of the 2022 UK gilt crisis, which cost pension funds tens of billions.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- IBM PAYMENT TOKENIZATION -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">Payment Tokenization — The $4.45M Data Breach Insurance Policy</h3>
+  <div class="highlight-box" style="margin-bottom:32px;">
+    <h3>Why Every Business That Accepts Payments Needs to Understand Tokenization</h3>
+    <p>The average cost of a data breach is $4.45 million, per IBM Security's annual research. Payment tokenization is the primary defense: it replaces your customers' actual card numbers with worthless tokens at the point of capture. Even if a hacker breaches your entire payment system, they find only tokens — meaningless strings that cannot be reversed into real card data without access to the token vault, which sits in a completely separate, hardened environment. This is why IBM, Mastercard, Visa, and all major card networks have made tokenization the mandatory standard for secure payments. EMV tokenization is now adopted by 90% of global card issuers. Apple Pay, Google Pay, and Samsung Pay all tokenize every transaction. The result: mobile wallet providers have reduced data breaches by 45% over two years. Over 98% of all NFC contactless payments globally now run through tokenization. It is not optional infrastructure — it is the foundation of modern payment security.</p>
+  </div>
+
+  <!-- MASTERCARD INSIGHT -->
+  <div class="three-col" style="margin-bottom:48px;">
+    <div class="info-block">
+      <h4>How Mastercard's Tokenization Works (Every Tap, Every Time)</h4>
+      <p>When you tap your phone to pay, Mastercard's Digital Enablement Service generates a device-specific, merchant-specific token. Your actual 16-digit card number never travels through the merchant's system. The token is mathematically linked to your specific device — it cannot be used on any other device, even if stolen. A one-time cryptogram is generated for each transaction, meaning even a perfectly captured token from one transaction cannot be replayed for another. This is why Mastercard-tokenized transactions have near-zero fraud rates despite being processed at billions of points globally.</p>
+    </div>
+    <div class="info-block">
+      <h4>IBM's Digital Asset Haven — 40+ Blockchain Platform</h4>
+      <p>In October 2025, IBM launched its Digital Asset Haven platform — built in collaboration with Dfns, which has created 15 million+ institutional wallets. The platform provides custody, transaction routing, and settlement across 40+ public and private blockchains, with multi-party approvals, programmable access controls, and hybrid deployment across cloud, on-premise, and cold storage. IBM's goal: make digital assets meet the same infrastructure standards as traditional financial rails. As Dfns CEO Clarisse Hagège stated: "Together with IBM, we've built a platform that goes beyond custody to orchestrate the full digital asset ecosystem, paving the way for digital assets to move from pilot programs to production at a global scale."</p>
+    </div>
+    <div class="info-block">
+      <h4>Reversible vs. Irreversible Tokens — IBM's Security Architecture</h4>
+      <p>IBM distinguishes two fundamental token types with different use cases. Reversible tokens can be converted back to original data (needed for refunds, where payment processors require original card details). Irreversible tokens permanently anonymize data — used for third-party analytics and less secure environments. Format-preserving tokens maintain the same format as the data they replace (a 16-digit token for a 16-digit card number), ensuring compatibility with existing systems without infrastructure changes. This flexibility is why tokenization has become the dominant enterprise data security standard, supporting PCI-DSS compliance, GDPR adherence, and HIPAA requirements simultaneously.</p>
+    </div>
+  </div>
+
+  <!-- WEF FINTERNET -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">The BIS "Finternet" — The Architecture Central Banks Are Building</h3>
+  <div class="info-block" style="margin-bottom:32px;">
+    <h4>One Unified Financial Internet — The Next-Generation Monetary System</h4>
+    <p>The Bank for International Settlements (BIS) — the central bank of central banks — published its 2025 Annual Economic Report describing the "next-generation monetary and financial system." The vision: a "Finternet" — a unified financial internet where all financial assets, currencies, and contracts exist on interconnected ledgers that are accessible to anyone, anywhere, in real-time. The BIS framework imagines tokenized central bank money (wholesale CBDC) as the settlement layer, tokenized commercial bank deposits as the transaction layer, and tokenized real-world assets as the value layer — all interoperable through common standards. This is not a startup's whitepaper. This is the institution that coordinates monetary policy for 63 central banks describing the architecture of the global financial system it intends to build. Project Helvetia (Switzerland), Project Guardian (Singapore), Project mBridge (UAE, China, Hong Kong, Thailand), and Project Aber (Saudi Arabia, UAE) are all live pilots of this architecture.</p>
+  </div>
+
+  <!-- WORLD BANK + FINANCIAL INCLUSION -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">The World Bank Case — Tokenization as Financial Inclusion Infrastructure</h3>
+  <div class="two-col" style="margin-bottom:48px;">
+    <div>
+      <div class="info-block">
+        <h4>1.4 Billion Unbanked Adults — Tokenization's Greatest Frontier</h4>
+        <p>The World Bank's ID4D program identifies tokenization as critical infrastructure for financial inclusion. Approximately 1.4 billion adults globally have no bank account — locked out of formal finance by geography, cost, documentation requirements, and institutional minimums. Tokenization, combined with digital identity systems, can extend financial services to this population: mobile wallets holding tokenized assets require no bank branch, no minimum balance, no credit history. A farmer in rural Pakistan holding tokenized crop receipts has collateral for a micro-loan. A small business owner in Lagos holding tokenized trade receivables can access working capital from global investors in Singapore. The World Bank sees tokenization not just as a capital markets efficiency tool but as the infrastructure layer for the next billion people to enter the formal financial system.</p>
+      </div>
+    </div>
+    <div>
+      <div class="info-block">
+        <h4>SME Financing — The $5 Trillion Gap That Tokenization Can Close</h4>
+        <p>The global SME financing gap — the difference between what small businesses need and what traditional finance provides — exceeds $5 trillion annually. Banks cannot profitably serve SMEs at small loan sizes: the KYC/AML cost, credit assessment cost, and documentation overhead make loans under $100,000 uneconomical. Tokenization changes this calculus entirely. A tokenized invoice representing $10,000 in trade receivables can be automatically verified on-chain, priced by algorithm, and funded by a global pool of investors within minutes — at near-zero administrative cost. Platforms like Centrifuge, Goldfinch, and Credix are building exactly this infrastructure. Trade finance tokenization alone represents a $10 trillion potential market, with the majority of that value locked in exactly the SME segment that traditional banks systematically underserve.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DELOITTE 2026 OUTLOOK -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">Deloitte's 2026 Banking Outlook — Implementation Priorities</h3>
+  <div class="tech-stack" style="margin-bottom:48px;">
+    <div class="layer">
+      <div class="layer-num">01</div>
+      <div class="layer-name">Atomic Settlement Infrastructure — Priority #1</div>
+      <div class="layer-detail">Deloitte identifies building atomic settlement infrastructure as the single most critical capability investment for banks in 2026. This means replacing legacy batch-processing settlement systems with real-time, blockchain-native settlement that can execute Delivery vs. Payment atomically. Banks that build this capability first gain a structural competitive advantage: they can offer clients instant settlement as a premium product while reducing their own counterparty risk and collateral requirements simultaneously.</div>
+      <div class="layer-badge"><span class="card-tag tag-gold">2026 Priority</span></div>
+    </div>
+    <div class="layer">
+      <div class="layer-num">02</div>
+      <div class="layer-name">Custody as Control Plane — New Custody Model</div>
+      <div class="layer-detail">Traditional custody is passive: hold assets, report positions, process corporate actions. Tokenized custody is active: the custodian's platform becomes the control plane for programmable assets — executing smart contract logic, managing collateral automatically, distributing income in real-time, and enforcing compliance rules on every transfer. Deloitte argues that custody is about to become the highest-value service in financial services — but only for custodians who build the technology to support programmable assets at institutional scale.</div>
+      <div class="layer-badge"><span class="card-tag tag-blue">Architecture Shift</span></div>
+    </div>
+    <div class="layer">
+      <div class="layer-num">03</div>
+      <div class="layer-name">Parallel Processing — Legacy + Blockchain Simultaneously</div>
+      <div class="layer-detail">Deloitte's key operational insight: institutions cannot switch off legacy systems overnight. The winning implementation strategy is parallel processing — running traditional infrastructure and tokenized infrastructure simultaneously during a multi-year transition. Smart routing determines which transactions go through legacy rails vs. blockchain rails based on asset type, counterparty, and regulatory requirements. This parallel architecture allows institutions to capture tokenization efficiency gains immediately in new asset classes while maintaining stability in established operations.</div>
+      <div class="layer-badge"><span class="card-tag tag-green">Implementation</span></div>
+    </div>
+    <div class="layer">
+      <div class="layer-num">04</div>
+      <div class="layer-name">Regulatory Engagement — Sandbox Before Scale</div>
+      <div class="layer-detail">Deloitte strongly recommends engaging regulators before scaling tokenization programs. The UK's Digital Securities Sandbox, Singapore's MAS Project Guardian, Dubai's VARA Regulatory Sandbox, and the SEC's emerging crypto task force roundtables all provide structured pathways for innovation within regulatory oversight. Institutions that engage regulators early shape the rules they will later have to follow — a strategic advantage worth more than any technology investment. Deloitte identifies "regulatory co-creation" as the defining competitive strategy for financial institutions in the tokenization era.</div>
+      <div class="layer-badge"><span class="card-tag tag-red">Regulatory</span></div>
+    </div>
+  </div>
+
+  <!-- STATE STREET DEEP DIVE -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">State Street's Asset Class Analysis — Where Tokenization Wins Most</h3>
+  <div class="card-grid" style="margin-bottom:48px;">
+    <div class="card">
+      <div class="card-icon">📋</div>
+      <div class="card-h">Fixed Income — Highest Near-Term Impact</div>
+      <div class="card-p">State Street identifies fixed income as the asset class with the highest near-term tokenization impact. Bonds have complex lifecycle events (coupon payments, maturity, calls) that are currently managed manually at enormous cost. Smart contracts automate all of this. UBS has tokenized $500M+ in bonds. The SIX Digital Exchange in Switzerland has tokenized billions in corporate bonds with atomic DvP settlement. State Street projects fixed income tokenization to reach $3T+ by 2028.</div>
+      <span class="card-tag tag-gold">Highest Impact</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">🏗️</div>
+      <div class="card-h">Private Markets — Liquidity Creation</div>
+      <div class="card-p">Private equity, venture capital, and infrastructure funds are 10–20 year lockup investments with zero secondary liquidity. Tokenization creates secondary markets that allow LPs to exit before fund maturity — potentially the most valuable service in private markets. Apollo, KKR, and Hamilton Lane have all tokenized fund interests. State Street projects this to become the standard for private market distribution by 2028.</div>
+      <span class="card-tag tag-blue">Liquidity Creation</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">🌾</div>
+      <div class="card-h">Commodities & Trade Finance — Emerging Market Engine</div>
+      <div class="card-p">Agricultural commodities, metals, and energy are tokenized to create collateral for working capital financing. Treum (ConsenSys) has tokenized physical oil. Agora has tokenized grain harvests. Standard Chartered's Project Guardian explored tokenized trade finance instruments. For emerging markets — where commodities are the primary economic asset — this is the gateway to global capital markets.</div>
+      <span class="card-tag tag-green">Emerging Markets</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">🏙️</div>
+      <div class="card-h">Infrastructure — The $100T Frontier</div>
+      <div class="card-p">Global infrastructure investment gap is $15 trillion by 2040 per the OECD. Tokenization can close this gap by fractionalizing infrastructure assets — toll roads, airports, solar farms, water systems — and making them accessible to retail and institutional investors globally. Singapore's Project Genesis tokenized green bonds tied to specific infrastructure projects, allowing investors to verify impact in real-time. This may be tokenization's most important long-term application.</div>
+      <span class="card-tag tag-gold">Long-Term Frontier</span>
+    </div>
+  </div>
+
+  <!-- IMF HISTORICAL CONTEXT -->
+  <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">The IMF's Historical Perspective — Tokens Are Not New</h3>
+  <div class="highlight-box" style="margin-bottom:48px;">
+    <h3>Finance's Oldest Innovation, Newest Technology</h3>
+    <p>The IMF's Finance & Development magazine makes a profound historical point: tokens are not a 21st century invention. Ancient Mesopotamian clay tablets from 3000 BC represented grain stores and could be traded as claims on physical assets — the world's first tokenized commodities. Medieval European merchants used "bills of exchange" — paper tokens representing trade claims — to finance the Silk Road without moving gold. 17th century Amsterdam's stock exchange issued fractional paper shares in the Dutch East India Company — the world's first tokenized equity. What blockchain has done is not invent the concept of tokenization but remove the institutional intermediaries (banks, registrars, clearinghouses) that have always been required to make it trustworthy. For the first time in 5,000 years of financial history, two parties who have never met can exchange tokenized value without trusting a third party. This is the genuinely revolutionary change — not the token itself, but the trustless infrastructure beneath it.</p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
 
 <!-- ===================== MAJOR PLAYERS ===================== -->
 <section id="players">
