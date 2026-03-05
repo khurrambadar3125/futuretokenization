@@ -2066,6 +2066,27 @@ export default function Home() {
   const [chatOpen, setChatOpen]   = useState(false);
   const [inputValue, setInputValue] = useState('');
   const [isThinking, setIsThinking] = useState(false);
+  const [showLimitModal, setShowLimitModal] = useState(false);
+
+  // ── SESSION LIMIT: 3 per day ──
+  function getSessionData() {
+    try {
+      const today = new Date().toISOString().slice(0, 10);
+      const raw = localStorage.getItem('czar_sessions');
+      const data = raw ? JSON.parse(raw) : {};
+      if (data.date !== today) return { date: today, count: 0 };
+      return data;
+    } catch { return { date: new Date().toISOString().slice(0, 10), count: 0 }; }
+  }
+  function incrementSession() {
+    try {
+      const data = getSessionData();
+      data.count += 1;
+      localStorage.setItem('czar_sessions', JSON.stringify(data));
+      return data.count;
+    } catch { return 1; }
+  }
+  function getSessionCount() { return getSessionData().count; }
   const chatHistoryRef = useRef([]);
   const messagesEndRef = useRef(null);
 
@@ -2121,6 +2142,15 @@ export default function Home() {
 
   async function sendMessage(userMsg) {
     if (!userMsg.trim()) return;
+    // Check session limit
+    if (getSessionCount() >= 3) {
+      setShowLimitModal(true);
+      return;
+    }
+    // Count first message of each session (only increment on first message per open)
+    if (chatHistoryRef.current.length === 0) {
+      incrementSession();
+    }
     setMessages(prev => [...prev, { role: 'user', text: userMsg }]);
     setIsThinking(true);
     setInputValue('');
@@ -2286,6 +2316,54 @@ export default function Home() {
           </div>
         )}
       </div>
+    {/* ── SESSION LIMIT MODAL ── */}
+      {showLimitModal && (
+        <div style={{
+          position:'fixed', inset:0, background:'rgba(6,9,16,0.92)', zIndex:999999,
+          display:'flex', alignItems:'center', justifyContent:'center', padding:'20px',
+        }}>
+          <div style={{
+            background:'#111620', border:'1px solid rgba(212,168,67,0.5)',
+            borderRadius:'16px', padding:'36px 32px', maxWidth:'420px', width:'100%',
+            textAlign:'center', boxShadow:'0 20px 60px rgba(0,0,0,0.8)',
+          }}>
+            <div style={{fontSize:'48px', marginBottom:'16px'}}>⏳</div>
+            <h3 style={{fontFamily:"'Cormorant Garamond',serif", fontSize:'24px', color:'#d4a843', marginBottom:'12px', fontWeight:600}}>
+              Daily Limit Reached
+            </h3>
+            <p style={{color:'#7a8090', fontSize:'14px', lineHeight:1.7, marginBottom:'24px'}}>
+              You've used your <strong style={{color:'#e8eaf0'}}>3 free sessions</strong> for today.
+              Sessions reset at midnight. Come back tomorrow — or request additional access from Khurram directly.
+            </p>
+
+            <a
+              href="mailto:khurrambadar@gmail.com?subject=Request%20for%20Additional%20Digital%20Czar%20Sessions&body=Hi%20Khurram%2C%0A%0AI%27ve%20used%20my%203%20daily%20sessions%20on%20FutureTokenization.com%20and%20would%20like%20to%20request%20additional%20access.%0A%0AMy%20reason%3A%20"
+              style={{
+                display:'block', background:'#d4a843', color:'#060910',
+                borderRadius:'8px', padding:'12px 20px', fontWeight:700,
+                fontSize:'14px', textDecoration:'none', marginBottom:'12px',
+              }}
+            >
+              ✉️ Email Khurram for More Access
+            </a>
+
+            <button
+              onClick={() => setShowLimitModal(false)}
+              style={{
+                width:'100%', background:'transparent', border:'1px solid rgba(255,255,255,0.1)',
+                color:'#7a8090', borderRadius:'8px', padding:'10px 20px',
+                fontSize:'13px', cursor:'pointer',
+              }}
+            >
+              Visit Again Tomorrow 🔄
+            </button>
+
+            <p style={{color:'#4a5060', fontSize:'11px', marginTop:'16px'}}>
+              Sessions reset daily at 00:00 UTC
+            </p>
+          </div>
+        </div>
+      )}
     </>
   );
 }
