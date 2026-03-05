@@ -1538,18 +1538,16 @@ export default function Home() {
         onClick={() => setMenuOpen(o => !o)}
         aria-label="Menu"
         style={{
-          position:'fixed', top:'10px', right:'14px', zIndex:99999,
-          display:'flex', flexDirection:'column', justifyContent:'center',
-          alignItems:'center', gap:'5px',
-          width:'44px', height:'44px',
-          background:'rgba(6,9,16,0.95)',
-          border:'1px solid rgba(212,168,67,0.6)',
-          borderRadius:'8px', cursor:'pointer', padding:'10px',
+          position:'fixed', top:'65px', right:'14px', zIndex:99999,
+          display:'flex', alignItems:'center', justifyContent:'center',
+          width:'48px', height:'48px',
+          background:'#d4a843',
+          border:'none', borderRadius:'8px',
+          cursor:'pointer', fontSize:'24px', color:'#000',
+          boxShadow:'0 2px 12px rgba(0,0,0,0.5)',
         }}
       >
-        <span style={{display:'block',width:'22px',height:'2px',background:'#e8eaf0',borderRadius:'2px',transition:'all 0.3s',transform:menuOpen?'translateY(7px) rotate(45deg)':'none'}}/>
-        <span style={{display:'block',width:'22px',height:'2px',background:'#e8eaf0',borderRadius:'2px',opacity:menuOpen?0:1,transition:'all 0.3s'}}/>
-        <span style={{display:'block',width:'22px',height:'2px',background:'#e8eaf0',borderRadius:'2px',transition:'all 0.3s',transform:menuOpen?'translateY(-7px) rotate(-45deg)':'none'}}/>
+        {menuOpen ? '✕' : '☰'}
       </button>
 
       <div className={`mobile-nav${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
