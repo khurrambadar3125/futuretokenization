@@ -1524,7 +1524,7 @@ export default function Home() {
         className={`hamburger${menuOpen ? ' open' : ''}`}
         onClick={() => setMenuOpen(o => !o)}
         aria-label="Toggle menu"
-        style={{position:'fixed',top:'10px',right:'16px',zIndex:'950'}}
+        style={{position:'fixed',top:'9px',right:'14px',zIndex:'1100'}}
       >
         <span/><span/><span/>
       </button>
@@ -1556,7 +1556,7 @@ export default function Home() {
       </div>
 
       {/* ── LANGUAGE SWITCHER ── */}
-      <div style={{position:'fixed',top:'10px',right:'64px',zIndex:'960'}}>
+      <div className='lang-switcher' style={{position:'fixed',top:'9px',right:'66px',zIndex:'1100',display:'none'}}>
         <button
           onClick={() => setLangOpen(o => !o)}
           style={{
