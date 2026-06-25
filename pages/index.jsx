@@ -9,6 +9,15 @@ const BODY_HTML = `<!-- NAV -->
     <ul class="nav-links">
       <li><a href="#home" class="active">Home</a></li>
       <li>
+        <a href="/directory">VARA Directory ▾</a>
+        <div class="dropdown">
+          <a href="/directory">Licensed Providers</a>
+          <a href="/validate">Validate a Licence</a>
+          <a href="/investors">For Investors</a>
+          <a href="/providers">For Providers</a>
+        </div>
+      </li>
+      <li>
         <a href="#tokenization">Tokenization ▾</a>
         <div class="dropdown">
           <a href="#tokenization">What is Tokenization</a>
@@ -68,7 +77,7 @@ const BODY_HTML = `<!-- NAV -->
   <div class="hero-content">
     <div class="hero-tag">The World's Digital Asset Intelligence Platform</div>
     <h1 class="hero-h1">The Complete <em>Codex</em> of<br>Tokenization &<br>Digital Assets</h1>
-    <p class="hero-sub">The $19 trillion revolution is happening now. Master it here.</p>
+    <p class="hero-sub">A projected $19 trillion shift in global finance by 2033 (BCG/Ripple base case) — explained, sourced, and current.</p>
     <div class="hero-ctas">
       <button class="btn-primary" onclick="document.getElementById('tokenization').scrollIntoView({behavior:'smooth'})">📚 Start Learning</button>
       <button class="btn-czar" onclick="document.getElementById('chat-panel').classList.add('open')">⚡ Ask the Digital Czar</button>
@@ -81,14 +90,14 @@ const BODY_HTML = `<!-- NAV -->
       <div class="stat-trend">↑ 53% CAGR from $600B today</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">$65B</div>
-      <div class="stat-label">Institutional RWA TVL 2025</div>
-      <div class="stat-trend">↑ 800% since 2023</div>
+      <div class="stat-num">~$25B</div>
+      <div class="stat-label">Tokenized RWA · ex-stablecoins · 2026</div>
+      <div class="stat-trend">$19–31B by methodology</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">134</div>
+      <div class="stat-num">146</div>
       <div class="stat-label">Countries Exploring CBDCs</div>
-      <div class="stat-trend">↑ 98% of global GDP</div>
+      <div class="stat-trend">&gt;98% of global GDP · 2026</div>
     </div>
     <div class="stat-item">
       <div class="stat-num">72%</div>
@@ -274,7 +283,7 @@ const BODY_HTML = `<!-- NAV -->
       <div class="tl-dot"></div>
       <div class="tl-year">2026</div>
       <div class="tl-h">Mainstream Institutional Adoption</div>
-      <div class="tl-p">Tokenized RWA exceeds $35B. UAE, Singapore, and Pakistan lead emerging market adoption. Cross-chain infrastructure matures. The race to $19T by 2033 begins in earnest.</div>
+      <div class="tl-p">Tokenized RWA (ex-stablecoins) reaches roughly $19–31B by methodology. UAE, Singapore, and Pakistan lead emerging-market adoption. Cross-chain infrastructure matures; institutional pilots scale toward the BCG/Ripple $19T-by-2033 base case.</div>
     </div>
   </div>
 
@@ -504,9 +513,9 @@ const BODY_HTML = `<!-- NAV -->
     </div>
     <div class="card">
       <div class="card-icon">🏛️</div>
-      <div class="card-h">800% TVL Growth Since 2023</div>
-      <div class="card-p">Institutional RWA tokenization TVL hit $65 billion in 2025 — an 800% jump from 2023. Over 200 active institutional projects are live. BCG calls this the "approaching tipping point."</div>
-      <span class="card-tag tag-green">$65B TVL</span>
+      <div class="card-h">Tokenized RWA Approaching the Tipping Point</div>
+      <div class="card-p">Tokenized real-world assets (excluding stablecoins) reached roughly $19–31B by mid-2026 — the range reflects methodology differences between trackers (CoinGecko ~$19B end-Q1 2026; RWA.xyz/DefiLlama ~$31B mid-2026), not a contradiction. Institutional adoption is accelerating; BCG calls this the "approaching tipping point."</div>
+      <span class="card-tag tag-green">$19–31B · ex-stablecoins</span>
     </div>
     <div class="card">
       <div class="card-icon">🏦</div>
@@ -960,7 +969,7 @@ const BODY_HTML = `<!-- NAV -->
 <section id="cbdc" style="position:relative;">
   <div class="sec-tag">Government Digital Money</div>
   <h2 class="sec-h2">Central Bank Digital <em>Currencies</em></h2>
-  <p class="sec-sub">CBDCs are government-issued digital versions of national currency. 134 countries representing 98% of global GDP are actively exploring them. But CBDCs and decentralized stablecoins represent fundamentally opposite visions of digital money — and the tension between them is reshaping geopolitics.</p>
+  <p class="sec-sub">CBDCs are government-issued digital versions of national currency. 146 countries representing over 98% of global GDP are actively exploring them (Atlantic Council, 2026). But CBDCs and decentralized stablecoins represent fundamentally opposite visions of digital money — and the tension between them is reshaping geopolitics.</p>
 
   <div id="cbdc-vs-stable">
     <h3 style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:24px;">The Great Divide: Centralized vs. Decentralized</h3>
@@ -2205,6 +2214,11 @@ export default function Home() {
       <div className={`mobile-nav${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
         <div className="mobile-nav-label">Navigation</div>
         <a href="#home">Home</a>
+        <div className="mobile-nav-label">VARA Directory</div>
+        <a href="/directory" className="sub">Licensed Providers</a>
+        <a href="/validate" className="sub">Validate a Licence</a>
+        <a href="/investors" className="sub">For Investors</a>
+        <a href="/providers" className="sub">For Providers</a>
         <div className="mobile-nav-label">Tokenization</div>
         <a href="#tokenization" className="sub">What is Tokenization</a>
         <a href="#how-it-works" className="sub">How It Works</a>

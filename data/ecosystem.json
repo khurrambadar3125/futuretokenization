@@ -1,0 +1,52 @@
+{
+  "_README": "Tier-2 UAE Web3 ecosystem directory. ADD ONLY verified entries. Each entry: a NAMED source + lastVerified, confirmed to (1) resolve to a real live company, (2) have a UAE nexus, (3) NOT be a VARA-licensed VASP (cross-check data/vara-register.json). Never fabricate. Empty is honest. See ecosystem-directory-brief.md.",
+  "pulled": "2026-06-25",
+  "verificationStandard": "Every listing must trace to a named source and pass per-entry checks: real & resolvable, live presence, UAE nexus, NOT a VARA VASP, sourced. Unverifiable candidates are excluded, not listed.",
+  "hubs": [
+    {
+      "name": "DMCC Crypto Centre",
+      "note": "One of the largest concentrations of crypto and blockchain businesses in the MENA region, within the DMCC free zone, Dubai.",
+      "source": "DMCC / Dubai Chambers",
+      "url": "https://dmcc.ae/business-directory"
+    },
+    {
+      "name": "DIFC Innovation Hub",
+      "note": "Dubai International Financial Centre's technology and fintech community (DIFC is regulated by the DFSA, separate from VARA).",
+      "source": "DIFC",
+      "url": "https://www.difc.com"
+    },
+    {
+      "name": "RAK DAO",
+      "note": "Ras Al Khaimah Digital Assets Oasis — a free zone for digital-asset and Web3 companies.",
+      "source": "RAK DAO",
+      "url": "https://rakdao.com"
+    },
+    {
+      "name": "Hub71",
+      "note": "Abu Dhabi's global tech ecosystem, including a digital-assets track.",
+      "source": "Hub71",
+      "url": "https://hub71.com"
+    },
+    {
+      "name": "Dubai Internet City",
+      "note": "Long-standing Dubai technology free zone hosting Web3 and infrastructure firms.",
+      "source": "TECOM / Dubai Internet City",
+      "url": "https://dic.ae"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Crypto Oasis",
+      "slug": "crypto-oasis",
+      "tier": "ecosystem",
+      "category": "vc-investor",
+      "jurisdiction": "Dubai, UAE",
+      "website": "https://cryptooasis.ae",
+      "description": "Dubai-based blockchain ecosystem builder and venture-building company supporting Web3 organisations across the Middle East.",
+      "status": "active",
+      "source": "cryptooasis.ae (official site)",
+      "lastVerified": "2026-06-26",
+      "aka": ["Crypto Oasis Ventures"]
+    }
+  ]
+}
