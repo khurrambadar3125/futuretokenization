@@ -1,0 +1,89 @@
+/* ============================================================================
+   FutureTokenization — Design Tokens  ("The Trust Layer")
+   The single source of truth every NEW screen matches (the digital twin).
+   Namespaced --ft-* so it never collides with the legacy dark globals.css
+   during the page-by-page migration. New components reference ONLY --ft-*.
+   See ARCHITECTURE.md §2.
+   ============================================================================ */
+
+:root {
+  /* --- Color: semantic-first. Color MEANS something here. --- */
+  --ft-paper:        #FBFAF7;  /* warm ivory background (primary)        */
+  --ft-paper-2:      #F3F1EA;  /* alternating section bands              */
+  --ft-ink:          #0C1726;  /* primary text — near-black navy         */
+  --ft-ink-soft:     #45505F;  /* secondary text, captions              */
+  --ft-line:         #E4E1D8;  /* hairlines, card borders               */
+
+  /* Semantic states — NEVER decorative. This discipline IS the moat. */
+  --ft-verified:     #0B8A5B;  /* Licensed / proven against VARA ONLY   */
+  --ft-verified-bg:  #E7F4EE;
+  --ft-pending:      #B57614;  /* IPA / in-process licence states       */
+  --ft-pending-bg:   #F7EEDD;
+  --ft-void:         #9BA1A9;  /* absent/unverified data — the honesty color */
+  --ft-void-bg:      #EEEDE8;
+
+  --ft-registry:     #1D3FB8;  /* interactive: links, primary CTA, focus */
+  --ft-registry-bg:  #E9EDFB;
+  --ft-gold:         #B8924E;  /* premium hairline / seal accent (sparingly) */
+
+  /* --- Typography --- */
+  --ft-font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --ft-font-body:    'IBM Plex Sans', 'IBM Plex Sans Arabic', system-ui, -apple-system, sans-serif;
+  --ft-font-mono:    'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  /* Type scale — LARGE per house taste. Fluid clamps for hero/headings. */
+  --ft-fs-hero:    clamp(40px, 6vw, 76px);
+  --ft-fs-h1:      clamp(32px, 4.5vw, 48px);
+  --ft-fs-h2:      clamp(26px, 3.5vw, 34px);
+  --ft-fs-h3:      clamp(20px, 2.4vw, 24px);
+  --ft-fs-body-lg: clamp(18px, 1.4vw, 20px);
+  --ft-fs-body:    17px;
+  --ft-fs-data:    15px;
+  --ft-fs-caption: 14px;
+
+  /* --- Spacing scale (4-based) --- */
+  --ft-s1: 4px;  --ft-s2: 8px;   --ft-s3: 12px;  --ft-s4: 16px;  --ft-s5: 24px;
+  --ft-s6: 32px; --ft-s7: 48px;  --ft-s8: 64px;  --ft-s9: 96px;  --ft-s10: 128px;
+
+  /* --- Radius --- */
+  --ft-r-sm: 6px;  --ft-r-md: 12px;  --ft-r-lg: 16px;  --ft-r-pill: 999px;
+
+  /* --- Shadow (soft, never heavy) --- */
+  --ft-sh-sm: 0 1px 2px rgba(12, 23, 38, 0.06);
+  --ft-sh-md: 0 4px 16px rgba(12, 23, 38, 0.08);
+  --ft-sh-lg: 0 16px 48px rgba(12, 23, 38, 0.10);
+
+  /* --- Focus ring (accessibility, registry-blue) --- */
+  --ft-focus: 0 0 0 3px rgba(29, 63, 184, 0.30);
+
+  /* --- Layout --- */
+  --ft-maxw: 1200px;
+  --ft-maxw-prose: 68ch;
+}
+
+/* The legacy globals.css paints body dark (#060910). New pages carry .ft-page on
+   their root; this flips the body to ivory ONLY for them, leaving old pages dark. */
+body:has(.ft-page) {
+  background: var(--ft-paper);
+  color: var(--ft-ink);
+  font-family: var(--ft-font-body);
+}
+
+/* Utility scope: anything inside .ft adopts the light registry surface + body font.
+   New pages wrap their content in .ft so the legacy dark globals.css can't bleed in. */
+.ft {
+  background: var(--ft-paper);
+  color: var(--ft-ink);
+  font-family: var(--ft-font-body);
+  font-size: var(--ft-fs-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.ft *,
+.ft *::before,
+.ft *::after { box-sizing: border-box; }
+
+/* Mono numerals stay LTR even inside RTL (Arabic) text — licence refs must not mirror. */
+.ft [dir='rtl'] .ft-mono,
+.ft-mono { font-family: var(--ft-font-mono); font-variant-numeric: tabular-nums; unicode-bidi: isolate; }

@@ -1,0 +1,135 @@
+/* The proof system — the platform's signature. Quiet, mono, institutional.
+   Every class references --ft-* tokens only (tokens.css). */
+
+/* ---------- ProofLine: the signature gesture (quiet hairline → expands) ---------- */
+.proof {
+  display: inline-block;
+  max-width: 100%;
+}
+.summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  font-family: var(--ft-font-mono);
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--ft-ink-soft);
+  cursor: pointer;
+  list-style: none;            /* hide native marker (WebKit) */
+  padding: 6px 2px;            /* 44px-friendly tap target with the line itself */
+  min-height: 32px;
+  border-radius: var(--ft-r-sm);
+  transition: color 0.15s ease;
+  outline: none;
+}
+.summary::-webkit-details-marker { display: none; }
+.summary:hover { color: var(--ft-ink); }
+.summary:focus-visible { box-shadow: var(--ft-focus); }
+
+.tick {                         /* the small verified tick */
+  color: var(--ft-verified);
+  font-weight: 600;
+}
+.id {
+  color: var(--ft-ink);
+  font-weight: 500;
+  unicode-bidi: isolate;        /* keep VL/.. LTR inside RTL */
+}
+.sep { color: var(--ft-line); }
+.src { color: var(--ft-ink-soft); }
+.date { color: var(--ft-void); }
+.caret {
+  margin-inline-start: 2px;
+  font-size: 10px;
+  color: var(--ft-void);
+  transition: transform 0.18s ease;
+}
+.proof[open] .caret { transform: rotate(90deg); }
+
+.body {
+  margin-top: 6px;
+  padding: 12px 14px;
+  background: var(--ft-paper-2);
+  border: 1px solid var(--ft-line);
+  border-radius: var(--ft-r-md);
+  font-family: var(--ft-font-body);
+  font-size: var(--ft-fs-caption);
+  color: var(--ft-ink-soft);
+  max-width: 420px;
+}
+.bodyRow { display: flex; gap: 8px; margin-bottom: 6px; }
+.bodyRow:last-child { margin-bottom: 0; }
+.bodyKey { color: var(--ft-void); min-width: 78px; }
+.bodyVal { color: var(--ft-ink); }
+.link {
+  color: var(--ft-registry);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid var(--ft-registry-bg);
+}
+.link:hover { border-bottom-color: var(--ft-registry); }
+
+/* ---------- Void: honest absent-data state ---------- */
+.void {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--ft-fs-caption);
+  color: var(--ft-void);
+  background: var(--ft-void-bg);
+  border: 1px dashed var(--ft-line);
+  border-radius: var(--ft-r-sm);
+  padding: 2px 8px;
+  font-style: italic;
+}
+.voidDash { font-style: normal; opacity: 0.7; }
+
+/* ---------- StatusBadge ---------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--ft-font-body);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  padding: 3px 11px 3px 9px;
+  border-radius: var(--ft-r-pill);
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+.badgeDot { width: 6px; height: 6px; border-radius: 50%; flex: none; }
+
+.green  { color: var(--ft-verified); background: var(--ft-verified-bg); border-color: #CDE9DC; }
+.green .badgeDot { background: var(--ft-verified); }
+.amber  { color: var(--ft-pending);  background: var(--ft-pending-bg);  border-color: #ECDCBB; }
+.amber .badgeDot { background: var(--ft-pending); }
+.grey   { color: var(--ft-ink-soft); background: var(--ft-void-bg);     border-color: var(--ft-line); }
+.grey .badgeDot { background: var(--ft-void); }
+.red    { color: #A23A2E; background: #F6E7E4; border-color: #ECCcc6; }
+.red .badgeDot { background: #A23A2E; }
+
+/* ---------- CountStat ---------- */
+.count { display: flex; flex-direction: column; gap: 4px; }
+.countValue {
+  font-family: var(--ft-font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  font-size: clamp(44px, 7vw, 72px);
+  line-height: 1;
+  color: var(--ft-ink);
+  letter-spacing: -0.02em;
+}
+.countLabel {
+  font-size: var(--ft-fs-caption);
+  color: var(--ft-ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+.countProof { margin-top: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .caret { transition: none; }
+}

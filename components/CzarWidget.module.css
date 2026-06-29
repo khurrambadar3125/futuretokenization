@@ -1,0 +1,73 @@
+.widget {
+  border: 1px solid var(--ft-line);
+  border-radius: var(--ft-r-lg);
+  background: var(--ft-paper);
+  box-shadow: var(--ft-sh-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-width: 560px;
+}
+.header {
+  padding: var(--ft-s4) var(--ft-s5);
+  border-bottom: 1px solid var(--ft-line);
+  display: flex;
+  align-items: center;
+  gap: var(--ft-s3);
+}
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ft-verified); flex: none; }
+.title { font-weight: 600; color: var(--ft-ink); font-size: 15px; }
+.status { font-size: 12px; color: var(--ft-void); margin-inline-start: auto; }
+
+.thread {
+  padding: var(--ft-s5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--ft-s4);
+  max-height: 340px;
+  overflow-y: auto;
+  min-height: 160px;
+}
+.msg { font-size: var(--ft-fs-caption); line-height: 1.6; white-space: pre-wrap; }
+.user {
+  align-self: flex-end;
+  background: var(--ft-registry-bg);
+  color: var(--ft-ink);
+  padding: 8px 12px;
+  border-radius: var(--ft-r-md);
+  max-width: 85%;
+}
+.czar {
+  align-self: flex-start;
+  color: var(--ft-ink);
+  max-width: 95%;
+}
+.czarLabel {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--ft-verified); font-weight: 600; margin-bottom: 4px;
+}
+.thinking { color: var(--ft-void); font-style: italic; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 var(--ft-s5) var(--ft-s3); }
+.chip {
+  font-size: 12px; color: var(--ft-registry);
+  background: var(--ft-registry-bg); border: none;
+  padding: 5px 10px; border-radius: var(--ft-r-pill); cursor: pointer;
+}
+.chip:hover { filter: brightness(0.97); }
+
+.inputRow { display: flex; gap: 8px; padding: var(--ft-s3) var(--ft-s5) var(--ft-s4); border-top: 1px solid var(--ft-line); }
+.input {
+  flex: 1; height: 42px; padding: 0 14px;
+  border: 1px solid var(--ft-line); border-radius: var(--ft-r-pill);
+  font-family: var(--ft-font-body); font-size: 14px; color: var(--ft-ink);
+  background: var(--ft-paper); outline: none;
+}
+.input:focus { box-shadow: var(--ft-focus); border-color: var(--ft-registry); }
+.send {
+  height: 42px; padding: 0 18px; border: none; border-radius: var(--ft-r-pill);
+  background: var(--ft-registry); color: #fff; font-weight: 600; font-size: 14px; cursor: pointer;
+}
+.send:disabled { opacity: 0.5; cursor: default; }
+
+.note { padding: 0 var(--ft-s5) var(--ft-s4); font-size: 12px; color: var(--ft-void); line-height: 1.5; }

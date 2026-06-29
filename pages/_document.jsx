@@ -7,12 +7,12 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
-        <meta name="description" content="The world's comprehensive educational platform for tokenization, real-world assets, stablecoins, CBDCs, and the digital transformation of global finance." />
-        <meta property="og:title" content="FutureTokenization.com — The World's Digital Asset Codex" />
-        <meta property="og:description" content="Authoritative education on tokenization, RWAs, stablecoins, and digital finance. Not financial advice." />
+        <meta name="description" content="The verified registry of record for the UAE's tokenized economy. Every VARA-licensed virtual-asset provider — traceable to source. Not financial advice." />
+        <meta property="og:title" content="FutureTokenization — The verified VARA registry" />
+        <meta property="og:description" content="Verify who holds an active VARA licence in the UAE. Every fact traceable to its source. Not financial advice." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.futuretokenization.com" />
         <link rel="icon" href="/favicon.ico" />
