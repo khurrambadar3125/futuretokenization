@@ -2194,18 +2194,20 @@ export default function Home() {
 
       <div dangerouslySetInnerHTML={{ __html: BODY_HTML }} />
 
-      {/* ── HAMBURGER ── */}
+      {/* ── MOBILE MENU BUTTON (single, high-contrast, top-right, mobile-only) ── */}
       <button
+        className="ham-top"
         onClick={() => setMenuOpen(o => !o)}
-        aria-label="Menu"
+        aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+        aria-expanded={menuOpen}
         style={{
-          position:'fixed', bottom:'90px', right:'16px', zIndex:99999,
-          display:'flex', alignItems:'center', justifyContent:'center',
-          width:'52px', height:'52px',
+          position:'fixed', top:'11px', right:'14px', zIndex:99999,
+          alignItems:'center', justifyContent:'center',
+          width:'46px', height:'46px',
           background:'#d4a843',
-          border:'none', borderRadius:'50%',
-          cursor:'pointer', fontSize:'24px', color:'#000',
-          boxShadow:'0 4px 20px rgba(0,0,0,0.8)',
+          border:'none', borderRadius:'10px',
+          cursor:'pointer', fontSize:'22px', color:'#000', fontWeight:700,
+          boxShadow:'0 4px 16px rgba(0,0,0,0.5)',
         }}
       >
         {menuOpen ? '✕' : '☰'}
