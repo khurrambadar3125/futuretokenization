@@ -26,7 +26,14 @@ function buildBriefHtml(news) {
     '<audio controls preload="none" style="height:40px;max-width:100%;">' +
     '<source src="/audio/rwa-brief.mp4" type="audio/mp4">Your browser does not support audio playback.</audio>' +
     '<span style="font-size:12px;color:var(--text-muted);">🎧 Listen — auto-narrated brief · 30 Jun 2026 snapshot · ~95s</span>' +
-    '</div>';
+    '</div>' +
+    // Pinned, curated, verified UAE fact — static (survives the daily cron refresh).
+    '<div class="news-grid" style="margin-bottom:24px;"><div class="news-card news-featured" style="border-color:var(--gold);">' +
+    '<div class="news-meta"><span class="news-tag tag-gold">UAE SPOTLIGHT · VERIFIED</span><span class="news-date">30 Jun 2026</span></div>' +
+    '<h4>AE Coin — the first CBUAE-licensed dirham stablecoin in the UAE</h4>' +
+    '<p>Issued by <strong>AED Stablecoin LLC</strong>, pegged 1:1 to the dirham and fully backed by segregated, audited reserves at regulated UAE banks. CBUAE-licensed <strong>11 Dec 2024</strong> under the Payment Token Services Regulation (PTSR) — a federal framework distinct from a VARA licence, and distinct from the central-bank Digital Dirham (a CBDC, not a stablecoin). Tether&#39;s AED coin and an IHC/ADQ/FAB coin are announced but not yet confirmed live.</p>' +
+    '<div class="news-footer"><span class="news-source">Source: CBUAE Payment Token Services Regulation · verified 30 Jun 2026</span> · <a href="#" onclick="document.getElementById(\'chat-panel\').classList.add(\'open\');return false;">Ask the Digital Czar ↗</a></div>' +
+    '</div></div>';
 
   let body;
   if (!items.length) {
