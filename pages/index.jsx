@@ -19,7 +19,14 @@ function buildBriefHtml(news) {
     '<div class="sec-tag">Autonomous Brief</div>' +
     '<h2 class="sec-h2">RWA &amp; Tokenization <em>Daily</em></h2>' +
     '<p class="sec-sub">Real headlines on real-world-asset tokenization, stablecoins, and tokenized banking — pulled automatically each day from named industry sources, condensed, and linked back to origin.' +
-    (label ? ' <strong>Auto-updated ' + label + '.</strong>' : '') + '</p>';
+    (label ? ' <strong>Auto-updated ' + label + '.</strong>' : '') + '</p>' +
+    // Audio brief is a dated snapshot (generated on macOS; the Linux cron can't run
+    // local TTS, so it does NOT auto-refresh with the headlines — labelled as such).
+    '<div style="margin:0 0 28px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;">' +
+    '<audio controls preload="none" style="height:40px;max-width:100%;">' +
+    '<source src="/audio/rwa-brief.mp4" type="audio/mp4">Your browser does not support audio playback.</audio>' +
+    '<span style="font-size:12px;color:var(--text-muted);">🎧 Listen — auto-narrated brief · 30 Jun 2026 snapshot · ~95s</span>' +
+    '</div>';
 
   let body;
   if (!items.length) {
