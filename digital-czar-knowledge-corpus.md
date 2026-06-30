@@ -397,4 +397,39 @@ General rule reinforced: if a figure cannot be given with a source, a date, and 
 
 ---
 
-*End of corpus. This file is the source-of-truth for the Digital Czar. It now covers all 49 VARA VASPs (Part 2/3/3B), verified activity counts (Part 1), the ecosystem directory caveats (Part 10), and corrected figures (Part 11). When updating: change the date stamp, preserve all watch-flags, and never remove a sourcing caveat to make a figure or firm look cleaner.*
+## PART 12 — UAE DIRHAM STABLECOINS & PAYMENT TOKEN REGULATION (added 30 Jun 2026)
+
+Verified via a multi-source, adversarially-checked research pass (30 Jun 2026). Each item below carries its status — LIVE vs ANNOUNCED vs UNCONFIRMED. The Czar must preserve these status labels and must NOT promote an "announced" coin to "live."
+
+### The framework — CBUAE Payment Token Services Regulation (PTSR)
+- The **PTSR** was issued by the Central Bank of the UAE in **June 2024 (effective July 2024)**. It is the federal framework that makes a regulated dirham stablecoin possible.
+- It applies **UAE-wide EXCEPT inside the DIFC and ADGM** financial free zones (regulated separately by the DFSA and FSRA). It **also binds VARA-licensed entities**.
+- It defines a **"Dirham Payment Token"** (an AED-pegged stablecoin) that must be issued by a **CBUAE-licensed** issuer; a non-AED **"Foreign Payment Token"** requires CBUAE **registration**. Using virtual assets for payment inside the UAE is prohibited unless the asset is an approved Dirham or Foreign Payment Token.
+- **This is distinct from VARA's remit.** VARA regulates virtual-asset activity in Dubai (ex-DIFC); the CBUAE PTSR is the federal payment-token / stablecoin layer. A dirham stablecoin is a CBUAE matter, not a VARA licence. Confidence: HIGH. (Sources: CBUAE Rulebook / PTSR; Norton Rose "Regulation Tomorrow"; Mondaq, 2024.)
+
+### AE Coin — LIVE / CBUAE-licensed (the answer to "is there one?")
+- **Issuer:** AED Stablecoin LLC (Abu Dhabi). **Token:** AE Coin.
+- **Peg & backing:** 1:1 to the dirham, fully backed by **segregated, audited reserves held at regulated UAE banks**.
+- **Status:** CBUAE **in-principle approval 14 Oct 2024**; **full operating licence 11 Dec 2024** (one outlet reports 10 Dec — a one-day variance) under the PTSR. It is the **first CBUAE-regulated, dirham-pegged stablecoin.** It has moved into real use — a **Dubai Department of Finance government-payment pilot (Oct 2025)**. Confidence: HIGH (unanimous verification). (Sources: Cointelegraph; Mondaq; Gulf News; Khaleej Times, Oct–Dec 2024.)
+- **Watch-flag:** secondary press sometimes confuses the issuer with distribution/banking partners (Al Maryah Community Bank, e&, FAB). The **issuer of record is AED Stablecoin LLC** — the Czar should state this if asked.
+
+### Tether AED — ANNOUNCED only (not live, not approved)
+- **Who:** Tether, with Abu Dhabi's **Phoenix Group PLC** and **Green Acorn Investments**, announced **21 Aug 2024**.
+- **Status:** In development, *seeking* PTSR licensing, targeted a 2025 launch. **No confirmed CBUAE approval or live launch as of mid-2026.** It is a **separate effort from AE Coin and must not be conflated** with it. "Fully backed by liquid UAE-based reserves" is a press-release design statement, not an audited attestation. Confidence: HIGH on "announced-only." (Sources: Tether.io press release; Phoenix Group newsroom; Gulf Business; Cointelegraph, Aug 2024.)
+
+### IHC / ADQ / FAB consortium — ANNOUNCED, LOW confidence
+- A dirham stablecoin to be **issued by First Abu Dhabi Bank (FAB)**, **CBUAE-regulated**, announced **28 Apr 2025, subject to regulatory approval.** The backing and CBUAE-regulator framing verified; the FAB-issuance / launch claim **did not survive adversarial verification** — treat as forward-looking only. Confidence: LOW. (Source: ADQ newsroom, 28 Apr 2025.)
+- **UNCONFIRMED — DO NOT STATE AS FACT:** a claim of a live "DDSC on ADI Chain, 12 Feb 2026" surfaced in research but was not independently confirmed. The Czar must not repeat it unless a dated primary source is provided.
+
+### The Digital Dirham is NOT a stablecoin
+- The **Digital Dirham** is the CBUAE's **central-bank-issued, central-bank-guaranteed CBDC** — a central-bank *liability*, categorically different from a privately-issued, reserve-backed stablecoin. CBDC Strategy announced March 2023. Keep the two distinct; do not describe the Digital Dirham as a "stablecoin." Confidence: HIGH. (Source: CBUAE CBDC Strategy.)
+
+### Standard answer — "Is there a UAE dirham stablecoin?"
+→ "Yes. **AE Coin**, issued by AED Stablecoin LLC, is CBUAE-licensed (Dec 2024) — the first fully regulated, 1:1 dirham-backed stablecoin. **Tether's AED coin** (with Phoenix Group) and an **IHC/ADQ/FAB** coin have been *announced* but are not confirmed live as of mid-2026. The **Digital Dirham** is a separate thing — a central-bank CBDC, not a private stablecoin. The enabling rulebook is the CBUAE Payment Token Services Regulation (2024), distinct from VARA."
+
+### Open items the Czar must treat as UNVERIFIED (say so; point to primary source)
+Tether/Phoenix AED current licensing status; whether the IHC/ADQ/FAB (FAB-issued) coin obtained approval or launched, and the "ADI Chain 12 Feb 2026" detail; any reported **RAKBank** AED stablecoin; AE Coin's exact reserve composition / audit cadence.
+
+---
+
+*End of corpus. This file is the source-of-truth for the Digital Czar. It now covers all 49 VARA VASPs (Part 2/3/3B), verified activity counts (Part 1), the ecosystem directory caveats (Part 10), corrected figures (Part 11), and UAE dirham stablecoins + the PTSR vs VARA vs Digital Dirham distinction (Part 12, added 30 Jun 2026). When updating: change the date stamp, preserve all watch-flags, and never remove a sourcing caveat to make a figure or firm look cleaner.*
