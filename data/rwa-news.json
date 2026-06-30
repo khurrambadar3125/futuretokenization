@@ -1,0 +1,88 @@
+{
+  "generated": "2026-06-30T06:26:33.919Z",
+  "generatedLabel": "30 Jun 2026",
+  "count": 8,
+  "items": [
+    {
+      "brief": "Securitize to debut on NYSE this Thursday after gaining final nod for merger",
+      "why": "",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406634/securitize-nyse-debut-thursday?utm_source=rss&utm_medium=rss",
+      "date": "2026-06-30",
+      "dateLabel": "30 Jun 2026"
+    },
+    {
+      "brief": "Securitize heads to NYSE debut after investors approve SPAC merger",
+      "why": "",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/29/securitize-heads-to-nyse-debut-after-investors-approve-spac-merger",
+      "date": "2026-06-29",
+      "dateLabel": "29 Jun 2026"
+    },
+    {
+      "brief": "UK sets capital, market abuse rules in landmark crypto framework",
+      "why": "",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406546/uk-sets-capital-market-abuse-rules-landmark-crypto-framework?utm_source=rss&utm_medium=rss",
+      "date": "2026-06-29",
+      "dateLabel": "29 Jun 2026"
+    },
+    {
+      "brief": "JPMorgan execs draw comparison between yield stablecoins and ‘shadow banking’",
+      "why": "",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406599/jpmorgan-execs-draw-comparison-between-yield-stablecoins-shadow-banking?utm_source=rss&utm_medium=rss",
+      "date": "2026-06-29",
+      "dateLabel": "29 Jun 2026"
+    },
+    {
+      "brief": "BNY and Circle expand partnership, adding mint and burn capabilities for USDC",
+      "why": "",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406581/bny-circle-expand-partnership-adding-mint-burn-capabilities-usdc?utm_source=rss&utm_medium=rss",
+      "date": "2026-06-29",
+      "dateLabel": "29 Jun 2026"
+    },
+    {
+      "brief": "Ripple wants institutions to borrow against tokenized assets on XRPL",
+      "why": "",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/06/29/emb-3-pm-utc-ripple-wants-institutions-to-borrow-against-tokenized-assets-on-xrpl",
+      "date": "2026-06-29",
+      "dateLabel": "29 Jun 2026"
+    },
+    {
+      "brief": "Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC",
+      "why": "",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
+      "date": "2026-06-29",
+      "dateLabel": "29 Jun 2026"
+    },
+    {
+      "brief": "BlackRock pushes deeper into DeFi with Ethena integration, sending ENA up 8%",
+      "why": "",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/29/blackrock-pushes-deeper-into-defi-with-ethena-integration-sending-ena-up-8",
+      "date": "2026-06-29",
+      "dateLabel": "29 Jun 2026"
+    }
+  ],
+  "feedsOk": [
+    "Ledger Insights",
+    "CoinDesk",
+    "The Block",
+    "DL News",
+    "Cointelegraph"
+  ],
+  "feedsFailed": [],
+  "_note": "SEED: verbatim real headlines from named RSS sources; first GitHub Actions run replaces these with Haiku-condensed briefs."
+}

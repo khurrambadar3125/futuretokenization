@@ -74,7 +74,7 @@ export default function Directory({ providers, categoryCounts, meta }) {
         <title>VARA-Licensed Providers — Directory | FutureTokenization</title>
         <meta
           name="description"
-          content="Every VARA-licensed virtual-asset provider in the UAE, filterable by activity. Sourced live from the VARA public register. Educational only — not financial advice."
+          content="Every VARA-licensed virtual-asset provider in the UAE, filterable by activity. Sourced from the VARA public register, last verified at the date shown. Educational only — not financial advice."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -87,7 +87,8 @@ export default function Directory({ providers, categoryCounts, meta }) {
         </h1>
         <p className="dir-sub">
           {licences} active VARA licences across {firms} licensed firms in the UAE, plus In-Principle
-          Approval holders. Sourced directly from the VARA public register — every record traces back to it.
+          Approval holders. Sourced from the VARA public register — every record traces back to it, as last
+          verified on the date shown below.
         </p>
         <div className="dir-stamp">
           <span className="dir-dot" />

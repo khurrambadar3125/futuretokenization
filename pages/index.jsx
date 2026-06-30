@@ -1,6 +1,60 @@
 import Head from 'next/head';
 import { useRef, useState, useEffect } from 'react';
+import { readFileSync } from 'fs';
+import path from 'path';
 import { LANGUAGES, T } from '../lib/translations';
+
+// Escape for safe injection into the dangerouslySetInnerHTML body (XSS guard).
+function escHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// Build the autonomous RWA brief section from data/rwa-news.json (real, sourced items only).
+function buildBriefHtml(news) {
+  const items = news && Array.isArray(news.items) ? news.items : [];
+  const label = escHtml(news && news.generatedLabel ? news.generatedLabel : '');
+  const head =
+    '<section id="rwa-brief" style="padding-top:80px;">' +
+    '<div class="sec-tag">Autonomous Brief</div>' +
+    '<h2 class="sec-h2">RWA &amp; Tokenization <em>Daily</em></h2>' +
+    '<p class="sec-sub">Real headlines on real-world-asset tokenization, stablecoins, and tokenized banking — pulled automatically each day from named industry sources, condensed, and linked back to origin.' +
+    (label ? ' <strong>Auto-updated ' + label + '.</strong>' : '') + '</p>';
+
+  let body;
+  if (!items.length) {
+    body =
+      '<div class="news-grid" style="margin-bottom:24px;"><div class="news-card">' +
+      '<div class="news-meta"><span class="news-tag tag-blue">QUIET</span><span class="news-date">' + label + '</span></div>' +
+      '<h4>No new tokenization headlines in the last 48 hours</h4>' +
+      '<p>This brief only shows real, sourced stories. When the wires are quiet on RWA tokenization, stablecoins, and tokenized banking, it stays empty rather than padding with filler.</p>' +
+      '</div></div>';
+  } else {
+    const tagClass = { RWA: 'tag-green', Stablecoin: 'tag-blue', Tokenization: 'tag-gold', DigitalBank: 'tag-red' };
+    const catLabel = { RWA: 'RWA', Stablecoin: 'STABLECOIN', Tokenization: 'TOKENIZATION', DigitalBank: 'DIGITAL BANK' };
+    const cards = items.map((it) => {
+      const cls = tagClass[it.category] || 'tag-gold';
+      const cat = catLabel[it.category] || 'TOKENIZATION';
+      const url = /^https?:\/\//i.test(it.url || '') ? escHtml(it.url) : '';
+      const why = it.why ? '<p>' + escHtml(it.why) + '</p>' : '';
+      const link = url ? ' · <a href="' + url + '" target="_blank" rel="noopener noreferrer">Read source ↗</a>' : '';
+      return '<div class="news-card">' +
+        '<div class="news-meta"><span class="news-tag ' + cls + '">' + cat + '</span>' +
+        '<span class="news-date">' + escHtml(it.dateLabel || it.date || '') + '</span></div>' +
+        '<h4>' + escHtml(it.brief) + '</h4>' + why +
+        '<div class="news-footer"><span class="news-source">' + escHtml(it.source) + '</span>' + link + '</div>' +
+        '</div>';
+    }).join('');
+    body = '<div class="news-grid" style="margin-bottom:24px;">' + cards + '</div>';
+  }
+
+  const foot =
+    '<p style="font-size:12px;line-height:1.5;color:var(--text-muted);margin:0 0 56px;">' +
+    'Sources: Ledger Insights, CoinDesk, The Block, DL News, Cointelegraph. Headlines are machine-condensed from the linked article — follow the link for the full story. Educational only, not financial advice.</p>' +
+    '</section>';
+
+  return head + body + foot;
+}
 
 const BODY_HTML = `<!-- NAV -->
 <nav>
@@ -90,9 +144,9 @@ const BODY_HTML = `<!-- NAV -->
       <div class="stat-trend">↑ 53% CAGR from $600B today</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">~$25B</div>
+      <div class="stat-num">$19–31B</div>
       <div class="stat-label">Tokenized RWA · ex-stablecoins · 2026</div>
-      <div class="stat-trend">$19–31B by methodology</div>
+      <div class="stat-trend">CoinGecko → RWA.xyz range</div>
     </div>
     <div class="stat-item">
       <div class="stat-num">146</div>
@@ -105,6 +159,9 @@ const BODY_HTML = `<!-- NAV -->
       <div class="stat-trend">↑ EY + Coinbase Survey 2025</div>
     </div>
   </div>
+  <p style="max-width:1400px;margin:14px auto 0;padding:0 24px;font-size:12px;line-height:1.5;color:var(--text-muted);">
+    Figures dated mid-2026 and drawn from named third-party sources (BCG/Ripple, RWA.xyz, CoinGecko, Atlantic Council, EY/Coinbase), cited inline throughout. Market sizes are estimates that vary by methodology and change over time — educational only, not financial advice. Licensed-firm data is verified separately against the VARA register on the <a href="/directory" style="color:inherit;">directory</a>.
+  </p>
 </div>
 
 <!-- ===================== TOKENIZATION ===================== -->
@@ -161,8 +218,8 @@ const BODY_HTML = `<!-- NAV -->
   <div class="two-col">
     <div>
       <div class="info-block">
-        <h4>Up to 70% Lower Transaction Costs</h4>
-        <p>Removing clearinghouses, transfer agents, custodial chains, and reconciliation processes slashes the infrastructure tax on every transaction. Smart contracts automate what entire back-office departments currently do manually.</p>
+        <h4>35–65% Lower Post-Trade Costs (est.)</h4>
+        <p>Industry estimates commonly cite cost reductions of roughly 35–65% for specific post-trade processes — removing clearinghouses, transfer agents, custodial chains, and reconciliation. The exact saving varies by asset class. Smart contracts automate what entire back-office departments currently do manually.</p>
       </div>
       <div class="info-block">
         <h4>24/7 Global Settlement</h4>
@@ -295,7 +352,7 @@ const BODY_HTML = `<!-- NAV -->
 
     <div class="highlight-box" style="margin-bottom:40px;">
       <h3>The $900 Trillion Opportunity</h3>
-      <p>The total value of all real-world assets on Earth — real estate ($326T), equities ($100T), bonds ($133T), private credit ($1.5T), gold ($12T), commodities, art, IP — exceeds $900 trillion. Currently, less than $35 billion (0.004%) of this is tokenized on-chain. Every single percentage point of penetration represents $9 trillion in migrating digital assets. The race to capture this historic migration is the defining financial event of the 2020s and 2030s.</p>
+      <p>The total value of all real-world assets on Earth — real estate ($326T), equities ($100T), bonds ($133T), private credit ($1.5T), gold ($12T), commodities, art, IP — exceeds $900 trillion. Currently, only roughly $19–31 billion of real-world assets (excluding stablecoins, mid-2026 — CoinGecko to RWA.xyz range) is tokenized on-chain — a tiny fraction of one percent. Every single percentage point of penetration represents $9 trillion in migrating digital assets. The race to capture this historic migration is the defining financial event of the 2020s and 2030s.</p>
     </div>
 
     <div class="card-grid" style="margin-bottom:48px;">
@@ -308,7 +365,7 @@ const BODY_HTML = `<!-- NAV -->
       <div class="card">
         <div class="card-icon">🏦</div>
         <div class="card-h">Catalyst 2 — The BlackRock Effect</div>
-        <div class="card-p">When the world's largest asset manager ($10 trillion AUM) launches a tokenized fund on Ethereum, the institutional risk committee calculus changes permanently. BUIDL was the signal every pension fund, sovereign wealth fund, and family office needed. If BlackRock can, everyone can. Within 12 months of BUIDL's launch, $8.7B in tokenized Treasuries existed on-chain. That is not coincidence — that is institutional permission granted at the highest level.</div>
+        <div class="card-p">When the world's largest asset manager ($10 trillion AUM) launches a tokenized fund on Ethereum, the institutional risk committee calculus changes permanently. BUIDL was the signal every pension fund, sovereign wealth fund, and family office needed. If BlackRock can, everyone can. Within roughly two years of BUIDL's launch, tokenized US Treasuries grew to about $13–15B on-chain (mid-2026, RWA.xyz). That is not coincidence — that is institutional permission granted at the highest level.</div>
         <span class="card-tag tag-gold">2024 Turning Point</span>
       </div>
       <div class="card">
@@ -320,13 +377,13 @@ const BODY_HTML = `<!-- NAV -->
       <div class="card">
         <div class="card-icon">💰</div>
         <div class="card-h">Catalyst 4 — Stablecoins Proved the Rails Work</div>
-        <div class="card-p">Stablecoins processed $33 trillion in annual transaction volume — more than PayPal, approaching Visa. This proved that blockchain-native money works at civilizational scale. Every tokenized asset settles in stablecoins. The existence of deep, liquid stablecoin markets is the prerequisite for liquid RWA markets. The plumbing was installed by stablecoins. Now the assets flow through it.</div>
-        <span class="card-tag tag-blue">$33T Annual Volume</span>
+        <div class="card-p">Stablecoins now process trillions of dollars in annual transfer volume — a $33T figure has been cited for 2024, though raw on-chain totals are inflated by automated and bot activity, so the bot-adjusted number is materially lower. Either way, stablecoins proved blockchain-native money works at scale. Every tokenized asset settles in stablecoins; deep, liquid stablecoin markets are the prerequisite for liquid RWA markets. The plumbing was installed by stablecoins. Now the assets flow through it.</div>
+        <span class="card-tag tag-blue">$33T raw, 2024 · bot-adjusted lower</span>
       </div>
       <div class="card">
         <div class="card-icon">📉</div>
         <div class="card-h">Catalyst 5 — Traditional Finance Under Structural Stress</div>
-        <div class="card-p">The bond market paradox (yields rising despite rate cuts), gold at $5,111, central banks buying 60 tonnes/month for three years, and BlackRock itself going underweight US Treasuries — institutional capital is actively searching for new vehicles. Tokenized assets offer what traditional markets cannot: 24/7 settlement, fractional access, DeFi composability, and immutable audit trails. Push-out from traditional finance meets pull of digital infrastructure at this precise moment.</div>
+        <div class="card-p">The bond market paradox (yields rising despite rate cuts), gold at record highs above $5,000/oz in early 2026, central banks buying 60 tonnes/month for three years, and BlackRock itself going underweight US Treasuries — institutional capital is actively searching for new vehicles. Tokenized assets offer what traditional markets cannot: 24/7 settlement, fractional access, DeFi composability, and immutable audit trails. Push-out from traditional finance meets pull of digital infrastructure at this precise moment.</div>
         <span class="card-tag tag-red">Macro Pressure 2026</span>
       </div>
       <div class="card">
@@ -496,6 +553,9 @@ const BODY_HTML = `<!-- NAV -->
       </tbody>
     </table>
   </div>
+  <p style="font-size:12px;line-height:1.5;color:var(--text-muted);margin:-32px 0 48px;">
+    Sources: published forecasts from BCG/Ripple, Standard Chartered, McKinsey, Bernstein, Citi and ADDX (2024–2026). Figures are long-range projections, not current market size; timelines and scenarios are each institution's own. Shown for education, not as a prediction by this site.
+  </p>
 
   <div class="highlight-box">
     <h3>The Consensus: Even the Bears Are Bullish</h3>
@@ -643,7 +703,7 @@ const BODY_HTML = `<!-- NAV -->
       <tr>
         <td><strong>US Treasuries & Money Markets</strong></td>
         <td class="num">$26T</td>
-        <td class="num green">$8.7B</td>
+        <td class="num green">$13–15B</td>
         <td>BlackRock BUIDL, Ondo, Franklin Templeton</td>
         <td>Yield-bearing on-chain cash equivalent</td>
       </tr>
@@ -708,7 +768,7 @@ const BODY_HTML = `<!-- NAV -->
     <div class="card">
       <div class="card-h">BlackRock BUIDL</div>
       <div class="card-p">Launched on Ethereum via Securitize. First tokenized fund from the world's largest asset manager ($10T AUM). Sets the institutional gold standard for tokenized government securities.</div>
-      <span class="card-tag tag-gold">$1B+ AUM</span>
+      <span class="card-tag tag-gold">$2.5B+ AUM</span>
     </div>
     <div class="card">
       <div class="card-h">Ondo Finance OUSG</div>
@@ -1131,7 +1191,7 @@ const BODY_HTML = `<!-- NAV -->
       </div>
       <div class="case-card-body">
         <div class="case-stat-row">
-          <div class="case-stat"><div class="cs-num">$1B+</div><div class="cs-lbl">AUM</div></div>
+          <div class="case-stat"><div class="cs-num">$2.5B+</div><div class="cs-lbl">AUM</div></div>
           <div class="case-stat"><div class="cs-num">Securitize</div><div class="cs-lbl">Platform</div></div>
           <div class="case-stat"><div class="cs-num">T+0</div><div class="cs-lbl">Settlement</div></div>
         </div>
@@ -1614,8 +1674,8 @@ const BODY_HTML = `<!-- NAV -->
         <p>The US government spends $76 to physically print $1,000. This includes special cotton-linen paper, 8.9 tons of specialized ink per day, holograms, microprinting, color-shifting features, and security threads. Meanwhile, your phone can send $1,000 anywhere on Earth in 3 seconds. The physical currency complex is the economic equivalent of maintaining ice delivery infrastructure after everyone bought refrigerators.</p>
       </div>
       <div class="info-block">
-        <h4>Gold at $5,111 — The Debasement Signal</h4>
-        <p>On January 27, 2026, gold crossed $5,111 per ounce, exceeding every major bank's year-end forecast in just 27 days. Central banks purchased 60 tonnes of gold per month for three consecutive years. Goldman Sachs calls it "the debasement trade" — when the institutions that print money buy gold instead, they are voting against their own product.</p>
+        <h4>Gold Above $5,000 — The Debasement Signal</h4>
+        <p>Gold reached record highs above $5,000 per ounce in early 2026, exceeding major banks' year-end forecasts amid sustained central-bank buying — roughly 60 tonnes per month for three consecutive years. Goldman Sachs calls it "the debasement trade" — when the institutions that print money buy gold instead, they are voting against their own product.</p>
       </div>
     </div>
     <div>
@@ -1717,6 +1777,7 @@ const BODY_HTML = `<!-- NAV -->
 <div class="divider"></div>
 
 <!-- ===================== NEWS ===================== -->
+<!--RWA_BRIEF-->
 <section id="news" style="padding-top:80px;">
   <div class="sec-tag">Updated Daily</div>
   <h2 class="sec-h2">Global Tokenization <em>News</em> & Intelligence</h2>
@@ -2068,9 +2129,10 @@ const BODY_HTML = `<!-- NAV -->
 
 <!-- ===================== AI CHATBOT ===================== -->`;
 
-export default function Home() {
+export default function Home({ news }) {
   const [lang, setLang]           = useState('en');
   const [langOpen, setLangOpen]   = useState(false);
+  const bodyHtml = BODY_HTML.replace('<!--RWA_BRIEF-->', buildBriefHtml(news));
   const [menuOpen, setMenuOpen]   = useState(false);
   const [chatOpen, setChatOpen]   = useState(false);
   const [inputValue, setInputValue] = useState('');
@@ -2192,7 +2254,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div dangerouslySetInnerHTML={{ __html: BODY_HTML }} />
+      <div dangerouslySetInnerHTML={{ __html: bodyHtml }} />
 
       {/* ── MOBILE MENU BUTTON (single, high-contrast, top-right, mobile-only) ── */}
       <button
@@ -2384,4 +2446,18 @@ export default function Home() {
       )}
     </>
   );
+}
+
+// Read the autonomous RWA brief at build time. Missing/unreadable -> honest empty
+// state; never fabricated. The daily GitHub Action refreshes data/rwa-news.json,
+// which triggers a rebuild so the new brief is baked into the static HTML (SEO).
+export async function getStaticProps() {
+  let news = { items: [], generatedLabel: '', count: 0 };
+  try {
+    const p = path.join(process.cwd(), 'data', 'rwa-news.json');
+    news = JSON.parse(readFileSync(p, 'utf8'));
+  } catch (e) {
+    // no data file yet — render the empty state honestly
+  }
+  return { props: { news } };
 }
