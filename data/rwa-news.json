@@ -1,79 +1,97 @@
 {
-  "generated": "2026-06-30T06:26:33.919Z",
-  "generatedLabel": "30 Jun 2026",
-  "count": 8,
+  "generated": "2026-07-22T17:00:01.803Z",
+  "generatedLabel": "22 Jul 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Securitize to debut on NYSE this Thursday after gaining final nod for merger",
-      "why": "",
+      "brief": "BitGo, OTC Markets enable tokenized securities trading for broker-dealers",
+      "why": "Alliance expands custody infrastructure for digital asset securities settlement onchain.",
       "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/406634/securitize-nyse-debut-thursday?utm_source=rss&utm_medium=rss",
-      "date": "2026-06-30",
-      "dateLabel": "30 Jun 2026"
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitgo-otc-markets-tokenized-securities-broker-dealers?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-22",
+      "dateLabel": "22 Jul 2026"
     },
     {
-      "brief": "Securitize heads to NYSE debut after investors approve SPAC merger",
-      "why": "",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/06/29/securitize-heads-to-nyse-debut-after-investors-approve-spac-merger",
-      "date": "2026-06-29",
-      "dateLabel": "29 Jun 2026"
-    },
-    {
-      "brief": "UK sets capital, market abuse rules in landmark crypto framework",
-      "why": "",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/406546/uk-sets-capital-market-abuse-rules-landmark-crypto-framework?utm_source=rss&utm_medium=rss",
-      "date": "2026-06-29",
-      "dateLabel": "29 Jun 2026"
-    },
-    {
-      "brief": "JPMorgan execs draw comparison between yield stablecoins and ‘shadow banking’",
-      "why": "",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/406599/jpmorgan-execs-draw-comparison-between-yield-stablecoins-shadow-banking?utm_source=rss&utm_medium=rss",
-      "date": "2026-06-29",
-      "dateLabel": "29 Jun 2026"
-    },
-    {
-      "brief": "BNY and Circle expand partnership, adding mint and burn capabilities for USDC",
-      "why": "",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/406581/bny-circle-expand-partnership-adding-mint-burn-capabilities-usdc?utm_source=rss&utm_medium=rss",
-      "date": "2026-06-29",
-      "dateLabel": "29 Jun 2026"
-    },
-    {
-      "brief": "Ripple wants institutions to borrow against tokenized assets on XRPL",
-      "why": "",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/06/29/emb-3-pm-utc-ripple-wants-institutions-to-borrow-against-tokenized-assets-on-xrpl",
-      "date": "2026-06-29",
-      "dateLabel": "29 Jun 2026"
-    },
-    {
-      "brief": "Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC",
-      "why": "",
+      "brief": "UK digital gilt pilot needs onchain stablecoin to unlock market liquidity",
+      "why": "Stablecoin required as settlement mechanism for tokenized government bonds.",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
-      "date": "2026-06-29",
-      "dateLabel": "29 Jun 2026"
+      "url": "https://www.coindesk.com/business/2026/07/22/uk-digital-bond-plans-hinge-on-one-missing-piece-onchain-cash",
+      "date": "2026-07-22",
+      "dateLabel": "22 Jul 2026"
     },
     {
-      "brief": "BlackRock pushes deeper into DeFi with Ethena integration, sending ENA up 8%",
-      "why": "",
+      "brief": "Tokenized equity trading reaches $470 billion monthly volume in RWA sector",
+      "why": "Demonstrates scale of tokenized equity adoption as core RWA asset class.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/408961/tokenized-equity-perps-drive-rwa-trading-boom-to-470-billion-monthly-volume?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-22",
+      "dateLabel": "22 Jul 2026"
+    },
+    {
+      "brief": "Kraken's xStocks expands tokenized equities to Hong Kong, UK, South Korea",
+      "why": "Global expansion of tokenized equity offerings across major markets.",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/06/29/blackrock-pushes-deeper-into-defi-with-ethena-integration-sending-ena-up-8",
-      "date": "2026-06-29",
-      "dateLabel": "29 Jun 2026"
+      "url": "https://www.coindesk.com/business/2026/07/22/kraken-parent-expands-tokenized-stocks-to-hong-kong-uk-and-south-korea-equities",
+      "date": "2026-07-22",
+      "dateLabel": "22 Jul 2026"
+    },
+    {
+      "brief": "Balance stablecoin collapses after bitcoin price manipulation exploit",
+      "why": "Security failure in stablecoin collateral system highlights tokenization risks.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
+      "date": "2026-07-22",
+      "dateLabel": "22 Jul 2026"
+    },
+    {
+      "brief": "BIS warns USD stablecoins can evade capital controls more effectively than deposits",
+      "why": "Regulatory analysis of stablecoin role in cross-border asset movement.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/409193/bis-warns-stablecoins-capital-controls?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-22",
+      "dateLabel": "22 Jul 2026"
+    },
+    {
+      "brief": "Base Layer-2 launching 1:1-backed tokenized equities offering",
+      "why": "Ethereum scaling platform expanding tokenized asset infrastructure.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bases-tokenized-equities-imminent-pollak?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-21",
+      "dateLabel": "21 Jul 2026"
+    },
+    {
+      "brief": "Tether Gold recognized as spot commodity in Abu Dhabi financial center",
+      "why": "Regulatory approval for tokenized commodity asset class adoption.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/tether-gold-recognized-as-accepted-spot-commodity-in-abu-dhabi-financial-center?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-20",
+      "dateLabel": "20 Jul 2026"
+    },
+    {
+      "brief": "Robinhood's tokenization strategy on Arbitrum could reduce crypto trading reliance",
+      "why": "Digital broker expanding tokenized equities and onchain infrastructure.",
+      "category": "DigitalBank",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bernstein-raises-robinhood-price-target-cites-tokenization-and-prediction-markets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-20",
+      "dateLabel": "20 Jul 2026"
+    },
+    {
+      "brief": "South Korea's CBDC pilot expands with tokenized bank deposit payment tests",
+      "why": "Central bank advancing tokenized deposit infrastructure for payments.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/south-korea-september-second-phase-cbdc-pilot?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-20",
+      "dateLabel": "20 Jul 2026"
     }
   ],
   "feedsOk": [
@@ -83,6 +101,5 @@
     "DL News",
     "Cointelegraph"
   ],
-  "feedsFailed": [],
-  "_note": "SEED: verbatim real headlines from named RSS sources; first GitHub Actions run replaces these with Haiku-condensed briefs."
+  "feedsFailed": []
 }
