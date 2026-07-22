@@ -1,0 +1,47 @@
+name: RWA News Brief (daily)
+
+# Autonomous daily RWA/tokenization/stablecoin news brief.
+# Fetches real RSS headlines, condenses via Haiku, commits data/rwa-news.json.
+# The commit triggers Vercel to rebuild -> the new brief goes live. Auto-publish.
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # 06:00 UTC daily = 10:00 Dubai
+  workflow_dispatch: {}   # allow manual run from the Actions tab
+
+permissions:
+  contents: write          # needed to commit the refreshed JSON
+
+concurrency:
+  group: rwa-news
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Generate daily RWA brief
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/rwa-news.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "rwa-news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- data/rwa-news.json; then
+            echo "No change in data/rwa-news.json — nothing to commit."
+          else
+            git add data/rwa-news.json
+            git commit -m "chore(news): daily RWA brief refresh"
+            git push
+          fi
