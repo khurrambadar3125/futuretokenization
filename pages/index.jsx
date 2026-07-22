@@ -77,6 +77,17 @@ const BODY_HTML = `<!-- NAV -->
     <ul class="nav-links">
       <li><a href="#home" class="active">Home</a></li>
       <li>
+        <a href="/pakistan">Pakistan ▾</a>
+        <div class="dropdown">
+          <a href="/pakistan">Pakistan Codex</a>
+          <a href="/pakistan#pk-custody">Sovereign Custody</a>
+          <a href="/pakistan#pk-governance">Governance &amp; Risk</a>
+          <a href="/pakistan#pk-aml">AML / CFT</a>
+          <a href="/pakistan#pk-sukuk">Tokenized Sukuk</a>
+          <a href="/pakistan#pk-glossary">Glossary</a>
+        </div>
+      </li>
+      <li>
         <a href="/directory">VARA Directory ▾</a>
         <div class="dropdown">
           <a href="/directory">Licensed Providers</a>
@@ -1737,7 +1748,7 @@ const BODY_HTML = `<!-- NAV -->
     <div class="country-flag">🇵🇰</div>
     <div class="country-info">
       <h3>Pakistan — A National Digital Asset Strategy in Motion</h3>
-      <p>Multiple MOU signings, a new crypto regulator (PVARA), partnerships with Binance, World Liberty Financial, and DAMAC — Pakistan is building one of the world's most ambitious sovereign digital asset architectures.</p>
+      <p>Multiple MOU signings, a new crypto regulator (PVARA), partnerships with Binance, World Liberty Financial, and DAMAC — Pakistan is building one of the world's most ambitious sovereign digital asset architectures. <a href="/pakistan" style="color:var(--gold);">Go deeper: the Pakistan Codex — sovereign custody, governance, AML/CFT, tokenized sukuk →</a></p>
     </div>
   </div>
 
@@ -2140,6 +2151,7 @@ const BODY_HTML = `<!-- NAV -->
           <a href="#players" style="font-size:13px;color:var(--text-muted);text-decoration:none;">Major Players</a>
           <a href="#monetary" style="font-size:13px;color:var(--text-muted);text-decoration:none;">Monetary System</a>
           <a href="#pakistan" style="font-size:13px;color:var(--text-muted);text-decoration:none;">Emerging Markets</a>
+          <a href="/pakistan" style="font-size:13px;color:var(--gold);text-decoration:none;">Pakistan Codex</a>
         </div>
       </div>
       <div>
@@ -2310,6 +2322,11 @@ export default function Home({ news }) {
       <div className={`mobile-nav${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
         <div className="mobile-nav-label">Navigation</div>
         <a href="#home">Home</a>
+        <div className="mobile-nav-label">Pakistan</div>
+        <a href="/pakistan" className="sub">Pakistan Codex</a>
+        <a href="/pakistan#pk-custody" className="sub">Sovereign Custody</a>
+        <a href="/pakistan#pk-governance" className="sub">Governance &amp; Risk</a>
+        <a href="/pakistan#pk-sukuk" className="sub">Tokenized Sukuk</a>
         <div className="mobile-nav-label">VARA Directory</div>
         <a href="/directory" className="sub">Licensed Providers</a>
         <a href="/validate" className="sub">Validate a Licence</a>
