@@ -782,7 +782,7 @@ const BODY_HTML = `<!-- NAV -->
     <div class="card">
       <div class="card-h">BlackRock BUIDL</div>
       <div class="card-p">Launched on Ethereum via Securitize. First tokenized fund from the world's largest asset manager ($10T AUM). Sets the institutional gold standard for tokenized government securities.</div>
-      <span class="card-tag tag-gold">$2.5B+ AUM</span>
+      <span class="card-tag tag-gold">$2.5B+ AUM (May 2026)</span>
     </div>
     <div class="card">
       <div class="card-h">Ondo Finance OUSG</div>
@@ -854,7 +854,7 @@ const BODY_HTML = `<!-- NAV -->
           </div>
           <div class="vs-item">
             <div class="vs-icon">✅</div>
-            <div class="vs-text"><strong>DeFi Settlement Layer:</strong> The "dollar" of blockchain. All RWA transactions settle in stablecoins. $33T annual transaction volume.</div>
+            <div class="vs-text"><strong>DeFi Settlement Layer:</strong> The "dollar" of blockchain. All RWA transactions settle in stablecoins. $33T raw annual transfer volume cited for 2024 (bot-adjusted materially lower).</div>
           </div>
           <div class="vs-item">
             <div class="vs-icon">✅</div>
@@ -1205,7 +1205,7 @@ const BODY_HTML = `<!-- NAV -->
       </div>
       <div class="case-card-body">
         <div class="case-stat-row">
-          <div class="case-stat"><div class="cs-num">$2.5B+</div><div class="cs-lbl">AUM</div></div>
+          <div class="case-stat"><div class="cs-num">$2.5B+</div><div class="cs-lbl">AUM · May 2026</div></div>
           <div class="case-stat"><div class="cs-num">Securitize</div><div class="cs-lbl">Platform</div></div>
           <div class="case-stat"><div class="cs-num">T+0</div><div class="cs-lbl">Settlement</div></div>
         </div>
@@ -1293,7 +1293,11 @@ const BODY_HTML = `<!-- NAV -->
           </div>
         </div>
         <div style="border-top:1px solid var(--border2);padding-top:16px;margin-top:16px;">
-          <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--text-dim);margin-bottom:12px;">Key Lessons for the Industry</div>
+          <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--text-dim);margin-bottom:12px;">How Value Is Set &amp; Revalued (verified 22 Jul 2026, PRYPCO Mint Terms &amp; Conditions)</div>
+          <div class="info-block" style="margin-bottom:12px;">
+            <h4>Two Numbers, Not One: Estimated Valuation vs Market Price</h4>
+            <p>Every tokenized property carries an <strong>estimated valuation</strong> — set at listing by DLD's smart valuation (a per-property automated valuation model) or an independent accredited valuer, and refreshed <strong>every six months</strong> using recent transactions in the same community (T&amp;C clause 12.2). The platform explicitly disclaims it as no guarantee of market price. The second number is what buyers and sellers actually agree on the secondary market — and that trading price is constrained to a <strong>±15% band around the latest DLD smart valuation</strong> (clause 15.2). Appreciation therefore flows into token value through the semiannual revaluation, not through a free-floating market price. Investors fund the periodic valuations out of property cash flows. Ownership itself is anchored by the DLD's Property Token Ownership Certificate (introduced May 2025), issued per funded property and synced to the land registry.</p>
+          </div>
           <div class="info-block" style="margin-bottom:12px;">
             <h4>Lesson 1: First-Mover Advantage Is Real and Fleeting</h4>
             <p>DAMAC launched PRYPCO in May 2025. Competitor Binghatti announced tokenization intent in September 2024 but had no live product 16 months later. In the time Binghatti hesitated, DAMAC sold out launches to investors across 44 countries, signed a $1B MANTRA deal, and established brand dominance in the UAE tokenized real estate space. In a market growing this fast, 12 months of delay is generational market share loss.</p>
@@ -1793,9 +1797,9 @@ const BODY_HTML = `<!-- NAV -->
 <!-- ===================== NEWS ===================== -->
 <!--RWA_BRIEF-->
 <section id="news" style="padding-top:80px;">
-  <div class="sec-tag">Updated Daily</div>
+  <div class="sec-tag">Curated Intelligence</div>
   <h2 class="sec-h2">Global Tokenization <em>News</em> & Intelligence</h2>
-  <p class="sec-sub">The most important tokenization, digital assets, CBDC, and stablecoin developments from every major jurisdiction — Pakistan first, then the world. Curated daily by the Digital Czar.</p>
+  <p class="sec-sub">The most important tokenization, digital assets, CBDC, and stablecoin developments from every major jurisdiction — Pakistan first, then the world. Curated by the Digital Czar.</p>
 
   <!-- PAKISTAN NEWS FIRST -->
   <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
@@ -1871,7 +1875,7 @@ const BODY_HTML = `<!-- NAV -->
     <div class="news-card">
       <div class="news-meta"><span class="news-tag tag-green">MARKET</span><span class="news-date">Mar 2026</span></div>
       <h4>RWA Market Crosses $25B — Is It Real Adoption or Just Branding?</h4>
-      <p>Total on-chain RWA value crossed $25 billion in Q1 2026, with XRP Ledger adding $1.3B in just January–February 2026 alone — more than all of 2025. XRP Ledger now holds 63% of all tokenized US Treasury supply. Franklin Templeton's BENJI fund reached $844M. BlackRock enabled direct on-chain BUIDL trading via UniswapX in collaboration with Securitize and Uniswap Labs. Critics argue most tokenized assets still settle in USD and enforce through courts — the "blockchain costume" debate heats up heading into Q2 2026.</p>
+      <p>Total on-chain RWA value crossed $25 billion in Q1 2026, with XRP Ledger adding $1.3B in just January–February 2026 alone — more than all of 2025. Tokenized US Treasuries on the XRP Ledger grew roughly 8x year-over-year to more than $500M by April 2026 (RWA.xyz) — still a small share of the ~$13–15B total tokenized Treasury market. Franklin Templeton's BENJI fund reached $844M. BlackRock enabled direct on-chain BUIDL trading via UniswapX in collaboration with Securitize and Uniswap Labs. Critics argue most tokenized assets still settle in USD and enforce through courts — the "blockchain costume" debate heats up heading into Q2 2026.</p>
       <div class="news-footer"><span class="news-source">Sources: Coinpedia, The Block, rwa.xyz</span></div>
     </div>
 
@@ -2015,7 +2019,7 @@ const BODY_HTML = `<!-- NAV -->
 
   <!-- WANT MORE BOX -->
   <div class="highlight-box" style="text-align:center;">
-    <h3>This Page Is Updated Daily by the Digital Czar</h3>
+    <h3>Ask the Digital Czar for Real-Time Intelligence</h3>
     <p>The tokenization revolution moves fast. Every day brings new regulatory decisions, institutional launches, and market developments that reshape the landscape. Ask the Digital Czar ⚡ for real-time intelligence on any story, jurisdiction, or development — or click <strong>Start Learning</strong> to understand the deeper context behind any of the news above.</p>
     <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
       <button onclick="document.getElementById('chat-toggle').click()" class="btn-czar" style="padding:12px 28px;font-size:15px;">⚡ Ask About Any Story</button>

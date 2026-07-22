@@ -1,1185 +1,1160 @@
 {
-  "source": "VARA Public Register",
-  "sourceUrl": "https://www.vara.ae/en/licenses-and-register/public-register/",
-  "method": "Gatsby static-query JSON (3 files); reference-keyed (collapses renames + CMS \"(N)\" dupes), then both BitGo MENA & CoinMENA forced in (distinct firms sharing VL/23/09/001); live-DOM cross-checked",
-  "pulled": "2026-06-25",
-  "liveCounters": {
-    "LICENSED_VASPs": 49,
-    "IN_PRINCIPLE_APPROVAL": 21
+ "source": "VARA Public Register (Gatsby static-query JSON, cross-checked vs rendered page)",
+ "sourceUrl": "https://vara.ae/en/licenses-and-register/public-register/",
+ "method": "scripts/pull-vara-register.py — see data/vara-register.README.md",
+ "pulled": "2026-07-22T17:12:16Z",
+ "liveCounters": {
+  "renderedPageDistinctVlRefs": 50,
+  "renderedPageVlRows": 51
+ },
+ "agreedHeadlineCount": 51,
+ "counts": {
+  "totalFirms": 73,
+  "activeFirms": 51,
+  "distinctActiveLicenceRefs": 50,
+  "pendingLicensed": 0,
+  "inPrincipleApproval": 20
+ },
+ "dataQuirks": [
+  "VL/23/09/001 shared by TWO real firms (CoinMENA FZE & BitGo MENA FZE); both listed.",
+  "CMS \"(N)\" duplicate nodes dropped.",
+  "IPA tier from same CMS source; per-entity detail pages verified 2026-07-22.",
+  "WadzPay (WPME, VL/24/04/004) REMOVED from the live register between 2026-06-25 and 2026-07-22.",
+  "Tribe Tokenisation (ex IPA/25/12/005) and YHEGO (ex IPA/25/10/006) graduated to full licences VL/26/06/002 / VL/26/06/001 in June 2026."
+ ],
+ "entities": [
+  {
+   "name": "Web3Exchange DMCC",
+   "slug": "web3exchange-dmcc",
+   "reference": "IPA/26/07/001",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services",
+    "Exchange Services"
+   ],
+   "issuanceDate": "2026-07-16",
+   "website": null,
+   "address": "<h4>Unit No: UT-12-CO-97</h4>\n<h4>DMCC Business Centre Level No 12</h4>\n<h4>Uptown Tower</h4>\n<h4>Dubai</h4>\n<h4>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/web3exchange-dmcc/"
   },
-  "agreedHeadlineCount": {
-    "activeLicensedVASPs": 48,
-    "note": "Khurram: '48 is fine'. 48 distinct active licence references; 49 active firms (BitGo MENA + CoinMENA share VL/23/09/001). ~20 IPA shown separately."
+  {
+   "name": "Triple A Technologies FZCO (\"Triple A\")",
+   "slug": "triple-a-technologies-fzco-triple-a",
+   "reference": "IPA/26/06/004",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-06-30",
+   "website": null,
+   "address": "<h4>Unit No: UT-12-PO-20,</h4>\n<h4>DMCC Business Centre,</h4>\n<h4>Level No 12,</h4>\n<h4>Uptown Tower,</h4>\n<h4>Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/triple-a-technologies-fzco-triple-a/"
   },
-  "counts": {
-    "totalFirms": 70,
-    "activeFirms": 49,
-    "distinctActiveLicenceRefs": 48,
-    "pendingLicensed": 1,
-    "inPrincipleApproval": 20
+  {
+   "name": "Tribe Tokenisation FZE",
+   "slug": "tribe-tokenisation-fze",
+   "reference": "VL/26/06/002",
+   "scaNumber": "CMA-VASP-0100000-0053",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-06-22",
+   "website": "https://www.mytribe.ae",
+   "address": "<h4>Premises 13.02-EO 05.02,<br>Floor Number 13,<br>Sheikh Rashid Tower,<br>Dubai World Trade Centre,<br>Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/tribe-tokenisation-fze/"
   },
-  "dataQuirks": [
-    "VL/23/09/001 shared by TWO real firms (CoinMENA FZE & BitGo MENA FZE); both listed.",
-    "CMS \"(N)\" duplicate nodes dropped.",
-    "VL/24/06/001 listed once (current MEX Digital FZE; former MBIO FZE).",
-    "IPA tier from same source; verify per-entity before publishing.",
-    "WadzPay (WPME Technology LLC, VL/24/04/004) is Pending; VARA files it under the Licensed tab."
-  ],
-  "entities": [
-    {
-      "name": "Laser Digital Middle East FZE",
-      "slug": "laser-digital-middle-east-fze",
-      "reference": "VL/23/06/001",
-      "scaNumber": "CMA-VASP-0101000-0001",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Management and Investment Services"
-      ],
-      "issuanceDate": "2023-07-28",
-      "website": "https://www.laserdigital.com/",
-      "address": "Unit 904, level 09, One Za'abeel Tower, Plot 58, Za'abeel First Dubai",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors. Permitted to serve VA Margin Trading Services to Institutional Investors and Qualified Investors under the VA Broker-Dealer Licence.",
-      "url": "/en/licenses-and-register/public-register/laser-digital-middle-east-fze/"
-    },
-    {
-      "name": "Komainu MEA FZE",
-      "slug": "komainu-mea-fze",
-      "reference": "VL/23/08/001",
-      "scaNumber": "CMA-VASP-0010000-0002",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "VA Custody Services [including custodial staking and collateral wallet services]"
-      ],
-      "issuanceDate": "2023-08-18",
-      "website": "https://www.komainu.com/",
-      "address": "T04-01.10.02 SL, Floor 01, The Offices 4 - One Central, Dubai World Trade Centre, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/komainu-mea-fze/"
-    },
-    {
-      "name": "Scintilla Network FZE",
-      "slug": "scintilla-network-fze",
-      "reference": "VL/23/07/003",
-      "scaNumber": "CMA-VASP-1100000-0003",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Exchange Services"
-      ],
-      "issuanceDate": "2023-09-11",
-      "website": "https://www.scintillanetwork.com/",
-      "address": "Floor 08, The Offices 4, One Central, Dubai World Trade Centre Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/scintilla-network-fze/"
-    },
-    {
-      "name": "Trek Labs Ltd FZE (Backpack)",
-      "slug": "trek-labs-ltd-fze-backpack",
-      "reference": "VL/23/07/001",
-      "scaNumber": "CMA-VASP-1000000-0004",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Exchange Services"
-      ],
-      "issuanceDate": "2023-10-30",
-      "website": "https://www.backpack.exchange/",
-      "address": "236 (6D) RME, Floor 02, The Offices 1 - One Central, Dubai World Trade Centre, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/trek-labs-ltd-fze-backpack/"
-    },
-    {
-      "name": "Hex Trust MENA FZE",
-      "slug": "hex-trust-mena-fze",
-      "reference": "VL/23/08/002",
-      "scaNumber": "CMA-VASP-0010000-0005",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Custody Services"
-      ],
-      "issuanceDate": "2023-11-15",
-      "website": "https://hextrust.com/",
-      "address": "Convention tower, Level 4, Italia Camp, Unit 426 Dubai World Trade Centre Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/hex-trust-mena-fze/"
-    },
-    {
-      "name": "GC Exchange FZE (GCEX)",
-      "slug": "gc-exchange-fze-gcex",
-      "reference": "VL/23/09/002",
-      "scaNumber": "CMA-VASP-0100000-0014",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2023-11-17",
-      "website": "https://www.gc.exchange/",
-      "address": "One Central, The Offices 4, Level 8, Unit 132 Dubai World Trade Centre Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/gc-exchange-fze-gcex/"
-    },
-    {
-      "name": "Morpheus Software Technology FZE (FUZE)",
-      "slug": "morpheus-software-technology-fze-fuze",
-      "reference": "VL/23/10/002",
-      "scaNumber": "CMA-VASP-0100000-0015",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2023-11-17",
-      "website": "https://fuze.ae/",
-      "address": "One Central, The Offices 4, Level 8, Unit 157 Dubai World Trade Centre Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors. Permitted to serve Retail Investors through Licenced Financial Institutions.",
-      "url": "/en/licenses-and-register/public-register/morpheus-software-technology-fze-fuze/"
-    },
-    {
-      "name": "Nine Blocks Capital Management FZE",
-      "slug": "nine-blocks-capital-management-fze",
-      "reference": "VL/23/09/003",
-      "scaNumber": "CMA-VASP-0001000-0009",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Management and Investment Services"
-      ],
-      "issuanceDate": "2023-11-21",
-      "website": "https://www.nineblockscapital.com",
-      "address": "One Central, Offices 3, Level 3 Dubai World Trade Centre Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/nine-blocks-capital-management-fze/"
-    },
-    {
-      "name": "CoinMENA FZE",
-      "slug": "coinmena-fze",
-      "reference": "VL/23/09/001",
-      "scaNumber": "CMA-VASP-0100000-0011",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2023-11-30",
-      "website": "https://www.coinmena.com/en",
-      "address": "04.02-EO10 SRT, Floor 04, Sheikh Rashid Tower, Dubai World Trade Centre, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/coinmena-fze/"
-    },
-    {
-      "name": "Fasset FZE",
-      "slug": "fasset-fze",
-      "reference": "VL/23/07/002",
-      "scaNumber": "CMA-VASP-0100000-0010",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2023-11-30",
-      "website": "https://fasset.com/",
-      "address": "EO 09, Floor 13, Sheikh Rashid Tower, Dubai World Trade Center Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/fasset-fze/"
-    },
-    {
-      "name": "Web 3 Innovations FZE (AYA)",
-      "slug": "web-3-innovations-fze-aya",
-      "reference": "VL/23/12/001",
-      "scaNumber": "CMA-VASP-0001000-0007",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Management and Investment Services"
-      ],
-      "issuanceDate": "2023-12-01",
-      "website": "https://www.aya.foundation/",
-      "address": "One Central, The Offices 3, Level 3, Unit 397, Dubai World Trade Centre, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/web-3-innovations-fze-aya/"
-    },
-    {
-      "name": "Foris DAX Middle East FZE (Crypto.com)",
-      "slug": "foris-dax-middle-east-fze-cryptocom",
-      "reference": "VL/23/10/003",
-      "scaNumber": "CMA-VASP-1101010-0012",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Management and Investment Services",
-        "Lending and Borrowing Services",
-        "Exchange Services (including VA Derivatives Trading)"
-      ],
-      "issuanceDate": "2024-04-03",
-      "website": "https://crypto.com/ae",
-      "address": "One Central, The Offices 4, Level 8, Unit 143, Dubai World Trade Centre, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/foris-dax-middle-east-fze-cryptocom/"
-    },
-    {
-      "name": "Binance FZE",
-      "slug": "binance-fze",
-      "reference": "VL/24/04/001",
-      "scaNumber": "CMA-VASP-1101010-0013",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Management and Investment Services",
-        "Lending and Borrowing Services",
-        "Exchange Services (including VA Derivatives Trading)"
-      ],
-      "issuanceDate": "2024-04-15",
-      "website": "https://www.binance.com/en-AE",
-      "address": "One Central, The Offices 4, Level 5, Unit 501, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors. Permitted to serve VA Margin Trading Services to Institutional Investors and Qualified Investors under the VA Exchange Licence. Permitted to serve VA Derivatives Trading to Institutional Investors and Qualified Investors under the VA Derivatives Limited Licence.",
-      "url": "/en/licenses-and-register/public-register/binance-fze/"
-    },
-    {
-      "name": "WPME Technology LLC (WadzPay)",
-      "slug": "wpme-technology-llc-wadzpay",
-      "reference": "VL/24/04/004",
-      "scaNumber": "CMA-VASP-01000-0018",
-      "status": "Pending",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2024-04-26",
-      "website": "https://wadzpay.com/",
-      "address": "12-6 335-Trade Centre First, Premise Number: 335069045, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/wpme-technology-llc-wadzpay/"
-    },
-    {
-      "name": "HT Markets MENA FZE",
-      "slug": "ht-markets-mena-fze",
-      "reference": "VL/23/08/003",
-      "scaNumber": "CMA-VASP-0101000-0019",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Management and Investment Services"
-      ],
-      "issuanceDate": "2024-05-31",
-      "website": "https://hextrust.com/",
-      "address": "Convention tower, Level 4, Italia Camp, Unit 425 Dubai World Trade Centre Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/ht-markets-mena-fze/"
-    },
-    {
-      "name": "MBIO FZE (MB.IO)",
-      "slug": "mbio-fze-mbio",
-      "reference": "VL/24/06/001",
-      "scaNumber": "CMA-VASP-1100000-0022",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Exchange Services"
-      ],
-      "issuanceDate": "2024-07-18",
-      "website": "https://mb.io/en-AE",
-      "address": "Ubora Office Tower, 36-37 Floor, Business Bay, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/mbio-fze-mbio/"
-    },
-    {
-      "name": "Aquanow ME FZE",
-      "slug": "aquanow-me-fze",
-      "reference": "VL/24/01/001",
-      "scaNumber": "CMA-VASP-0101010-0016",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Management and Investment Services",
-        "Lending and Borrowing Services"
-      ],
-      "issuanceDate": "2024-07-22",
-      "website": "https://www.aquanow.io",
-      "address": "DD422-23 Level 3, The Offices 3, One Central, Dubai World Trade Centre, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors. Permitted to serve Retail Investors through Licenced Financial Institutions.",
-      "url": "/en/licenses-and-register/public-register/aquanow-me-fze/"
-    },
-    {
-      "name": "Varni Labs FZE (Roma)",
-      "slug": "varni-labs-fze-roma",
-      "reference": "VL/23/10/001",
-      "scaNumber": "CMA-VASP-0100000-0020",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2024-07-22",
-      "website": "http://www.roma.global/",
-      "address": "ESO26 SRT, Floor 07, Sheikh Rashid Tower, Dubai World Trade Centre, Dubai, UAE",
-      "permittedInvestors": "Qualified to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/varni-labs-fze-roma/"
-    },
-    {
-      "name": "Bybit Fintech FZE (Bybit)",
-      "slug": "bybit-fintech-fze-bybit",
-      "reference": "IPA/24/08/001",
-      "scaNumber": "CMA-VASP-1000000-0006",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Exchange Services"
-      ],
-      "issuanceDate": "2024-08-21",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "",
-      "url": "/en/licenses-and-register/public-register/bybit-fintech-fze-bybit/"
-    },
-    {
-      "name": "OKX Middle East Fintech FZE",
-      "slug": "okx-middle-east-fintech-fze",
-      "reference": "VL/23/12/003",
-      "scaNumber": "CMA-VASP-1001010-0008",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Lending and Borrowing Services",
-        "Management and Investment Services",
-        "Exchange Services (including VA Derivatives Trading)",
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2024-09-17",
-      "website": "https://www.okx.com/",
-      "address": "701/702, The Office 5, One Central Office, DWTC, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors. Permitted to serve VA Margin Trading Services to Institutional Investors, Qualified Investors and Retail Investors under the VA Exchange Licence. Permitted to serve VA Derivatives Trading to Institutional Investors, Qualified Investors and Retail Investors under the VA Derivatives Limited Licence. Permitted to serve Collateral Optimisation to Institutional Investors and Qualified Investors under the Collateral Optimisation Limited Licence.",
-      "url": "/en/licenses-and-register/public-register/okx-middle-east-fintech-fze/"
-    },
-    {
-      "name": "Deribit FZE",
-      "slug": "deribit-fze",
-      "reference": "VL/23/12/002",
-      "scaNumber": "CMA-VASP-1000000-0017",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Exchange Services (including VA Derivatives Trading)"
-      ],
-      "issuanceDate": "2024-11-01",
-      "website": "https://www.deribit.com",
-      "address": "One Central, The Offices 2, Level 2, TO2-FLR02-02.05, Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors. Permitted to serve VA Derivatives Trading to Institutional Investors and Qualified Investors under the VA Derivatives Limited Licence.",
-      "url": "/en/licenses-and-register/public-register/deribit-fze/"
-    },
-    {
-      "name": "BitOasis Technologies FZE",
-      "slug": "bitoasis-technologies-fze",
-      "reference": "VL/2024/11/001",
-      "scaNumber": "CMA-VASP-0100000-0021",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2024-11-29",
-      "website": "https://www.bitoasis.net/en/home",
-      "address": "G-D, Flex, G078/G001F Dubai Silicon Oasis, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/bitoasis-technologies-fze/"
-    },
-    {
-      "name": "Zand Bank P.J.S.C.",
-      "slug": "zand-bank-pjsc",
-      "reference": "VL/2024/12/001",
-      "scaNumber": "CMA-VASP-0010000-0023",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Custody Services"
-      ],
-      "issuanceDate": "2024-12-09",
-      "website": "https://www.zand.ae/en",
-      "address": "Al Hail Holding Building, Office 101 Floor 1, Mohammed Bin Rashid Boulevard, Building 6, Emaar Square, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/zand-bank-pjsc/"
-    },
-    {
-      "name": "OFZA Fintech Virtual Asset Exchange Services LLC",
-      "slug": "ofza-fintech-virtual-asset-exchange-services-llc",
-      "reference": "VL/24/12/002",
-      "scaNumber": "CMA-VASP-1101100-0024",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Exchange Services",
-        "Broker-Dealer Services",
-        "Management and Investment Services"
-      ],
-      "issuanceDate": "2024-12-30",
-      "website": "https://ofza.com/en",
-      "address": "Office 21C13, i-Rise Tower, Al Thanyah First, Al Barsha Heights, Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors, and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/ofza-fintech-virtual-asset-exchange-services-llc/"
-    },
-    {
-      "name": "Tokinvest DMCC",
-      "slug": "tokinvest-dmcc",
-      "reference": "VL/2024/12/004",
-      "scaNumber": "CMA-VASP-0100000-0025",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Category 1 VA Issuance"
-      ],
-      "issuanceDate": "2024-12-30",
-      "website": "https://tokinvest.capital/",
-      "address": "Uptown Tower, Level 12, Unit 8, DMCC Business Centre, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/tokinvest-dmcc/"
-    },
-    {
-      "name": "Mantra Finance FZE",
-      "slug": "mantra-finance-fze",
-      "reference": "VL/25/02/001",
-      "scaNumber": "CMA-VASP-1101000-0026",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Exchange Services",
-        "Broker-Dealer Services",
-        "Management and Investment Services"
-      ],
-      "issuanceDate": "2025-02-19",
-      "website": "https://www.mantrachain.io/",
-      "address": "The Offices 4, WeWork One Central, Dubai World Trade Centre, Sheikh Zayed Rd, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors. Permitted to serve DeFi products and services to Institutional Investors, Qualified Investors and Retail Investors under the DeFi Limited Licence.",
-      "url": "/en/licenses-and-register/public-register/mantra-finance-fze/"
-    },
-    {
-      "name": "Bitpanda Broker MENA DMCC",
-      "slug": "bitpanda-broker-mena-dmcc",
-      "reference": "VL/25/03/001",
-      "scaNumber": "CMA-VASP-0100000-0027",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-03-19",
-      "website": "https://www.bitpanda.com/en/uae/homepage",
-      "address": "Unit No: 1633 DMCC Business Centre Level No 1 Jewellery & Gemplex 3 Dubai United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/bitpanda-broker-mena-dmcc/"
-    },
-    {
-      "name": "Gap 3 Partners FZCO",
-      "slug": "gap-3-partners-fzco",
-      "reference": "VL/25/04/004",
-      "scaNumber": "CMA-VASP-0000100-0028",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Advisory Services"
-      ],
-      "issuanceDate": "2025-04-14",
-      "website": "https://www.g3p.io/",
-      "address": "Office 232, Level 2, C1 – The Offices 1, One Central District, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/gap-3-partners-fzco/"
-    },
-    {
-      "name": "Hashkey MENA FZE (HashKey)",
-      "slug": "hashkey-mena-fze-hashkey",
-      "reference": "VL/25/03/002",
-      "scaNumber": "CMA-VASP-1100000-0029",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Exchange Services"
-      ],
-      "issuanceDate": "2025-04-14",
-      "website": "https://global.hashkey.com/ae",
-      "address": "Floor no. 05, Premises - EPO 05.35 CVT, Convention Tower, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/hashkey-mena-fze-hashkey/"
-    },
-    {
-      "name": "DKK Digital FZE",
-      "slug": "dkk-digital-fze",
-      "reference": "VL/25/04/002",
-      "scaNumber": "CMA-VASP-0100000-0031",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Advisory Services"
-      ],
-      "issuanceDate": "2025-04-18",
-      "website": "https://dkkdigital.io/",
-      "address": "Address: 8th/9th Floor, The Offices 4, One Central Dubai, World Trade Center Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/dkk-digital-fze/"
-    },
-    {
-      "name": "MKX Virtual Assets Broker & Dealer Services L.L.C.",
-      "slug": "mkx-virtual-assets-broker-dealer-services-llc",
-      "reference": "VL/25/04/001",
-      "scaNumber": "CMA-VASP-0100000-0030",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-04-18",
-      "website": "https://www.mkx.ae/",
-      "address": "Unit number S01, Building R260, Al Rigga, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/mkx-virtual-assets-broker-dealer-services-llc/"
-    },
-    {
-      "name": "Atremo Digital FZE",
-      "slug": "atremo-digital-fze",
-      "reference": "VL/25/04/005",
-      "scaNumber": "CMA-VASP-0100000-0032",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-04-25",
-      "website": "https://www.atremo.digital",
-      "address": "8th Floor, Trade Centre - Trade Centre 2, DWTC, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/atremo-digital-fze/"
-    },
-    {
-      "name": "BitGo Custody MENA FZE",
-      "slug": "bitgo-custody-mena-fze",
-      "reference": "VL/25/04/003",
-      "scaNumber": "CMA-VASP-0010000-0034",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Custody Services [including custodial staking]"
-      ],
-      "issuanceDate": "2025-04-25",
-      "website": "https://www.bitgo.ae",
-      "address": "Premises No. 503 1-4 TEC, Floor Number 03, The Office 3 - One Central, Dubai World Trade Center, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/bitgo-custody-mena-fze/"
-    },
-    {
-      "name": "Bitpanda Custody MENA DMCC",
-      "slug": "bitpanda-custody-mena-dmcc",
-      "reference": "VL/25/04/006",
-      "scaNumber": "CMA-VASP-0010000-0035",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Custody Services [including custodial staking]"
-      ],
-      "issuanceDate": "2025-04-25",
-      "website": "https://www.bitpanda.com/en",
-      "address": "Unit No: UT-12-PO-14 DMCC Business Centre Level No 12 Uptown Tower Dubai United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/bitpanda-custody-mena-dmcc/"
-    },
-    {
-      "name": "Gate Technology FZE",
-      "slug": "gate-technology-fze",
-      "reference": "VL/25/04/007",
-      "scaNumber": "CMA-VASP-1000000-0033",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Exchange Services"
-      ],
-      "issuanceDate": "2025-04-25",
-      "website": "https://www.gate.ae/",
-      "address": "Premises No. EO13 SRT, Floor Number 24, Sheikh Rashid Tower, Dubai World Trade Center, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/gate-technology-fze/"
-    },
-    {
-      "name": "Midchains FZE",
-      "slug": "midchains-fze",
-      "reference": "VL/25/04/008",
-      "scaNumber": "CMA-VASP-0100000-0036",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-04-29",
-      "website": "https://www.midchains.com",
-      "address": "EPO 26.01.20 Floor 26, Sheikh Rashid Tower, DWTC, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/midchains-fze/"
-    },
-    {
-      "name": "Ctrl Alt Solutions DMCC",
-      "slug": "ctrl-alt-solutions-dmcc",
-      "reference": "VL/25/05/002",
-      "scaNumber": "CMA-VASP-0100001-0041",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Category 1 VA Issuance"
-      ],
-      "issuanceDate": "2025-05-24",
-      "website": "https://www.ctrl-alt.co/",
-      "address": "Unit No: UT-11-CEO-24 DMCC Business Centre Level No 11 Uptown Tower Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to provide VA Broker-Dealer Services and VA Issuance Services to Qualified and Institutional Investors under the VA Limited Licence in the context of tokenisation of ARVA authorised by Dubai Land Department (TRE – 1110 and TRE - A104).",
-      "url": "/en/licenses-and-register/public-register/ctrl-alt-solutions-dmcc/"
-    },
-    {
-      "name": "Prypco FZE",
-      "slug": "prypco-fze",
-      "reference": "VL/25/05/001",
-      "scaNumber": "CMA-VASP-0100000-0040",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-05-24",
-      "website": "https://mint.prypco.com/",
-      "address": "04 Sheikh Rashid Tower, DWTC, Dubai, UAE",
-      "permittedInvestors": "Permitted to provide VA Broker-Dealer Services to Retail and Qualified Investors under the VA Limited Licence in the context of tokenisation of ARVA authorised by Dubai Land Department (TRE – 1110 and TRE - A104).",
-      "url": "/en/licenses-and-register/public-register/prypco-fze/"
-    },
-    {
-      "name": "BitGo MENA FZE",
-      "slug": "bitgo-mena-fze",
-      "reference": "VL/23/09/001",
-      "scaNumber": "CMA-VASP-0100000-0039",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-09-17",
-      "website": "https://bitgo.ae/#trading",
-      "address": "EO 66 SRT, Level- 25, Sheikh Rashid Tower, Dubai World Trade Centre, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/bitgo-mena-fze/"
-    },
-    {
-      "name": "Selini Capital FZE",
-      "slug": "selini-capital-fze",
-      "reference": "VL/25/10/002",
-      "scaNumber": "CMA-VASP-0100000-0042",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-10-08",
-      "website": "https://www.selinicapital.ae",
-      "address": "One Central, The Offices 3, Level 4, Office 429, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/selini-capital-fze/"
-    },
-    {
-      "name": "Ceffu Custody FZE",
-      "slug": "ceffu-custody-fze",
-      "reference": "VL/25/10/001",
-      "scaNumber": "CMA-VASP-0010000-0038",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Custody Services"
-      ],
-      "issuanceDate": "2025-10-09",
-      "website": "https://www.ceffu.com/en-AE",
-      "address": "One Central, The Offices 1, Level 2, Office 229, Dubai, UAE",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/ceffu-custody-fze/"
-    },
-    {
-      "name": "Mc Coin Virtual Assets LLC",
-      "slug": "mc-coin-virtual-assets-llc",
-      "reference": "IPA/25/10/004",
-      "scaNumber": "CMA-VASP-0101000-0048",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Management and Investment Services",
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-10-16",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "",
-      "url": "/en/licenses-and-register/public-register/mc-coin-virtual-assets-llc/"
-    },
-    {
-      "name": "YHEGO Virtual Assets Exchange Service L.L.C (Yhego Technology Investment L.L.C)",
-      "slug": "yhego-virtual-assets-exchange-service-llc-yhego-technology-investment-llc",
-      "reference": "IPA/25/10/006",
-      "scaNumber": "CMA-VASP-1100000-0050",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services",
-        "Exchange Services"
-      ],
-      "issuanceDate": "2025-10-20",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "",
-      "url": "/en/licenses-and-register/public-register/yhego-virtual-assets-exchange-service-llc-yhego-technology-investment-llc/"
-    },
-    {
-      "name": "Automata FZE (Vancelian)",
-      "slug": "automata-fze-vancelian",
-      "reference": "IPA/25/12/001",
-      "scaNumber": "CMA-VASP-0101110-0052",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Management and Investment Services",
-        "Lending and Borrowing Services",
-        "Advisory Services",
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-12-18",
-      "website": "https://vancelian.com/en/",
-      "address": "Floor 5, Office 05.05, Convention Tower, Sheikh Zayed Road, Trade Centre, Dubai",
-      "permittedInvestors": "Permitted to serve Retail Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/automata-fze-vancelian/"
-    },
-    {
-      "name": "LCT Global FZE",
-      "slug": "lct-global-fze",
-      "reference": "VL/25/12/001",
-      "scaNumber": "CMA-VASP-1000000-0037",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Exchange Services"
-      ],
-      "issuanceDate": "2025-12-26",
-      "website": "https://www.lct.tech/",
-      "address": "CVT-FLR05-05.15 Convention Tower Dubai World Trade Centre",
-      "permittedInvestors": "Permitted to serve Retail, Qualified, and Institutional Investors.",
-      "url": "/en/licenses-and-register/public-register/lct-global-fze/"
-    },
-    {
-      "name": "Nawy Shares FZCO (SmartCrowd)",
-      "slug": "nawy-shares-fzco-smartcrowd",
-      "reference": "IPA/25/12/004",
-      "scaNumber": "CMA-VASP-0100000-0055",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-12-26",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "Permitted to serve Institutional Investors Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/nawy-shares-fzco-smartcrowd/"
-    },
-    {
-      "name": "Tribe Tokenisation FZE",
-      "slug": "tribe-tokenisation-fze",
-      "reference": "IPA/25/12/005",
-      "scaNumber": "CMA-VASP-0100000-0053",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-12-26",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "Permitted to serve Institutional Investors Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/tribe-tokenisation-fze/"
-    },
-    {
-      "name": "ZEPLY GLOBAL ME FZCO",
-      "slug": "zeply-global-me-fzco",
-      "reference": "IPA/25/12/003",
-      "scaNumber": "CMA-VASP-0100100-0054",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Advisory Services",
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-12-26",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/zeply-global-me-fzco/"
-    },
-    {
-      "name": "DIMENT VA EXCHANGE SERVICES DMCC (DVA)",
-      "slug": "diment-va-exchange-services-dmcc-dva",
-      "reference": "IPA/25/12/007",
-      "scaNumber": "CMA-VASP-0100000-0058",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-12-31",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/diment-va-exchange-services-dmcc-dva/"
-    },
-    {
-      "name": "MuseTech VA FZCO",
-      "slug": "musetech-va-fzco",
-      "reference": "IPA/25/12/006",
-      "scaNumber": "CMA-VASP-0100000-0057",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2025-12-31",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/musetech-va-fzco/"
-    },
-    {
-      "name": "Stake RWA FZE",
-      "slug": "stake-rwa-fze",
-      "reference": "IPA/26/01/001",
-      "scaNumber": "CMA-VASP-0100000-0059",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-01-07",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/stake-rwa-fze/"
-    },
-    {
-      "name": "Shipfinex FZCO",
-      "slug": "shipfinex-fzco",
-      "reference": "IPA/26/01/002",
-      "scaNumber": "CMA-VASP-0100000-0049",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-01-14",
-      "website": "",
-      "address": "",
-      "permittedInvestors": "",
-      "url": "/en/licenses-and-register/public-register/shipfinex-fzco/"
-    },
-    {
-      "name": "ARBEAT GROUP FZE",
-      "slug": "arbeat-group-fze",
-      "reference": "IPA/26/01/003",
-      "scaNumber": "CMA-VASP-1100000-0062",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services",
-        "Exchange Services"
-      ],
-      "issuanceDate": "2026-01-22",
-      "website": "",
-      "address": "Level 7, Office 7-9, Convention Tower, Dubai",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/arbeat-group-fze/"
-    },
-    {
-      "name": "Flipster FZE",
-      "slug": "flipster-fze",
-      "reference": "IPA/26/01/004",
-      "scaNumber": "CMA-VASP-1000000-0061",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Exchange Services"
-      ],
-      "issuanceDate": "2026-01-30",
-      "website": "https://www.flipster.io",
-      "address": "Office 910/911/912, Sentinel Business Centre, 9th Floor, Convention Tower Dubai World Trade Centre, Dubai, United Arab Emirates",
-      "permittedInvestors": "",
-      "url": "/en/licenses-and-register/public-register/flipster-fze/"
-    },
-    {
-      "name": "Nova Digital FZE",
-      "slug": "nova-digital-fze",
-      "reference": "VL/26/01/001",
-      "scaNumber": "CMA-VASP-0001000-0046",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Management and Investment Services"
-      ],
-      "issuanceDate": "2026-01-30",
-      "website": "https://novadigital.xyz/",
-      "address": "Sheikh Rashid Tower, Plot No. 3360301, DM Building Number 14, Dubai World Trade Centre, Sheikh Zayed Road, Dubai.",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/nova-digital-fze/"
-    },
-    {
-      "name": "Animoca Brands Middle East Advisory FZCO",
-      "slug": "animoca-brands-middle-east-advisory-fzco",
-      "reference": "VL/26/02/001",
-      "scaNumber": "CMA-VASP-0101000-0045",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Management and Investment Services",
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-02-05",
-      "website": "https://animocabrands.me/",
-      "address": "Unit No. UT-11-EO-3 DMCC, Business Centre, Level No. 11, Uptown Tower, Dubai.",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/animoca-brands-middle-east-advisory-fzco/"
-    },
-    {
-      "name": "XBase Virtual Assets Broker & Dealer Services LLC",
-      "slug": "xbase-virtual-assets-broker-dealer-services-llc",
-      "reference": "VL/17/03/001",
-      "scaNumber": "CMA-VASP-0100000-0044",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-03-19",
-      "website": "https://xbdgroup.com/uae/",
-      "address": "The Exchange Tower, Unit 1804, Business Bay, Dubai, UAE",
-      "permittedInvestors": "VASP Licence is limited to providing Spot OTC Trading Only. Permitted to serve Institutional Investors, and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/xbase-virtual-assets-broker-dealer-services-llc/"
-    },
-    {
-      "name": "RIV Technologies FZE",
-      "slug": "riv-technologies-fze",
-      "reference": "VL/26/03/002",
-      "scaNumber": "CMA-VASP-0000100-0043",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Advisory Services"
-      ],
-      "issuanceDate": "2026-03-27",
-      "website": "https://www.riv-technologies.com/fze/",
-      "address": "Level 3, The Offices 3, One Central, World Trade Centre, Dubai",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/riv-technologies-fze/"
-    },
-    {
-      "name": "Amber Premium FZE",
-      "slug": "amber-premium-fze",
-      "reference": "VL/26/03/003",
-      "scaNumber": "CMA-VASP-0101010-0051",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services",
-        "Management and Investment Services",
-        "Lending and Borrowing Services"
-      ],
-      "issuanceDate": "2026-04-02",
-      "website": "https://www.ambr.io/uae",
-      "address": "Floor no. 05, Premises - EOP 05.03 CVT, Convention Tower, Dubai World Trade Centre, Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/amber-premium-fze/"
-    },
-    {
-      "name": "Rain MENA FZE",
-      "slug": "rain-mena-fze",
-      "reference": "IPA/26/04/001",
-      "scaNumber": "CMA-VASP-1100000-0063",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Exchange Services",
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-04-07",
-      "website": "",
-      "address": "Premises No. 23.01-E061, Floor Number 23 Sheikh Rashid Tower, Dubai World Trade Centre Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/rain-mena-fze/"
-    },
-    {
-      "name": "Daman Virtual Asset Brokerage LLC",
-      "slug": "daman-virtual-asset-brokerage-llc",
-      "reference": "VL/26/04/001",
-      "scaNumber": "CMA-VASP-0100000-0056",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-04-16",
-      "website": "https://www.damanvirtual.com",
-      "address": "Office No. 14, Dubai World Trade Centre Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/daman-virtual-asset-brokerage-llc/"
-    },
-    {
-      "name": "Liquidity Fintech FZE",
-      "slug": "liquidity-fintech-fze",
-      "reference": "VL/26/04/003",
-      "scaNumber": "CMA-VASP-0100000-0047",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-04-16",
-      "website": "https://www.liquiditytech.com/en/ae",
-      "address": "Floor 23, Unit EO44 SRT, Sheikh Rashid Tower, Dubai World Trade Centre, Sheikh Zayed Road Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/liquidity-fintech-fze/"
-    },
-    {
-      "name": "ARP Digital FZCO",
-      "slug": "arp-digital-fzco",
-      "reference": "IPA/26/04/002",
-      "scaNumber": "",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-04-21",
-      "website": "",
-      "address": "Unit No: AG-13-H-F198, AG Tower Plot No: JLT-PH1-I1A, Jumeirah Lakes Towers, Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/arp-digital-fzco/"
-    },
-    {
-      "name": "First Crypto Exchange L.L.C (First Crypto)",
-      "slug": "first-crypto-exchange-llc-first-crypto",
-      "reference": "VL/26/04/004",
-      "scaNumber": "CMA-VASP-0100000-0060",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-04-26",
-      "website": "https://fce.global/",
-      "address": "Boulevard Plaza Tower 1, Office 1702, Sheikh Mohammed bin Rashid Boulevard, Downtown Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/first-crypto-exchange-llc-first-crypto/"
-    },
-    {
-      "name": "Standard Chartered Bank",
-      "slug": "standard-chartered-bank",
-      "reference": "IPA/26/05/001",
-      "scaNumber": "",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-05-01",
-      "website": "",
-      "address": "Standard Chartered Tower Downtown Dubai Dubai United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/standard-chartered-bank/"
-    },
-    {
-      "name": "CoinCorner Virtual Assets Broker & Dealer Services L.L.C.",
-      "slug": "coincorner-virtual-assets-broker-dealer-services-llc",
-      "reference": "VL/26/05/001",
-      "scaNumber": "CMA-VASP-0100000-0065",
-      "status": "Active",
-      "licenseType": "VASP Licence",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-05-05",
-      "website": "https://www.coincorner.com/uae",
-      "address": "Office L17/06, L17/07, L17/08, L17, BurJuman Centre, Mankhool, Dubai, United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors, and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/coincorner-virtual-assets-broker-dealer-services-llc/"
-    },
-    {
-      "name": "Atlas AI Labs FZE",
-      "slug": "atlas-ai-labs-fze",
-      "reference": "IPA/26/05/003",
-      "scaNumber": "",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Category 1 VA Issuance"
-      ],
-      "issuanceDate": "2026-05-11",
-      "website": "",
-      "address": "Premises No. 23.01.E022, Floor 23 Sheikh Rashid Tower Dubai World Trade Centre Dubai United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors.",
-      "url": "/en/licenses-and-register/public-register/atlas-ai-labs-fze/"
-    },
-    {
-      "name": "First Answer Custody FZE",
-      "slug": "first-answer-custody-fze",
-      "reference": "IPA/26/05/004",
-      "scaNumber": "",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Custody Services"
-      ],
-      "issuanceDate": "2026-05-11",
-      "website": "",
-      "address": "Premises No. ESO 19 SRT, Floor Number 07 Sheikh Rashid Tower Dubai World Trade Centre Dubai United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Qualified and Institutional Investors (excluding individual qualified investors)",
-      "url": "/en/licenses-and-register/public-register/first-answer-custody-fze/"
-    },
-    {
-      "name": "Payward FZCO (Kraken)",
-      "slug": "payward-fzco-kraken",
-      "reference": "IPA/26/05/002",
-      "scaNumber": "CMA-VASP-0101000-0067",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Management and Investment Services",
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-05-13",
-      "website": "",
-      "address": "Unit No: UT-12-CO-74 DMCC Business Centre Level No 12 Uptown Tower Dubai United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors, Qualified Investors and Retail Investors.",
-      "url": "/en/licenses-and-register/public-register/payward-fzco-kraken/"
-    },
-    {
-      "name": "Flowdesk Omega FZE",
-      "slug": "flowdesk-omega-fze",
-      "reference": "IPA/26/06/001",
-      "scaNumber": "",
-      "status": "Issued",
-      "licenseType": "In-Principle Approval (“IPA”)",
-      "activities": [
-        "Broker-Dealer Services"
-      ],
-      "issuanceDate": "2026-06-04",
-      "website": "",
-      "address": "One Central, The Offices 4 Level 8, Premises 08-162-001 to 08-162 - 016 Dubai United Arab Emirates",
-      "permittedInvestors": "Permitted to serve Institutional Investors and Qualified Investors.",
-      "url": "/en/licenses-and-register/public-register/flowdesk-omega-fze/"
-    }
-  ]
+  {
+   "name": "Revolut Digital Assets FZE",
+   "slug": "revolut-digital-assets-fze",
+   "reference": "IPA/26/06/002",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services",
+    "Exchange Services",
+    "Management and Investment Services"
+   ],
+   "issuanceDate": "2026-06-05",
+   "website": null,
+   "address": "<h4>23.01-EP02,</h4>\n<h4>Sheikh Rashid Tower, Floor no. 23, Premises,</h4>\n<h4>Dubai World Trade Centre,</h4>\n<h4>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/revolut-digital-assets-fze/"
+  },
+  {
+   "name": "Flowdesk Omega FZE",
+   "slug": "flowdesk-omega-fze",
+   "reference": "IPA/26/06/001",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-06-04",
+   "website": null,
+   "address": "<h4>One Central, The Offices 4<br>Level 8, Premises 08-162-001 to 08-162 - 016<br>Dubai<br>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/flowdesk-omega-fze/"
+  },
+  {
+   "name": "YHEGO Virtual Assets Exchange Service L.L.C (Yhego Technology Investment L.L.C)",
+   "slug": "yhego-virtual-assets-exchange-service-l-l-c-yhego-technology-investment-l-l-c",
+   "reference": "VL/26/06/001",
+   "scaNumber": "CMA-VASP-1100000-0050",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Exchange Services"
+   ],
+   "issuanceDate": "2026-06-02",
+   "website": "https://yhego.ae/",
+   "address": "<h4>1514 Churchill Tower,</h4>\n<h4>Business Bay,</h4>\n<h4>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/yhego-virtual-assets-exchange-service-llc-yhego-technology-investment-llc/"
+  },
+  {
+   "name": "Payward FZCO (Kraken)",
+   "slug": "payward-fzco-kraken",
+   "reference": "IPA/26/05/002",
+   "scaNumber": "CMA-VASP-0101000-0067",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Management and Investment Services",
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-05-13",
+   "website": null,
+   "address": "<h4>Unit No: UT-12-CO-74</h4>\n<h4>DMCC Business Centre</h4>\n<h4>Level No 12</h4>\n<h4>Uptown Tower</h4>\n<h4>Dubai</h4>\n<h4>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/payward-fzco-kraken/"
+  },
+  {
+   "name": "Atlas AI Labs FZE",
+   "slug": "atlas-ai-labs-fze",
+   "reference": "IPA/26/05/003",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Category 1 VA Issuance"
+   ],
+   "issuanceDate": "2026-05-11",
+   "website": null,
+   "address": "<h4>Premises No. 23.01.E022, Floor 23<br>Sheikh Rashid Tower<br>Dubai World Trade Centre<br>Dubai<br>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/atlas-ai-labs-fze/"
+  },
+  {
+   "name": "First Answer Custody FZE",
+   "slug": "first-answer-custody-fze",
+   "reference": "IPA/26/05/004",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Custody Services"
+   ],
+   "issuanceDate": "2026-05-11",
+   "website": null,
+   "address": "<h4>Premises No. ESO 19 SRT, Floor Number 07<br>Sheikh Rashid Tower<br>Dubai World Trade Centre<br>Dubai<br>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/first-answer-custody-fze/"
+  },
+  {
+   "name": "CoinCorner Virtual Assets Broker & Dealer Services L.L.C.",
+   "slug": "coincorner-virtual-assets-broker-dealer-services-l-l-c",
+   "reference": "VL/26/05/001",
+   "scaNumber": "CMA-VASP-0100000-0065",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-05-05",
+   "website": "https://www.coincorner.com/uae",
+   "address": "<h4>Office L17/06, L17/07, L17/08, L17,<br>BurJuman Centre, Mankhool,<br>Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/coincorner-virtual-assets-broker-dealer-services-llc/"
+  },
+  {
+   "name": "Standard Chartered Bank",
+   "slug": "standard-chartered-bank",
+   "reference": "IPA/26/05/001",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-05-01",
+   "website": null,
+   "address": "<h4>Standard Chartered Tower<br>Downtown Dubai<br>Dubai<br>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/standard-chartered-bank/"
+  },
+  {
+   "name": "First Crypto Exchange L.L.C (First Crypto)",
+   "slug": "first-crypto-exchange-l-l-c-first-crypto",
+   "reference": "VL/26/04/004",
+   "scaNumber": "CMA-VASP-0100000-0060",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-04-26",
+   "website": "https://fce.global/",
+   "address": "<h4>Boulevard Plaza Tower 1,<br>Office 1702,<br>Sheikh Mohammed bin Rashid Boulevard,<br>Downtown Dubai,<br>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/first-crypto-exchange-llc-first-crypto/"
+  },
+  {
+   "name": "ARP Digital FZCO",
+   "slug": "arp-digital-fzco",
+   "reference": "IPA/26/04/002",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-04-21",
+   "website": null,
+   "address": "<h4>Unit No: AG-13-H-F198,</h4>\n<h4>AG Tower Plot No: JLT-PH1-I1A,</h4>\n<h4>Jumeirah Lakes Towers,</h4>\n<h4>Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/arp-digital-fzco/"
+  },
+  {
+   "name": "Liquidity Fintech FZE",
+   "slug": "liquidity-fintech-fze",
+   "reference": "VL/26/04/003",
+   "scaNumber": "CMA-VASP-0100000-0047",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-04-16",
+   "website": "https://www.liquiditytech.com/en/ae",
+   "address": "<h4>Floor 23, Unit EO44 SRT,</h4>\n<h4>Sheikh Rashid Tower,</h4>\n<h4>Dubai World Trade Centre,&nbsp;</h4>\n<h4>Sheikh Zayed Road Dubai,</h4>\n<h4>United Arab Emirates</h4>\n<p>&nbsp;</p>",
+   "url": "/en/licenses-and-register/public-register/liquidity-fintech-fze/"
+  },
+  {
+   "name": "Daman Virtual Asset Brokerage LLC",
+   "slug": "daman-virtual-asset-brokerage-llc",
+   "reference": "VL/26/04/001",
+   "scaNumber": "CMA-VASP-0100000-0056",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-04-16",
+   "website": "https://www.damanvirtual.com",
+   "address": "<h4>Office No. 14,<br>Dubai World Trade Centre<br>Dubai,&nbsp;<br>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/daman-virtual-asset-brokerage-llc/"
+  },
+  {
+   "name": "Rain MENA FZE",
+   "slug": "rain-mena-fze",
+   "reference": "IPA/26/04/001",
+   "scaNumber": "CMA-VASP-1100000-0063",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Exchange Services",
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-04-07",
+   "website": null,
+   "address": "<h4>Premises No. 23.01-E061, Floor Number 23<br>Sheikh Rashid Tower, Dubai World Trade Centre<br>Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/rain-mena-fze/"
+  },
+  {
+   "name": "Amber Premium FZE",
+   "slug": "amber-premium-fze",
+   "reference": "VL/26/03/003",
+   "scaNumber": "CMA-VASP-0101010-0051",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Management and Investment Services",
+    "Lending and Borrowing Services"
+   ],
+   "issuanceDate": "2026-04-02",
+   "website": "https://www.ambr.io/uae",
+   "address": "<h4>Floor no. 05, Premises - EOP 05.03 CVT,</h4>\n<h4>Convention Tower,</h4>\n<h4>Dubai World Trade Centre,</h4>\n<h4>Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/amber-premium-fze/"
+  },
+  {
+   "name": "RIV Technologies FZE",
+   "slug": "riv-technologies-fze",
+   "reference": "VL/26/03/002",
+   "scaNumber": "CMA-VASP-0000100-0043",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Advisory Services"
+   ],
+   "issuanceDate": "2026-03-27",
+   "website": "https://www.riv-technologies.com/fze/",
+   "address": "<h4>Level 3, The Offices 3, One Central,<br>World Trade Centre, Dubai</h4>",
+   "url": "/en/licenses-and-register/public-register/riv-technologies-fze/"
+  },
+  {
+   "name": "XBase Virtual Assets Broker & Dealer Services LLC",
+   "slug": "xbase-virtual-assets-broker-dealer-services-llc",
+   "reference": "VL/17/03/001",
+   "scaNumber": "CMA-VASP-0100000-0044",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-03-19",
+   "website": "https://xbdgroup.com/uae/",
+   "address": "<h4>The Exchange Tower, Unit 1804, <br>Business Bay, <br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/xbase-virtual-assets-broker-dealer-services-llc/"
+  },
+  {
+   "name": "Animoca Brands Middle East Advisory FZCO",
+   "slug": "animoca-brands-middle-east-advisory-fzco",
+   "reference": "VL/26/02/001",
+   "scaNumber": "CMA-VASP-0101000-0045",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Management and Investment Services",
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-02-05",
+   "website": "https://animocabrands.me/",
+   "address": "<h4>Unit No. UT-11-EO-3 DMCC, Business Centre,<br>Level No. 11, Uptown Tower, Dubai.</h4>",
+   "url": "/en/licenses-and-register/public-register/animoca-brands-middle-east-advisory-fzco/"
+  },
+  {
+   "name": "Nova Digital FZE",
+   "slug": "nova-digital-fze",
+   "reference": "VL/26/01/001",
+   "scaNumber": "CMA-VASP-0001000-0046",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Management and Investment Services"
+   ],
+   "issuanceDate": "2026-01-30",
+   "website": "https://novadigital.xyz/",
+   "address": "<h4>Sheikh Rashid Tower, Plot No. 3360301,<br>DM Building Number 14,<br>Dubai World Trade Centre,<br>Sheikh Zayed Road, Dubai.</h4>",
+   "url": "/en/licenses-and-register/public-register/nova-digital-fze/"
+  },
+  {
+   "name": "Flipster FZE",
+   "slug": "flipster-fze",
+   "reference": "IPA/26/01/004",
+   "scaNumber": "CMA-VASP-1000000-0061",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Exchange Services"
+   ],
+   "issuanceDate": "2026-01-30",
+   "website": "https://www.flipster.io",
+   "address": "<h4>Office 910/911/912, Sentinel Business Centre, 9th Floor, Convention Tower<br>Dubai World Trade Centre, Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/flipster-fze/"
+  },
+  {
+   "name": "ARBEAT GROUP FZE",
+   "slug": "arbeat-group-fze",
+   "reference": "IPA/26/01/003",
+   "scaNumber": "CMA-VASP-1100000-0062",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services",
+    "Exchange Services"
+   ],
+   "issuanceDate": "2026-01-22",
+   "website": null,
+   "address": "<h4>Level 7, Office 7-9, Convention Tower, Dubai</h4>",
+   "url": "/en/licenses-and-register/public-register/arbeat-group-fze/"
+  },
+  {
+   "name": "Shipfinex FZCO",
+   "slug": "shipfinex-fzco",
+   "reference": "IPA/26/01/002",
+   "scaNumber": "CMA-VASP-0100000-0049",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-01-14",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/shipfinex-fzco/"
+  },
+  {
+   "name": "Stake RWA FZE",
+   "slug": "stake-rwa-fze",
+   "reference": "IPA/26/01/001",
+   "scaNumber": "CMA-VASP-0100000-0059",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-01-07",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/stake-rwa-fze/"
+  },
+  {
+   "name": "MuseTech VA FZCO",
+   "slug": "musetech-va-fzco",
+   "reference": "IPA/25/12/006",
+   "scaNumber": "CMA-VASP-0100000-0057",
+   "status": "Withdrawn",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-12-31",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/musetech-va-fzco/"
+  },
+  {
+   "name": "DIMENT VA EXCHANGE SERVICES DMCC (DVA)",
+   "slug": "diment-va-exchange-services-dmcc-dva",
+   "reference": "IPA/25/12/007",
+   "scaNumber": "CMA-VASP-0100000-0058",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-12-31",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/diment-va-exchange-services-dmcc-dva/"
+  },
+  {
+   "name": "LCT Global FZE",
+   "slug": "lct-global-fze",
+   "reference": "VL/25/12/001",
+   "scaNumber": "CMA-VASP-1000000-0037",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Exchange Services"
+   ],
+   "issuanceDate": "2025-12-26",
+   "website": "https://www.lct.tech/",
+   "address": "<h4>CVT-FLR05-05.15<br>Convention Tower<br>Dubai World Trade Centre</h4>",
+   "url": "/en/licenses-and-register/public-register/lct-global-fze/"
+  },
+  {
+   "name": "ZEPLY GLOBAL ME FZCO",
+   "slug": "zeply-global-me-fzco",
+   "reference": "IPA/25/12/003",
+   "scaNumber": "CMA-VASP-0100100-0054",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Advisory Services",
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-12-26",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/zeply-global-me-fzco/"
+  },
+  {
+   "name": "Nawy Shares FZCO (SmartCrowd)",
+   "slug": "nawy-shares-fzco-smartcrowd",
+   "reference": "IPA/25/12/004",
+   "scaNumber": "CMA-VASP-0100000-0055",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-12-26",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/nawy-shares-fzco-smartcrowd/"
+  },
+  {
+   "name": "Automata FZE (Vancelian)",
+   "slug": "automata-fze-vancelian",
+   "reference": "IPA/25/12/001",
+   "scaNumber": "CMA-VASP-0101110-0052",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Management and Investment Services",
+    "Lending and Borrowing Services",
+    "Advisory Services",
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-12-18",
+   "website": "https://vancelian.com/en/",
+   "address": "<p>Floor 5, Office 05.05, Convention Tower, Sheikh Zayed Road, Trade Centre, Dubai</p>",
+   "url": "/en/licenses-and-register/public-register/automata-fze-vancelian/"
+  },
+  {
+   "name": "Mc Coin Virtual Assets LLC",
+   "slug": "mc-coin-virtual-assets-llc",
+   "reference": "IPA/25/10/004",
+   "scaNumber": "CMA-VASP-0101000-0048",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Management and Investment Services",
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-10-16",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/mc-coin-virtual-assets-llc/"
+  },
+  {
+   "name": "Ceffu Custody FZE",
+   "slug": "ceffu-custody-fze",
+   "reference": "VL/25/10/001",
+   "scaNumber": "CMA-VASP-0010000-0038",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Custody Services"
+   ],
+   "issuanceDate": "2025-10-09",
+   "website": "https://www.ceffu.com/en-AE",
+   "address": "<h4>One Central, The Offices 1,&nbsp;<br>Level 2, Office 229,&nbsp;<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/ceffu-custody-fze/"
+  },
+  {
+   "name": "Selini Capital FZE",
+   "slug": "selini-capital-fze",
+   "reference": "VL/25/10/002",
+   "scaNumber": "CMA-VASP-0100000-0042",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-10-08",
+   "website": "https://www.selinicapital.ae",
+   "address": "<h4>One Central, The Offices 3,&nbsp;<br>Level 4, Office 429,&nbsp;<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/selini-capital-fze/"
+  },
+  {
+   "name": "BitGo MENA FZE",
+   "slug": "bitgo-mena-fze",
+   "reference": "VL/23/09/001",
+   "scaNumber": "CMA-VASP-0100000-0039",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-09-17",
+   "website": "https://bitgo.ae/#trading",
+   "address": "<h4>EO 66 SRT, Level- 25,<br>Sheikh Rashid Tower,<br>Dubai World Trade Centre,<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/bitgo-mena-fze/"
+  },
+  {
+   "name": "Ctrl Alt Solutions DMCC",
+   "slug": "ctrl-alt-solutions-dmcc",
+   "reference": "VL/25/05/002",
+   "scaNumber": "CMA-VASP-0100001-0041",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Category 1 VA Issuance"
+   ],
+   "issuanceDate": "2025-05-24",
+   "website": "https://www.ctrl-alt.co/",
+   "address": "<h4>Unit No: UT-11-CEO-24<br>DMCC Business Centre<br>Level No 11<br>Uptown Tower<br>Dubai,&nbsp;United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/ctrl-alt-solutions-dmcc/"
+  },
+  {
+   "name": "Prypco FZE",
+   "slug": "prypco-fze",
+   "reference": "VL/25/05/001",
+   "scaNumber": "CMA-VASP-0100000-0040",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-05-24",
+   "website": "https://mint.prypco.com/",
+   "address": "<h4>04 Sheikh Rashid Tower, DWTC, Dubai,&nbsp;UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/prypco-fze/"
+  },
+  {
+   "name": "Midchains FZE",
+   "slug": "midchains-fze",
+   "reference": "VL/25/04/008",
+   "scaNumber": "CMA-VASP-0100000-0036",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-04-29",
+   "website": "https://www.midchains.com",
+   "address": "<h4>EPO 26.01.20 Floor 26, Sheikh&nbsp;Rashid&nbsp;Tower, DWTC, Dubai,&nbsp;UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/midchains-fze/"
+  },
+  {
+   "name": "Gate Technology FZE",
+   "slug": "gate-technology-fze",
+   "reference": "VL/25/04/007",
+   "scaNumber": "CMA-VASP-1000000-0033",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Exchange Services"
+   ],
+   "issuanceDate": "2025-04-25",
+   "website": "https://www.gate.ae/",
+   "address": "<h4>Premises No. EO13 SRT,<br>Floor Number 24, Sheikh Rashid Tower,<br>Dubai World Trade Center,<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/gate-technology-fze/"
+  },
+  {
+   "name": "BitGo Custody MENA FZE",
+   "slug": "bitgo-custody-mena-fze",
+   "reference": "VL/25/04/003",
+   "scaNumber": "CMA-VASP-0010000-0034",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Custody Services [including custodial staking]"
+   ],
+   "issuanceDate": "2025-04-25",
+   "website": "https://www.bitgo.ae",
+   "address": "<h4>Premises No. 503 1-4 TEC,<br>Floor Number 03, The Office 3 - One&nbsp;Central,<br>Dubai World Trade Center, Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/bitgo-custody-mena-fze/"
+  },
+  {
+   "name": "Bitpanda Custody MENA DMCC",
+   "slug": "bitpanda-custody-mena-dmcc",
+   "reference": "VL/25/04/006",
+   "scaNumber": "CMA-VASP-0010000-0035",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Custody Services [including custodial staking]"
+   ],
+   "issuanceDate": "2025-04-25",
+   "website": "https://www.bitpanda.com/en",
+   "address": "<h4>Unit No: UT-12-PO-14<br>DMCC Business Centre<br>Level No 12 Uptown Tower<br>Dubai United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/bitpanda-custody-mena-dmcc/"
+  },
+  {
+   "name": "Atremo Digital FZE",
+   "slug": "atremo-digital-fze",
+   "reference": "VL/25/04/005",
+   "scaNumber": "CMA-VASP-0100000-0032",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-04-25",
+   "website": "https://www.atremo.digital",
+   "address": "<h4>8th Floor, Trade Centre -<br>Trade Centre 2, DWTC, Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/atremo-digital-fze/"
+  },
+  {
+   "name": "MKX Virtual Assets Broker & Dealer Services L.L.C.",
+   "slug": "mkx-virtual-assets-broker-dealer-services-l-l-c",
+   "reference": "VL/25/04/001",
+   "scaNumber": "CMA-VASP-0100000-0030",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-04-18",
+   "website": "https://www.mkx.ae/",
+   "address": "<h4>Unit&nbsp;number&nbsp;S01, Building&nbsp;R260, Al&nbsp;Rigga,&nbsp;Dubai,&nbsp;UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/mkx-virtual-assets-broker-dealer-services-llc/"
+  },
+  {
+   "name": "DKK Digital FZE",
+   "slug": "dkk-digital-fze",
+   "reference": "VL/25/04/002",
+   "scaNumber": "CMA-VASP-0100000-0031",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Advisory Services"
+   ],
+   "issuanceDate": "2025-04-18",
+   "website": "https://dkkdigital.io/",
+   "address": "<h4>Address: 8th/9th Floor,<br>The Offices 4, One Central Dubai,<br>World Trade Center Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/dkk-digital-fze/"
+  },
+  {
+   "name": "Hashkey MENA FZE (HashKey)",
+   "slug": "hashkey-mena-fze-hashkey",
+   "reference": "VL/25/03/002",
+   "scaNumber": "CMA-VASP-1100000-0029",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Exchange Services"
+   ],
+   "issuanceDate": "2025-04-14",
+   "website": "https://global.hashkey.com/ae",
+   "address": "<h4>Floor no. 05, Premises - EPO 05.35 CVT,<br>Convention Tower, Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/hashkey-mena-fze-hashkey/"
+  },
+  {
+   "name": "Gap 3 Partners FZCO",
+   "slug": "gap-3-partners-fzco",
+   "reference": "VL/25/04/004",
+   "scaNumber": "CMA-VASP-0000100-0028",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Advisory Services"
+   ],
+   "issuanceDate": "2025-04-14",
+   "website": "https://www.g3p.io/",
+   "address": "<h4>Office 232, Level 2, C1 – The&nbsp;Offices&nbsp;1, One&nbsp;Central&nbsp;District, Dubai,&nbsp;UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/gap-3-partners-fzco/"
+  },
+  {
+   "name": "Bitpanda Broker MENA DMCC",
+   "slug": "bitpanda-broker-mena-dmcc",
+   "reference": "VL/25/03/001",
+   "scaNumber": "CMA-VASP-0100000-0027",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2025-03-19",
+   "website": "https://www.bitpanda.com/en/uae/homepage",
+   "address": "<h4>Unit No: 1633<br>DMCC Business Centre<br>Level No 1 Jewellery &amp; Gemplex 3<br>Dubai<br>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/bitpanda-broker-mena-dmcc/"
+  },
+  {
+   "name": "Mantra Finance FZE",
+   "slug": "mantra-finance-fze",
+   "reference": "VL/25/02/001",
+   "scaNumber": "CMA-VASP-1101000-0026",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Exchange Services",
+    "Broker-Dealer Services",
+    "Management and Investment Services"
+   ],
+   "issuanceDate": "2025-02-19",
+   "website": "https://www.mantrachain.io/",
+   "address": "<h4>The Offices 4, WeWork One Central,<br>Dubai World Trade Centre,<br>Sheikh Zayed Rd, Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/mantra-finance-fze/"
+  },
+  {
+   "name": "Tokinvest DMCC",
+   "slug": "tokinvest-dmcc",
+   "reference": "VL/2024/12/004",
+   "scaNumber": "CMA-VASP-0100000-0025",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Category 1 VA Issuance"
+   ],
+   "issuanceDate": "2024-12-30",
+   "website": "https://tokinvest.capital/",
+   "address": "<h4>Uptown Tower, Level 12,<br>Unit 8, DMCC Business Centre,<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/tokinvest-dmcc/"
+  },
+  {
+   "name": "OFZA Fintech Virtual Asset Exchange Services LLC",
+   "slug": "ofza-fintech-virtual-asset-exchange-services-llc",
+   "reference": "VL/24/12/002",
+   "scaNumber": "CMA-VASP-1101100-0024",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Exchange Services",
+    "Broker-Dealer Services",
+    "Management and Investment Services"
+   ],
+   "issuanceDate": "2024-12-30",
+   "website": "https://ofza.com/en",
+   "address": "<h4>Office 21C13, i-Rise Tower,&nbsp;<br>Al Thanyah First, Al Barsha Heights,<br>Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/ofza-fintech-virtual-asset-exchange-services-llc/"
+  },
+  {
+   "name": "Zand Bank P.J.S.C.",
+   "slug": "zand-bank-p-j-s-c",
+   "reference": "VL/2024/12/001",
+   "scaNumber": "CMA-VASP-0010000-0023",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Custody Services"
+   ],
+   "issuanceDate": "2024-12-09",
+   "website": "https://www.zand.ae/en",
+   "address": "<h4>Al Hail Holding Building, <br>Office&nbsp;101&nbsp;Floor&nbsp;1, <br>Mohammed&nbsp;Bin&nbsp;Rashid&nbsp;Boulevard, <br>Building&nbsp;6, Emaar&nbsp;Square, <br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/zand-bank-pjsc/"
+  },
+  {
+   "name": "BitOasis Technologies FZE",
+   "slug": "bitoasis-technologies-fze",
+   "reference": "VL/2024/11/001",
+   "scaNumber": "CMA-VASP-0100000-0021",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2024-11-29",
+   "website": "https://www.bitoasis.net/en/home",
+   "address": "<h4>G-D, Flex, G078/G001F<br>Dubai&nbsp;Silicon&nbsp;Oasis,<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/bitoasis-technologies-fze/"
+  },
+  {
+   "name": "Deribit FZE",
+   "slug": "deribit-fze",
+   "reference": "VL/23/12/002",
+   "scaNumber": "CMA-VASP-1000000-0017",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Exchange Services (including VA Derivatives Trading)"
+   ],
+   "issuanceDate": "2024-11-01",
+   "website": "https://www.deribit.com",
+   "address": "<h4>One Central,&nbsp;</h4>\n<h4>The Offices 2, Level 2,</h4>\n<h4>TO2-FLR02-02.05,</h4>\n<h4>Dubai, United Arab Emirates</h4>\n<p>&nbsp;</p>",
+   "url": "/en/licenses-and-register/public-register/deribit-fze/"
+  },
+  {
+   "name": "OKX Middle East Fintech FZE",
+   "slug": "okx-middle-east-fintech-fze",
+   "reference": "VL/23/12/003",
+   "scaNumber": "CMA-VASP-1001010-0008",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Lending and Borrowing Services",
+    "Management and Investment Services",
+    "Exchange Services (including VA Derivatives Trading)",
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2024-09-17",
+   "website": "https://www.okx.com/",
+   "address": "<h4>701/702, The Office 5,</h4>\n<h4>One Central Office,</h4>\n<h4>DWTC, Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/okx-middle-east-fintech-fze/"
+  },
+  {
+   "name": "Bybit Fintech FZE (Bybit)",
+   "slug": "bybit-fintech-fze-bybit",
+   "reference": "IPA/24/08/001",
+   "scaNumber": "CMA-VASP-1000000-0006",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Exchange Services"
+   ],
+   "issuanceDate": "2024-08-21",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/bybit-fintech-fze-bybit/"
+  },
+  {
+   "name": "Aquanow ME FZE",
+   "slug": "aquanow-me-fze",
+   "reference": "VL/24/01/001",
+   "scaNumber": "CMA-VASP-0101010-0016",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Management and Investment Services",
+    "Lending and Borrowing Services"
+   ],
+   "issuanceDate": "2024-07-22",
+   "website": "https://www.aquanow.io",
+   "address": "<h4>DD422-23&nbsp;Level&nbsp;3,<br>The Offices 3, One Central,<br>Dubai World Trade Centre,<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/aquanow-me-fze/"
+  },
+  {
+   "name": "Varni Labs FZE (Roma)",
+   "slug": "varni-labs-fze-roma",
+   "reference": "VL/23/10/001",
+   "scaNumber": "CMA-VASP-0100000-0020",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2024-07-22",
+   "website": "http://www.roma.global/",
+   "address": "<h4>ESO26 SRT, Floor&nbsp;07,<br>Sheikh&nbsp;Rashid&nbsp;Tower,<br>Dubai&nbsp;World&nbsp;Trade&nbsp;Centre,<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/varni-labs-fze-roma/"
+  },
+  {
+   "name": "MBIO FZE (MB.IO)",
+   "slug": "mbio-fze-mb-io",
+   "reference": "VL/24/06/001",
+   "scaNumber": "CMA-VASP-1100000-0022",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Exchange Services"
+   ],
+   "issuanceDate": "2024-07-18",
+   "website": "https://mb.io/en-AE",
+   "address": "<h4>Ubora Office Tower, 36-37&nbsp;Floor,<br>Business&nbsp;Bay,<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/mbio-fze-mbio/"
+  },
+  {
+   "name": "HT Markets MENA FZE",
+   "slug": "ht-markets-mena-fze",
+   "reference": "VL/23/08/003",
+   "scaNumber": "CMA-VASP-0101000-0019",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Management and Investment Services"
+   ],
+   "issuanceDate": "2024-05-31",
+   "website": "https://hextrust.com/",
+   "address": "<h4>Convention tower, Level 4, Italia Camp, Unit 425<br>Dubai World Trade Centre<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/ht-markets-mena-fze/"
+  },
+  {
+   "name": "W P M E Technology L.L.C. (WadzPay)",
+   "slug": "w-p-m-e-technology-l-l-c-wadzpay",
+   "reference": "VL/24/04/004",
+   "scaNumber": "CMA-VASP-01000-0018",
+   "status": "Withdrawn",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2024-04-25",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/w-p-m-e-technology-llc-wadzpay/"
+  },
+  {
+   "name": "Binance FZE",
+   "slug": "binance-fze",
+   "reference": "VL/24/04/001",
+   "scaNumber": "CMA-VASP-1101010-0013",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Management and Investment Services",
+    "Lending and Borrowing Services",
+    "Exchange Services (including VA Derivatives Trading)"
+   ],
+   "issuanceDate": "2024-04-15",
+   "website": "https://www.binance.com/en-AE",
+   "address": "<h4>One&nbsp;Central, The&nbsp;Offices&nbsp;4, <br>Level&nbsp;5, Unit&nbsp;501, <br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/binance-fze/"
+  },
+  {
+   "name": "Foris DAX Middle East FZE (Crypto.com)",
+   "slug": "foris-dax-middle-east-fze-crypto-com",
+   "reference": "VL/23/10/003",
+   "scaNumber": "CMA-VASP-1101010-0012",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Management and Investment Services",
+    "Lending and Borrowing Services",
+    "Exchange Services (including VA Derivatives Trading)"
+   ],
+   "issuanceDate": "2024-04-03",
+   "website": "https://crypto.com/ae",
+   "address": "<h4>One Central, The Offices 4, Level 8, Unit 143, Dubai World Trade Centre, Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/foris-dax-middle-east-fze-cryptocom/"
+  },
+  {
+   "name": "Web 3 Innovations FZE (AYA)",
+   "slug": "web-3-innovations-fze-aya",
+   "reference": "VL/23/12/001",
+   "scaNumber": "CMA-VASP-0001000-0007",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Management and Investment Services"
+   ],
+   "issuanceDate": "2023-12-01",
+   "website": "https://www.aya.foundation/",
+   "address": "<h4>One Central, The&nbsp;Offices&nbsp;3,<br>Level 3, Unit 397,<br>Dubai World Trade Centre,<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/web-3-innovations-fze-aya/"
+  },
+  {
+   "name": "Fasset FZE",
+   "slug": "fasset-fze",
+   "reference": "VL/23/07/002",
+   "scaNumber": "CMA-VASP-0100000-0010",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2023-11-30",
+   "website": "https://fasset.com/",
+   "address": "<h4>EO 09, Floor 13, Sheikh Rashid Tower, Dubai World Trade Center<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/fasset-fze/"
+  },
+  {
+   "name": "CoinMENA FZE",
+   "slug": "coinmena-fze",
+   "reference": "VL/23/09/001",
+   "scaNumber": "CMA-VASP-0100000-0011",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2023-11-30",
+   "website": "https://www.coinmena.com/en",
+   "address": "<h4>04.02-EO10 SRT, Floor 04, Sheikh Rashid Tower, Dubai World Trade Centre, Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/coinmena-fze/"
+  },
+  {
+   "name": "Nine Blocks Capital Management FZE",
+   "slug": "nine-blocks-capital-management-fze",
+   "reference": "VL/23/09/003",
+   "scaNumber": "CMA-VASP-0001000-0009",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Management and Investment Services"
+   ],
+   "issuanceDate": "2023-11-21",
+   "website": "https://www.nineblockscapital.com",
+   "address": "<h4>One Central, Offices 3, Level 3&nbsp;<br>Dubai World Trade Centre<br>Dubai, UAE&nbsp;</h4>",
+   "url": "/en/licenses-and-register/public-register/nine-blocks-capital-management-fze/"
+  },
+  {
+   "name": "GC Exchange FZE (GCEX)",
+   "slug": "gc-exchange-fze-gcex",
+   "reference": "VL/23/09/002",
+   "scaNumber": "CMA-VASP-0100000-0014",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2023-11-17",
+   "website": "https://www.gc.exchange/",
+   "address": "<h4>One Central, The Offices 4, Level 8, Unit 132<br>Dubai World Trade Centre<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/gc-exchange-fze-gcex/"
+  },
+  {
+   "name": "Morpheus Software Technology FZE (FUZE)",
+   "slug": "morpheus-software-technology-fze-fuze",
+   "reference": "VL/23/10/002",
+   "scaNumber": "CMA-VASP-0100000-0015",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2023-11-17",
+   "website": "https://fuze.ae/",
+   "address": "<h4>One Central, The Offices 4, Level 8, Unit 157<br>Dubai World Trade Centre&nbsp;<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/morpheus-software-technology-fze-fuze/"
+  },
+  {
+   "name": "Hex Trust MENA FZE",
+   "slug": "hex-trust-mena-fze",
+   "reference": "VL/23/08/002",
+   "scaNumber": "CMA-VASP-0010000-0005",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Custody Services"
+   ],
+   "issuanceDate": "2023-11-15",
+   "website": "https://hextrust.com/",
+   "address": "<h4>Convention tower, Level 4, Italia Camp, Unit 426<br>Dubai World Trade Centre<br>Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/hex-trust-mena-fze/"
+  },
+  {
+   "name": "Trek Labs Ltd FZE (Backpack)",
+   "slug": "trek-labs-ltd-fze-backpack",
+   "reference": "VL/23/07/001",
+   "scaNumber": "CMA-VASP-1000000-0004",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Exchange Services"
+   ],
+   "issuanceDate": "2023-10-30",
+   "website": "https://www.backpack.exchange/",
+   "address": "<h4>236 (6D) RME, Floor 02, The Offices 1 - One Central, Dubai World Trade Centre, Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/trek-labs-ltd-fze-backpack/"
+  },
+  {
+   "name": "Scintilla Network FZE",
+   "slug": "scintilla-network-fze",
+   "reference": "VL/23/07/003",
+   "scaNumber": "CMA-VASP-1100000-0003",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Exchange Services"
+   ],
+   "issuanceDate": "2023-09-11",
+   "website": "https://www.scintillanetwork.com/",
+   "address": "<h4>Floor 08, The&nbsp;Offices&nbsp;4, One&nbsp;Central, Dubai&nbsp;World&nbsp;Trade&nbsp;Centre<br>Dubai,&nbsp;UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/scintilla-network-fze/"
+  },
+  {
+   "name": "Komainu MEA FZE",
+   "slug": "komainu-mea-fze",
+   "reference": "VL/23/08/001",
+   "scaNumber": "CMA-VASP-0010000-0002",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "VA Custody Services [including custodial staking and collateral wallet services]"
+   ],
+   "issuanceDate": "2023-08-18",
+   "website": "https://www.komainu.com/",
+   "address": "<h4>T04-01.10.02 SL, Floor 01, The Offices 4 - One Central, Dubai World Trade Centre, Dubai, UAE</h4>",
+   "url": "/en/licenses-and-register/public-register/komainu-mea-fze/"
+  },
+  {
+   "name": "Laser Digital Middle East FZE",
+   "slug": "laser-digital-middle-east-fze",
+   "reference": "VL/23/06/001",
+   "scaNumber": "CMA-VASP-0101000-0001",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Management and Investment Services"
+   ],
+   "issuanceDate": "2023-07-28",
+   "website": "https://www.laserdigital.com/",
+   "address": "<h4>Unit 904, level 09, One Za'abeel Tower, Plot 58, Za'abeel First Dubai</h4>",
+   "url": "/en/licenses-and-register/public-register/laser-digital-middle-east-fze/"
+  }
+ ]
 }

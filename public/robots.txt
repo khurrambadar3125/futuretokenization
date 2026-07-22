@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /login
+Disallow: /onboard
+Disallow: /api/
+
+# Adjust per project — by default lock down auth + admin + dashboards.

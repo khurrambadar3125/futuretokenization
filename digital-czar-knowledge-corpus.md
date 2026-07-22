@@ -39,7 +39,8 @@ These behavioural rules override the desire to be helpful when they conflict. Th
 ### The regulator
 - **VARA** = Virtual Assets Regulatory Authority, Dubai. Sole regulator of virtual assets across Dubai's free zones and mainland, **except** within the Dubai International Financial Centre (DIFC), which is regulated separately by the DFSA.
 - VARA maintains a **public register** of licensed VASPs and In-Principle Approval (IPA) holders. IPA holders are NOT yet permitted to operate — full licence required first.
-- As of the 25 Jun 2026 verification, the register showed **48 active VARA licences** held by **49 licensed firms** (BitGo MENA FZE and CoinMENA FZE share reference VL/23/09/001, so 49 firms map to 48 distinct licences), plus ~20 In-Principle Approval (IPA) holders shown on a separate tab. **Use 48 as the licensed-VASP count.** This number changes as VARA licenses new firms; always re-check the live register for the current count.
+- As of the 22 Jul 2026 verification, the register showed **50 active VARA licences** held by **51 licensed firms** (BitGo MENA FZE and CoinMENA FZE share reference VL/23/09/001, so 51 firms map to 50 distinct licences), plus **20 In-Principle Approval (IPA) holders** shown on a separate tab. **Use 50 as the licensed-VASP count.** This number changes as VARA licenses new firms; always re-check the live register for the current count.
+- Register movements between 25 Jun and 22 Jul 2026: **Tribe Tokenisation FZE** (ex IPA/25/12/005) and **YHEGO Virtual Assets Exchange Service L.L.C** (ex IPA/25/10/006) graduated from IPA to full VASP licences (VL/26/06/002 and VL/26/06/001, both June 2026); **WPME Technology / WadzPay** (VL/24/04/004, previously Pending) and **MuseTech VA FZCO** (IPA/25/12/006) are now marked **Withdrawn**; new IPA holders include **Revolut Digital Assets FZE** (IPA/26/06/002), **Triple A Technologies FZCO** (IPA/26/06/004) and **Web3Exchange DMCC** (IPA/26/07/001).
 
 ### The seven licensed activity types
 A VASP licence authorises one or more of these specific activities:
@@ -53,25 +54,27 @@ A VASP licence authorises one or more of these specific activities:
 
 Many firms hold several activities at once. A licence is restricted to the specific activities granted and does not imply VARA endorsement of the firm or any investment.
 
-### Verified per-activity counts (from the register, 25 Jun 2026)
-Of the 49 firms: 33 hold a single activity, 16 hold multiple (75 activity-grants in total). Exact counts per activity:
-- Broker-Dealer Services — 34 (the broad base)
+### Verified per-activity counts (from the register, 2026-07-22)
+Of the 51 firms: 34 hold a single activity, 17 hold multiple (78 activity-grants in total). Exact counts per activity:
+- Broker-Dealer Services — 36 (the broad base)
 - Management & Investment Services — 13
-- Exchange Services — 12
-- Custody Services — 6 (Komainu, Hex Trust, Zand Bank, Ceffu, BitGo Custody MENA, Bitpanda Custody MENA)
-- Lending & Borrowing Services — 5 (OKX, Binance, Crypto.com/Foris, Aquanow, Amber Premium)
-- Advisory Services — 3 (RIV Technologies, Gap 3 Partners, DKK Digital)
-- Category 1 VA Issuance — 2 (Ctrl Alt, Tokinvest) — the rarest and highest-value permission; it allows minting/originating tokens
-These counts sum to more than 49 because multi-activity firms are counted in each category they hold. Re-verify against the live register, as new licences shift the totals.
+- Exchange Services — 13
+- Custody Services — 6 (Ceffu Custody, Bitpanda Custody MENA, BitGo Custody MENA, Zand Bank P.J.S.C., Hex Trust MENA, Komainu MEA)
+- Lending & Borrowing Services — 5 (Amber Premium, OKX Middle East Fintech, Aquanow ME, Binance, Foris DAX Middle East)
+- Advisory Services — 3 (RIV Technologies, DKK Digital, Gap 3 Partners)
+- Category 1 VA Issuance — 2 (Ctrl Alt Solutions, Tokinvest) — the rarest and highest-value permission; it allows minting/originating tokens
+These counts sum to more than 51 because multi-activity firms are counted in each category they hold. Re-verify against the live register, as new licences shift the totals.
 
 ---
 
-## PART 2 — THE VASP REGISTER (the 49 licensed firms)
+## PART 2 — THE VASP REGISTER (the 51 licensed firms)
 
-Source: VARA public register, verified 25 Jun 2026. Format per firm: name · reference · activities · issued date. Reference numbers are NOT sequential by issue date (assigned at application). Re-verify against vara.ae before quoting as current.
+Source: VARA public register, verified 2026-07-22 (scripts/pull-vara-register.py, cross-checked against the rendered register page). Format per firm: name · reference · activities · issued date. Reference numbers are NOT sequential by issue date (assigned at application). Re-verify against vara.ae before quoting as current.
 
 | VASP | Reference | Licensed activities | Issued |
 |---|---|---|---|
+| Tribe Tokenisation FZE | VL/26/06/002 | Broker-Dealer | 2026/06/22 |
+| YHEGO Virtual Assets Exchange Service L.L.C (Yhego Technology Investment L.L.C) | VL/26/06/001 | Broker-Dealer; Exchange | 2026/06/02 |
 | CoinCorner Virtual Assets Broker & Dealer Services L.L.C. | VL/26/05/001 | Broker-Dealer | 2026/05/05 |
 | First Crypto Exchange L.L.C (First Crypto) | VL/26/04/004 | Broker-Dealer | 2026/04/26 |
 | Liquidity Fintech FZE | VL/26/04/003 | Broker-Dealer | 2026/04/16 |
@@ -85,12 +88,12 @@ Source: VARA public register, verified 25 Jun 2026. Format per firm: name · ref
 | Ceffu Custody FZE | VL/25/10/001 | Custody | 2025/10/09 |
 | Selini Capital FZE | VL/25/10/002 | Broker-Dealer | 2025/10/08 |
 | BitGo MENA FZE | VL/23/09/001 | Broker-Dealer | 2025/09/17 |
-| Ctrl Alt Solutions DMCC | VL/25/05/002 | Broker-Dealer; Category 1 VA Issuance | 2025/05/24 |
 | Prypco FZE | VL/25/05/001 | Broker-Dealer | 2025/05/24 |
+| Ctrl Alt Solutions DMCC | VL/25/05/002 | Broker-Dealer; Category 1 VA Issuance | 2025/05/24 |
 | Midchains FZE | VL/25/04/008 | Broker-Dealer | 2025/04/29 |
 | Gate Technology FZE | VL/25/04/007 | Exchange | 2025/04/25 |
-| BitGo Custody MENA FZE | VL/25/04/003 | Custody (incl. custodial staking) | 2025/04/25 |
 | Bitpanda Custody MENA DMCC | VL/25/04/006 | Custody (incl. custodial staking) | 2025/04/25 |
+| BitGo Custody MENA FZE | VL/25/04/003 | Custody (incl. custodial staking) | 2025/04/25 |
 | Atremo Digital FZE | VL/25/04/005 | Broker-Dealer | 2025/04/25 |
 | MKX Virtual Assets Broker & Dealer Services L.L.C. | VL/25/04/001 | Broker-Dealer | 2025/04/18 |
 | DKK Digital FZE | VL/25/04/002 | Broker-Dealer; Advisory | 2025/04/18 |
@@ -102,20 +105,20 @@ Source: VARA public register, verified 25 Jun 2026. Format per firm: name · ref
 | OFZA Fintech Virtual Asset Exchange Services LLC | VL/24/12/002 | Exchange; Broker-Dealer; Mgmt & Investment | 2024/12/30 |
 | Zand Bank P.J.S.C. | VL/2024/12/001 | Custody | 2024/12/09 |
 | BitOasis Technologies FZE | VL/2024/11/001 | Broker-Dealer | 2024/11/29 |
-| Deribit FZE | VL/23/12/002 | Exchange (incl. VA Derivatives Trading) | 2024/11/01 |
-| OKX Middle East Fintech FZE | VL/23/12/003 | Lending & Borrowing; Mgmt & Investment; Exchange (incl. Derivatives); Broker-Dealer | 2024/09/17 |
-| Aquanow ME FZE | VL/24/01/001 | Broker-Dealer; Mgmt & Investment; Lending & Borrowing | 2024/07/22 |
+| Deribit FZE | VL/23/12/002 | Exchange (incl. VA Derivatives) | 2024/11/01 |
+| OKX Middle East Fintech FZE | VL/23/12/003 | Lending & Borrowing; Mgmt & Investment; Exchange (incl. VA Derivatives); Broker-Dealer | 2024/09/17 |
 | Varni Labs FZE (Roma) | VL/23/10/001 | Broker-Dealer | 2024/07/22 |
+| Aquanow ME FZE | VL/24/01/001 | Broker-Dealer; Mgmt & Investment; Lending & Borrowing | 2024/07/22 |
 | MBIO FZE (MB.IO) | VL/24/06/001 | Broker-Dealer; Exchange | 2024/07/18 |
 | HT Markets MENA FZE | VL/23/08/003 | Broker-Dealer; Mgmt & Investment | 2024/05/31 |
-| Binance FZE | VL/24/04/001 | Broker-Dealer; Mgmt & Investment; Lending & Borrowing; Exchange (incl. Derivatives) | 2024/04/15 |
-| Foris DAX Middle East FZE (Crypto.com) | VL/23/10/003 | Broker-Dealer; Mgmt & Investment; Lending & Borrowing; Exchange (incl. Derivatives) | 2024/04/03 |
+| Binance FZE | VL/24/04/001 | Broker-Dealer; Mgmt & Investment; Lending & Borrowing; Exchange (incl. VA Derivatives) | 2024/04/15 |
+| Foris DAX Middle East FZE (Crypto.com) | VL/23/10/003 | Broker-Dealer; Mgmt & Investment; Lending & Borrowing; Exchange (incl. VA Derivatives) | 2024/04/03 |
 | Web 3 Innovations FZE (AYA) | VL/23/12/001 | Mgmt & Investment | 2023/12/01 |
 | Fasset FZE | VL/23/07/002 | Broker-Dealer | 2023/11/30 |
 | CoinMENA FZE | VL/23/09/001 | Broker-Dealer | 2023/11/30 |
 | Nine Blocks Capital Management FZE | VL/23/09/003 | Mgmt & Investment | 2023/11/21 |
-| GC Exchange FZE (GCEX) | VL/23/09/002 | Broker-Dealer | 2023/11/17 |
 | Morpheus Software Technology FZE (FUZE) | VL/23/10/002 | Broker-Dealer | 2023/11/17 |
+| GC Exchange FZE (GCEX) | VL/23/09/002 | Broker-Dealer | 2023/11/17 |
 | Hex Trust MENA FZE | VL/23/08/002 | Custody | 2023/11/15 |
 | Trek Labs Ltd FZE (Backpack) | VL/23/07/001 | Exchange | 2023/10/30 |
 | Scintilla Network FZE | VL/23/07/003 | Broker-Dealer; Exchange | 2023/09/11 |
@@ -270,6 +273,8 @@ These were licensed in early 2026 and have minimal public information beyond the
 - **First Crypto Exchange L.L.C (First Crypto)** — VL/26/04/004 · Broker-Dealer · 2026/04/26.
 - **Liquidity Fintech FZE** — VL/26/04/003 · Broker-Dealer · 2026/04/16.
 - **Daman Virtual Asset Brokerage LLC** — VL/26/04/001 · Broker-Dealer · 2026/04/16. (Possibly linked to Daman, a UAE investment firm — verify before stating.)
+- **Tribe Tokenisation FZE** — VL/26/06/002 · Broker-Dealer · 2026/06/22 · graduated from IPA/25/12/005. Beyond the register facts, public detail is limited — the name suggests a tokenization focus but the Czar must not infer services beyond the licensed activities on the register.
+- **YHEGO Virtual Assets Exchange Service L.L.C (Yhego Technology Investment L.L.C)** — VL/26/06/001 · Broker-Dealer · 2026/06/22 · graduated from IPA/25/10/006. Thin public footprint; give register facts only.
 
 ### Firms requiring extra care on identity
 
@@ -359,7 +364,7 @@ Concept definitions the Czar can use freely (these are timeless, low staleness r
 ## PART 9 — STANDARD ANSWERS (templates for common questions)
 
 - **"Is [firm] regulated / legit?"** → State the VARA reference and activities from Part 2/3, note "licensed by VARA for [activities]," include any watch-flag, and add that VARA licensing covers specific activities and is not an endorsement. Point to the VARA register to verify.
-- **"How many VASPs are licensed?"** → "As of the last verification (25 Jun 2026), **48 active VARA licences** (held by 49 licensed firms — two share one reference) on the register, plus In-Principle Approval holders shown separately. This changes as new firms are licensed — check vara.ae for the current count."
+- **"How many VASPs are licensed?"** → "As of the last verification (22 Jul 2026), **50 active VARA licences** (held by 51 licensed firms — two share one reference) on the register, plus 20 In-Principle Approval holders shown separately. This changes as new firms are licensed — check vara.ae for the current count."
 - **"Who tokenizes Dubai property?"** → Explain the stack: DLD issues, Ctrl Alt mints/custodies on XRPL, PRYPCO distributes to retail. Correct the common mislabel of PRYPCO as the tokenizer.
 - **"Should I invest in [X]?"** → Decline to advise; provide factual information; recommend a licensed professional.
 - **"What's the tokenized market worth?"** → Give the sourced, dated, defined range from Part 7; explain why figures differ.
@@ -368,7 +373,7 @@ Concept definitions the Czar can use freely (these are timeless, low staleness r
 
 ## PART 10 — THE ECOSYSTEM DIRECTORY (Tier 2 — NOT licensed VASPs)
 
-The site has a SECOND directory beyond the 49 VARA VASPs: the **UAE Web3 Ecosystem** directory of dev studios, infrastructure firms, DeFi protocols, advisory/consulting, market makers, VCs, and media/education companies. The Czar may answer questions about these, but MUST follow these rules:
+The site has a SECOND directory beyond the 51 VARA-licensed VASPs: the **UAE Web3 Ecosystem** directory of dev studios, infrastructure firms, DeFi protocols, advisory/consulting, market makers, VCs, and media/education companies. The Czar may answer questions about these, but MUST follow these rules:
 
 1. **These are NOT VARA-licensed VASPs.** Whenever discussing an ecosystem firm, the Czar states clearly that it is an ecosystem participant, not a licensed virtual-asset provider, and that being listed is not a license or an endorsement.
 2. **Never conflate the two directories.** The 49 VASPs (Tier 1) are licensed and on the VARA register. Ecosystem firms (Tier 2) are not. If a user asks "is [ecosystem firm] licensed?", the answer is: not in the VARA register; it is listed as an ecosystem participant only. Direct them to the validate-a-license tool / VARA register to confirm any licensing claim.
@@ -376,7 +381,7 @@ The site has a SECOND directory beyond the 49 VARA VASPs: the **UAE Web3 Ecosyst
 4. **On the "how many" question:** there is NO authoritative count of UAE Web3 organizations. Marketing sources cite figures like "~1,500," but this is unverified and the Czar must NOT state it as fact. The honest answer: the ecosystem is large and fast-growing but has no official register, so any total is an estimate; the site lists only verified entries.
 5. **Tier check on validation:** if asked to validate a name that is an ecosystem firm, the correct response is "not found in the VARA register — listed as an ecosystem participant, not a licensed VASP," never a bare "not licensed" that might read as a negative judgment.
 
-Context the Czar can give: the UAE Web3 ecosystem spans free zones including DMCC Crypto Centre, DIFC, Dubai Internet City, and RAK DAO, plus Abu Dhabi's Hub71. It includes development agencies, infrastructure providers, and service firms — distinct from, and far more numerous than, the 49 licensed VASPs. The site's value is connecting investors and participants to *verified* information across both layers, clearly labelled.
+Context the Czar can give: the UAE Web3 ecosystem spans free zones including DMCC Crypto Centre, DIFC, Dubai Internet City, and RAK DAO, plus Abu Dhabi's Hub71. It includes development agencies, infrastructure providers, and service firms — distinct from, and far more numerous than, the 51 licensed VASPs. The site's value is connecting investors and participants to *verified* information across both layers, clearly labelled.
 
 ---
 
@@ -413,6 +418,14 @@ Verified via a multi-source, adversarially-checked research pass (30 Jun 2026). 
 - **Status:** CBUAE **in-principle approval 14 Oct 2024**; **full operating licence 11 Dec 2024** (one outlet reports 10 Dec — a one-day variance) under the PTSR. It is the **first CBUAE-regulated, dirham-pegged stablecoin.** It has moved into real use — a **Dubai Department of Finance government-payment pilot (Oct 2025)**. Confidence: HIGH (unanimous verification). (Sources: Cointelegraph; Mondaq; Gulf News; Khaleej Times, Oct–Dec 2024.)
 - **Watch-flag:** secondary press sometimes confuses the issuer with distribution/banking partners (Al Maryah Community Bank, e&, FAB). The **issuer of record is AED Stablecoin LLC** — the Czar should state this if asked.
 
+### Zand AED (AEDZ) — LIVE / CBUAE-approved, bank-issued (added 22 Jul 2026)
+- **Issuer:** Zand Trust, a wholly owned subsidiary of **Zand Bank PJSC** (the UAE's first fully licensed all-digital bank, CBUAE banking licence 30 Jun 2022; chairman Mohamed Alabbar; CEO Michael Chan). Zand Trust is "licensed and supervised by the Central Bank of the UAE" per Zand's announcement.
+- **Status:** CBUAE approval and launch announced **17 Nov 2025**. Positioned as the "first regulated AED-backed stablecoin on public blockchains." 1:1 backed by AED reserves in segregated regulated accounts, with independently audited smart contracts and reserve attestations (company statements). Tokenization/wallet technology by **Taurus**.
+- **Distinct from AE Coin:** AE Coin (AED Stablecoin LLC, licensed Dec 2024) remains the FIRST CBUAE-regulated dirham stablecoin; Zand AED is the first **bank-issued** one on **public blockchains**. Do not conflate the two.
+- **Ripple partnership (10 Feb 2026):** RLUSD support inside Zand's regulated custody, AEDZ↔RLUSD liquidity, and AEDZ issuance on the XRP Ledger — announced as "subject to regulatory approvals," i.e. ANNOUNCED, not confirmed live.
+- **Zand's VARA angle:** Zand Bank holds a VARA custody licence (VL/2024/12/001, see Part 3B) and VARA-approved institutional digital-asset custody (Dec 2024); banking operations remain CBUAE-licensed.
+- **Watch-flags:** (1) which public blockchains AEDZ is actually live on is NOT specified in Zand's PR — say "multiple public blockchains per the company" and don't name chains. (2) Reserve backing/audit claims are company statements, not independently published attestations. (Sources: zand.ae newsroom 17 Nov 2025 + 10 Feb 2026; taurushq.com; The National, Jul 2022.)
+
 ### Tether AED — ANNOUNCED only (not live, not approved)
 - **Who:** Tether, with Abu Dhabi's **Phoenix Group PLC** and **Green Acorn Investments**, announced **21 Aug 2024**.
 - **Status:** In development, *seeking* PTSR licensing, targeted a 2025 launch. **No confirmed CBUAE approval or live launch as of mid-2026.** It is a **separate effort from AE Coin and must not be conflated** with it. "Fully backed by liquid UAE-based reserves" is a press-release design statement, not an audited attestation. Confidence: HIGH on "announced-only." (Sources: Tether.io press release; Phoenix Group newsroom; Gulf Business; Cointelegraph, Aug 2024.)
@@ -425,11 +438,32 @@ Verified via a multi-source, adversarially-checked research pass (30 Jun 2026). 
 - The **Digital Dirham** is the CBUAE's **central-bank-issued, central-bank-guaranteed CBDC** — a central-bank *liability*, categorically different from a privately-issued, reserve-backed stablecoin. CBDC Strategy announced March 2023. Keep the two distinct; do not describe the Digital Dirham as a "stablecoin." Confidence: HIGH. (Source: CBUAE CBDC Strategy.)
 
 ### Standard answer — "Is there a UAE dirham stablecoin?"
-→ "Yes. **AE Coin**, issued by AED Stablecoin LLC, is CBUAE-licensed (Dec 2024) — the first fully regulated, 1:1 dirham-backed stablecoin. **Tether's AED coin** (with Phoenix Group) and an **IHC/ADQ/FAB** coin have been *announced* but are not confirmed live as of mid-2026. The **Digital Dirham** is a separate thing — a central-bank CBDC, not a private stablecoin. The enabling rulebook is the CBUAE Payment Token Services Regulation (2024), distinct from VARA."
+→ "Yes — two are live. **AE Coin**, issued by AED Stablecoin LLC, is CBUAE-licensed (Dec 2024) — the first fully regulated, 1:1 dirham-backed stablecoin. **Zand AED (AEDZ)**, issued by Zand Trust (Zand Bank PJSC), was CBUAE-approved and launched Nov 2025 — the first bank-issued dirham stablecoin on public blockchains. **Tether's AED coin** (with Phoenix Group) and an **IHC/ADQ/FAB** coin have been *announced* but are not confirmed live as of mid-2026. The **Digital Dirham** is a separate thing — a central-bank CBDC, not a private stablecoin. The enabling rulebook is the CBUAE Payment Token Services Regulation (2024), distinct from VARA."
 
 ### Open items the Czar must treat as UNVERIFIED (say so; point to primary source)
 Tether/Phoenix AED current licensing status; whether the IHC/ADQ/FAB (FAB-issued) coin obtained approval or launched, and the "ADI Chain 12 Feb 2026" detail; any reported **RAKBank** AED stablecoin; AE Coin's exact reserve composition / audit cadence.
 
 ---
 
-*End of corpus. This file is the source-of-truth for the Digital Czar. It now covers all 49 VARA VASPs (Part 2/3/3B), verified activity counts (Part 1), the ecosystem directory caveats (Part 10), corrected figures (Part 11), and UAE dirham stablecoins + the PTSR vs VARA vs Digital Dirham distinction (Part 12, added 30 Jun 2026). When updating: change the date stamp, preserve all watch-flags, and never remove a sourcing caveat to make a figure or firm look cleaner.*
+## PART 13 — HOW TOKENIZED DUBAI PROPERTY IS VALUED & REVALUED (added 22 Jul 2026)
+
+Verified 22 Jul 2026 against primary sources — chiefly the **PRYPCO Mint Terms & Conditions** (prypco.com/mint/terms-and-conditions, clause numbers below), prypco.com/mint, and dubailand.gov.ae. A prior research pass produced several claims that verification REFUTED — those are listed as watch-flags. The Czar must keep the confirmed/refuted split intact.
+
+### Confirmed mechanics (PRYPCO Mint — the DLD/VARA retail pilot)
+- **At listing:** PRYPCO verifies the sale price "using either DLD's smart valuation or using a leading independent accredited valuer, who will provide a report on the Property" (T&C clause 3.3).
+- **Revaluation cadence:** the estimated valuation is refreshed on a **semiannual basis** (every 6 months) "using DLD's smart valuation or an accredited valuer," based on updated market data and recent transactions in the same community/area, net of transaction expenses, deferred taxes and liabilities (clause 12.2). Investors pay for these periodic valuations out of property cash flows (clause 10.2).
+- **Two distinct numbers exist per property:** (a) the **estimated valuation** (DLD smart valuation / accredited valuer), displayed in the app, explicitly disclaimed as "under no circumstances… a guarantee or assurance on the market price of your investment" (clause 12.1); and (b) the **secondary-market listing price** set by buyers/sellers.
+- **±15% price band:** secondary listings "cannot be either less than or more than 15% of the latest DLD smart valuation available on the Platform" (clause 15.2). The band's reference is the **latest DLD smart valuation** — a per-property automated valuation model — NOT a market index.
+- **Rails and registry:** transactions recorded on the **XRP Ledger**, secured by Ripple Custody; **Ctrl Alt** integrated directly with DLD to issue/manage title-deed tokens synced to the land registry (CoinDesk, 20 Feb 2026; see Part 3/6). Minimum investment **AED 2,000** (prypco.com/mint).
+- **Property Token Ownership Certificate:** DLD unveiled it **29 May 2025** (dubailand.gov.ae) — a DLD-issued certificate per funded property, downloadable via the app. (Date matters: an earlier internal note said "Mar 2026" — that was WRONG.)
+- **Secondary market:** live ~20 Feb 2026, built with VARA, Dubai Future Foundation, and the UAE Central Bank (CoinDesk).
+
+### Watch-flags — claims verification REFUTED or could not support
+- **"YallaValue is the valuation oracle for tokenized Dubai property" — UNSUPPORTED.** YallaValue exists (a Dubai instant-valuation service, RERA reg. 60842, partnered with Hometree) but NO source connects it to any token platform; Prypco's own T&C names only "DLD's smart valuation or a leading independent accredited valuer." The Czar must NOT repeat the oracle claim.
+- **Mo'asher** (the DLD + Property Finder monthly index) IS Dubai's official sales-and-rental index, but NO source documents its use in tokenized-property valuation. Do not present it as part of token pricing; DLD *smart valuation* (per-property AVM) is a different DLD product from the Mo'asher *index*.
+- **"NAV"** is industry commentary language, not Prypco's — Prypco says "estimated valuation." The Czar may explain the NAV-vs-market-price concept generically but should not attribute the term to Prypco.
+- The named identity of Prypco's "accredited valuer" is NOT public.
+
+---
+
+*End of corpus. This file is the source-of-truth for the Digital Czar. It now covers all 51 VARA-licensed VASPs (Part 2/3/3B, re-verified 22 Jul 2026), verified activity counts (Part 1), the ecosystem directory caveats (Part 10), corrected figures (Part 11), UAE dirham stablecoins + the PTSR vs VARA vs Digital Dirham distinction (Part 12, added 30 Jun 2026; Zand AED added 22 Jul 2026), and tokenized-property valuation mechanics (Part 13, added 22 Jul 2026). When updating: change the date stamp, preserve all watch-flags, and never remove a sourcing caveat to make a figure or firm look cleaner.*

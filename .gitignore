@@ -34,3 +34,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Khurram defaults
+# Khurram's standard .gitignore additions — append to project's .gitignore
+.env.local
+.env.vercel
+.env*.local
+.vercel/
+.next/
+.playwright-mcp/
+*.png
+*.jpg
+*.jpeg
+!public/**/*.png
+!public/**/*.jpg
+!public/**/*.jpeg
+!components/**/*.svg
+.DS_Store
+node_modules/

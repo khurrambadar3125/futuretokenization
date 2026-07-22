@@ -5,8 +5,12 @@
 # Exit 1 = run build (changes matter)
 # Exit 0 = skip build (changes are docs/skills/memory only)
 
-# Get the list of files changed since the previous successful deploy
-CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null)
+# Get the list of files changed since the previous successful deploy.
+# VERCEL_GIT_PREVIOUS_SHA = last successfully deployed commit (set by Vercel).
+# Falls back to HEAD~1 locally. If the SHA is outside the shallow clone the
+# diff fails -> CHANGED empty -> build (fail-open, never silently skip code).
+BASE="${VERCEL_GIT_PREVIOUS_SHA:-HEAD~1}"
+CHANGED=$(git diff --name-only "$BASE" HEAD 2>/dev/null)
 
 # If we can't determine changes, build to be safe
 [ -z "$CHANGED" ] && exit 1

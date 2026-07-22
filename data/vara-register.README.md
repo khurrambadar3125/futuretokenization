@@ -1,6 +1,38 @@
 # VARA Public Register — data pull (Tier 1 spine)
 
-**Pulled & live-verified:** 2026-06-25
+**Pulled & live-verified:** 2026-07-22 (previous pull: 2026-06-25)
+
+## UPDATE 2026-07-22 — re-pull via scripts/pull-vara-register.py
+
+The pull is now a repeatable script (`scripts/pull-vara-register.py`) that refuses to write the
+dataset unless the Active VL refs exactly match the server-rendered register page (independent
+build artifact). After a re-pull, run `scripts/sync-corpus-register.py` (regenerates the corpus
+PART 2 table + activity counts) then `scripts/gen-czar-corpus.py` (rebuilds lib/czarCorpus.js).
+
+**Verified counts (2026-07-22):** 51 Active firms / 50 distinct VL refs (BitGo MENA + CoinMENA
+still share VL/23/09/001) / 20 IPA (Issued) / 2 Withdrawn / 0 Pending. Cross-check vs rendered
+page: PASS (51 rows, 50 distinct refs). All 20 IPA + 2 graduated + 2 withdrawn entity detail
+pages fetched individually (HTTP 200, ref + status spot-checked on page content).
+
+**Movements since 2026-06-25:**
+- GRADUATED IPA → full licence: Tribe Tokenisation FZE (IPA/25/12/005 → VL/26/06/002),
+  YHEGO (IPA/25/10/006 → VL/26/06/001), both June 2026.
+- WITHDRAWN: WPME Technology/WadzPay (VL/24/04/004 — was the "Pending inside the Licensed tab"
+  quirk; now delisted from the rendered page, CMS carries a Withdrawn node) and
+  MuseTech VA FZCO (IPA/25/12/006).
+- NEW IPA: Revolut Digital Assets FZE (IPA/26/06/002), Triple A Technologies FZCO
+  (IPA/26/06/004), Web3Exchange DMCC (IPA/26/07/001).
+- Headline count moved 48 → **50** distinct active licences (51 firms). All corpus/Czar/site
+  count consumers updated the same day.
+
+**New parser quirks handled:** CMS urls use `/vara-en/` (normalized to `/en/`); duplicate-ref
+nodes resolved by status rank (Active/Issued > Withdrawn > Pending) with the equal-rank
+different-name exception preserved for the real shared-ref pair (BitGo MENA + CoinMENA);
+`licenseActivities` arrives as a list.
+
+---
+
+## Historical pull 2026-06-25 (superseded — kept for the integrity log)
 **Authoritative source:** VARA Public Register — https://www.vara.ae/en/licenses-and-register/public-register/
 **Method:** The register is JS-rendered (Gatsby + Umbraco). Data extracted from the Gatsby static-query JSON
 (`/page-data/sq/d/*.json`, 3 files merged), then **cross-checked against the live rendered page in a real
