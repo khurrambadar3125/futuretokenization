@@ -466,4 +466,24 @@ Verified 22 Jul 2026 against primary sources — chiefly the **PRYPCO Mint Terms
 
 ---
 
-*End of corpus. This file is the source-of-truth for the Digital Czar. It now covers all 51 VARA-licensed VASPs (Part 2/3/3B, re-verified 22 Jul 2026), verified activity counts (Part 1), the ecosystem directory caveats (Part 10), corrected figures (Part 11), UAE dirham stablecoins + the PTSR vs VARA vs Digital Dirham distinction (Part 12, added 30 Jun 2026; Zand AED added 22 Jul 2026), and tokenized-property valuation mechanics (Part 13, added 22 Jul 2026). When updating: change the date stamp, preserve all watch-flags, and never remove a sourcing caveat to make a figure or firm look cleaner.*
+## PART 14 — PAKISTAN: THE STRATEGIC DIGITAL WALLET COMPANY (added 22 Jul 2026)
+
+Source basis for this part: ProPakistani, TechJuice, and the Gazette of Pakistan (SOE Act 2023). Facts below are from the site's approved SDWC content blocks; the Czar must not extend them from training data.
+
+### What the Strategic Digital Wallet Company (SDWC) is
+- A **wholly government-owned company incorporated by Pakistan's federal cabinet in October 2025** under the State-Owned Enterprises (Governance and Operations) Act, 2023 (SOE Act 2023).
+- Its role: **foundational infrastructure for managing Pakistan's digital assets** — custody of the national Bitcoin wallet, tokenized government bonds, sovereign digital currency rails, and cross-border blockchain settlement in a regulated environment.
+- **Founding board:** Joint Secretaries of the Finance, Cabinet, and Law & Justice Divisions, with an **interim CEO** named pending board appointment of a regular chief executive under the Act.
+- In the site's Pakistan framing it is **"Layer 0 — The Sovereign Custodian"** of the Five-Layer National Architecture: every layer above (USD1/DeFi via the WLF MOU; sovereign bond tokenization via the Binance MOU; DAMAC/Punjab real-estate tokenization; agricultural tokenization) ultimately settles through, or is custodied by, this entity. Layers 1–4 are announcement-stage MOUs and pilots; **Layer 0 is the only layer that exists as an incorporated legal entity**.
+
+### The governance wrapper (why the model is structurally unusual)
+- The SOE Act 2023 was **enacted under IMF programme conditions**. It requires **majority-independent boards** (outside professionals, not serving officials), rigorous **fit-and-proper vetting under Schedule IV** with formal declarations of independence, and director appointments routed through a **Board Nomination Committee** process with a central register held by the Finance Division.
+- Structural consequence: Pakistan's state crypto custodian **cannot legally remain a bureaucrats-only entity** — the law forces technologists, finance, and legal professionals into the majority of its boardroom.
+- Comparative point: most sovereign Bitcoin experiments (El Salvador, Bhutan) built the asset position first and improvised governance afterward. **Pakistan has the governance statute in place before the balance sheet exists** — for institutional observers, that sequencing is the most credible feature of the national strategy.
+
+### How the Czar should answer "What is the Strategic Digital Wallet Company?"
+Lead with: incorporated October 2025, wholly government-owned, SOE Act 2023, custodian role (national Bitcoin wallet, tokenized bonds, sovereign digital currency rails, cross-border settlement). Then the governance point (majority-independent board required by statute). Date the facts and note that appointments beyond the founding board are per the Act's process. If asked about details not covered here (balance sheet, holdings, named executives), use the default "no verified information" script.
+
+---
+
+*End of corpus. This file is the source-of-truth for the Digital Czar. It now covers all 51 VARA-licensed VASPs (Part 2/3/3B, re-verified 22 Jul 2026), verified activity counts (Part 1), the ecosystem directory caveats (Part 10), corrected figures (Part 11), UAE dirham stablecoins + the PTSR vs VARA vs Digital Dirham distinction (Part 12, added 30 Jun 2026; Zand AED added 22 Jul 2026), tokenized-property valuation mechanics (Part 13, added 22 Jul 2026), and Pakistan's Strategic Digital Wallet Company / SOE Act 2023 governance layer (Part 14, added 22 Jul 2026). When updating: change the date stamp, preserve all watch-flags, and never remove a sourcing caveat to make a figure or firm look cleaner.*

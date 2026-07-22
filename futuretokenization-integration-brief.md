@@ -107,7 +107,7 @@ Map the CURRENT long-scroll content (from the existing site) into the new sectio
 ### → MENA CORRIDOR
 - UAE/Dubai regulatory content (VARA, the multi-layer system, DFSA Jan 2026 changes)
 - All Pakistan content (PVARA, Binance $2B MOU, WLF MOU, DAMAC/Punjab, PDAA, agri-tokenization) — corpus Part 6
-- The four-layer Pakistan architecture graphic (strong existing asset — keep)
+- The five-layer Pakistan architecture graphic (strong existing asset — keep)
 - Other emerging markets (Southeast Asia, Africa) as secondary cards
 
 ### → NEWS
