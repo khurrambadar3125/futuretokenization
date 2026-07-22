@@ -79,52 +79,52 @@ const BODY_HTML = `<!-- NAV -->
 <section id="pk-custody">
   <div class="sec-tag">Education · Custody</div>
   <h2 class="sec-h2">Sovereign Custody <em>Architecture</em></h2>
-  <p class="sec-sub">What it actually takes to hold digital assets at state scale. The reference architecture below is drawn from publicly documented practice at regulated digital-asset custodians worldwide — it is illustrative education, not the internal policy of the SDWC or any other entity.</p>
+  <p class="sec-sub">What it takes to hold digital assets at state scale — explained as <em>principles, not a build manual</em>. Each idea below is drawn from publicly documented practice at regulated custodians worldwide; the aim is to understand what must be true of sovereign custody, not to specify how any one institution should implement it.</p>
 
   <div class="three-col">
     <div class="card">
       <div class="card-icon">🧊</div>
       <div class="card-h">Cold Storage</div>
-      <div class="card-p">Private keys generated and held on devices that never touch the internet — "air-gapped." Because the keys are physically unreachable from the network, remote theft of cold-stored assets is close to impossible. The trade-off is speed: moving cold assets is deliberately slow and ceremonial. Sovereign practice keeps the overwhelming share of holdings cold, with only a small operational float in warmer tiers.</div>
-      <span class="card-tag tag-gold">Default for Reserves</span>
+      <div class="card-p">The idea: keys for the assets a state means to <em>hold</em>, not move, are kept away from the internet entirely, so a remote attacker simply cannot reach them. The trade-off is deliberate — safety bought with slowness. Why it matters: the bulk of a sovereign reserve should sit in the form that is hardest to touch, not the form that is easiest to spend.</div>
+      <span class="card-tag tag-gold">Safety Over Speed</span>
     </div>
     <div class="card">
       <div class="card-icon">🔑</div>
       <div class="card-h">Multi-Signature</div>
-      <div class="card-p">No single key — and therefore no single person — can move assets. An M-of-N scheme (for example, "no fewer than 3-of-5") requires multiple independent key-holders to approve every movement. Well-written custody policy sets multi-sig as a <em>floor</em>, not an architecture: whether it is implemented as on-chain multi-sig, HSM-based signing, or MPC is an implementation decision that can evolve with technology.</div>
+      <div class="card-p">The idea: no single key — and therefore no single person — can move assets; several independent approvers must agree first. Why it matters: it converts "trust this individual" into "trust this process," and removes the single point of failure that has ended more than one custodian. The exact scheme is an engineering choice; the principle is not.</div>
       <span class="card-tag tag-blue">No Single Point of Failure</span>
     </div>
     <div class="card">
       <div class="card-icon">🛡️</div>
-      <div class="card-h">HSMs &amp; MPC</div>
-      <div class="card-p">Hardware Security Modules are tamper-resistant devices that generate and use keys without ever exposing them — the same class of hardware that protects card networks and CBDC pilots. Multi-Party Computation splits a key into shares so it is never assembled in one place at all. Both satisfy the same principle: no complete key on any single machine, ever.</div>
-      <span class="card-tag tag-green">Key Isolation</span>
+      <div class="card-h">Key Isolation</div>
+      <div class="card-p">The idea: a complete key should never exist on any one internet-connected machine — hardware security modules and multi-party computation are two well-known families of technique the industry uses to achieve this. Why it matters: if no whole key is ever assembled in one place, there is no single thing for an attacker to steal.</div>
+      <span class="card-tag tag-green">One Principle, Many Implementations</span>
     </div>
   </div>
 
   <div class="two-col" style="margin-top:24px;">
     <div>
       <div class="info-block">
-        <h4>Key Ceremony Governance</h4>
-        <p>Keys for sovereign holdings are not created at a desk. A <strong>key ceremony</strong> is a scripted, witnessed, recorded event: independent witnesses attend, every step follows a pre-approved runbook, hardware provenance is verified, key shares are distributed to separately accountable holders, and the entire ceremony is logged and auditable. The ceremony is what turns "we generated keys" into "the state can prove how its keys were generated, by whom, and under whose eyes."</p>
+        <h4>The Key Ceremony</h4>
+        <p>Keys for sovereign holdings are not created at a desk. A <strong>key ceremony</strong> is a formal, witnessed, recorded event — and its purpose is not secrecy but <em>accountability</em>: it turns "we generated keys" into "the state can prove how its keys were generated, by whom, and under whose eyes." Why it matters: custody you cannot audit is custody you cannot trust, and the ceremony is where auditability begins.</p>
       </div>
       <div class="info-block">
-        <h4>Geographic Separation &amp; Disaster Recovery</h4>
-        <p>Key shares and backups are held at physically separate, independently secured sites, so that no single fire, flood, or targeted attack can destroy or capture a quorum. Absolute rules break in disasters — which is why mature policy defines in advance, at board level, how recovery works when a site is lost, rather than improvising in a crisis.</p>
+        <h4>Resilience by Design</h4>
+        <p>No single fire, flood, or targeted attack should be able to destroy or capture a state's ability to control its assets. Why it matters: absolute rules break in disasters — so a mature custodian decides <em>in advance</em>, at board level, how it survives the loss of a site, rather than improvising in the middle of a crisis.</p>
       </div>
     </div>
     <div>
       <div class="info-block">
         <h4>Segregation of Duties</h4>
-        <p>The person who initiates a transaction is never the person who approves it, and neither of them reconciles the books. Custody failures in every era of finance — long before blockchain — trace back to one person holding too many links of the chain. Digital assets raise the stakes because transfers are irreversible: there is no chargeback on a blockchain.</p>
+        <p>The person who initiates a transaction should not be the one who approves it, nor the one who reconciles the books afterward. Why it matters: custody failures in every era of finance — long before blockchain — trace back to one person holding too many links of the chain. Digital assets raise the stakes, because a blockchain transfer is irreversible: there is no chargeback.</p>
       </div>
       <div class="info-block">
-        <h4>Hot Wallets — Capped and Rare</h4>
-        <p>A hot wallet is any wallet whose keys live on an internet-connected system. Operationally necessary for settlement rails, but every unit in a hot wallet is exposed to remote attack. Reference practice caps hot-wallet balances at a small fraction of holdings, replenished from cold storage through the same multi-approval discipline as any other movement.</p>
+        <h4>The Cost of Convenience</h4>
+        <p>Any wallet reachable from the internet is, by definition, exposed to it. Some online capability is unavoidable for settlement — but every unit kept there for convenience is a unit at risk. Why it matters: the discipline is to hold as little as possible in the reachable places, and to treat any movement out of the protected ones as a deliberate, governed act.</p>
       </div>
       <div class="info-block">
-        <h4>Commingling — Never</h4>
-        <p>State assets, client assets, and operational funds live in separate wallets under separate controls. Commingling is how exchange collapses became customer losses. For a sovereign custodian, segregation is not just prudence — it is what makes proof of reserves meaningful at all.</p>
+        <h4>No Commingling</h4>
+        <p>State assets, client assets, and operational funds belong in separate hands under separate controls. Why it matters: commingling is how exchange collapses became customer losses — and for a sovereign custodian, keeping the pools separate is what makes any later "proof of reserves" mean anything at all.</p>
       </div>
     </div>
   </div>
@@ -145,17 +145,14 @@ const BODY_HTML = `<!-- NAV -->
     </div>
     <div class="info-block">
       <h4>Risk Appetite — the Board's Own Language</h4>
-      <p>Risk appetite is how much risk the board authorizes management to take, stated in advance and in writing. A reference appetite for a sovereign custodian: <strong>zero tolerance</strong> — single-key custody, unilateral asset movement, commingling of funds; <strong>minimal tolerance</strong> — hot-wallet exposure, tightly capped; <strong>accepted risk</strong> — market price volatility, because a custodian safeguards assets rather than trades them: <em>a custodian, not a trading house</em>.</p>
+      <p>Risk appetite is how much risk the board authorizes management to take, stated in advance and in writing. In the language a board actually uses, a sovereign custodian's appetite sorts into three kinds: <strong>zero tolerance</strong> — things never permitted, such as single-key custody, unilateral movement, or commingling of funds; <strong>minimal tolerance</strong> — things allowed only in small, deliberate measure, such as online exposure; and <strong>accepted risk</strong> — things simply lived with, such as market price volatility, because a custodian safeguards assets rather than trades them: <em>a custodian, not a trading house</em>.</p>
     </div>
   </div>
 
   <div class="info-block" style="margin-top:10px;">
-    <h4>The Three-Tier Authorization Matrix</h4>
-    <p style="margin-bottom:10px;">Every movement of assets maps to a tier, agreed by the board before the first transaction ever occurs:</p>
-    <p style="margin-bottom:10px;"><strong>Tier 1 — Routine operations.</strong> Small, pre-defined, within standing limits (e.g. replenishing an operational wallet). Executed by management under dual control, reported upward.</p>
-    <p style="margin-bottom:10px;"><strong>Tier 2 — Significant movements.</strong> Above routine limits or outside standing patterns. Requires senior-management dual approval plus risk-function sign-off before execution.</p>
-    <p style="margin-bottom:10px;"><strong>Tier 3 — Reserve movements.</strong> Any movement of reserve holdings requires a <strong>full board resolution</strong> — deliberate, minuted, and slow by design. Government-directed transactions route through this tier from day one.</p>
-    <p><strong>Emergency freeze authority</strong> sits alongside the matrix: a pre-agreed power to halt all movements instantly when compromise is suspected — because in an irreversible-settlement world, the only good response to doubt is stop.</p>
+    <h4>Authority Scaled to Consequence</h4>
+    <p style="margin-bottom:10px;">The principle beneath any custodian's approval rules is easy to state and hard to live by: <strong>the larger and more irreversible the action, the higher the authority required to take it</strong> — with the movement of the reserve itself reserved for the full board, deliberate and minuted, never a single desk. The specific thresholds and limits that put this into practice are exactly the kind of detail a board sets and revisits over time; the principle is the part that does not change.</p>
+    <p>One companion idea is worth naming: a pre-agreed <strong>emergency freeze</strong> — the standing authority to halt everything the instant compromise is suspected. In a world where settlement cannot be reversed, the only safe response to genuine doubt is to stop first and verify second.</p>
   </div>
 
   <div class="two-col" style="margin-top:10px;">
