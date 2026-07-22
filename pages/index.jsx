@@ -1225,6 +1225,20 @@ const BODY_HTML = `<!-- NAV -->
     </div>
     <div class="case-card">
       <div class="case-card-head">
+        <div class="case-logo">Zand Bank</div>
+        <div class="case-sub">Digital Bank · VARA Custodian · AED Stablecoin · UAE · 2022–26</div>
+      </div>
+      <div class="case-card-body">
+        <div class="case-stat-row">
+          <div class="case-stat"><div class="cs-num">1st</div><div class="cs-lbl">UAE All-Digital Bank</div></div>
+          <div class="case-stat"><div class="cs-num">AEDZ</div><div class="cs-lbl">Bank-Issued Stablecoin</div></div>
+          <div class="case-stat"><div class="cs-num">VARA</div><div class="cs-lbl">Custody Licence</div></div>
+        </div>
+        <div class="case-desc">Zand Bank PJSC is the UAE's first fully licensed all-digital bank (CBUAE banking licence June 2022; Fitch BBB+, 2025; chaired by Mohamed Alabbar) — and a useful study in what the tokenized economy actually rests on. Zand holds two regulated roles at once: a CBUAE-licensed commercial bank <em>and</em> a VARA-approved institutional digital-asset custodian (custody licence Dec 2024, keys in onshore UAE HSMs). In November 2025 its subsidiary Zand Trust launched <strong>Zand AED (AEDZ)</strong> — the first bank-issued, AED-backed stablecoin on public blockchains, with tokenization and wallet technology from Taurus. A February 2026 Ripple partnership — RLUSD in Zand custody and AEDZ on the XRP Ledger — is announced but subject to regulatory approvals. The lesson for a national strategy: the entity that matters most is not a crypto startup but a fully regulated bank that can custody digital assets and issue its own regulated money — the trust layer beneath tokenization. <span style="color:var(--text-dim);">Sources: zand.ae newsroom; The National (2022); Taurus. AEDZ's specific public chains are not named by the issuer; the Ripple tie-up is announced, not yet confirmed live.</span></div>
+      </div>
+    </div>
+    <div class="case-card">
+      <div class="case-card-head">
         <div class="case-logo">Franklin Templeton Benji</div>
         <div class="case-sub">First US-Registered Mutual Fund on Blockchain · 2021</div>
       </div>
