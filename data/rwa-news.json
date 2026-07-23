@@ -1,11 +1,20 @@
 {
-  "generated": "2026-07-22T17:00:01.803Z",
-  "generatedLabel": "22 Jul 2026",
-  "count": 10,
+  "generated": "2026-07-23T08:31:50.526Z",
+  "generatedLabel": "23 Jul 2026",
+  "count": 8,
   "items": [
     {
-      "brief": "BitGo, OTC Markets enable tokenized securities trading for broker-dealers",
-      "why": "Alliance expands custody infrastructure for digital asset securities settlement onchain.",
+      "brief": "Kraken parent scales tokenized equities to Asia and Europe",
+      "why": "Expanding tokenized equity platform internationally demonstrates RWA market growth.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/409448/kraken-parent-payward-partners-gtn-scale-xstocks-internationally-beyond-us-equities?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-22",
+      "dateLabel": "22 Jul 2026"
+    },
+    {
+      "brief": "BitGo, OTC Markets enable broker-dealer tokenized securities trading",
+      "why": "Custody infrastructure enables institutional access to digital asset securities.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitgo-otc-markets-tokenized-securities-broker-dealers?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -13,8 +22,8 @@
       "dateLabel": "22 Jul 2026"
     },
     {
-      "brief": "UK digital gilt pilot needs onchain stablecoin to unlock market liquidity",
-      "why": "Stablecoin required as settlement mechanism for tokenized government bonds.",
+      "brief": "UK digital bonds need onchain stablecoin to unlock liquidity",
+      "why": "Stablecoin settlement layer critical for tokenized government debt pilots.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/07/22/uk-digital-bond-plans-hinge-on-one-missing-piece-onchain-cash",
@@ -22,8 +31,8 @@
       "dateLabel": "22 Jul 2026"
     },
     {
-      "brief": "Tokenized equity trading reaches $470 billion monthly volume in RWA sector",
-      "why": "Demonstrates scale of tokenized equity adoption as core RWA asset class.",
+      "brief": "Tokenized equity perpetuals drive RWA trading to $470B monthly",
+      "why": "Tokenized equities emerging as dominant RWA trading category.",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/post/408961/tokenized-equity-perps-drive-rwa-trading-boom-to-470-billion-monthly-volume?utm_source=rss&utm_medium=rss",
@@ -31,26 +40,17 @@
       "dateLabel": "22 Jul 2026"
     },
     {
-      "brief": "Kraken's xStocks expands tokenized equities to Hong Kong, UK, South Korea",
-      "why": "Global expansion of tokenized equity offerings across major markets.",
-      "category": "Tokenization",
+      "brief": "Kraken parent expands tokenized stocks globally beyond US",
+      "why": "Scaling tokenized equity infrastructure across major international markets.",
+      "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/07/22/kraken-parent-expands-tokenized-stocks-to-hong-kong-uk-and-south-korea-equities",
       "date": "2026-07-22",
       "dateLabel": "22 Jul 2026"
     },
     {
-      "brief": "Balance stablecoin collapses after bitcoin price manipulation exploit",
-      "why": "Security failure in stablecoin collateral system highlights tokenization risks.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
-      "date": "2026-07-22",
-      "dateLabel": "22 Jul 2026"
-    },
-    {
-      "brief": "BIS warns USD stablecoins can evade capital controls more effectively than deposits",
-      "why": "Regulatory analysis of stablecoin role in cross-border asset movement.",
+      "brief": "BIS warns USD stablecoins may circumvent capital controls",
+      "why": "Regulatory concern about stablecoin adoption's impact on traditional controls.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/post/409193/bis-warns-stablecoins-capital-controls?utm_source=rss&utm_medium=rss",
@@ -58,38 +58,20 @@
       "dateLabel": "22 Jul 2026"
     },
     {
-      "brief": "Base Layer-2 launching 1:1-backed tokenized equities offering",
-      "why": "Ethereum scaling platform expanding tokenized asset infrastructure.",
-      "category": "Tokenization",
+      "brief": "Base prepares imminent launch of 1:1-backed tokenized equities",
+      "why": "L2 blockchain expanding tokenized equity offerings for institutional adoption.",
+      "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bases-tokenized-equities-imminent-pollak?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-07-21",
       "dateLabel": "21 Jul 2026"
     },
     {
-      "brief": "Tether Gold recognized as spot commodity in Abu Dhabi financial center",
-      "why": "Regulatory approval for tokenized commodity asset class adoption.",
+      "brief": "Tether Gold gains commodity recognition in Abu Dhabi",
+      "why": "Tokenized commodity gaining regulatory acceptance expands RWA adoption paths.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/tether-gold-recognized-as-accepted-spot-commodity-in-abu-dhabi-financial-center?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-20",
-      "dateLabel": "20 Jul 2026"
-    },
-    {
-      "brief": "Robinhood's tokenization strategy on Arbitrum could reduce crypto trading reliance",
-      "why": "Digital broker expanding tokenized equities and onchain infrastructure.",
-      "category": "DigitalBank",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bernstein-raises-robinhood-price-target-cites-tokenization-and-prediction-markets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-20",
-      "dateLabel": "20 Jul 2026"
-    },
-    {
-      "brief": "South Korea's CBDC pilot expands with tokenized bank deposit payment tests",
-      "why": "Central bank advancing tokenized deposit infrastructure for payments.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/south-korea-september-second-phase-cbdc-pilot?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-07-20",
       "dateLabel": "20 Jul 2026"
     }
