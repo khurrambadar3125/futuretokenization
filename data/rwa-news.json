@@ -1,79 +1,97 @@
 {
-  "generated": "2026-07-23T08:31:50.526Z",
-  "generatedLabel": "23 Jul 2026",
-  "count": 8,
+  "generated": "2026-07-24T08:28:59.115Z",
+  "generatedLabel": "24 Jul 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Kraken parent scales tokenized equities to Asia and Europe",
-      "why": "Expanding tokenized equity platform internationally demonstrates RWA market growth.",
-      "category": "RWA",
+      "brief": "Largest stablecoins ranked; market cap surges to $300 billion",
+      "why": "Stablecoins now recognized as efficient medium of exchange in financial system.",
+      "category": "Stablecoin",
       "source": "The Block",
-      "url": "https://www.theblock.co/post/409448/kraken-parent-payward-partners-gtn-scale-xstocks-internationally-beyond-us-equities?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-22",
-      "dateLabel": "22 Jul 2026"
+      "url": "https://www.theblock.co/learn/409203/largest-stablecoins-ranked?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-24",
+      "dateLabel": "24 Jul 2026"
     },
     {
-      "brief": "BitGo, OTC Markets enable broker-dealer tokenized securities trading",
-      "why": "Custody infrastructure enables institutional access to digital asset securities.",
+      "brief": "Mirae rebrands Korbit exchange to connect RWAs, stablecoins, digital assets",
+      "why": "Digital platform building ecosystem bridging RWAs and stablecoins together.",
+      "category": "DigitalBank",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/24/mirae-asset-has-a-name-for-what-it-s-building-with-korbit-an-intelligent-platform",
+      "date": "2026-07-24",
+      "dateLabel": "24 Jul 2026"
+    },
+    {
+      "brief": "How stablecoins maintain their peg through reserves and arbitrage",
+      "why": "Explains mechanisms underlying stablecoin stability and value preservation.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/learn/409577/how-do-stablecoins-maintain-their-peg?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-24",
+      "dateLabel": "24 Jul 2026"
+    },
+    {
+      "brief": "Tassat launches marketplace for stablecoin issuers and regional bank reserves",
+      "why": "Infrastructure enabling smaller banks to participate in stablecoin ecosystem.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/23/tassat-wants-to-help-smaller-banks-tap-the-trillion-dollar-stablecoin-boom-before-wall-street-lock-them-out",
+      "date": "2026-07-23",
+      "dateLabel": "23 Jul 2026"
+    },
+    {
+      "brief": "Uniswap adds permissioned pools for regulated tokenized assets and securities",
+      "why": "Trading infrastructure for tokenized regulated funds and securities.",
       "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitgo-otc-markets-tokenized-securities-broker-dealers?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-22",
-      "dateLabel": "22 Jul 2026"
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/22/uniswap-pushes-deeper-into-tokenized-assets-with-permissioned-trading-pools",
+      "date": "2026-07-23",
+      "dateLabel": "23 Jul 2026"
     },
     {
-      "brief": "UK digital bonds need onchain stablecoin to unlock liquidity",
-      "why": "Stablecoin settlement layer critical for tokenized government debt pilots.",
+      "brief": "Goldman Sachs CEO backs Clarity Act stablecoin regulatory framework",
+      "why": "Major bank support for stablecoin regulation creates clearer market structure.",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/22/uk-digital-bond-plans-hinge-on-one-missing-piece-onchain-cash",
-      "date": "2026-07-22",
-      "dateLabel": "22 Jul 2026"
+      "url": "https://www.coindesk.com/policy/2026/07/23/goldman-sachs-ceo-backs-clarity-act-despite-banking-industry-s-concerns-over-stablecoin-rules",
+      "date": "2026-07-23",
+      "dateLabel": "23 Jul 2026"
     },
     {
-      "brief": "Tokenized equity perpetuals drive RWA trading to $470B monthly",
-      "why": "Tokenized equities emerging as dominant RWA trading category.",
-      "category": "RWA",
+      "brief": "LayerZero and Keeta enable tokenized bank deposits across multiple blockchains",
+      "why": "Cross-chain infrastructure for tokenized deposit products.",
+      "category": "Tokenization",
       "source": "The Block",
-      "url": "https://www.theblock.co/post/408961/tokenized-equity-perps-drive-rwa-trading-boom-to-470-billion-monthly-volume?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-22",
-      "dateLabel": "22 Jul 2026"
+      "url": "https://www.theblock.co/post/409507/layerzero-keeta-enable-tokenized-bank-deposits-across-ethereum-solana-and-base?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-23",
+      "dateLabel": "23 Jul 2026"
     },
     {
-      "brief": "Kraken parent expands tokenized stocks globally beyond US",
-      "why": "Scaling tokenized equity infrastructure across major international markets.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/22/kraken-parent-expands-tokenized-stocks-to-hong-kong-uk-and-south-korea-equities",
-      "date": "2026-07-22",
-      "dateLabel": "22 Jul 2026"
-    },
-    {
-      "brief": "BIS warns USD stablecoins may circumvent capital controls",
-      "why": "Regulatory concern about stablecoin adoption's impact on traditional controls.",
+      "brief": "Lombard launches bitcoin-backed credit strategy for stablecoin borrowing",
+      "why": "New collateral mechanism for stablecoin lending products.",
       "category": "Stablecoin",
       "source": "The Block",
-      "url": "https://www.theblock.co/post/409193/bis-warns-stablecoins-capital-controls?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-22",
-      "dateLabel": "22 Jul 2026"
+      "url": "https://www.theblock.co/post/409516/flow-traders-pilots-lombards-new-bitcoin-backed-credit-strategy-for-stablecoin-borrowing?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-23",
+      "dateLabel": "23 Jul 2026"
     },
     {
-      "brief": "Base prepares imminent launch of 1:1-backed tokenized equities",
-      "why": "L2 blockchain expanding tokenized equity offerings for institutional adoption.",
+      "brief": "Mubadala tokenizes private market fund onchain with Coinbase backing",
+      "why": "Sovereign wealth fund tokenizing alternative assets on blockchain.",
       "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bases-tokenized-equities-imminent-pollak?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-21",
-      "dateLabel": "21 Jul 2026"
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/23/abu-dhabi-s-mubadala-capital-joins-tokenization-push-as-coinbase-takes-stake-in-onchain-fund",
+      "date": "2026-07-23",
+      "dateLabel": "23 Jul 2026"
     },
     {
-      "brief": "Tether Gold gains commodity recognition in Abu Dhabi",
-      "why": "Tokenized commodity gaining regulatory acceptance expands RWA adoption paths.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tether-gold-recognized-as-accepted-spot-commodity-in-abu-dhabi-financial-center?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-20",
-      "dateLabel": "20 Jul 2026"
+      "brief": "Circle partners with Kakao and Toss Bank for South Korea stablecoin payments",
+      "why": "Stablecoin payment infrastructure deployment with regional partners.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/409497/circle-partners-with-kakao-toss?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-23",
+      "dateLabel": "23 Jul 2026"
     }
   ],
   "feedsOk": [
