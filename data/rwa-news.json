@@ -1,11 +1,47 @@
 {
-  "generated": "2026-07-24T08:28:59.115Z",
-  "generatedLabel": "24 Jul 2026",
+  "generated": "2026-07-25T08:07:55.285Z",
+  "generatedLabel": "25 Jul 2026",
   "count": 10,
   "items": [
     {
-      "brief": "Largest stablecoins ranked; market cap surges to $300 billion",
-      "why": "Stablecoins now recognized as efficient medium of exchange in financial system.",
+      "brief": "Wise to resubmit national trust bank application under GENIUS Act",
+      "why": "Digital bank pursuing regulatory framework for stablecoin operations",
+      "category": "DigitalBank",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/409631/wise-plans-resubmit-national-trust-bank-application-under-genius-act-framework?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-24",
+      "dateLabel": "24 Jul 2026"
+    },
+    {
+      "brief": "Brazilian farmers tokenize dairy cows as loan collateral",
+      "why": "Tokenized livestock enables RWA-backed lending bypassing traditional limits",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
+      "date": "2026-07-24",
+      "dateLabel": "24 Jul 2026"
+    },
+    {
+      "brief": "Tokenized RWAs become Hyperliquid's largest trading category",
+      "why": "RWA tokenization now dominates decentralized exchange volumes",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/hyperliquid-rwa-volume-crypto-trading-first-time?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-24",
+      "dateLabel": "24 Jul 2026"
+    },
+    {
+      "brief": "Brazil registers first tokenized dairy cows as loan collateral",
+      "why": "Tokenized livestock demonstrates RWA adoption for secured lending",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/brazils-b3-rwa-credit-tokenized-cows-collateral?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-24",
+      "dateLabel": "24 Jul 2026"
+    },
+    {
+      "brief": "Stablecoin market cap surges to $300 billion",
+      "why": "Stablecoins recognized as efficient medium for global financial systems",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/learn/409203/largest-stablecoins-ranked?utm_source=rss&utm_medium=rss",
@@ -13,8 +49,8 @@
       "dateLabel": "24 Jul 2026"
     },
     {
-      "brief": "Mirae rebrands Korbit exchange to connect RWAs, stablecoins, digital assets",
-      "why": "Digital platform building ecosystem bridging RWAs and stablecoins together.",
+      "brief": "Mirae rebrands Korbit exchange to connect RWAs and stablecoins",
+      "why": "Digital bank ecosystem integrating tokenized assets and stablecoins",
       "category": "DigitalBank",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/24/mirae-asset-has-a-name-for-what-it-s-building-with-korbit-an-intelligent-platform",
@@ -22,8 +58,8 @@
       "dateLabel": "24 Jul 2026"
     },
     {
-      "brief": "How stablecoins maintain their peg through reserves and arbitrage",
-      "why": "Explains mechanisms underlying stablecoin stability and value preservation.",
+      "brief": "How stablecoins maintain price peg mechanisms",
+      "why": "Explains collateral and arbitrage mechanisms underlying stablecoin stability",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/learn/409577/how-do-stablecoins-maintain-their-peg?utm_source=rss&utm_medium=rss",
@@ -31,8 +67,8 @@
       "dateLabel": "24 Jul 2026"
     },
     {
-      "brief": "Tassat launches marketplace for stablecoin issuers and regional bank reserves",
-      "why": "Infrastructure enabling smaller banks to participate in stablecoin ecosystem.",
+      "brief": "Tassat launches stablecoin reserve marketplace for regional banks",
+      "why": "Infrastructure enabling smaller banks to participate in stablecoin issuance",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/07/23/tassat-wants-to-help-smaller-banks-tap-the-trillion-dollar-stablecoin-boom-before-wall-street-lock-them-out",
@@ -40,56 +76,20 @@
       "dateLabel": "23 Jul 2026"
     },
     {
-      "brief": "Uniswap adds permissioned pools for regulated tokenized assets and securities",
-      "why": "Trading infrastructure for tokenized regulated funds and securities.",
-      "category": "Tokenization",
+      "brief": "Uniswap adds permissioned pools for tokenized regulated funds",
+      "why": "Infrastructure enabling institutional RWA and tokenized securities trading",
+      "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/07/22/uniswap-pushes-deeper-into-tokenized-assets-with-permissioned-trading-pools",
       "date": "2026-07-23",
       "dateLabel": "23 Jul 2026"
     },
     {
-      "brief": "Goldman Sachs CEO backs Clarity Act stablecoin regulatory framework",
-      "why": "Major bank support for stablecoin regulation creates clearer market structure.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/23/goldman-sachs-ceo-backs-clarity-act-despite-banking-industry-s-concerns-over-stablecoin-rules",
-      "date": "2026-07-23",
-      "dateLabel": "23 Jul 2026"
-    },
-    {
-      "brief": "LayerZero and Keeta enable tokenized bank deposits across multiple blockchains",
-      "why": "Cross-chain infrastructure for tokenized deposit products.",
+      "brief": "LayerZero and Keeta enable cross-chain tokenized bank deposits",
+      "why": "Tokenized deposits now transferable across multiple blockchains",
       "category": "Tokenization",
       "source": "The Block",
       "url": "https://www.theblock.co/post/409507/layerzero-keeta-enable-tokenized-bank-deposits-across-ethereum-solana-and-base?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-23",
-      "dateLabel": "23 Jul 2026"
-    },
-    {
-      "brief": "Lombard launches bitcoin-backed credit strategy for stablecoin borrowing",
-      "why": "New collateral mechanism for stablecoin lending products.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/409516/flow-traders-pilots-lombards-new-bitcoin-backed-credit-strategy-for-stablecoin-borrowing?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-23",
-      "dateLabel": "23 Jul 2026"
-    },
-    {
-      "brief": "Mubadala tokenizes private market fund onchain with Coinbase backing",
-      "why": "Sovereign wealth fund tokenizing alternative assets on blockchain.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/23/abu-dhabi-s-mubadala-capital-joins-tokenization-push-as-coinbase-takes-stake-in-onchain-fund",
-      "date": "2026-07-23",
-      "dateLabel": "23 Jul 2026"
-    },
-    {
-      "brief": "Circle partners with Kakao and Toss Bank for South Korea stablecoin payments",
-      "why": "Stablecoin payment infrastructure deployment with regional partners.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/409497/circle-partners-with-kakao-toss?utm_source=rss&utm_medium=rss",
       "date": "2026-07-23",
       "dateLabel": "23 Jul 2026"
     }
