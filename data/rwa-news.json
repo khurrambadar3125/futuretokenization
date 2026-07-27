@@ -1,11 +1,20 @@
 {
-  "generated": "2026-07-26T08:27:38.027Z",
-  "generatedLabel": "26 Jul 2026",
-  "count": 9,
+  "generated": "2026-07-27T09:53:35.548Z",
+  "generatedLabel": "27 Jul 2026",
+  "count": 3,
   "items": [
     {
-      "brief": "Weather derivatives tokenization could address climate risk hedging gaps",
-      "why": "Tokenized derivatives expand RWA use cases beyond traditional finance into climate risk management",
+      "brief": "South Korea firm tokenizes commercial invoices on Injective network",
+      "why": "Corporate receivables tokenization demonstrates blockchain adoption for real-world asset finance.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/26/south-korea-trading-giant-puts-receivables-onchain-in-tokenization-test-with-lg-cns",
+      "date": "2026-07-27",
+      "dateLabel": "27 Jul 2026"
+    },
+    {
+      "brief": "Tokenization proposed to democratize weather derivative hedging access",
+      "why": "Tokenized derivatives could expand real-world risk management to underserved markets.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/opinion/2026/07/25/democratizing-weather-derivatives-through-tokenization-could-be-crypto-s-most-important-real-world-use-case",
@@ -13,76 +22,13 @@
       "dateLabel": "25 Jul 2026"
     },
     {
-      "brief": "Robinhood Chain's tokenized stocks jump fivefold with $500K daily volume",
-      "why": "Demonstrates growing adoption and scale of tokenized equities as real-world assets on blockchain",
+      "brief": "Robinhood Chain sees fivefold growth as tokenized stocks trade in volume",
+      "why": "Tokenized equities gaining trading traction signals RWA infrastructure maturation.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
       "date": "2026-07-25",
       "dateLabel": "25 Jul 2026"
-    },
-    {
-      "brief": "Wise resubmits national trust bank application under stablecoin framework",
-      "why": "Shows traditional fintech pursuing stablecoin-focused banking charter through regulatory channels",
-      "category": "DigitalBank",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/409631/wise-plans-resubmit-national-trust-bank-application-under-genius-act-framework?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-24",
-      "dateLabel": "24 Jul 2026"
-    },
-    {
-      "brief": "Brazilian farmers tokenize dairy cows to access loans via smart collateral",
-      "why": "Tokenized livestock enables real-world collateralization and alternative lending outside traditional banking",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
-      "date": "2026-07-24",
-      "dateLabel": "24 Jul 2026"
-    },
-    {
-      "brief": "Tokenized RWAs become Hyperliquid's largest trading category",
-      "why": "RWA trading volume growth demonstrates market demand for tokenized real-world assets",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/hyperliquid-rwa-volume-crypto-trading-first-time?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-24",
-      "dateLabel": "24 Jul 2026"
-    },
-    {
-      "brief": "Tokenized cows back $19,600 loan in Brazil's first livestock collateral use",
-      "why": "Demonstrates practical application of tokenized assets as on-chain collateral for credit",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/brazils-b3-rwa-credit-tokenized-cows-collateral?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-24",
-      "dateLabel": "24 Jul 2026"
-    },
-    {
-      "brief": "Stablecoin market reaches $300 billion as efficiency medium gains recognition",
-      "why": "Stablecoins established as crypto's breakout use case for financial system infrastructure",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/learn/409203/largest-stablecoins-ranked?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-24",
-      "dateLabel": "24 Jul 2026"
-    },
-    {
-      "brief": "South Korean fintech Mirae plans ecosystem connecting RWAs, stablecoins, digital assets",
-      "why": "Traditional financial institution integrating tokenized assets and stablecoins into digital banking platform",
-      "category": "DigitalBank",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/24/mirae-asset-has-a-name-for-what-it-s-building-with-korbit-an-intelligent-platform",
-      "date": "2026-07-24",
-      "dateLabel": "24 Jul 2026"
-    },
-    {
-      "brief": "Stablecoins maintain peg through reserves and arbitrage mechanisms",
-      "why": "Explains fundamental mechanisms enabling stablecoins as reliable on-chain dollar equivalents",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/learn/409577/how-do-stablecoins-maintain-their-peg?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-24",
-      "dateLabel": "24 Jul 2026"
     }
   ],
   "feedsOk": [
