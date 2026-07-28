@@ -1,34 +1,52 @@
 {
-  "generated": "2026-07-27T09:53:35.548Z",
-  "generatedLabel": "27 Jul 2026",
-  "count": 3,
+  "generated": "2026-07-28T08:35:36.231Z",
+  "generatedLabel": "28 Jul 2026",
+  "count": 5,
   "items": [
     {
-      "brief": "South Korea firm tokenizes commercial invoices on Injective network",
-      "why": "Corporate receivables tokenization demonstrates blockchain adoption for real-world asset finance.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/26/south-korea-trading-giant-puts-receivables-onchain-in-tokenization-test-with-lg-cns",
+      "brief": "Hong Kong banking sector prepares for quantum security risks amid tokenization expansion",
+      "why": "Security infrastructure is critical as tokenized finance systems scale in regulated markets.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/hong-kong-banks-quantum-threats-tokenization?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-28",
+      "dateLabel": "28 Jul 2026"
+    },
+    {
+      "brief": "Securitize gains SEC investment adviser registration for tokenized assets platform",
+      "why": "Regulatory approval expands institutional access to tokenized asset trading and advisory services.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/securitize-becomes-sec-registered-investment-adviser-through-capital-unit?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
       "date": "2026-07-27",
       "dateLabel": "27 Jul 2026"
     },
     {
-      "brief": "Tokenization proposed to democratize weather derivative hedging access",
-      "why": "Tokenized derivatives could expand real-world risk management to underserved markets.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/07/25/democratizing-weather-derivatives-through-tokenization-could-be-crypto-s-most-important-real-world-use-case",
-      "date": "2026-07-25",
-      "dateLabel": "25 Jul 2026"
+      "brief": "Securitize obtains SEC adviser license to expand tokenized investment strategies",
+      "why": "Regulatory credential enables broader institutional adoption of tokenized investment products.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/409821/securitize-expands-regulated-platform-with-sec-adviser-license?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-27",
+      "dateLabel": "27 Jul 2026"
     },
     {
-      "brief": "Robinhood Chain sees fivefold growth as tokenized stocks trade in volume",
-      "why": "Tokenized equities gaining trading traction signals RWA infrastructure maturation.",
+      "brief": "Metaplanet plans bitcoin-backed bonds with on-chain settlement and stablecoin payments",
+      "why": "Demonstrates RWA tokenization of fixed-income instruments using stablecoins for settlement.",
       "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/409752/benchmark-metaplanet-brokerage-deal-badly-undersells-plans-bitcoin-backed-bitbonds?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-27",
+      "dateLabel": "27 Jul 2026"
+    },
+    {
+      "brief": "Securitize gains SEC adviser license as tokenization of investment products advances",
+      "why": "Regulatory approval broadens institutional participation in on-chain investment tokenization.",
+      "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
-      "date": "2026-07-25",
-      "dateLabel": "25 Jul 2026"
+      "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands",
+      "date": "2026-07-27",
+      "dateLabel": "27 Jul 2026"
     }
   ],
   "feedsOk": [
