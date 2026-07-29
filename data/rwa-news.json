@@ -1,11 +1,65 @@
 {
-  "generated": "2026-07-28T08:35:36.231Z",
-  "generatedLabel": "28 Jul 2026",
-  "count": 5,
+  "generated": "2026-07-29T08:45:25.383Z",
+  "generatedLabel": "29 Jul 2026",
+  "count": 8,
   "items": [
     {
-      "brief": "Hong Kong banking sector prepares for quantum security risks amid tokenization expansion",
-      "why": "Security infrastructure is critical as tokenized finance systems scale in regulated markets.",
+      "brief": "Tether partners with Nairobi Securities Exchange on tokenized securities",
+      "why": "USDT as settlement layer for tokenized securities and blockchain infrastructure",
+      "category": "Stablecoin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/tether-signs-tokenization-deal-with-nairobi-securities-exchange?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-29",
+      "dateLabel": "29 Jul 2026"
+    },
+    {
+      "brief": "Coinbase Canada seeks clearer rules for tokenized assets and derivatives",
+      "why": "Exchange expansion into tokenized assets requires regulatory clarity",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/28/coinbase-wants-to-be-canada-s-everything-exchange-but-says-clearer-rules-are-needed-first",
+      "date": "2026-07-28",
+      "dateLabel": "28 Jul 2026"
+    },
+    {
+      "brief": "Ondo launches private network for onchain financial asset trading",
+      "why": "New infrastructure enables trading across tokenized financial assets",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network",
+      "date": "2026-07-28",
+      "dateLabel": "28 Jul 2026"
+    },
+    {
+      "brief": "Kraken offers tokenized Jersey Mike's shares to global retail users",
+      "why": "Tokenized shares backed 1:1 by underlying stock expand retail access",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-28",
+      "dateLabel": "28 Jul 2026"
+    },
+    {
+      "brief": "Cecabank and Crédit Mutuel join regulated Layer One tokenization platform",
+      "why": "Major European banks adopt regulated blockchain for tokenization",
+      "category": "Tokenization",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/cecabank-credit-mutuel-join-regulated-layer-one-tokenization-platform-as-it-launches/",
+      "date": "2026-07-28",
+      "dateLabel": "28 Jul 2026"
+    },
+    {
+      "brief": "Ondo shifts from layer-1 blockchain to offchain execution network",
+      "why": "Change in technical approach for institution-focused tokenization platform",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ondo-shifts-from-layer-1-blockchain-plan-to-offchain-execution-network?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-28",
+      "dateLabel": "28 Jul 2026"
+    },
+    {
+      "brief": "Hong Kong banks prepare for quantum threats amid tokenization expansion",
+      "why": "Security preparation supports broader tokenized finance ecosystem growth",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/hong-kong-banks-quantum-threats-tokenization?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -13,38 +67,11 @@
       "dateLabel": "28 Jul 2026"
     },
     {
-      "brief": "Securitize gains SEC investment adviser registration for tokenized assets platform",
-      "why": "Regulatory approval expands institutional access to tokenized asset trading and advisory services.",
-      "category": "Tokenization",
+      "brief": "Securitize Capital becomes SEC-registered investment adviser",
+      "why": "Regulatory registration expands institutional tokenized asset platform",
+      "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/securitize-becomes-sec-registered-investment-adviser-through-capital-unit?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-27",
-      "dateLabel": "27 Jul 2026"
-    },
-    {
-      "brief": "Securitize obtains SEC adviser license to expand tokenized investment strategies",
-      "why": "Regulatory credential enables broader institutional adoption of tokenized investment products.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/409821/securitize-expands-regulated-platform-with-sec-adviser-license?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-27",
-      "dateLabel": "27 Jul 2026"
-    },
-    {
-      "brief": "Metaplanet plans bitcoin-backed bonds with on-chain settlement and stablecoin payments",
-      "why": "Demonstrates RWA tokenization of fixed-income instruments using stablecoins for settlement.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/409752/benchmark-metaplanet-brokerage-deal-badly-undersells-plans-bitcoin-backed-bitbonds?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-27",
-      "dateLabel": "27 Jul 2026"
-    },
-    {
-      "brief": "Securitize gains SEC adviser license as tokenization of investment products advances",
-      "why": "Regulatory approval broadens institutional participation in on-chain investment tokenization.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands",
       "date": "2026-07-27",
       "dateLabel": "27 Jul 2026"
     }
