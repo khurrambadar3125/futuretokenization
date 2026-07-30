@@ -1,47 +1,74 @@
 {
-  "generated": "2026-07-29T08:45:25.383Z",
-  "generatedLabel": "29 Jul 2026",
-  "count": 8,
+  "generated": "2026-07-30T08:28:16.310Z",
+  "generatedLabel": "30 Jul 2026",
+  "count": 9,
   "items": [
     {
-      "brief": "Tether partners with Nairobi Securities Exchange on tokenized securities",
-      "why": "USDT as settlement layer for tokenized securities and blockchain infrastructure",
+      "brief": "Visa CEO: Open USD not a challenger, will remain multi-coin multi-chain",
+      "why": "Stablecoin proliferation strategy relevant to tokenization ecosystem competition",
       "category": "Stablecoin",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tether-signs-tokenization-deal-with-nairobi-securities-exchange?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/410064/visa-ceo-downplays-open-usd-challenger-tether-usdc-our-role-is-not-pick-winners?utm_source=rss&utm_medium=rss",
       "date": "2026-07-29",
       "dateLabel": "29 Jul 2026"
     },
     {
-      "brief": "Coinbase Canada seeks clearer rules for tokenized assets and derivatives",
-      "why": "Exchange expansion into tokenized assets requires regulatory clarity",
+      "brief": "Morgan Stanley: tokenization and 24/7 markets reshape banking",
+      "why": "Tokenization enablement of always-on financial infrastructure",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/28/coinbase-wants-to-be-canada-s-everything-exchange-but-says-clearer-rules-are-needed-first",
-      "date": "2026-07-28",
-      "dateLabel": "28 Jul 2026"
+      "url": "https://www.coindesk.com/markets/2026/07/29/morgan-stanley-execs-admit-the-traditional-9-to-5-banking-day-is-officially-dying",
+      "date": "2026-07-29",
+      "dateLabel": "29 Jul 2026"
     },
     {
-      "brief": "Ondo launches private network for onchain financial asset trading",
-      "why": "New infrastructure enables trading across tokenized financial assets",
+      "brief": "Brale protocol addresses scaling challenges for custom stablecoins",
+      "why": "Solution to fragmentation as companies issue their own stablecoins",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens",
+      "date": "2026-07-29",
+      "dateLabel": "29 Jul 2026"
+    },
+    {
+      "brief": "Tether's USAT stablecoin expands beyond Ethereum to Celo",
+      "why": "Stablecoin expansion across blockchains for tokenized transactions",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/410048/tethers-genius-compliant-usat-stablecoin-launches-on-celo-marking-first-expansion-beyond-ethereum?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-29",
+      "dateLabel": "29 Jul 2026"
+    },
+    {
+      "brief": "BNY targets $8.6 trillion transfer agency market via tokenized funds",
+      "why": "Major custodian adopting blockchain for tokenized asset ownership records",
       "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network",
-      "date": "2026-07-28",
-      "dateLabel": "28 Jul 2026"
+      "url": "https://www.coindesk.com/business/2026/07/29/bny-targets-usd8-6-trillion-transfer-agency-market-on-blockchain-rails",
+      "date": "2026-07-29",
+      "dateLabel": "29 Jul 2026"
     },
     {
-      "brief": "Kraken offers tokenized Jersey Mike's shares to global retail users",
-      "why": "Tokenized shares backed 1:1 by underlying stock expand retail access",
+      "brief": "Tether signs tokenization deal with Nairobi Securities Exchange",
+      "why": "USDT adoption as settlement layer for tokenized securities infrastructure",
       "category": "RWA",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "url": "https://cointelegraph.com/markets/tether-signs-tokenization-deal-with-nairobi-securities-exchange?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-29",
+      "dateLabel": "29 Jul 2026"
+    },
+    {
+      "brief": "Kraken offers tokenized Jersey Mike's shares to retail investors",
+      "why": "Tokenized equity shares backed 1:1 by underlying stock for broader access",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
       "date": "2026-07-28",
       "dateLabel": "28 Jul 2026"
     },
     {
       "brief": "Cecabank and Crédit Mutuel join regulated Layer One tokenization platform",
-      "why": "Major European banks adopt regulated blockchain for tokenization",
+      "why": "Traditional banks adopting regulated blockchain infrastructure for tokenization",
       "category": "Tokenization",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/cecabank-credit-mutuel-join-regulated-layer-one-tokenization-platform-as-it-launches/",
@@ -50,30 +77,12 @@
     },
     {
       "brief": "Ondo shifts from layer-1 blockchain to offchain execution network",
-      "why": "Change in technical approach for institution-focused tokenization platform",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ondo-shifts-from-layer-1-blockchain-plan-to-offchain-execution-network?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-28",
-      "dateLabel": "28 Jul 2026"
-    },
-    {
-      "brief": "Hong Kong banks prepare for quantum threats amid tokenization expansion",
-      "why": "Security preparation supports broader tokenized finance ecosystem growth",
+      "why": "Institutional tokenization platform architecture evolution for execution",
       "category": "Tokenization",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/hong-kong-banks-quantum-threats-tokenization?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "url": "https://cointelegraph.com/news/ondo-shifts-from-layer-1-blockchain-plan-to-offchain-execution-network?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
       "date": "2026-07-28",
       "dateLabel": "28 Jul 2026"
-    },
-    {
-      "brief": "Securitize Capital becomes SEC-registered investment adviser",
-      "why": "Regulatory registration expands institutional tokenized asset platform",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/securitize-becomes-sec-registered-investment-adviser-through-capital-unit?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-27",
-      "dateLabel": "27 Jul 2026"
     }
   ],
   "feedsOk": [
@@ -83,5 +92,7 @@
     "DL News",
     "Cointelegraph"
   ],
-  "feedsFailed": []
+  "feedsFailed": [
+    "Cointelegraph"
+  ]
 }
