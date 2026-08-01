@@ -1,11 +1,65 @@
 {
-  "generated": "2026-07-31T08:51:03.547Z",
-  "generatedLabel": "31 Jul 2026",
+  "generated": "2026-08-01T08:22:21.014Z",
+  "generatedLabel": "01 Aug 2026",
   "count": 10,
   "items": [
     {
-      "brief": "RWA perpetual futures volume rivals Bitcoin on major exchanges",
-      "why": "Demonstrates market adoption of tokenized equities as a significant trading asset class.",
+      "brief": "Tether posts $1.5B Q2 profit; reserve buffer halves",
+      "why": "Stablecoin issuer financial performance and reserve composition directly impact trust and backing of USDT.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half",
+      "date": "2026-07-31",
+      "dateLabel": "31 Jul 2026"
+    },
+    {
+      "brief": "Bybit adds tokenized stocks as loan collateral",
+      "why": "Tokenized equities enable new collateral use cases in lending and trading products.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bybit-tokenized-stocks-collateral-margin-loans?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-07-31",
+      "dateLabel": "31 Jul 2026"
+    },
+    {
+      "brief": "Circle secures NY trust charter for USDC issuer",
+      "why": "Regulatory approval enables stablecoin issuer to offer fiduciary and custody services under banking law.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates",
+      "date": "2026-07-31",
+      "dateLabel": "31 Jul 2026"
+    },
+    {
+      "brief": "RWA perpetual futures seen outpacing tokenization growth",
+      "why": "Commentary on market trajectory of tokenized assets and derivatives as TradFi export.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/07/31/rwa-perps-will-outpace-tokenization",
+      "date": "2026-07-31",
+      "dateLabel": "31 Jul 2026"
+    },
+    {
+      "brief": "Circle gains NYDFS trust charter for USDC oversight",
+      "why": "Regulatory approval adds state-level safeguards for stablecoin issuer operations.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/410275/circle-secures-nydfs-trust-charter-adding-state-layer-to-federal-usdc-oversight?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-31",
+      "dateLabel": "31 Jul 2026"
+    },
+    {
+      "brief": "Bernstein sees tokenization, prediction markets as Robinhood growth drivers",
+      "why": "Analyst highlights tokenization expansion as key to platform's crypto business growth.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/410259/bernstein-sees-78-upside-for-robinhood-as-tokenization-prediction-markets-expand-its-crypto-business?utm_source=rss&utm_medium=rss",
+      "date": "2026-07-31",
+      "dateLabel": "31 Jul 2026"
+    },
+    {
+      "brief": "RWA perpetual futures volume nears Bitcoin on major exchanges",
+      "why": "Tokenized equity derivatives reaching significant trading volumes signals RWA market maturation.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/markets/rwa-perpetual-futures-bitcoin-hyperliquid-binance?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
@@ -13,8 +67,8 @@
       "dateLabel": "31 Jul 2026"
     },
     {
-      "brief": "Stablecoin reserve requirements: what assets must back circulation",
-      "why": "Explains regulatory framework governing stablecoin issuance and collateralization.",
+      "brief": "Stablecoin reserve requirements explained",
+      "why": "Educational overview of regulatory rules governing stablecoin backing assets.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/learn/410234/stablecoin-reserve-requirements-explained?utm_source=rss&utm_medium=rss",
@@ -22,8 +76,8 @@
       "dateLabel": "31 Jul 2026"
     },
     {
-      "brief": "Stablecoins enable faster cross-border payments without traditional banks",
-      "why": "Shows stablecoins' practical utility in replacing slower international money transfer.",
+      "brief": "Stablecoins enable cross-border payments via blockchain",
+      "why": "Demonstrates stablecoin use case for international money transfer without traditional banking.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/learn/410227/stablecoins-and-cross-border-payments?utm_source=rss&utm_medium=rss",
@@ -31,67 +85,13 @@
       "dateLabel": "31 Jul 2026"
     },
     {
-      "brief": "Aviva Investors launches tokenized fund on XRPL with regulatory approval",
-      "why": "Regulated institutional adoption of tokenized investment products demonstrates RWA maturity.",
+      "brief": "Aviva Investors launches tokenized fund on XRPL",
+      "why": "Regulated institutional asset manager tokenizes fund, expanding RWA adoption in traditional finance.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/aviva-investors-tokenized-fund-central-bank-ireland-xrp-ledger?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-07-30",
       "dateLabel": "30 Jul 2026"
-    },
-    {
-      "brief": "28 major banks test blockchain settlement in BIS cross-border pilot",
-      "why": "Live deployment of tokenized money by global financial institutions for settlement.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot",
-      "date": "2026-07-30",
-      "dateLabel": "30 Jul 2026"
-    },
-    {
-      "brief": "Ondo Finance considers major acquisition in tokenized assets sector",
-      "why": "Industry consolidation signals growing RWA tokenization market maturation.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/30/ondo-finance-weighs-acquisition-worth-up-to-usd500-million",
-      "date": "2026-07-30",
-      "dateLabel": "30 Jul 2026"
-    },
-    {
-      "brief": "Tokenized gold withstands volatility but remains underused in DeFi lending",
-      "why": "Tests resilience of tokenized commodities while revealing adoption challenges.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tokenized-gold-defi-stress-test-collateral-adoption-redstone?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-30",
-      "dateLabel": "30 Jul 2026"
-    },
-    {
-      "brief": "Institutional crypto trading reaches 72% as tokenized assets grow",
-      "why": "Institutional dominance and growth in tokenized assets reflect mainstream adoption.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/30/institutional-trading-hits-a-record-72-as-wall-street-quietens-down-crypto-s-wild-swings",
-      "date": "2026-07-30",
-      "dateLabel": "30 Jul 2026"
-    },
-    {
-      "brief": "Robinhood expands tokenized stocks and blockchain offerings",
-      "why": "Major retail broker integrates tokenized equity products into platform.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/robinhood-record-quarter-crypto-revenue-slides?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-29",
-      "dateLabel": "29 Jul 2026"
-    },
-    {
-      "brief": "Tokenized equities and commodities trading surges to $6.6B",
-      "why": "Demonstrates substantial market growth in tokenized traditional assets.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-exchanges-tokenized-assets-market-6-6-billion?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-29",
-      "dateLabel": "29 Jul 2026"
     }
   ],
   "feedsOk": [
