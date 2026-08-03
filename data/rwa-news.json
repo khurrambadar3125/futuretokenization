@@ -1,11 +1,20 @@
 {
-  "generated": "2026-08-02T08:25:24.310Z",
-  "generatedLabel": "02 Aug 2026",
-  "count": 10,
+  "generated": "2026-08-03T09:46:51.049Z",
+  "generatedLabel": "03 Aug 2026",
+  "count": 3,
   "items": [
     {
+      "brief": "South Korean stablecoin outflows exceed $367M amid regulatory scrutiny",
+      "why": "Regulatory oversight of stablecoins and cross-border crypto flows directly impacts stablecoin adoption and market dynamics.",
+      "category": "Stablecoin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/south-korea-stablecoin-outflows-overseas-exchanges?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-03",
+      "dateLabel": "03 Aug 2026"
+    },
+    {
       "brief": "Tokenized stock trading surged 288% in July, led by QQQ token",
-      "why": "Demonstrates growing volume in tokenized equities, a core RWA use case.",
+      "why": "Tokenized equities are a core RWA use case; volume surge demonstrates growing adoption of tokenized asset trading.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
@@ -13,85 +22,13 @@
       "dateLabel": "01 Aug 2026"
     },
     {
-      "brief": "Bank of Italy study: stablecoin remittances not cheaper than traditional transfers",
-      "why": "Questions cost-efficiency narrative for stablecoin cross-border payments.",
+      "brief": "Bank of Italy: stablecoin remittances not cheaper than traditional methods",
+      "why": "Challenges stablecoin narrative for cross-border payments; cost parity affects stablecoin value proposition.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
       "date": "2026-08-01",
       "dateLabel": "01 Aug 2026"
-    },
-    {
-      "brief": "Tether posts $1.5B Q2 profit; adds gold and bitcoin to reserves",
-      "why": "Updates on largest stablecoin issuer's financial operations and backing assets.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half",
-      "date": "2026-07-31",
-      "dateLabel": "31 Jul 2026"
-    },
-    {
-      "brief": "Bybit adds tokenized Nvidia, Apple, Tesla stocks as loan collateral",
-      "why": "Tokenized equities integrated into lending/trading products on digital platform.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bybit-tokenized-stocks-collateral-margin-loans?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-31",
-      "dateLabel": "31 Jul 2026"
-    },
-    {
-      "brief": "Circle secures New York trust charter for USDC issuer",
-      "why": "Regulatory approval enables stablecoin issuer to offer custody and fiduciary services.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates",
-      "date": "2026-07-31",
-      "dateLabel": "31 Jul 2026"
-    },
-    {
-      "brief": "RWA perpetuals expected to outpace broader tokenization growth",
-      "why": "Signals emerging RWA use case and market trajectory beyond equity tokenization.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/07/31/rwa-perps-will-outpace-tokenization",
-      "date": "2026-07-31",
-      "dateLabel": "31 Jul 2026"
-    },
-    {
-      "brief": "Circle wins NYDFS limited-purpose trust charter for USDC operations",
-      "why": "State-level regulatory approval strengthens stablecoin issuer's banking infrastructure.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/410275/circle-secures-nydfs-trust-charter-adding-state-layer-to-federal-usdc-oversight?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-31",
-      "dateLabel": "31 Jul 2026"
-    },
-    {
-      "brief": "Bernstein cites tokenization as growth driver for Robinhood crypto business",
-      "why": "Analyst highlights tokenization as strategic expansion vector for digital trading platform.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/410259/bernstein-sees-78-upside-for-robinhood-as-tokenization-prediction-markets-expand-its-crypto-business?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-31",
-      "dateLabel": "31 Jul 2026"
-    },
-    {
-      "brief": "RWA perpetual futures near Bitcoin volume on major exchanges",
-      "why": "Demonstrates significant liquidity and adoption of tokenized asset derivatives.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/rwa-perpetual-futures-bitcoin-hyperliquid-binance?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-07-31",
-      "dateLabel": "31 Jul 2026"
-    },
-    {
-      "brief": "Stablecoin reserve requirements explained across major jurisdictions",
-      "why": "Educational overview of regulatory framework governing stablecoin backing assets.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/learn/410234/stablecoin-reserve-requirements-explained?utm_source=rss&utm_medium=rss",
-      "date": "2026-07-31",
-      "dateLabel": "31 Jul 2026"
     }
   ],
   "feedsOk": [
