@@ -1,34 +1,52 @@
 {
-  "generated": "2026-08-03T09:46:51.049Z",
-  "generatedLabel": "03 Aug 2026",
-  "count": 3,
+  "generated": "2026-08-04T08:38:00.177Z",
+  "generatedLabel": "04 Aug 2026",
+  "count": 5,
   "items": [
     {
-      "brief": "South Korean stablecoin outflows exceed $367M amid regulatory scrutiny",
-      "why": "Regulatory oversight of stablecoins and cross-border crypto flows directly impacts stablecoin adoption and market dynamics.",
+      "brief": "Mastercard acquires BVNK to expand stablecoin payments infrastructure",
+      "why": "Major payment processor integrating stablecoin and tokenized asset capabilities for enterprise scale",
       "category": "Stablecoin",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/south-korea-stablecoin-outflows-overseas-exchanges?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/410521/mastercard-completes-bvnk-acquisition?utm_source=rss&utm_medium=rss",
+      "date": "2026-08-04",
+      "dateLabel": "04 Aug 2026"
+    },
+    {
+      "brief": "BlackRock launches tokenized money market funds for stablecoin reserves",
+      "why": "Institutional tokenized funds designed as eligible reserves for stablecoin issuers",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/410469/blackrock-launches-two-tokenized-money-market-funds-stablecoin-reserves?utm_source=rss&utm_medium=rss",
       "date": "2026-08-03",
       "dateLabel": "03 Aug 2026"
     },
     {
-      "brief": "Tokenized stock trading surged 288% in July, led by QQQ token",
-      "why": "Tokenized equities are a core RWA use case; volume surge demonstrates growing adoption of tokenized asset trading.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
-      "date": "2026-08-01",
-      "dateLabel": "01 Aug 2026"
-    },
-    {
-      "brief": "Bank of Italy: stablecoin remittances not cheaper than traditional methods",
-      "why": "Challenges stablecoin narrative for cross-border payments; cost parity affects stablecoin value proposition.",
+      "brief": "Circle stock slides on tokenized fund competition and USDC growth concerns",
+      "why": "Stablecoin issuer faces headwinds from tokenized money market fund alternatives",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
-      "date": "2026-08-01",
-      "dateLabel": "01 Aug 2026"
+      "url": "https://www.coindesk.com/markets/2026/08/03/circle-internet-slides-after-morgan-stanley-downgrade-cut-in-price-target",
+      "date": "2026-08-03",
+      "dateLabel": "03 Aug 2026"
+    },
+    {
+      "brief": "BlackRock's tokenized funds qualify as reserves for regulated stablecoin issuers",
+      "why": "Tokenized assets structured as compliant reserve backing for payment stablecoins",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/03/blackrock-expands-tokenized-cash-with-new-blockchain-based-money-market-offerings",
+      "date": "2026-08-03",
+      "dateLabel": "03 Aug 2026"
+    },
+    {
+      "brief": "Ripple invests in tokenized capital markets platforms for XRP Ledger",
+      "why": "Blockchain infrastructure deployment for regulated issuance and tokenized asset infrastructure",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/410397/ripple-invests-zilo-licuido?utm_source=rss&utm_medium=rss",
+      "date": "2026-08-03",
+      "dateLabel": "03 Aug 2026"
     }
   ],
   "feedsOk": [
@@ -38,5 +56,7 @@
     "DL News",
     "Cointelegraph"
   ],
-  "feedsFailed": []
+  "feedsFailed": [
+    "Cointelegraph"
+  ]
 }
