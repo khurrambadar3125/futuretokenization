@@ -1,97 +1,97 @@
 {
-  "generated": "2026-08-05T08:37:09.908Z",
-  "generatedLabel": "05 Aug 2026",
+  "generated": "2026-08-06T08:36:57.987Z",
+  "generatedLabel": "06 Aug 2026",
   "count": 10,
   "items": [
     {
-      "brief": "Cloudflare rolls out stablecoin wallet for AI agents to pay for APIs",
-      "why": "Stablecoin infrastructure expansion for payments and digital commerce use cases.",
+      "brief": "Japanese stablecoin firm JPYC raises $38M in Series B",
+      "why": "Stablecoin funding round to expand adoption and ecosystem.",
       "category": "Stablecoin",
       "source": "The Block",
-      "url": "https://www.theblock.co/post/410629/cloudflare-kicks-off-stablecoin-wallet-rollout-ai-agents-pay-apis-online-content?utm_source=rss&utm_medium=rss",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
+      "url": "https://www.theblock.co/post/410959/jpyc-stablecoin-raises-38-million?utm_source=rss&utm_medium=rss",
+      "date": "2026-08-06",
+      "dateLabel": "06 Aug 2026"
     },
     {
-      "brief": "Coinbase, Visa, Mastercard to support multiple stablecoins including USDC",
-      "why": "Major payment platforms backing stablecoin infrastructure as competing rails.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/03/open-usd-rattled-circle-s-stock-but-its-key-backers-still-support-usdc",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
-    },
-    {
-      "brief": "Samsung to turn 800M Galaxy phones into digital asset wallets",
-      "why": "Mass adoption infrastructure for tokenized assets and blockchain payments.",
+      "brief": "Robinhood Chain reaches $774M TVL; tokenized assets at $27.6M",
+      "why": "Chain launched for tokenized assets, which now comprise significant portion of value.",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
+      "url": "https://www.coindesk.com/markets/2026/08/05/cashcat-jumps-120-in-a-week-as-robinhood-chain-tvl-hits-usd774-million",
+      "date": "2026-08-06",
+      "dateLabel": "06 Aug 2026"
     },
     {
-      "brief": "Wells Fargo tokenizes settlement rails on proprietary blockchain",
-      "why": "Major bank deploying tokenization for Wall Street settlement infrastructure.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
-    },
-    {
-      "brief": "Dinari launches tokenized S&P 500 stocks using USDC",
-      "why": "Tokenized equity offering demonstrates RWA market expansion with stablecoin integration.",
+      "brief": "Kraken's xStocks tokenized equities now support proxy voting rights",
+      "why": "Tokenized equity product gains governance feature for eligible investors.",
       "category": "RWA",
       "source": "The Block",
-      "url": "https://www.theblock.co/post/410588/dinari-tokenized-sp-500-stocks-self-custody-wallets-using-usdc?utm_source=rss&utm_medium=rss",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
+      "url": "https://www.theblock.co/post/410878/kraken-parent-payward-shifts-position-tokenized-equities-voting-rights?utm_source=rss&utm_medium=rss",
+      "date": "2026-08-05",
+      "dateLabel": "05 Aug 2026"
     },
     {
-      "brief": "Dinari brings tokenized U.S. stocks to American investors",
-      "why": "Custodial tokenization model expanding access to blockchain-based equities.",
+      "brief": "Nomura's Laser Digital backs ZIGChain for onchain private credit in UAE",
+      "why": "Investment in tokenized private credit infrastructure for onchain markets.",
       "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/04/dinari-brings-tokenized-u-s-stocks-to-american-investors-as-equity-race-heats-up",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
+      "url": "https://www.coindesk.com/business/2026/08/05/noumura-s-laser-digital-backs-zigchain-for-onchain-private-credit-push-in-uae",
+      "date": "2026-08-05",
+      "dateLabel": "05 Aug 2026"
     },
     {
-      "brief": "Tether Gold reserves rise as tokenized commodity adoption grows",
-      "why": "Tokenized commodity-backed asset demonstrating real-world asset tokenization adoption.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tether-gold-rise-q2-sharpest-quarterly-gold-correction?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
-    },
-    {
-      "brief": "BlackRock launches tokenized European money market funds",
-      "why": "Major asset manager tokenizing MMFs on blockchain for institutional access.",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/blackrock-launches-first-european-tokenized-mmfs/",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
-    },
-    {
-      "brief": "BlackRock expands tokenized cash platform with $311B MMF access",
-      "why": "Institutional tokenization of cash equivalents and stablecoin reserve expansion.",
-      "category": "RWA",
+      "brief": "Ondo Finance hires ex-Blockchain.com CFO for tokenized assets expansion",
+      "why": "Leadership hire signals growth in onchain tokenized capital markets business.",
+      "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/04/blackrock-debuts-tokenized-access-to-usd311-billion-of-money-market-funds-in-europe",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
+      "url": "https://www.coindesk.com/business/2026/08/05/ondo-finance-hires-former-blockchain-com-cfo-adam-schlisman",
+      "date": "2026-08-05",
+      "dateLabel": "05 Aug 2026"
     },
     {
-      "brief": "BlackRock launches tokenized MMF shares on Ethereum",
-      "why": "Institutional-grade RWA tokenization using blockchain infrastructure.",
-      "category": "RWA",
+      "brief": "Mastercard pilots Crypto Credential for cross-border stablecoin payments",
+      "why": "Major payment network expanding stablecoin infrastructure for trusted flows.",
+      "category": "Stablecoin",
       "source": "The Block",
-      "url": "https://www.theblock.co/post/410554/blackrock-debuts-tokenized-share-classes-for-select-european-money-market-funds-with-311-billion-in-assets?utm_source=rss&utm_medium=rss",
-      "date": "2026-08-04",
-      "dateLabel": "04 Aug 2026"
+      "url": "https://www.theblock.co/post/410830/mastercard-expands-stablecoin-push-with-crypto-credential-pilot?utm_source=rss&utm_medium=rss",
+      "date": "2026-08-05",
+      "dateLabel": "05 Aug 2026"
+    },
+    {
+      "brief": "Circle names BlackRock, DTCC as Arc validators; USDC at $73.3B circulation",
+      "why": "Major institutions backing stablecoin validator set; stablecoin growth milestone.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/410840/circle-names-blackrock-dtcc-among-arc-validators-as-q2-revenue-hits-701-million?utm_source=rss&utm_medium=rss",
+      "date": "2026-08-05",
+      "dateLabel": "05 Aug 2026"
+    },
+    {
+      "brief": "Yellow Card raises $40M to link banks to stablecoin processing",
+      "why": "Infrastructure connecting traditional finance to stablecoin payment networks.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing",
+      "date": "2026-08-05",
+      "dateLabel": "05 Aug 2026"
+    },
+    {
+      "brief": "Visa expands stablecoin on Visa Direct via zerohash partnership",
+      "why": "Major payment network integrating stablecoin capabilities into existing infrastructure.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/410657/stablecoin-capabilities-visa-direct-zerohash?utm_source=rss&utm_medium=rss",
+      "date": "2026-08-05",
+      "dateLabel": "05 Aug 2026"
+    },
+    {
+      "brief": "Circle stock falls 3% despite earnings beat on Arc institutional adoption",
+      "why": "Stablecoin issuer reports institutional uptake of tokenization layer 1.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/circle-shares-jump-as-earnings-beat-offsets-revenue-miss-arc-blockchain-gains-wall-street-backing",
+      "date": "2026-08-05",
+      "dateLabel": "05 Aug 2026"
     }
   ],
   "feedsOk": [
