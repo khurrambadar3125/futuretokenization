@@ -1,38 +1,47 @@
 {
-  "generated": "2026-08-07T07:16:53.456Z",
-  "generatedLabel": "07 Aug 2026",
-  "count": 9,
+  "generated": "2026-08-08T06:53:52.937Z",
+  "generatedLabel": "08 Aug 2026",
+  "count": 6,
   "items": [
     {
-      "brief": "Base blockchain sees growing tokenization and payments demand",
-      "why": "Blockchain infrastructure expanding to support tokenization and payments use cases",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/411023/jesse-pollak-base-app-become-less-base-centric-cobie-builds-trading-platform?utm_source=rss&utm_medium=rss",
-      "date": "2026-08-06",
-      "dateLabel": "06 Aug 2026"
-    },
-    {
-      "brief": "Tokenized RWA deposits triple to $7.4B despite DeFi decline",
-      "why": "Rapid growth in RWA deposits shows sector momentum independent of broader market",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/411015/tokenized-rwas-triple-deposits-to-7-4-billion-as-broader-defi-contracts-15-coinshares?utm_source=rss&utm_medium=rss",
-      "date": "2026-08-06",
-      "dateLabel": "06 Aug 2026"
-    },
-    {
-      "brief": "Tether expands tokenization into Saudi Arabian real estate",
-      "why": "Stablecoin issuer entering new geographic markets for RWA tokenization",
+      "brief": "XRPL amendment enables encrypted tokenized asset transfers with selective regulator access",
+      "why": "Encryption and selective access mechanism advances institutional tokenization infrastructure on blockchain.",
       "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/06/tether-expands-tokenization-business-into-saudi-arabia-starting-with-real-estate",
+      "url": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
+      "date": "2026-08-08",
+      "dateLabel": "08 Aug 2026"
+    },
+    {
+      "brief": "Crypto business convergence with banking driven by stablecoins and tokenized funds",
+      "why": "Highlights stablecoins and tokenized funds as core profit drivers in crypto-banking convergence.",
+      "category": "Stablecoin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-07",
+      "dateLabel": "07 Aug 2026"
+    },
+    {
+      "brief": "Coinbase Base blockchain sees growing tokenization and payments demand",
+      "why": "Base network traction in tokenization sector shows blockchain infrastructure expansion.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-06-jesse-pollak-base-app-become-less-base-centric-cobie-builds-trading-platform-411023?utm_source=rss&utm_medium=rss",
       "date": "2026-08-06",
       "dateLabel": "06 Aug 2026"
     },
     {
-      "brief": "Tokenized RWAs reach 32% of Hyperliquid trading activity",
-      "why": "RWA contracts driving significant exchange volume and revenue generation",
+      "brief": "Tokenized RWA deposits surge to $7.4 billion as DeFi contracts",
+      "why": "RWA tokenization deposits triple, demonstrating institutional adoption and sector growth momentum.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-08-06-tokenized-rwas-triple-deposits-to-7-4-billion-as-broader-defi-contracts-15-coinshares-411015?utm_source=rss&utm_medium=rss",
+      "date": "2026-08-06",
+      "dateLabel": "06 Aug 2026"
+    },
+    {
+      "brief": "Tokenized RWA contracts grow to 32% of Hyperliquid trading activity",
+      "why": "RWA tokenization now represents major trading volume share, signaling institutional market maturation.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/hyperliquid-rwa-contracts-rise-32-trading-q2?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
@@ -40,49 +49,13 @@
       "dateLabel": "06 Aug 2026"
     },
     {
-      "brief": "RWA deposits surge to $7.4B amid broader DeFi slowdown",
-      "why": "Tokenized real-world assets outperforming market with tripled lending and trading",
+      "brief": "Tokenized RWA deposits triple to $7.4B amid broader DeFi slowdown",
+      "why": "RWA tokenization growth outpaces general crypto downturn, showing sector resilience and adoption.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/rwa-buck-defi-slowdown-tokenization-coinshares?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
       "date": "2026-08-06",
       "dateLabel": "06 Aug 2026"
-    },
-    {
-      "brief": "Japanese stablecoin firm JPYC raises $38M in Series B",
-      "why": "Stablecoin project expanding infrastructure to accelerate Web3 adoption",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/410959/jpyc-stablecoin-raises-38-million?utm_source=rss&utm_medium=rss",
-      "date": "2026-08-06",
-      "dateLabel": "06 Aug 2026"
-    },
-    {
-      "brief": "Robinhood Chain reaches $774M TVL; tokenized assets at $27.6M",
-      "why": "Blockchain infrastructure supporting tokenized assets at scale on new chain",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/05/cashcat-jumps-120-in-a-week-as-robinhood-chain-tvl-hits-usd774-million",
-      "date": "2026-08-06",
-      "dateLabel": "06 Aug 2026"
-    },
-    {
-      "brief": "S&P rates BlackRock tokenized reserve fund as top stability",
-      "why": "Credit rating agency validates tokenized fund's stability for institutional use",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/sp-blackrock-tokenized-reserve-fund-stability?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-05",
-      "dateLabel": "05 Aug 2026"
-    },
-    {
-      "brief": "BlackRock tokenizes money market funds in Europe via JPMorgan",
-      "why": "Major asset manager bringing tokenized fund shares to multiple currencies across Europe",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/blackrock-jpmorgan-tokenized-money-market-funds-europe?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-05",
-      "dateLabel": "05 Aug 2026"
     }
   ],
   "feedsOk": [
