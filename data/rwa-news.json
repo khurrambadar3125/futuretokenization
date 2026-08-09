@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-08T06:53:52.937Z",
-  "generatedLabel": "08 Aug 2026",
-  "count": 6,
+  "generated": "2026-08-09T06:57:36.013Z",
+  "generatedLabel": "09 Aug 2026",
+  "count": 3,
   "items": [
     {
-      "brief": "XRPL amendment enables encrypted tokenized asset transfers with selective regulator access",
-      "why": "Encryption and selective access mechanism advances institutional tokenization infrastructure on blockchain.",
+      "brief": "XRP Ledger amendment targets $530M in tokenized Wall Street assets",
+      "why": "Enables encrypted token balances with selective regulator access, advancing RWA infrastructure.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
@@ -13,8 +13,8 @@
       "dateLabel": "08 Aug 2026"
     },
     {
-      "brief": "Crypto business convergence with banking driven by stablecoins and tokenized funds",
-      "why": "Highlights stablecoins and tokenized funds as core profit drivers in crypto-banking convergence.",
+      "brief": "Crypto business converging with banking via stablecoins and tokenized funds",
+      "why": "Shows stablecoin reserves and tokenized funds becoming core financial infrastructure.",
       "category": "Stablecoin",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -22,38 +22,11 @@
       "dateLabel": "07 Aug 2026"
     },
     {
-      "brief": "Coinbase Base blockchain sees growing tokenization and payments demand",
-      "why": "Base network traction in tokenization sector shows blockchain infrastructure expansion.",
+      "brief": "Base app expanding into tokenization and payments beyond native blockchain",
+      "why": "Demonstrates blockchain infrastructure growing to support tokenization and payments use cases.",
       "category": "Tokenization",
       "source": "The Block",
       "url": "https://www.theblock.co/news/ecosystems/2026-08-06-jesse-pollak-base-app-become-less-base-centric-cobie-builds-trading-platform-411023?utm_source=rss&utm_medium=rss",
-      "date": "2026-08-06",
-      "dateLabel": "06 Aug 2026"
-    },
-    {
-      "brief": "Tokenized RWA deposits surge to $7.4 billion as DeFi contracts",
-      "why": "RWA tokenization deposits triple, demonstrating institutional adoption and sector growth momentum.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-08-06-tokenized-rwas-triple-deposits-to-7-4-billion-as-broader-defi-contracts-15-coinshares-411015?utm_source=rss&utm_medium=rss",
-      "date": "2026-08-06",
-      "dateLabel": "06 Aug 2026"
-    },
-    {
-      "brief": "Tokenized RWA contracts grow to 32% of Hyperliquid trading activity",
-      "why": "RWA tokenization now represents major trading volume share, signaling institutional market maturation.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/hyperliquid-rwa-contracts-rise-32-trading-q2?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-06",
-      "dateLabel": "06 Aug 2026"
-    },
-    {
-      "brief": "Tokenized RWA deposits triple to $7.4B amid broader DeFi slowdown",
-      "why": "RWA tokenization growth outpaces general crypto downturn, showing sector resilience and adoption.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/rwa-buck-defi-slowdown-tokenization-coinshares?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
       "date": "2026-08-06",
       "dateLabel": "06 Aug 2026"
     }
