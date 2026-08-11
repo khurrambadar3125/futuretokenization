@@ -1,11 +1,56 @@
 {
-  "generated": "2026-08-10T07:42:15.529Z",
-  "generatedLabel": "10 Aug 2026",
-  "count": 3,
+  "generated": "2026-08-11T07:08:21.762Z",
+  "generatedLabel": "11 Aug 2026",
+  "count": 7,
   "items": [
     {
+      "brief": "Bitwise analyst: Circle undervalued as stablecoins expand globally",
+      "why": "Stablecoin adoption and infrastructure growth impacts market valuation and tokenization expansion.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/coindesk-news/2026/08/10/bitwise-s-rasmussen-circle-is-mispriced-as-stablecoins-head-toward-trillions",
+      "date": "2026-08-10",
+      "dateLabel": "10 Aug 2026"
+    },
+    {
+      "brief": "Standard Chartered targets Chainlink at $200 by 2030 on tokenized-asset boom",
+      "why": "Oracle infrastructure critical to scaling RWA tokenization and blockchain finance.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-08-10-standard-chartered-chainlink-tokenization-411252",
+      "date": "2026-08-10",
+      "dateLabel": "10 Aug 2026"
+    },
+    {
+      "brief": "RWA market surge to $4T could drive Chainlink token to $200 by 2030",
+      "why": "Demonstrates oracle demand as real-world asset tokenization grows significantly.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/tokenized-rwa-4t-push-link-200-standard-chartered?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-10",
+      "dateLabel": "10 Aug 2026"
+    },
+    {
+      "brief": "UK FCA to regulate tokenized gold, bolstering London's bullion market role",
+      "why": "Regulatory framework for tokenized commodities enables RWA market development.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold",
+      "date": "2026-08-10",
+      "dateLabel": "10 Aug 2026"
+    },
+    {
+      "brief": "Stablecoin firm BVNK acquired by Mastercard for $1.8B",
+      "why": "Major payments player acquiring stablecoin infrastructure signals mainstream adoption.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard",
+      "date": "2026-08-10",
+      "dateLabel": "10 Aug 2026"
+    },
+    {
       "brief": "UK FCA preparing regulatory framework for tokenized gold",
-      "why": "Establishes rules for RWA tokenization and collateral use in wholesale markets",
+      "why": "Regulatory clarity for tokenized commodities as collateral supports RWA market growth.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/uk-regulators-tokenized-gold-framework-report?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
@@ -13,22 +58,13 @@
       "dateLabel": "10 Aug 2026"
     },
     {
-      "brief": "Brazil imposes 24-hour transfer delay on stablecoin withdrawals",
-      "why": "Regulatory control affecting stablecoin movement and self-custody access",
+      "brief": "Brazil adds 24-hour transfer delay for crypto self-custody starting Jan. 2027",
+      "why": "Stablecoin regulation reflects growing regulatory scrutiny of fiat-backed tokens.",
       "category": "Stablecoin",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-08-09-brazil-to-tighten-crypto-fraud-controls-with-new-24-hour-wait-on-transfers-to-self-custody-wallets-411219?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/regulation/2026-08-09-brazil-to-tighten-crypto-fraud-controls-with-new-24-hour-wait-on-transfers-to-self-custody-wallets-411219",
       "date": "2026-08-09",
       "dateLabel": "09 Aug 2026"
-    },
-    {
-      "brief": "XRPL amendment enables encrypted tokenized asset transfers with auditor access",
-      "why": "Improves privacy and compliance for tokenized Wall Street assets on blockchain",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
-      "date": "2026-08-08",
-      "dateLabel": "08 Aug 2026"
     }
   ],
   "feedsOk": [
