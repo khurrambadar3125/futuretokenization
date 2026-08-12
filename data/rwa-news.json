@@ -1,29 +1,74 @@
 {
-  "generated": "2026-08-11T07:08:21.762Z",
-  "generatedLabel": "11 Aug 2026",
-  "count": 7,
+  "generated": "2026-08-12T07:25:52.616Z",
+  "generatedLabel": "12 Aug 2026",
+  "count": 9,
   "items": [
     {
-      "brief": "Bitwise analyst: Circle undervalued as stablecoins expand globally",
-      "why": "Stablecoin adoption and infrastructure growth impacts market valuation and tokenization expansion.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/coindesk-news/2026/08/10/bitwise-s-rasmussen-circle-is-mispriced-as-stablecoins-head-toward-trillions",
-      "date": "2026-08-10",
-      "dateLabel": "10 Aug 2026"
-    },
-    {
-      "brief": "Standard Chartered targets Chainlink at $200 by 2030 on tokenized-asset boom",
-      "why": "Oracle infrastructure critical to scaling RWA tokenization and blockchain finance.",
+      "brief": "Itaú pilots tokenized fixed-income securities and funds",
+      "why": "Major bank testing tokenized bonds and investment funds in regulated pilot.",
       "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-08-10-standard-chartered-chainlink-tokenization-411252",
-      "date": "2026-08-10",
-      "dateLabel": "10 Aug 2026"
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ita-joins-brazil-tokenization-pilot-with-openassets-brief?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-11",
+      "dateLabel": "11 Aug 2026"
     },
     {
-      "brief": "RWA market surge to $4T could drive Chainlink token to $200 by 2030",
-      "why": "Demonstrates oracle demand as real-world asset tokenization grows significantly.",
+      "brief": "Itaú deepens tokenization push with OpenAssets partnership",
+      "why": "Bank testing tokenized bonds and funds under financial regulator oversight.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/11/brazil-s-largest-lender-itau-is-stepping-deeper-into-the-tokenization",
+      "date": "2026-08-11",
+      "dateLabel": "11 Aug 2026"
+    },
+    {
+      "brief": "Nasdaq acquires LeveL Markets, expands tokenized securities",
+      "why": "Major exchange operator moving into tokenized securities infrastructure.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/nasdaq-to-acquire-level-markets-in-push-toward-always-on-markets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-11",
+      "dateLabel": "11 Aug 2026"
+    },
+    {
+      "brief": "South Africa proposes offshore crypto and stablecoin controls",
+      "why": "Central bank establishing regulatory framework for stablecoin cross-border flows.",
+      "category": "Stablecoin",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/south-africa-plans-to-exchange-controls-for-offshore-crypto-stablecoin-flows/",
+      "date": "2026-08-11",
+      "dateLabel": "11 Aug 2026"
+    },
+    {
+      "brief": "ADI Chain, Shipfinex tokenize maritime vessel assets",
+      "why": "Real-world asset tokenization expanding into shipping industry.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/adi-chain-shipfinex-partner-to-tokenize-500m-vessel-pipeline?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-11",
+      "dateLabel": "11 Aug 2026"
+    },
+    {
+      "brief": "Grvt builds $100M position in USDY tokenized Treasury notes",
+      "why": "USDY is tokenized instrument backed by Treasurys and bank deposits.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-08-11-grvt-100-million-usdy-position-ondo-finance-411393",
+      "date": "2026-08-11",
+      "dateLabel": "11 Aug 2026"
+    },
+    {
+      "brief": "Coinbase gets Abu Dhabi approval for tokenized securities",
+      "why": "Exchange launching tokenized asset offerings under regulatory framework.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push",
+      "date": "2026-08-11",
+      "dateLabel": "11 Aug 2026"
+    },
+    {
+      "brief": "Tokenized RWA market projected to surge to $4T",
+      "why": "Market growth forecast underscores RWA tokenization expansion trajectory.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/tokenized-rwa-4t-push-link-200-standard-chartered?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
@@ -31,40 +76,13 @@
       "dateLabel": "10 Aug 2026"
     },
     {
-      "brief": "UK FCA to regulate tokenized gold, bolstering London's bullion market role",
-      "why": "Regulatory framework for tokenized commodities enables RWA market development.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold",
-      "date": "2026-08-10",
-      "dateLabel": "10 Aug 2026"
-    },
-    {
-      "brief": "Stablecoin firm BVNK acquired by Mastercard for $1.8B",
-      "why": "Major payments player acquiring stablecoin infrastructure signals mainstream adoption.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard",
-      "date": "2026-08-10",
-      "dateLabel": "10 Aug 2026"
-    },
-    {
       "brief": "UK FCA preparing regulatory framework for tokenized gold",
-      "why": "Regulatory clarity for tokenized commodities as collateral supports RWA market growth.",
+      "why": "Regulator establishing standards for tokenized commodity collateral in markets.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/uk-regulators-tokenized-gold-framework-report?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
       "date": "2026-08-10",
       "dateLabel": "10 Aug 2026"
-    },
-    {
-      "brief": "Brazil adds 24-hour transfer delay for crypto self-custody starting Jan. 2027",
-      "why": "Stablecoin regulation reflects growing regulatory scrutiny of fiat-backed tokens.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-08-09-brazil-to-tighten-crypto-fraud-controls-with-new-24-hour-wait-on-transfers-to-self-custody-wallets-411219",
-      "date": "2026-08-09",
-      "dateLabel": "09 Aug 2026"
     }
   ],
   "feedsOk": [
