@@ -1,11 +1,83 @@
 {
-  "generated": "2026-08-12T07:25:52.616Z",
-  "generatedLabel": "12 Aug 2026",
-  "count": 9,
+  "generated": "2026-08-13T07:28:00.855Z",
+  "generatedLabel": "13 Aug 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Itaú pilots tokenized fixed-income securities and funds",
-      "why": "Major bank testing tokenized bonds and investment funds in regulated pilot.",
+      "brief": "Securitize stock falls 20% after tokenization revenue misses",
+      "why": "Major tokenization platform's earnings reflect market demand for RWA tokenization services",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/12/securitize-falls-20-after-earnings-miss-as-tokenization-revenue-falls-short",
+      "date": "2026-08-12",
+      "dateLabel": "12 Aug 2026"
+    },
+    {
+      "brief": "Standard Chartered's Anchorpoint launches HKDAP stablecoin beta",
+      "why": "Regulated Hong Kong dollar stablecoin issuance demonstrates institutional stablecoin adoption",
+      "category": "Stablecoin",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/standard-chartereds-anchorpoint-launches-beta-version-of-hkdap-stablecoin/",
+      "date": "2026-08-12",
+      "dateLabel": "12 Aug 2026"
+    },
+    {
+      "brief": "Bank of England tests stablecoin interoperability in cross-border payments",
+      "why": "Central bank testing stablecoins for settlement infrastructure signals mainstream adoption",
+      "category": "Stablecoin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bank-of-england-tests-stablecoin-digital-pound-interoperability-in-cross-border-payments?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-12",
+      "dateLabel": "12 Aug 2026"
+    },
+    {
+      "brief": "Miden introduces USDCx privacy stablecoin for compliance transactions",
+      "why": "Privacy-enhanced stablecoin development addresses compliance needs in digital payments",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
+      "date": "2026-08-12",
+      "dateLabel": "12 Aug 2026"
+    },
+    {
+      "brief": "Stablecoins and tokenization enable faster capital settlement infrastructure",
+      "why": "Analysis highlights stablecoins and tokenization solving market settlement speed constraints",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-long-and-short",
+      "date": "2026-08-12",
+      "dateLabel": "12 Aug 2026"
+    },
+    {
+      "brief": "Anchorpoint rolls out HKDAP with HashKey and OSL as distributors",
+      "why": "Institutional Hong Kong dollar stablecoin distribution expands regulated stablecoin access",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin",
+      "date": "2026-08-12",
+      "dateLabel": "12 Aug 2026"
+    },
+    {
+      "brief": "Anchorpoint begins HKDAP stablecoin rollout following licensing approval",
+      "why": "Licensed Hong Kong stablecoin issuance demonstrates regulatory framework implementation",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-12-standard-chartered-anchorpoint-hkdap-stablecoin-rollout-411575",
+      "date": "2026-08-12",
+      "dateLabel": "12 Aug 2026"
+    },
+    {
+      "brief": "Bank of England Digital Pound Lab tests stablecoin cross-border trade finance",
+      "why": "Central bank testing stablecoin integration with digital currency for settlement",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/bank-of-england-to-test-stablecoin-digital-currency-use-in-cross-border-finance",
+      "date": "2026-08-12",
+      "dateLabel": "12 Aug 2026"
+    },
+    {
+      "brief": "Itaú joins Brazil tokenization pilot for fixed-income securities and funds",
+      "why": "Major bank testing tokenized securities demonstrates RWA tokenization adoption",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/ita-joins-brazil-tokenization-pilot-with-openassets-brief?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -13,76 +85,13 @@
       "dateLabel": "11 Aug 2026"
     },
     {
-      "brief": "Itaú deepens tokenization push with OpenAssets partnership",
-      "why": "Bank testing tokenized bonds and funds under financial regulator oversight.",
+      "brief": "Nasdaq acquires LeveL Markets, expands into tokenized securities",
+      "why": "Major exchange operator moving into tokenized securities infrastructure development",
       "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/11/brazil-s-largest-lender-itau-is-stepping-deeper-into-the-tokenization",
-      "date": "2026-08-11",
-      "dateLabel": "11 Aug 2026"
-    },
-    {
-      "brief": "Nasdaq acquires LeveL Markets, expands tokenized securities",
-      "why": "Major exchange operator moving into tokenized securities infrastructure.",
-      "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/nasdaq-to-acquire-level-markets-in-push-toward-always-on-markets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-08-11",
       "dateLabel": "11 Aug 2026"
-    },
-    {
-      "brief": "South Africa proposes offshore crypto and stablecoin controls",
-      "why": "Central bank establishing regulatory framework for stablecoin cross-border flows.",
-      "category": "Stablecoin",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/south-africa-plans-to-exchange-controls-for-offshore-crypto-stablecoin-flows/",
-      "date": "2026-08-11",
-      "dateLabel": "11 Aug 2026"
-    },
-    {
-      "brief": "ADI Chain, Shipfinex tokenize maritime vessel assets",
-      "why": "Real-world asset tokenization expanding into shipping industry.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/adi-chain-shipfinex-partner-to-tokenize-500m-vessel-pipeline?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-11",
-      "dateLabel": "11 Aug 2026"
-    },
-    {
-      "brief": "Grvt builds $100M position in USDY tokenized Treasury notes",
-      "why": "USDY is tokenized instrument backed by Treasurys and bank deposits.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-08-11-grvt-100-million-usdy-position-ondo-finance-411393",
-      "date": "2026-08-11",
-      "dateLabel": "11 Aug 2026"
-    },
-    {
-      "brief": "Coinbase gets Abu Dhabi approval for tokenized securities",
-      "why": "Exchange launching tokenized asset offerings under regulatory framework.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push",
-      "date": "2026-08-11",
-      "dateLabel": "11 Aug 2026"
-    },
-    {
-      "brief": "Tokenized RWA market projected to surge to $4T",
-      "why": "Market growth forecast underscores RWA tokenization expansion trajectory.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tokenized-rwa-4t-push-link-200-standard-chartered?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-10",
-      "dateLabel": "10 Aug 2026"
-    },
-    {
-      "brief": "UK FCA preparing regulatory framework for tokenized gold",
-      "why": "Regulator establishing standards for tokenized commodity collateral in markets.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/uk-regulators-tokenized-gold-framework-report?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-10",
-      "dateLabel": "10 Aug 2026"
     }
   ],
   "feedsOk": [
