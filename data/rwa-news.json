@@ -1,97 +1,97 @@
 {
-  "generated": "2026-08-13T07:28:00.855Z",
-  "generatedLabel": "13 Aug 2026",
+  "generated": "2026-08-14T07:25:28.652Z",
+  "generatedLabel": "14 Aug 2026",
   "count": 10,
   "items": [
     {
-      "brief": "Securitize stock falls 20% after tokenization revenue misses",
-      "why": "Major tokenization platform's earnings reflect market demand for RWA tokenization services",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/12/securitize-falls-20-after-earnings-miss-as-tokenization-revenue-falls-short",
-      "date": "2026-08-12",
-      "dateLabel": "12 Aug 2026"
+      "brief": "Bitwise explores tokenizing Solana staking ETF via Superstate",
+      "why": "Direct tokenization of traditional investment product, expanding RWA use cases",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-08-14-bitwise-tokenize-sol-staking-etf-411790",
+      "date": "2026-08-14",
+      "dateLabel": "14 Aug 2026"
     },
     {
-      "brief": "Standard Chartered's Anchorpoint launches HKDAP stablecoin beta",
-      "why": "Regulated Hong Kong dollar stablecoin issuance demonstrates institutional stablecoin adoption",
+      "brief": "SEC delays tokenization 'innovation exemption' amid regulatory concerns",
+      "why": "Key regulatory development affecting tokenization framework clarity and adoption",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/08/13/u-s-sec-to-again-delay-innovation-exemption-for-tokenization-amid-wall-street-white-house-concerns",
+      "date": "2026-08-13",
+      "dateLabel": "13 Aug 2026"
+    },
+    {
+      "brief": "KPMG issues clean audit of USDT issuer's 2025 financials",
+      "why": "Stablecoin transparency and regulatory compliance milestone for major issuer",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-13-tether-kpmg-first-full-audit-usdt-clean-opinion-411760",
+      "date": "2026-08-13",
+      "dateLabel": "13 Aug 2026"
+    },
+    {
+      "brief": "Tether completes 'Big Four' audit covering $180B USDT stablecoin",
+      "why": "Major stablecoin reserve verification and financial transparency development",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin",
+      "date": "2026-08-13",
+      "dateLabel": "13 Aug 2026"
+    },
+    {
+      "brief": "Ether.fi adds tokenized stocks, metals and portfolio loans",
+      "why": "Digital bank expanding tokenization of traditional assets and financial products",
+      "category": "DigitalBank",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-08-13-ether-fi-adds-tokenized-stocks-metals-and-aave-powered-portfolio-loans-in-latest-neobank-expansion-411704",
+      "date": "2026-08-13",
+      "dateLabel": "13 Aug 2026"
+    },
+    {
+      "brief": "Figure revenue doubles as blockchain loan tokenization volumes surge",
+      "why": "Growth in tokenized credit and loan marketplace demonstrating RWA market expansion",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/figure-revenue-doubles-as-blockchain-loan-marketplace-volumes-surge",
+      "date": "2026-08-13",
+      "dateLabel": "13 Aug 2026"
+    },
+    {
+      "brief": "SEC permits Franklin Templeton funds to invest in tokenized money market fund",
+      "why": "Regulatory approval for tokenized fund-to-fund investment, advancing institutional RWA adoption",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/sec-franklin-templeton-funds-invest-onchain-money-fund?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-13",
+      "dateLabel": "13 Aug 2026"
+    },
+    {
+      "brief": "Binance bStocks becomes second-largest tokenized stock issuer",
+      "why": "Rapid growth in tokenized securities issuance and market competition",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-bstocks-second-largest-tokenized-stock-issuer?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-13",
+      "dateLabel": "13 Aug 2026"
+    },
+    {
+      "brief": "Securitize shares fall 16% after revenue miss and tokenization drop",
+      "why": "Tokenization platform revenue weakness signals near-term market challenges",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/securitize-falls-earnings-miss-tokenization-revenue?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-13",
+      "dateLabel": "13 Aug 2026"
+    },
+    {
+      "brief": "Standard Chartered's Anchorpoint launches Hong Kong regulated HKDAP stablecoin",
+      "why": "First regulated stablecoin issuance in Hong Kong, expanding geographic stablecoin adoption",
       "category": "Stablecoin",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/standard-chartereds-anchorpoint-launches-beta-version-of-hkdap-stablecoin/",
       "date": "2026-08-12",
       "dateLabel": "12 Aug 2026"
-    },
-    {
-      "brief": "Bank of England tests stablecoin interoperability in cross-border payments",
-      "why": "Central bank testing stablecoins for settlement infrastructure signals mainstream adoption",
-      "category": "Stablecoin",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bank-of-england-tests-stablecoin-digital-pound-interoperability-in-cross-border-payments?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-12",
-      "dateLabel": "12 Aug 2026"
-    },
-    {
-      "brief": "Miden introduces USDCx privacy stablecoin for compliance transactions",
-      "why": "Privacy-enhanced stablecoin development addresses compliance needs in digital payments",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
-      "date": "2026-08-12",
-      "dateLabel": "12 Aug 2026"
-    },
-    {
-      "brief": "Stablecoins and tokenization enable faster capital settlement infrastructure",
-      "why": "Analysis highlights stablecoins and tokenization solving market settlement speed constraints",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-long-and-short",
-      "date": "2026-08-12",
-      "dateLabel": "12 Aug 2026"
-    },
-    {
-      "brief": "Anchorpoint rolls out HKDAP with HashKey and OSL as distributors",
-      "why": "Institutional Hong Kong dollar stablecoin distribution expands regulated stablecoin access",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin",
-      "date": "2026-08-12",
-      "dateLabel": "12 Aug 2026"
-    },
-    {
-      "brief": "Anchorpoint begins HKDAP stablecoin rollout following licensing approval",
-      "why": "Licensed Hong Kong stablecoin issuance demonstrates regulatory framework implementation",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-12-standard-chartered-anchorpoint-hkdap-stablecoin-rollout-411575",
-      "date": "2026-08-12",
-      "dateLabel": "12 Aug 2026"
-    },
-    {
-      "brief": "Bank of England Digital Pound Lab tests stablecoin cross-border trade finance",
-      "why": "Central bank testing stablecoin integration with digital currency for settlement",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/12/bank-of-england-to-test-stablecoin-digital-currency-use-in-cross-border-finance",
-      "date": "2026-08-12",
-      "dateLabel": "12 Aug 2026"
-    },
-    {
-      "brief": "Itaú joins Brazil tokenization pilot for fixed-income securities and funds",
-      "why": "Major bank testing tokenized securities demonstrates RWA tokenization adoption",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ita-joins-brazil-tokenization-pilot-with-openassets-brief?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-11",
-      "dateLabel": "11 Aug 2026"
-    },
-    {
-      "brief": "Nasdaq acquires LeveL Markets, expands into tokenized securities",
-      "why": "Major exchange operator moving into tokenized securities infrastructure development",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/nasdaq-to-acquire-level-markets-in-push-toward-always-on-markets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-11",
-      "dateLabel": "11 Aug 2026"
     }
   ],
   "feedsOk": [
