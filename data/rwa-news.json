@@ -1,11 +1,47 @@
 {
-  "generated": "2026-08-14T07:25:28.652Z",
-  "generatedLabel": "14 Aug 2026",
+  "generated": "2026-08-15T06:38:51.800Z",
+  "generatedLabel": "15 Aug 2026",
   "count": 10,
   "items": [
     {
+      "brief": "SEC delay puts speed bump in tokenization's Wall Street push",
+      "why": "Regulatory setback directly impacts tokenization adoption timeline and industry momentum.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
+      "date": "2026-08-14",
+      "dateLabel": "14 Aug 2026"
+    },
+    {
+      "brief": "StablecoinX shares jump after revealing 20% stake in ENA supply",
+      "why": "Stablecoin-related treasury firm's asset holdings affect stablecoin ecosystem dynamics.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-14-ethena-treasury-company-stablecoinx-shares-jump-12-revealing-20-stake-ena-supply-411845",
+      "date": "2026-08-14",
+      "dateLabel": "14 Aug 2026"
+    },
+    {
+      "brief": "Shinhan partners with Plume on tokenized bond fund pilot",
+      "why": "Tokenized fund pilot using on-chain bonds demonstrates RWA tokenization in practice.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/shinhan-partners-plume-tokenized-fund-experiment?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-14",
+      "dateLabel": "14 Aug 2026"
+    },
+    {
+      "brief": "Stablecoin payments company RedotPay delays $1B IPO plan",
+      "why": "Stablecoin infrastructure company's capital raising affects payments tokenization sector.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/14/redotpay-said-to-put-usd1-billion-u-s-ipo-plan-on-hold-bloomberg",
+      "date": "2026-08-14",
+      "dateLabel": "14 Aug 2026"
+    },
+    {
       "brief": "Bitwise explores tokenizing Solana staking ETF via Superstate",
-      "why": "Direct tokenization of traditional investment product, expanding RWA use cases",
+      "why": "ETF tokenization via partnership expands on-chain asset tokenization use cases.",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/news/defi/2026-08-14-bitwise-tokenize-sol-staking-etf-411790",
@@ -13,8 +49,8 @@
       "dateLabel": "14 Aug 2026"
     },
     {
-      "brief": "SEC delays tokenization 'innovation exemption' amid regulatory concerns",
-      "why": "Key regulatory development affecting tokenization framework clarity and adoption",
+      "brief": "SEC delays innovation exemption for tokenization amid concerns",
+      "why": "Regulatory exemption delay directly impacts tokenization industry timeline and Wall Street entry.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/08/13/u-s-sec-to-again-delay-innovation-exemption-for-tokenization-amid-wall-street-white-house-concerns",
@@ -22,8 +58,8 @@
       "dateLabel": "13 Aug 2026"
     },
     {
-      "brief": "KPMG issues clean audit of USDT issuer's 2025 financials",
-      "why": "Stablecoin transparency and regulatory compliance milestone for major issuer",
+      "brief": "Tether receives clean audit opinion on USDT financials from KPMG",
+      "why": "Major stablecoin audit completion strengthens institutional confidence in stablecoin infrastructure.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-08-13-tether-kpmg-first-full-audit-usdt-clean-opinion-411760",
@@ -31,8 +67,8 @@
       "dateLabel": "13 Aug 2026"
     },
     {
-      "brief": "Tether completes 'Big Four' audit covering $180B USDT stablecoin",
-      "why": "Major stablecoin reserve verification and financial transparency development",
+      "brief": "Tether completes Big Four audit of $180B USDT stablecoin reserves",
+      "why": "KPMG audit of major stablecoin backing enhances transparency and institutional trust.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin",
@@ -40,17 +76,8 @@
       "dateLabel": "13 Aug 2026"
     },
     {
-      "brief": "Ether.fi adds tokenized stocks, metals and portfolio loans",
-      "why": "Digital bank expanding tokenization of traditional assets and financial products",
-      "category": "DigitalBank",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-08-13-ether-fi-adds-tokenized-stocks-metals-and-aave-powered-portfolio-loans-in-latest-neobank-expansion-411704",
-      "date": "2026-08-13",
-      "dateLabel": "13 Aug 2026"
-    },
-    {
-      "brief": "Figure revenue doubles as blockchain loan tokenization volumes surge",
-      "why": "Growth in tokenized credit and loan marketplace demonstrating RWA market expansion",
+      "brief": "Figure revenue doubles as blockchain loan marketplace volumes surge",
+      "why": "Tokenization-focused lender's growth demonstrates market demand for on-chain credit products.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/08/13/figure-revenue-doubles-as-blockchain-loan-marketplace-volumes-surge",
@@ -58,40 +85,13 @@
       "dateLabel": "13 Aug 2026"
     },
     {
-      "brief": "SEC permits Franklin Templeton funds to invest in tokenized money market fund",
-      "why": "Regulatory approval for tokenized fund-to-fund investment, advancing institutional RWA adoption",
+      "brief": "SEC allows Franklin Templeton funds to invest in tokenized money market",
+      "why": "Regulatory approval for tokenized money fund investments accelerates institutional RWA adoption.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/sec-franklin-templeton-funds-invest-onchain-money-fund?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-08-13",
       "dateLabel": "13 Aug 2026"
-    },
-    {
-      "brief": "Binance bStocks becomes second-largest tokenized stock issuer",
-      "why": "Rapid growth in tokenized securities issuance and market competition",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/binance-bstocks-second-largest-tokenized-stock-issuer?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-13",
-      "dateLabel": "13 Aug 2026"
-    },
-    {
-      "brief": "Securitize shares fall 16% after revenue miss and tokenization drop",
-      "why": "Tokenization platform revenue weakness signals near-term market challenges",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/securitize-falls-earnings-miss-tokenization-revenue?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-13",
-      "dateLabel": "13 Aug 2026"
-    },
-    {
-      "brief": "Standard Chartered's Anchorpoint launches Hong Kong regulated HKDAP stablecoin",
-      "why": "First regulated stablecoin issuance in Hong Kong, expanding geographic stablecoin adoption",
-      "category": "Stablecoin",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/standard-chartereds-anchorpoint-launches-beta-version-of-hkdap-stablecoin/",
-      "date": "2026-08-12",
-      "dateLabel": "12 Aug 2026"
     }
   ],
   "feedsOk": [
