@@ -1,29 +1,20 @@
 {
-  "generated": "2026-08-15T06:38:51.800Z",
-  "generatedLabel": "15 Aug 2026",
-  "count": 10,
+  "generated": "2026-08-16T06:40:26.104Z",
+  "generatedLabel": "16 Aug 2026",
+  "count": 6,
   "items": [
     {
-      "brief": "SEC delay puts speed bump in tokenization's Wall Street push",
-      "why": "Regulatory setback directly impacts tokenization adoption timeline and industry momentum.",
+      "brief": "Tokenized stock holders double; monthly volume surges to $23.13B",
+      "why": "Demonstrates growth in tokenized equities adoption and market activity.",
       "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
-      "date": "2026-08-14",
-      "dateLabel": "14 Aug 2026"
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/tokenized-stock-holders-double-to-13m-as-activity-grows?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-15",
+      "dateLabel": "15 Aug 2026"
     },
     {
-      "brief": "StablecoinX shares jump after revealing 20% stake in ENA supply",
-      "why": "Stablecoin-related treasury firm's asset holdings affect stablecoin ecosystem dynamics.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-14-ethena-treasury-company-stablecoinx-shares-jump-12-revealing-20-stake-ena-supply-411845",
-      "date": "2026-08-14",
-      "dateLabel": "14 Aug 2026"
-    },
-    {
-      "brief": "Shinhan partners with Plume on tokenized bond fund pilot",
-      "why": "Tokenized fund pilot using on-chain bonds demonstrates RWA tokenization in practice.",
+      "brief": "Shinhan Asset Management pilots tokenized bond fund with Plume",
+      "why": "Tests tokenization of real-world bond assets using blockchain infrastructure.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/shinhan-partners-plume-tokenized-fund-experiment?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -31,8 +22,8 @@
       "dateLabel": "14 Aug 2026"
     },
     {
-      "brief": "Stablecoin payments company RedotPay delays $1B IPO plan",
-      "why": "Stablecoin infrastructure company's capital raising affects payments tokenization sector.",
+      "brief": "Stablecoin payments firm RedotPay delays U.S. IPO plans",
+      "why": "Reflects regulatory uncertainty affecting stablecoin-focused financial companies.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/08/14/redotpay-said-to-put-usd1-billion-u-s-ipo-plan-on-hold-bloomberg",
@@ -41,16 +32,16 @@
     },
     {
       "brief": "Bitwise explores tokenizing Solana staking ETF via Superstate",
-      "why": "ETF tokenization via partnership expands on-chain asset tokenization use cases.",
-      "category": "RWA",
+      "why": "Tests tokenization of traditional investment products on blockchain rails.",
+      "category": "Tokenization",
       "source": "The Block",
       "url": "https://www.theblock.co/news/defi/2026-08-14-bitwise-tokenize-sol-staking-etf-411790",
       "date": "2026-08-14",
       "dateLabel": "14 Aug 2026"
     },
     {
-      "brief": "SEC delays innovation exemption for tokenization amid concerns",
-      "why": "Regulatory exemption delay directly impacts tokenization industry timeline and Wall Street entry.",
+      "brief": "SEC delays tokenization innovation exemption amid Wall Street concerns",
+      "why": "Regulatory delay affects tokenization framework development and adoption timeline.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/08/13/u-s-sec-to-again-delay-innovation-exemption-for-tokenization-amid-wall-street-white-house-concerns",
@@ -58,38 +49,11 @@
       "dateLabel": "13 Aug 2026"
     },
     {
-      "brief": "Tether receives clean audit opinion on USDT financials from KPMG",
-      "why": "Major stablecoin audit completion strengthens institutional confidence in stablecoin infrastructure.",
+      "brief": "KPMG issues clean audit opinion on Tether's 2025 financial statements",
+      "why": "Stablecoin issuer transparency and reserve verification strengthens market confidence.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-08-13-tether-kpmg-first-full-audit-usdt-clean-opinion-411760",
-      "date": "2026-08-13",
-      "dateLabel": "13 Aug 2026"
-    },
-    {
-      "brief": "Tether completes Big Four audit of $180B USDT stablecoin reserves",
-      "why": "KPMG audit of major stablecoin backing enhances transparency and institutional trust.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin",
-      "date": "2026-08-13",
-      "dateLabel": "13 Aug 2026"
-    },
-    {
-      "brief": "Figure revenue doubles as blockchain loan marketplace volumes surge",
-      "why": "Tokenization-focused lender's growth demonstrates market demand for on-chain credit products.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/13/figure-revenue-doubles-as-blockchain-loan-marketplace-volumes-surge",
-      "date": "2026-08-13",
-      "dateLabel": "13 Aug 2026"
-    },
-    {
-      "brief": "SEC allows Franklin Templeton funds to invest in tokenized money market",
-      "why": "Regulatory approval for tokenized money fund investments accelerates institutional RWA adoption.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/sec-franklin-templeton-funds-invest-onchain-money-fund?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-08-13",
       "dateLabel": "13 Aug 2026"
     }
