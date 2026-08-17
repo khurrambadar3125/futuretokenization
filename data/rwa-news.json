@@ -1,61 +1,25 @@
 {
-  "generated": "2026-08-16T06:40:26.104Z",
-  "generatedLabel": "16 Aug 2026",
-  "count": 6,
+  "generated": "2026-08-17T06:56:18.909Z",
+  "generatedLabel": "17 Aug 2026",
+  "count": 2,
   "items": [
     {
+      "brief": "Banks and crypto clash over stablecoin yields and deposit competition",
+      "why": "Stablecoin yield products compete with traditional banking deposits, raising regulatory and market structure questions.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
+      "date": "2026-08-16",
+      "dateLabel": "16 Aug 2026"
+    },
+    {
       "brief": "Tokenized stock holders double; monthly volume surges to $23.13B",
-      "why": "Demonstrates growth in tokenized equities adoption and market activity.",
-      "category": "Tokenization",
+      "why": "Growth in tokenized equities demonstrates expanding RWA adoption and on-chain asset trading infrastructure.",
+      "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/tokenized-stock-holders-double-to-13m-as-activity-grows?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-08-15",
       "dateLabel": "15 Aug 2026"
-    },
-    {
-      "brief": "Shinhan Asset Management pilots tokenized bond fund with Plume",
-      "why": "Tests tokenization of real-world bond assets using blockchain infrastructure.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/shinhan-partners-plume-tokenized-fund-experiment?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-14",
-      "dateLabel": "14 Aug 2026"
-    },
-    {
-      "brief": "Stablecoin payments firm RedotPay delays U.S. IPO plans",
-      "why": "Reflects regulatory uncertainty affecting stablecoin-focused financial companies.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/14/redotpay-said-to-put-usd1-billion-u-s-ipo-plan-on-hold-bloomberg",
-      "date": "2026-08-14",
-      "dateLabel": "14 Aug 2026"
-    },
-    {
-      "brief": "Bitwise explores tokenizing Solana staking ETF via Superstate",
-      "why": "Tests tokenization of traditional investment products on blockchain rails.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-08-14-bitwise-tokenize-sol-staking-etf-411790",
-      "date": "2026-08-14",
-      "dateLabel": "14 Aug 2026"
-    },
-    {
-      "brief": "SEC delays tokenization innovation exemption amid Wall Street concerns",
-      "why": "Regulatory delay affects tokenization framework development and adoption timeline.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/13/u-s-sec-to-again-delay-innovation-exemption-for-tokenization-amid-wall-street-white-house-concerns",
-      "date": "2026-08-13",
-      "dateLabel": "13 Aug 2026"
-    },
-    {
-      "brief": "KPMG issues clean audit opinion on Tether's 2025 financial statements",
-      "why": "Stablecoin issuer transparency and reserve verification strengthens market confidence.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-13-tether-kpmg-first-full-audit-usdt-clean-opinion-411760",
-      "date": "2026-08-13",
-      "dateLabel": "13 Aug 2026"
     }
   ],
   "feedsOk": [
