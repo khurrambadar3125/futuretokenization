@@ -1,25 +1,52 @@
 {
-  "generated": "2026-08-17T06:56:18.909Z",
-  "generatedLabel": "17 Aug 2026",
-  "count": 2,
+  "generated": "2026-08-18T06:43:43.378Z",
+  "generatedLabel": "18 Aug 2026",
+  "count": 5,
   "items": [
     {
-      "brief": "Banks and crypto clash over stablecoin yields and deposit competition",
-      "why": "Stablecoin yield products compete with traditional banking deposits, raising regulatory and market structure questions.",
+      "brief": "Korean bank adopts Ripple's cross-border payment service",
+      "why": "Bank adoption of Ripple payments suggests potential RLUSD stablecoin or XRP use in tokenized remittances",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
-      "date": "2026-08-16",
-      "dateLabel": "16 Aug 2026"
+      "url": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
     },
     {
-      "brief": "Tokenized stock holders double; monthly volume surges to $23.13B",
-      "why": "Growth in tokenized equities demonstrates expanding RWA adoption and on-chain asset trading infrastructure.",
+      "brief": "Robinhood Chain stablecoin TVL reaches $640M as RWA market slows",
+      "why": "Stablecoin growth on blockchain infrastructure supports tokenization platform expansion",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-17-robinhood-chain-tvl-surges-45-august-tokenized-rwas-lose-ground-411998",
+      "date": "2026-08-17",
+      "dateLabel": "17 Aug 2026"
+    },
+    {
+      "brief": "Tokenized equities market cap hits $2.8B, tripling year-to-date share",
+      "why": "Growth in tokenized stock markets demonstrates RWA tokenization scaling across major platforms",
       "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tokenized-stock-holders-double-to-13m-as-activity-grows?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-15",
-      "dateLabel": "15 Aug 2026"
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-08-17-tokenized-equities-triple-market-share-ondo-binance-xstocks-dominate-411996",
+      "date": "2026-08-17",
+      "dateLabel": "17 Aug 2026"
+    },
+    {
+      "brief": "U.S. Treasury seeks comment on GENIUS Act stablecoin licensing rules",
+      "why": "Regulatory framework clarifies federal/state licensing requirements for stablecoin issuers",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-08-17-us-treasury-seeks-public-comment-genius-act-stablecoin-rules-411987",
+      "date": "2026-08-17",
+      "dateLabel": "17 Aug 2026"
+    },
+    {
+      "brief": "Treasury proposes GENIUS Act stablecoin rule establishing core definitions",
+      "why": "New regulatory rules define jurisdictions and requirements for stablecoin issuance",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
+      "date": "2026-08-17",
+      "dateLabel": "17 Aug 2026"
     }
   ],
   "feedsOk": [
