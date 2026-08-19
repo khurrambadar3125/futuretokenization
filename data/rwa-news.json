@@ -1,52 +1,97 @@
 {
-  "generated": "2026-08-18T06:43:43.378Z",
-  "generatedLabel": "18 Aug 2026",
-  "count": 5,
+  "generated": "2026-08-19T06:43:49.801Z",
+  "generatedLabel": "19 Aug 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Korean bank adopts Ripple's cross-border payment service",
-      "why": "Bank adoption of Ripple payments suggests potential RLUSD stablecoin or XRP use in tokenized remittances",
-      "category": "Stablecoin",
+      "brief": "Robinhood CEO urges U.S. to clear path for tokenized stocks",
+      "why": "Tokenized stocks could enable real-time settlement and 24/7 trading if regulatory hurdles are removed.",
+      "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments",
+      "url": "https://www.coindesk.com/markets/2026/08/18/robinhood-ceo-urges-u-s-to-clear-path-for-tokenized-stocks-as-overseas-markets-advance",
       "date": "2026-08-18",
       "dateLabel": "18 Aug 2026"
     },
     {
-      "brief": "Robinhood Chain stablecoin TVL reaches $640M as RWA market slows",
-      "why": "Stablecoin growth on blockchain infrastructure supports tokenization platform expansion",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/ecosystems/2026-08-17-robinhood-chain-tvl-surges-45-august-tokenized-rwas-lose-ground-411998",
-      "date": "2026-08-17",
-      "dateLabel": "17 Aug 2026"
-    },
-    {
-      "brief": "Tokenized equities market cap hits $2.8B, tripling year-to-date share",
-      "why": "Growth in tokenized stock markets demonstrates RWA tokenization scaling across major platforms",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-08-17-tokenized-equities-triple-market-share-ondo-binance-xstocks-dominate-411996",
-      "date": "2026-08-17",
-      "dateLabel": "17 Aug 2026"
-    },
-    {
-      "brief": "U.S. Treasury seeks comment on GENIUS Act stablecoin licensing rules",
-      "why": "Regulatory framework clarifies federal/state licensing requirements for stablecoin issuers",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-08-17-us-treasury-seeks-public-comment-genius-act-stablecoin-rules-411987",
-      "date": "2026-08-17",
-      "dateLabel": "17 Aug 2026"
-    },
-    {
-      "brief": "Treasury proposes GENIUS Act stablecoin rule establishing core definitions",
-      "why": "New regulatory rules define jurisdictions and requirements for stablecoin issuance",
+      "brief": "U.S. accounting board proposes stablecoins as 'cash equivalent'",
+      "why": "Recognition of stablecoins as cash-like assets advances their institutional adoption and regulatory clarity.",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
-      "date": "2026-08-17",
-      "dateLabel": "17 Aug 2026"
+      "url": "https://www.coindesk.com/policy/2026/08/18/u-s-accounting-standards-group-proposes-way-to-see-stablecoins-as-cash-equivalent",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
+    },
+    {
+      "brief": "White House crypto adviser optimistic on stablecoin legislation",
+      "why": "Pending crypto legislation could shape stablecoin regulatory framework.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-08-18-white-house-crypto-adviser-patrick-witt-optimistic-bullish-clarity-act-stablecoin-fight-412160",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
+    },
+    {
+      "brief": "GENIUS Act may unintentionally exempt synthetic stablecoins",
+      "why": "Proposed regulation's wording could create regulatory gaps for non-Treasury-backed stablecoins.",
+      "category": "Stablecoin",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/genius-act-does-exempting-synthetic-stablecoins-open-a-back-door/",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
+    },
+    {
+      "brief": "Wyoming exits LayerZero, moves state stablecoin to new blockchain",
+      "why": "State-level stablecoin infrastructure shift reflects growing focus on blockchain security for tokenized assets.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/18/wyoming-joins-usd15-billion-layerzero-exodus-with-state-stablecoin-move",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
+    },
+    {
+      "brief": "Kraken offers tokenized and traditional U.S. stocks in Europe",
+      "why": "Blurs TradFi-crypto divide by offering both tokenized and conventional equities on regulated platform.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/18/kraken-adds-u-s-stocks-in-europe-as-tradfi-crypto-divide-blurs",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
+    },
+    {
+      "brief": "Neuberger, Securitize launch multi-chain tokenized fixed-income fund",
+      "why": "Major asset manager brings tokenized fixed-income strategies across multiple blockchains.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/neuberger-launches-tokenized-fixed-income-fund-with-securitize?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
+    },
+    {
+      "brief": "Securitize brings Neuberger's fixed-income platform onchain",
+      "why": "Tokenized fixed-income fund expands access to institutional strategies across multiple blockchains.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-08-18-securitize-neubergers-230-billion-fixed-income-platform-onchain-new-tokenized-fund-412102",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
+    },
+    {
+      "brief": "Hong Kong's regulated stablecoin used for insurance and trade settlement",
+      "why": "HKD-pegged stablecoin enables real-world settlement in major trade corridor.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/18/hashkey-taps-hong-kong-s-first-regulated-stablecoin-to-settle-insurance-and-trade-deals",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
+    },
+    {
+      "brief": "Toyota Finance opens tokenized bonds to retail investors via app",
+      "why": "Tokenized bonds democratize fixed-income access and reduce barriers for retail participation.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/toyota-finance-tokenized-bond-offering-mobile-payment?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-18",
+      "dateLabel": "18 Aug 2026"
     }
   ],
   "feedsOk": [
