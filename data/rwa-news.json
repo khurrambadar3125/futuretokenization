@@ -1,11 +1,56 @@
 {
-  "generated": "2026-08-20T06:46:29.626Z",
-  "generatedLabel": "20 Aug 2026",
-  "count": 10,
+  "generated": "2026-08-21T06:47:16.350Z",
+  "generatedLabel": "21 Aug 2026",
+  "count": 9,
   "items": [
     {
-      "brief": "OCC finalizes stablecoin rules by November under new law",
-      "why": "Regulatory framework implementation for stablecoin issuance and oversight.",
+      "brief": "Shinhan partners with Solana Foundation for Korean won tokenized fund issuance",
+      "why": "Demonstrates RWA tokenization of funds with major bank partnership",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-08-21-south-korea-shinhan-partners-solana-412420",
+      "date": "2026-08-21",
+      "dateLabel": "21 Aug 2026"
+    },
+    {
+      "brief": "Ondo executive compares tokenization adoption trajectory to early ETF growth",
+      "why": "Institutional tokenized products scaling parallels historical asset class adoption",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-20-ondo-executive-says-tokenization-following-same-path-as-early-etfs-412346",
+      "date": "2026-08-20",
+      "dateLabel": "20 Aug 2026"
+    },
+    {
+      "brief": "Banks tokenizing deposits on permissioned blockchains for compliance",
+      "why": "Core tokenized deposit infrastructure with regulatory framework priorities",
+      "category": "DigitalBank",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/20/crypto-for-advisors-what-are-tokenized-deposits",
+      "date": "2026-08-20",
+      "dateLabel": "20 Aug 2026"
+    },
+    {
+      "brief": "Tokenized fixed income emerging as institutional collateral layer",
+      "why": "Institutional RWA tokenization expanding into fixed income collateral use cases",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-20-gsr-baehr-tokenized-institutional-collateral-412302",
+      "date": "2026-08-20",
+      "dateLabel": "20 Aug 2026"
+    },
+    {
+      "brief": "X exploring stablecoins for influencer and content provider payments",
+      "why": "Stablecoin adoption expanding into platform-based creator payment infrastructure",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/20/elon-musk-s-x-is-exploring-stablecoins-to-pay-influencers-and-content-providers",
+      "date": "2026-08-20",
+      "dateLabel": "20 Aug 2026"
+    },
+    {
+      "brief": "OCC finalizing stablecoin rules under GENIUS Act by November",
+      "why": "Regulatory framework advancement enabling stablecoin issuance standardization",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-08-19-occ-races-to-finalize-genius-act-stablecoin-rules-by-november-412240",
@@ -13,35 +58,17 @@
       "dateLabel": "19 Aug 2026"
     },
     {
-      "brief": "Injective gains SEC transfer agent status for tokenized securities",
-      "why": "Regulated infrastructure enables tracking ownership and transfers of tokenized assets.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-08-19-injective-becomes-sec-registered-transfer-agent-expands-tokenization-push-412225",
-      "date": "2026-08-19",
-      "dateLabel": "19 Aug 2026"
-    },
-    {
-      "brief": "Injective SEC-registered as transfer agent for tokenized assets",
-      "why": "Regulated market infrastructure supports growth of tokenized securities tracking.",
-      "category": "RWA",
+      "brief": "Injective receives SEC transfer agent registration for tokenized assets",
+      "why": "Infrastructure certification enabling regulated tokenized securities infrastructure",
+      "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/injective-sec-transfer-agent-tokenized-securities-recordkeeping?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-08-19",
       "dateLabel": "19 Aug 2026"
     },
     {
-      "brief": "HSBC, Standard Chartered settle transaction on Swift's 24/7 ledger",
-      "why": "Swift blockchain enables interoperable settlement amid stablecoin and tokenized deposit expansion.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/19/hsbc-standard-chartered-execute-first-live-banking-transaction-on-swift-s-24-7-ledger",
-      "date": "2026-08-19",
-      "dateLabel": "19 Aug 2026"
-    },
-    {
-      "brief": "Centrifuge adds liquidity layer across $1.6B in tokenized funds",
-      "why": "Liquidity solutions enable immediate redemptions for tokenized fund holders.",
+      "brief": "Centrifuge integrates Symbiotic liquidity across tokenized fund holdings",
+      "why": "RWA tokenized fund liquidity infrastructure enabling institutional secondary markets",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/centrifuge-symbiotic-liquidity-network-janus-henderson-nylim-fund?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -49,49 +76,13 @@
       "dateLabel": "19 Aug 2026"
     },
     {
-      "brief": "Bitwise CIO projects blockchain growth as tokenized markets expand",
-      "why": "Transaction growth expected from tokenized market adoption and infrastructure maturity.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/ecosystems/2026-08-19-bitwise-cio-sees-potential-for-10-100x-blockchain-transaction-growth-as-ai-agents-meet-tokenized-markets-412196",
-      "date": "2026-08-19",
-      "dateLabel": "19 Aug 2026"
-    },
-    {
-      "brief": "Stablecoins reach 100,000+ merchants via Visa settlement rails",
-      "why": "Merchant adoption demonstrates stablecoin integration into existing payment networks.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-19-rain-ceo-says-stablecoin-payments-reach-more-than-100000-merchants-without-them-knowing-it-412184",
-      "date": "2026-08-19",
-      "dateLabel": "19 Aug 2026"
-    },
-    {
-      "brief": "HSBC, Standard Chartered execute tokenized deposit via Swift blockchain",
-      "why": "Cross-bank tokenized deposit interoperability solves liquidity and settlement silos.",
-      "category": "Tokenization",
+      "brief": "HSBC and Standard Chartered execute first live tokenized deposit via Swift",
+      "why": "Interoperable tokenized deposit settlement between major banks advancing infrastructure",
+      "category": "DigitalBank",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/hsbc-standard-chartered-make-first-live-tokenized-deposit-tranfer-via-swift-blockchain/",
       "date": "2026-08-19",
       "dateLabel": "19 Aug 2026"
-    },
-    {
-      "brief": "Neuberger launches multi-chain tokenized fixed-income fund with Securitize",
-      "why": "Large asset manager bringing $230B+ fixed-income strategies into tokenized format.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/neuberger-launches-tokenized-fixed-income-fund-with-securitize?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-18",
-      "dateLabel": "18 Aug 2026"
-    },
-    {
-      "brief": "Securitize expands fixed-income tokenization across four blockchains",
-      "why": "Multi-chain deployment increases accessibility of tokenized bond and fund strategies.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-08-18-securitize-neubergers-230-billion-fixed-income-platform-onchain-new-tokenized-fund-412102",
-      "date": "2026-08-18",
-      "dateLabel": "18 Aug 2026"
     }
   ],
   "feedsOk": [
