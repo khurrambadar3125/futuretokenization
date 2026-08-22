@@ -1,96 +1,25 @@
 {
-  "generated": "2026-08-21T06:47:16.350Z",
-  "generatedLabel": "21 Aug 2026",
-  "count": 9,
+  "generated": "2026-08-22T06:40:56.429Z",
+  "generatedLabel": "22 Aug 2026",
+  "count": 1,
   "items": [
     {
-      "brief": "Shinhan partners with Solana Foundation for Korean won tokenized fund issuance",
-      "why": "Demonstrates RWA tokenization of funds with major bank partnership",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-08-21-south-korea-shinhan-partners-solana-412420",
-      "date": "2026-08-21",
-      "dateLabel": "21 Aug 2026"
-    },
-    {
-      "brief": "Ondo executive compares tokenization adoption trajectory to early ETF growth",
-      "why": "Institutional tokenized products scaling parallels historical asset class adoption",
+      "brief": "Banks move deposits on-chain via permissioned systems",
+      "why": "Tokenized deposits represent RWA tokenization with privacy/compliance considerations for banks.",
       "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-20-ondo-executive-says-tokenization-following-same-path-as-early-etfs-412346",
-      "date": "2026-08-20",
-      "dateLabel": "20 Aug 2026"
-    },
-    {
-      "brief": "Banks tokenizing deposits on permissioned blockchains for compliance",
-      "why": "Core tokenized deposit infrastructure with regulatory framework priorities",
-      "category": "DigitalBank",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/coindesk-indices/2026/08/20/crypto-for-advisors-what-are-tokenized-deposits",
       "date": "2026-08-20",
       "dateLabel": "20 Aug 2026"
-    },
-    {
-      "brief": "Tokenized fixed income emerging as institutional collateral layer",
-      "why": "Institutional RWA tokenization expanding into fixed income collateral use cases",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-20-gsr-baehr-tokenized-institutional-collateral-412302",
-      "date": "2026-08-20",
-      "dateLabel": "20 Aug 2026"
-    },
-    {
-      "brief": "X exploring stablecoins for influencer and content provider payments",
-      "why": "Stablecoin adoption expanding into platform-based creator payment infrastructure",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/20/elon-musk-s-x-is-exploring-stablecoins-to-pay-influencers-and-content-providers",
-      "date": "2026-08-20",
-      "dateLabel": "20 Aug 2026"
-    },
-    {
-      "brief": "OCC finalizing stablecoin rules under GENIUS Act by November",
-      "why": "Regulatory framework advancement enabling stablecoin issuance standardization",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-08-19-occ-races-to-finalize-genius-act-stablecoin-rules-by-november-412240",
-      "date": "2026-08-19",
-      "dateLabel": "19 Aug 2026"
-    },
-    {
-      "brief": "Injective receives SEC transfer agent registration for tokenized assets",
-      "why": "Infrastructure certification enabling regulated tokenized securities infrastructure",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/injective-sec-transfer-agent-tokenized-securities-recordkeeping?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-19",
-      "dateLabel": "19 Aug 2026"
-    },
-    {
-      "brief": "Centrifuge integrates Symbiotic liquidity across tokenized fund holdings",
-      "why": "RWA tokenized fund liquidity infrastructure enabling institutional secondary markets",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/centrifuge-symbiotic-liquidity-network-janus-henderson-nylim-fund?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-19",
-      "dateLabel": "19 Aug 2026"
-    },
-    {
-      "brief": "HSBC and Standard Chartered execute first live tokenized deposit via Swift",
-      "why": "Interoperable tokenized deposit settlement between major banks advancing infrastructure",
-      "category": "DigitalBank",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/hsbc-standard-chartered-make-first-live-tokenized-deposit-tranfer-via-swift-blockchain/",
-      "date": "2026-08-19",
-      "dateLabel": "19 Aug 2026"
     }
   ],
   "feedsOk": [
     "Ledger Insights",
     "CoinDesk",
-    "The Block",
     "DL News",
     "Cointelegraph"
   ],
-  "feedsFailed": []
+  "feedsFailed": [
+    "The Block"
+  ]
 }
