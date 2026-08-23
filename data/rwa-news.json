@@ -1,25 +1,42 @@
 {
-  "generated": "2026-08-22T06:40:56.429Z",
-  "generatedLabel": "22 Aug 2026",
-  "count": 1,
+  "generated": "2026-08-23T06:41:16.909Z",
+  "generatedLabel": "23 Aug 2026",
+  "count": 3,
   "items": [
     {
-      "brief": "Banks move deposits on-chain via permissioned systems",
-      "why": "Tokenized deposits represent RWA tokenization with privacy/compliance considerations for banks.",
+      "brief": "Tokenized stocks risk repeating 1960s Wall Street 'paper crisis' via fragmented systems",
+      "why": "Highlights infrastructure and standardization challenges critical to tokenization scalability and adoption.",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/08/20/crypto-for-advisors-what-are-tokenized-deposits",
-      "date": "2026-08-20",
-      "dateLabel": "20 Aug 2026"
+      "url": "https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says",
+      "date": "2026-08-22",
+      "dateLabel": "22 Aug 2026"
+    },
+    {
+      "brief": "X plans to pay creators in stablecoins; banks deepen stablecoin adoption",
+      "why": "Demonstrates expanding stablecoin use cases beyond trading, signaling mainstream payment integration.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
+      "date": "2026-08-22",
+      "dateLabel": "22 Aug 2026"
+    },
+    {
+      "brief": "Shinhan partners on Korean won-denominated tokenized fund issuance proof-of-concept",
+      "why": "Bank-led tokenized fund issuance shows institutional RWA adoption and cross-chain collaboration.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-08-21-south-korea-shinhan-partners-solana-412420",
+      "date": "2026-08-21",
+      "dateLabel": "21 Aug 2026"
     }
   ],
   "feedsOk": [
     "Ledger Insights",
     "CoinDesk",
+    "The Block",
     "DL News",
     "Cointelegraph"
   ],
-  "feedsFailed": [
-    "The Block"
-  ]
+  "feedsFailed": []
 }
