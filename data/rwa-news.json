@@ -1,52 +1,79 @@
 {
-  "generated": "2026-08-24T06:59:00.570Z",
-  "generatedLabel": "24 Aug 2026",
-  "count": 5,
+  "generated": "2026-08-25T06:48:05.650Z",
+  "generatedLabel": "25 Aug 2026",
+  "count": 8,
   "items": [
     {
-      "brief": "Stablecoin neobank Fasset valued at $1B as payments expand",
-      "why": "Digital bank leveraging stablecoins for payments and settlement shows market adoption of tokenized financial services",
-      "category": "DigitalBank",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push",
+      "brief": "Franklin Templeton launches tokenized money market fund in Asia via HashKey",
+      "why": "Demonstrates institutional RWA tokenization adoption for US government liquidity products",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-25-franklin-templeton-hashkey-tokenized-fund-412675",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
+    },
+    {
+      "brief": "Blockchain Association backs Treasury's GENIUS Act stablecoin issuer rules",
+      "why": "Regulatory framework proposal directly addresses stablecoin issuer compliance requirements",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-08-25-blockchain-association-backs-genius-act-412668",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
+    },
+    {
+      "brief": "Coinbase launches tokenized stocks on Base, includes Apple and Nvidia",
+      "why": "Expands tokenized equity asset class on blockchain with DeFi integration capability",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-08-24",
       "dateLabel": "24 Aug 2026"
     },
     {
-      "brief": "Crypto card spending exceeds $1B, stablecoins fund majority",
-      "why": "Stablecoins enabling real-world payments for everyday purchases demonstrates practical tokenization use case",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
-      "date": "2026-08-23",
-      "dateLabel": "23 Aug 2026"
-    },
-    {
-      "brief": "AI agents increasingly using stablecoins for payments",
-      "why": "Stablecoins emerging as settlement layer for emerging payment paradigm with autonomous agents",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins",
-      "date": "2026-08-23",
-      "dateLabel": "23 Aug 2026"
-    },
-    {
-      "brief": "Tokenized stocks risk fragmentation similar to 1960s crisis",
-      "why": "Industry expert warns tokenized securities need standardization to avoid settlement and infrastructure failures",
+      "brief": "Coinbase debuts tokenized stocks on Base under Abu Dhabi framework",
+      "why": "Institutional-grade tokenized equities framework brings traditional assets to blockchain",
       "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says",
-      "date": "2026-08-22",
-      "dateLabel": "22 Aug 2026"
+      "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain",
+      "date": "2026-08-24",
+      "dateLabel": "24 Aug 2026"
     },
     {
-      "brief": "Banks and tech firms expand stablecoin adoption",
-      "why": "Financial institutions and platforms pushing deeper into stablecoins for payments and creator compensation",
+      "brief": "Standard Chartered distributes Hong Kong dollar stablecoin HKDAP",
+      "why": "Major bank's stablecoin distribution signals institutional adoption of digital currency",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
-      "date": "2026-08-22",
-      "dateLabel": "22 Aug 2026"
+      "url": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
+      "date": "2026-08-24",
+      "dateLabel": "24 Aug 2026"
+    },
+    {
+      "brief": "Bernstein: Circle can grow without Clarity Act as USDC supply rebounds",
+      "why": "Stablecoin supply recovery and volume growth indicate market momentum independent of regulation",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-24-bernstein-says-circles-growth-cycle-can-continue-without-the-clarity-act-sees-59-upside-412573",
+      "date": "2026-08-24",
+      "dateLabel": "24 Aug 2026"
+    },
+    {
+      "brief": "Fasset reaches $1B valuation with $68M Series C from SBI Group",
+      "why": "Cross-border stablecoin infrastructure funding reflects institutional investment in tokenization",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-24-fasset-68-million-raise-sbi-group-412563",
+      "date": "2026-08-24",
+      "dateLabel": "24 Aug 2026"
+    },
+    {
+      "brief": "Fasset raises $68M at $1B valuation as stablecoin payments expand",
+      "why": "Stablecoin payment and settlement growth drives fintech neobank valuation",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push",
+      "date": "2026-08-24",
+      "dateLabel": "24 Aug 2026"
     }
   ],
   "feedsOk": [
