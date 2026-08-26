@@ -1,79 +1,97 @@
 {
-  "generated": "2026-08-25T06:48:05.650Z",
-  "generatedLabel": "25 Aug 2026",
-  "count": 8,
+  "generated": "2026-08-26T06:50:39.373Z",
+  "generatedLabel": "26 Aug 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Franklin Templeton launches tokenized money market fund in Asia via HashKey",
-      "why": "Demonstrates institutional RWA tokenization adoption for US government liquidity products",
+      "brief": "U.S. banking associations plan BankChain Alliance for 2027 launch",
+      "why": "Network aims to enable stablecoins, payments, and tokenized deposits within regulated banking system.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
+    },
+    {
+      "brief": "POSCO tokenizes trade receivables on Avalanche blockchain",
+      "why": "Major company tokenizes real-world business assets, demonstrating RWA adoption at scale.",
       "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-25-franklin-templeton-hashkey-tokenized-fund-412675",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/25/south-korea-trade-giant-posco-brings-trade-receivables-to-avalanche-in-latest-tokenization-move",
       "date": "2026-08-25",
       "dateLabel": "25 Aug 2026"
     },
     {
-      "brief": "Blockchain Association backs Treasury's GENIUS Act stablecoin issuer rules",
-      "why": "Regulatory framework proposal directly addresses stablecoin issuer compliance requirements",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-08-25-blockchain-association-backs-genius-act-412668",
+      "brief": "Bitwise launches self-custodied tokenized stock portfolios",
+      "why": "Automated rebalancing of tokenized equities expands onchain asset management capabilities.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitwise-launches-self-custodied-tokenized-stock-portfolios-with-coinbase?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
       "date": "2026-08-25",
       "dateLabel": "25 Aug 2026"
     },
     {
-      "brief": "Coinbase launches tokenized stocks on Base, includes Apple and Nvidia",
-      "why": "Expands tokenized equity asset class on blockchain with DeFi integration capability",
+      "brief": "LayerZero unveils trading infrastructure for tokenized markets",
+      "why": "Infrastructure supports crypto and tokenized asset trading with institutional backing.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/25/layerzero-unveils-trading-infrastructure-for-crypto-and-tokenized-markets-zro-surges",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
+    },
+    {
+      "brief": "Bitwise creates AI-themed tokenized stock portfolios via Coinbase",
+      "why": "Tokenized equities enable new automated investment strategies onchain.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/25/bitwise-turns-coinbase-s-tokenized-stocks-into-automated-ai-robotics-and-tech-portfolios",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
+    },
+    {
+      "brief": "Bitwise launches themed tokenized stock portfolios on Coinbase",
+      "why": "Tokenized stocks powered by Coinbase enable thematic onchain portfolio construction.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-25-bitwise-launches-automated-tokenized-stock-portfolios-for-mag-7-ai-and-robotics-themes-412706",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
+    },
+    {
+      "brief": "Arcus tokenizes perpetual positions on Robinhood Chain",
+      "why": "Transferable ERC-20 tokens for derivatives enable new tokenized trading mechanics.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/arcus-tokenized-perp-positions-robinhood-chain?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
+    },
+    {
+      "brief": "India pilots tokenized corporate bonds using wholesale CBDC",
+      "why": "Government-backed tokenized debt issuance demonstrates RWA adoption in traditional finance.",
       "category": "RWA",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-24",
-      "dateLabel": "24 Aug 2026"
+      "url": "https://cointelegraph.com/news/india-tokenized-bonds-digital-rupee?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
     },
     {
-      "brief": "Coinbase debuts tokenized stocks on Base under Abu Dhabi framework",
-      "why": "Institutional-grade tokenized equities framework brings traditional assets to blockchain",
+      "brief": "Standard Chartered distributes HKD stablecoin, plans tokenized MMF settlements",
+      "why": "Major bank integrates stablecoin with tokenized money market fund settlement infrastructure.",
+      "category": "Stablecoin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/standard-chartered-hkdap-stablecoin-distribution?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
+    },
+    {
+      "brief": "Franklin Templeton and HashKey roll out tokenized money fund in Asia",
+      "why": "Tokenized treasury and money market funds are fastest-growing RWA segment.",
       "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain",
-      "date": "2026-08-24",
-      "dateLabel": "24 Aug 2026"
-    },
-    {
-      "brief": "Standard Chartered distributes Hong Kong dollar stablecoin HKDAP",
-      "why": "Major bank's stablecoin distribution signals institutional adoption of digital currency",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
-      "date": "2026-08-24",
-      "dateLabel": "24 Aug 2026"
-    },
-    {
-      "brief": "Bernstein: Circle can grow without Clarity Act as USDC supply rebounds",
-      "why": "Stablecoin supply recovery and volume growth indicate market momentum independent of regulation",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-24-bernstein-says-circles-growth-cycle-can-continue-without-the-clarity-act-sees-59-upside-412573",
-      "date": "2026-08-24",
-      "dateLabel": "24 Aug 2026"
-    },
-    {
-      "brief": "Fasset reaches $1B valuation with $68M Series C from SBI Group",
-      "why": "Cross-border stablecoin infrastructure funding reflects institutional investment in tokenization",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-24-fasset-68-million-raise-sbi-group-412563",
-      "date": "2026-08-24",
-      "dateLabel": "24 Aug 2026"
-    },
-    {
-      "brief": "Fasset raises $68M at $1B valuation as stablecoin payments expand",
-      "why": "Stablecoin payment and settlement growth drives fintech neobank valuation",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push",
-      "date": "2026-08-24",
-      "dateLabel": "24 Aug 2026"
+      "url": "https://www.coindesk.com/business/2026/08/25/franklin-templeton-and-hashkey-roll-out-u-s-tokenized-money-fund-in-asia",
+      "date": "2026-08-25",
+      "dateLabel": "25 Aug 2026"
     }
   ],
   "feedsOk": [
