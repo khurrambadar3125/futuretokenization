@@ -1,29 +1,83 @@
 {
-  "generated": "2026-08-26T06:50:39.373Z",
-  "generatedLabel": "26 Aug 2026",
+  "generated": "2026-08-27T17:24:10.093Z",
+  "generatedLabel": "27 Aug 2026",
   "count": 10,
   "items": [
     {
-      "brief": "U.S. banking associations plan BankChain Alliance for 2027 launch",
-      "why": "Network aims to enable stablecoins, payments, and tokenized deposits within regulated banking system.",
+      "brief": "Clearing firm RQD raises $74M for tokenized markets infrastructure",
+      "why": "Custody and clearing infrastructure is essential for scaling tokenized asset markets.",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
+      "url": "https://www.coindesk.com/business/2026/08/27/clearing-firm-rqd-raises-usd74-million-as-wall-street-prepares-for-tokenized-markets",
+      "date": "2026-08-27",
+      "dateLabel": "27 Aug 2026"
     },
     {
-      "brief": "POSCO tokenizes trade receivables on Avalanche blockchain",
-      "why": "Major company tokenizes real-world business assets, demonstrating RWA adoption at scale.",
+      "brief": "Stablecoin rewards language in Clarity Act debated by banks",
+      "why": "Regulatory framework directly affects stablecoin deployment and competitive dynamics.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/08/27/the-clarity-act-will-put-main-street-banks-at-a-disadvantage",
+      "date": "2026-08-27",
+      "dateLabel": "27 Aug 2026"
+    },
+    {
+      "brief": "Mirae Asset plans stablecoins, RWAs, and STOs via Digital X acquisition",
+      "why": "Major financial group entering tokenization space with multi-asset strategy.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/27/mirae-asset-eyes-usd109-billion-crypto-empire-after-acquiring-digital-x",
+      "date": "2026-08-27",
+      "dateLabel": "27 Aug 2026"
+    },
+    {
+      "brief": "Bitfinex Securities raises $50M for tokenized nickel trading platform",
+      "why": "Tokenized commodities represent a key RWA use case gaining institutional traction.",
       "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/25/south-korea-trade-giant-posco-brings-trade-receivables-to-avalanche-in-latest-tokenization-move",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
+      "url": "https://www.coindesk.com/business/2026/08/27/bitfinex-securities-raises-usd50-million-in-push-to-offer-tokenized-nickel-trading",
+      "date": "2026-08-27",
+      "dateLabel": "27 Aug 2026"
     },
     {
-      "brief": "Bitwise launches self-custodied tokenized stock portfolios",
-      "why": "Automated rebalancing of tokenized equities expands onchain asset management capabilities.",
+      "brief": "Bitfinex Securities completes $50M raise for tokenized nickel interests",
+      "why": "Tokenized commodity asset raise demonstrates RWA market maturation.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitfinex-securities-record-50-million-tokenized-nickel-project?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-27",
+      "dateLabel": "27 Aug 2026"
+    },
+    {
+      "brief": "UK plans new Bank of England objective for stablecoin oversight",
+      "why": "Central bank regulatory framework signals stablecoin market legitimacy and governance.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/08/27/britain-plans-new-bank-of-england-objective-for-stablecoins",
+      "date": "2026-08-27",
+      "dateLabel": "27 Aug 2026"
+    },
+    {
+      "brief": "Dallas Fed: tokenized deposits could affect bank funding stability",
+      "why": "Study examines how programmable deposits reshape banking and credit costs.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/tokenized-deposits-us-credit-costs-dallas-fed-economists?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-27",
+      "dateLabel": "27 Aug 2026"
+    },
+    {
+      "brief": "Visa joins BLOOM for regulated stablecoin and tokenized deposit settlement",
+      "why": "Major payment network backing infrastructure for stablecoin and tokenized deposit clearing.",
+      "category": "Stablecoin",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/visa-joins-bloom-for-stablecoin-settlement-shinhan-adopts-visa-stablecoin-platform/",
+      "date": "2026-08-26",
+      "dateLabel": "26 Aug 2026"
+    },
+    {
+      "brief": "Bitwise launches self-custodied tokenized stock portfolios with Coinbase",
+      "why": "Tokenized equities enable decentralized portfolio management and ownership.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitwise-launches-self-custodied-tokenized-stock-portfolios-with-coinbase?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
@@ -31,65 +85,11 @@
       "dateLabel": "25 Aug 2026"
     },
     {
-      "brief": "LayerZero unveils trading infrastructure for tokenized markets",
-      "why": "Infrastructure supports crypto and tokenized asset trading with institutional backing.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/25/layerzero-unveils-trading-infrastructure-for-crypto-and-tokenized-markets-zro-surges",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
-    },
-    {
-      "brief": "Bitwise creates AI-themed tokenized stock portfolios via Coinbase",
-      "why": "Tokenized equities enable new automated investment strategies onchain.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/25/bitwise-turns-coinbase-s-tokenized-stocks-into-automated-ai-robotics-and-tech-portfolios",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
-    },
-    {
-      "brief": "Bitwise launches themed tokenized stock portfolios on Coinbase",
-      "why": "Tokenized stocks powered by Coinbase enable thematic onchain portfolio construction.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-25-bitwise-launches-automated-tokenized-stock-portfolios-for-mag-7-ai-and-robotics-themes-412706",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
-    },
-    {
-      "brief": "Arcus tokenizes perpetual positions on Robinhood Chain",
-      "why": "Transferable ERC-20 tokens for derivatives enable new tokenized trading mechanics.",
+      "brief": "Arcus launches transferable tokenized perpetual positions on Robinhood Chain",
+      "why": "Tokenized derivatives expand use cases for on-chain financial instruments.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/arcus-tokenized-perp-positions-robinhood-chain?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
-    },
-    {
-      "brief": "India pilots tokenized corporate bonds using wholesale CBDC",
-      "why": "Government-backed tokenized debt issuance demonstrates RWA adoption in traditional finance.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/india-tokenized-bonds-digital-rupee?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
-    },
-    {
-      "brief": "Standard Chartered distributes HKD stablecoin, plans tokenized MMF settlements",
-      "why": "Major bank integrates stablecoin with tokenized money market fund settlement infrastructure.",
-      "category": "Stablecoin",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/standard-chartered-hkdap-stablecoin-distribution?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
-    },
-    {
-      "brief": "Franklin Templeton and HashKey roll out tokenized money fund in Asia",
-      "why": "Tokenized treasury and money market funds are fastest-growing RWA segment.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/25/franklin-templeton-and-hashkey-roll-out-u-s-tokenized-money-fund-in-asia",
       "date": "2026-08-25",
       "dateLabel": "25 Aug 2026"
     }
