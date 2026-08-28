@@ -1,47 +1,65 @@
 {
-  "generated": "2026-08-27T17:24:10.093Z",
-  "generatedLabel": "27 Aug 2026",
-  "count": 10,
+  "generated": "2026-08-28T18:17:04.035Z",
+  "generatedLabel": "28 Aug 2026",
+  "count": 8,
   "items": [
     {
-      "brief": "Clearing firm RQD raises $74M for tokenized markets infrastructure",
-      "why": "Custody and clearing infrastructure is essential for scaling tokenized asset markets.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/27/clearing-firm-rqd-raises-usd74-million-as-wall-street-prepares-for-tokenized-markets",
-      "date": "2026-08-27",
-      "dateLabel": "27 Aug 2026"
+      "brief": "SBI invests $270M in Ajaib for stablecoin and digital asset expansion",
+      "why": "Stablecoin integration with traditional investments and institutional settlement services",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/deals/2026-08-28-sbi-holdings-invests-270-million-in-ajaib-taking-20-stake-amid-asia-digital-asset-push-413023",
+      "date": "2026-08-28",
+      "dateLabel": "28 Aug 2026"
     },
     {
-      "brief": "Stablecoin rewards language in Clarity Act debated by banks",
-      "why": "Regulatory framework directly affects stablecoin deployment and competitive dynamics.",
+      "brief": "Ethena's USDe backing shifts toward real-world asset perpetuals",
+      "why": "Stablecoin collateralization model expanding into tokenized RWA derivatives",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/08/27/the-clarity-act-will-put-main-street-banks-at-a-disadvantage",
-      "date": "2026-08-27",
-      "dateLabel": "27 Aug 2026"
+      "url": "https://www.coindesk.com/business/2026/08/28/ethena-looks-beyond-crypto-to-squeeze-yield-from-booming-equity-perpetuals",
+      "date": "2026-08-28",
+      "dateLabel": "28 Aug 2026"
     },
     {
-      "brief": "Mirae Asset plans stablecoins, RWAs, and STOs via Digital X acquisition",
-      "why": "Major financial group entering tokenization space with multi-asset strategy.",
-      "category": "Tokenization",
+      "brief": "SBI acquires Ajaib stake to build blockchain settlement network",
+      "why": "Cross-border stablecoin settlement infrastructure for digital asset expansion",
+      "category": "DigitalBank",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/27/mirae-asset-eyes-usd109-billion-crypto-empire-after-acquiring-digital-x",
-      "date": "2026-08-27",
-      "dateLabel": "27 Aug 2026"
+      "url": "https://www.coindesk.com/business/2026/08/28/sbi-stakes-usd270-million-in-ajaib-to-expand-yen-stablecoin-in-southeast-asia",
+      "date": "2026-08-28",
+      "dateLabel": "28 Aug 2026"
     },
     {
-      "brief": "Bitfinex Securities raises $50M for tokenized nickel trading platform",
-      "why": "Tokenized commodities represent a key RWA use case gaining institutional traction.",
+      "brief": "Visa partners with Dunamu on stablecoin payments infrastructure",
+      "why": "Stablecoin integration into mainstream payment processing and settlement",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/28/visa-doubles-down-on-south-korea-with-upbit-operator-dunamu-on-stablecoin-payments",
+      "date": "2026-08-28",
+      "dateLabel": "28 Aug 2026"
+    },
+    {
+      "brief": "Dunamu and Visa explore stablecoin partnerships including Open USD",
+      "why": "Stablecoin adoption for payments and business use cases",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-28-dunamu-visa-partner-stablecoin-ai-ousd-412988",
+      "date": "2026-08-28",
+      "dateLabel": "28 Aug 2026"
+    },
+    {
+      "brief": "CIMB settles $342M tokenized sukuk using tokenized deposits",
+      "why": "RWA tokenization of Islamic bonds paired with tokenized deposit infrastructure",
       "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/27/bitfinex-securities-raises-usd50-million-in-push-to-offer-tokenized-nickel-trading",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/cimb-settles-342m-tokenized-sukuk-using-tokenized-deposits-in-malaysian-first/",
       "date": "2026-08-27",
       "dateLabel": "27 Aug 2026"
     },
     {
-      "brief": "Bitfinex Securities completes $50M raise for tokenized nickel interests",
-      "why": "Tokenized commodity asset raise demonstrates RWA market maturation.",
+      "brief": "Bitfinex Securities raises $50M via tokenized nickel assets",
+      "why": "RWA tokenization enabling capital markets financing for commodity-backed tokens",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitfinex-securities-record-50-million-tokenized-nickel-project?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -49,49 +67,13 @@
       "dateLabel": "27 Aug 2026"
     },
     {
-      "brief": "UK plans new Bank of England objective for stablecoin oversight",
-      "why": "Central bank regulatory framework signals stablecoin market legitimacy and governance.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/27/britain-plans-new-bank-of-england-objective-for-stablecoins",
-      "date": "2026-08-27",
-      "dateLabel": "27 Aug 2026"
-    },
-    {
-      "brief": "Dallas Fed: tokenized deposits could affect bank funding stability",
-      "why": "Study examines how programmable deposits reshape banking and credit costs.",
+      "brief": "Tokenized deposits could increase US bank funding costs, Dallas Fed warns",
+      "why": "Programmable deposits as tokenization infrastructure raises systemic funding dynamics",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/tokenized-deposits-us-credit-costs-dallas-fed-economists?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-08-27",
       "dateLabel": "27 Aug 2026"
-    },
-    {
-      "brief": "Visa joins BLOOM for regulated stablecoin and tokenized deposit settlement",
-      "why": "Major payment network backing infrastructure for stablecoin and tokenized deposit clearing.",
-      "category": "Stablecoin",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/visa-joins-bloom-for-stablecoin-settlement-shinhan-adopts-visa-stablecoin-platform/",
-      "date": "2026-08-26",
-      "dateLabel": "26 Aug 2026"
-    },
-    {
-      "brief": "Bitwise launches self-custodied tokenized stock portfolios with Coinbase",
-      "why": "Tokenized equities enable decentralized portfolio management and ownership.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitwise-launches-self-custodied-tokenized-stock-portfolios-with-coinbase?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
-    },
-    {
-      "brief": "Arcus launches transferable tokenized perpetual positions on Robinhood Chain",
-      "why": "Tokenized derivatives expand use cases for on-chain financial instruments.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/arcus-tokenized-perp-positions-robinhood-chain?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-25",
-      "dateLabel": "25 Aug 2026"
     }
   ],
   "feedsOk": [
