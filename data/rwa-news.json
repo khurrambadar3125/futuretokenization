@@ -1,20 +1,38 @@
 {
-  "generated": "2026-08-28T18:17:04.035Z",
-  "generatedLabel": "28 Aug 2026",
-  "count": 8,
+  "generated": "2026-08-29T12:26:05.659Z",
+  "generatedLabel": "29 Aug 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "SBI invests $270M in Ajaib for stablecoin and digital asset expansion",
-      "why": "Stablecoin integration with traditional investments and institutional settlement services",
+      "brief": "BIS chief questions stablecoin credibility for large-scale payments",
+      "why": "Regulatory scrutiny of stablecoins affects their viability as payment infrastructure.",
       "category": "Stablecoin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-29",
+      "dateLabel": "29 Aug 2026"
+    },
+    {
+      "brief": "Visa partners with Dunamu on stablecoin payments and remittances",
+      "why": "Major payment processor backing stablecoin infrastructure expansion in Asia.",
+      "category": "Stablecoin",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/visa-signs-2nd-korean-stablecoin-deal-this-week-with-hana-backed-dunamu/",
+      "date": "2026-08-28",
+      "dateLabel": "28 Aug 2026"
+    },
+    {
+      "brief": "SBI Holdings invests $270M in Ajaib for stablecoin and digital assets",
+      "why": "Financial giant expanding into stablecoin and blockchain settlement services.",
+      "category": "DigitalBank",
       "source": "The Block",
       "url": "https://www.theblock.co/news/deals/2026-08-28-sbi-holdings-invests-270-million-in-ajaib-taking-20-stake-amid-asia-digital-asset-push-413023",
       "date": "2026-08-28",
       "dateLabel": "28 Aug 2026"
     },
     {
-      "brief": "Ethena's USDe backing shifts toward real-world asset perpetuals",
-      "why": "Stablecoin collateralization model expanding into tokenized RWA derivatives",
+      "brief": "Ethena explores real-world asset perpetuals to back USDe stablecoin",
+      "why": "Stablecoin issuer shifting from crypto to RWA derivatives for collateral backing.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/08/28/ethena-looks-beyond-crypto-to-squeeze-yield-from-booming-equity-perpetuals",
@@ -22,8 +40,8 @@
       "dateLabel": "28 Aug 2026"
     },
     {
-      "brief": "SBI acquires Ajaib stake to build blockchain settlement network",
-      "why": "Cross-border stablecoin settlement infrastructure for digital asset expansion",
+      "brief": "SBI invests $270M in Ajaib to build blockchain settlement network",
+      "why": "Financial institution building cross-border tokenized settlement infrastructure.",
       "category": "DigitalBank",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/08/28/sbi-stakes-usd270-million-in-ajaib-to-expand-yen-stablecoin-in-southeast-asia",
@@ -31,8 +49,26 @@
       "dateLabel": "28 Aug 2026"
     },
     {
-      "brief": "Visa partners with Dunamu on stablecoin payments infrastructure",
-      "why": "Stablecoin integration into mainstream payment processing and settlement",
+      "brief": "Circle's USDC sponsors Chelsea Football Club jersey",
+      "why": "Stablecoin brand mainstream adoption through major sports partnership.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/28/circle-s-usdc-takes-over-chelsea-s-jersey-in-premier-league-first",
+      "date": "2026-08-28",
+      "dateLabel": "28 Aug 2026"
+    },
+    {
+      "brief": "Circle's USDC featured on Chelsea Football Club shirts",
+      "why": "Stablecoin gaining mainstream visibility through sports sponsorship.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-08-28-circle-strikes-chelsea-front-of-shirt-sponsorship-deal-featuring-usdc-413002",
+      "date": "2026-08-28",
+      "dateLabel": "28 Aug 2026"
+    },
+    {
+      "brief": "Visa partners with Upbit operator Dunamu on stablecoin payments",
+      "why": "Global payments giant expanding stablecoin infrastructure in major crypto hub.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/08/28/visa-doubles-down-on-south-korea-with-upbit-operator-dunamu-on-stablecoin-payments",
@@ -40,8 +76,8 @@
       "dateLabel": "28 Aug 2026"
     },
     {
-      "brief": "Dunamu and Visa explore stablecoin partnerships including Open USD",
-      "why": "Stablecoin adoption for payments and business use cases",
+      "brief": "Dunamu and Visa explore stablecoin partnership with Open USD",
+      "why": "Stablecoin standard under consideration for major exchange and payment platform.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-08-28-dunamu-visa-partner-stablecoin-ai-ousd-412988",
@@ -49,29 +85,11 @@
       "dateLabel": "28 Aug 2026"
     },
     {
-      "brief": "CIMB settles $342M tokenized sukuk using tokenized deposits",
-      "why": "RWA tokenization of Islamic bonds paired with tokenized deposit infrastructure",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/cimb-settles-342m-tokenized-sukuk-using-tokenized-deposits-in-malaysian-first/",
-      "date": "2026-08-27",
-      "dateLabel": "27 Aug 2026"
-    },
-    {
-      "brief": "Bitfinex Securities raises $50M via tokenized nickel assets",
-      "why": "RWA tokenization enabling capital markets financing for commodity-backed tokens",
+      "brief": "Bitfinex Securities raises $50M via tokenized capital for nickel assets",
+      "why": "Record tokenized RWA capital raise demonstrates emerging market for asset tokenization.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitfinex-securities-record-50-million-tokenized-nickel-project?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-27",
-      "dateLabel": "27 Aug 2026"
-    },
-    {
-      "brief": "Tokenized deposits could increase US bank funding costs, Dallas Fed warns",
-      "why": "Programmable deposits as tokenization infrastructure raises systemic funding dynamics",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tokenized-deposits-us-credit-costs-dallas-fed-economists?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-08-27",
       "dateLabel": "27 Aug 2026"
     }
