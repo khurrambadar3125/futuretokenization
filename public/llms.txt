@@ -1,0 +1,20 @@
+# FutureTokenization.com
+
+> The World's Digital Asset Codex. The world's comprehensive educational platform for tokenization, real-world assets, stablecoins, CBDCs, and the digital transformation of global finance. A projected $19 trillion shift in global finance by 2033 (BCG/Ripple base case) — explained, sourced, and current. Educational only — not financial advice.
+
+## Pages
+
+- [Home — The Complete Codex of Tokenization & Digital Assets](https://www.futuretokenization.com/): What tokenization is, why now is the inflection point, real-world assets, stablecoins, CBDCs, case studies, major players, the monetary system shift, emerging markets, and a daily RWA & Tokenization brief.
+- [VARA-Licensed Providers — Directory](https://www.futuretokenization.com/directory): Every VARA-licensed virtual-asset provider in the UAE, filterable by activity. Sourced from the VARA public register, last verified at the date shown.
+- [Validate a Licence — VARA Register Check](https://www.futuretokenization.com/validate): Check any firm against the live VARA public register: licensed, in-principle approval, or not on the register.
+- [UAE Web3 Ecosystem — Directory](https://www.futuretokenization.com/ecosystem): A verified directory of UAE Web3 ecosystem firms — dev studios, infrastructure, DeFi, advisory, VCs. Not VARA-licensed VASPs.
+- [For Investors](https://www.futuretokenization.com/investors): Discover and verify VARA-licensed virtual-asset providers in the UAE. A discovery platform — not a broker or advisor.
+- [For Providers](https://www.futuretokenization.com/providers): VARA-licensed virtual-asset providers: your register listing is already live. Claim it to add detail and receive qualified investor introductions.
+- [Pakistan — Sovereign Custody, Governance & Tokenized Sukuk](https://www.futuretokenization.com/pakistan): How a state custodies digital assets: cold storage, multi-sig, key ceremonies, risk appetite, audit trails, proof of reserves, AML/CFT, and tokenized sukuk.
+- [Provider pages](https://www.futuretokenization.com/provider/): One page per VARA register entity (`/provider/<slug>`), listing its register status, reference and licensed activities. Full list in the sitemap.
+- [Privacy Policy](https://www.futuretokenization.com/privacy.html)
+- [Terms of Service](https://www.futuretokenization.com/terms.html)
+
+## Sitemap
+
+- https://www.futuretokenization.com/sitemap.xml
