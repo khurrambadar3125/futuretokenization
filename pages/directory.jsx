@@ -72,6 +72,7 @@ export default function Directory({ providers, categoryCounts, meta }) {
     <>
       <Head>
         <title>VARA-Licensed Providers — Directory | FutureTokenization</title>
+        <link rel="canonical" href="https://www.futuretokenization.com/directory" />
         <meta
           name="description"
           content="Every VARA-licensed virtual-asset provider in the UAE, filterable by activity. Sourced from the VARA public register, last verified at the date shown. Educational only — not financial advice."

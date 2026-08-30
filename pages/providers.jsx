@@ -13,6 +13,7 @@ export default function Providers({ firms }) {
     <>
       <Head>
         <title>For Providers — Get Discovered | FutureTokenization</title>
+        <link rel="canonical" href="https://www.futuretokenization.com/providers" />
         <meta
           name="description"
           content="VARA-licensed virtual-asset providers: your register listing is already live. Claim it to add detail and receive qualified investor introductions. Educational platform — not an endorsement."

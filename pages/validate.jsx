@@ -59,6 +59,7 @@ export default function Validate({ providers, meta }) {
     <>
       <Head>
         <title>Validate a Licence — VARA Register Check | FutureTokenization</title>
+        <link rel="canonical" href="https://www.futuretokenization.com/validate" />
         <meta
           name="description"
           content="Check any firm against the live VARA public register: licensed, in-principle approval, or not on the register. Educational only — not financial advice."

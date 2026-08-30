@@ -2309,6 +2309,8 @@ export default function Home({ news }) {
     <>
       <Head>
         <title>FutureTokenization.com — The World\'s Digital Asset Codex</title>
+        <link rel="canonical" href="https://www.futuretokenization.com/" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"FutureTokenization.com\",\"url\":\"https://www.futuretokenization.com/\",\"description\":\"The world's comprehensive educational platform for tokenization, real-world assets, stablecoins, CBDCs, and the digital transformation of global finance.\"}" }} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 

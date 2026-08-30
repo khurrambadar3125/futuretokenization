@@ -56,6 +56,7 @@ export default function Provider({ provider, sharedRef, meta }) {
     <>
       <Head>
         <title>{p.name} — VARA Register | FutureTokenization</title>
+        <link rel="canonical" href={`https://www.futuretokenization.com/provider/${p.slug}`} />
         <meta
           name="description"
           content={`${p.name} — ${p.label} on the VARA public register (${p.reference}). Activities: ${catLabels}. Educational only — not financial advice.`}

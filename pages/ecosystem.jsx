@@ -26,6 +26,7 @@ export default function Ecosystem({ entities, meta }) {
     <>
       <Head>
         <title>UAE Web3 Ecosystem — Directory | FutureTokenization</title>
+        <link rel="canonical" href="https://www.futuretokenization.com/ecosystem" />
         <meta
           name="description"
           content="A verified directory of UAE Web3 ecosystem firms — dev studios, infrastructure, DeFi, advisory, VCs. NOT VARA-licensed VASPs. Educational only."

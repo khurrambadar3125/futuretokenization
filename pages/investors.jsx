@@ -13,6 +13,7 @@ export default function Investors({ firms, licences }) {
     <>
       <Head>
         <title>For Investors — Find VARA-Licensed Providers | FutureTokenization</title>
+        <link rel="canonical" href="https://www.futuretokenization.com/investors" />
         <meta
           name="description"
           content="Discover and verify VARA-licensed virtual-asset providers in the UAE. A discovery platform — not a broker or advisor. Educational only."

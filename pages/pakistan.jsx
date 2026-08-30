@@ -458,6 +458,7 @@ export default function Pakistan() {
     <>
       <Head>
         <title>Pakistan — Sovereign Custody, Governance &amp; Tokenized Sukuk | FutureTokenization</title>
+        <link rel="canonical" href="https://www.futuretokenization.com/pakistan" />
         <meta
           name="description"
           content="How a state custodies digital assets: cold storage, multi-sig, key ceremonies, risk appetite, audit trails, proof of reserves, AML/CFT, and tokenized sukuk — Pakistan's sovereign digital asset infrastructure, explained. Educational only."
