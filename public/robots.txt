@@ -7,3 +7,16 @@ Disallow: /onboard
 Disallow: /api/
 
 # Adjust per project — by default lock down auth + admin + dashboards.
+
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://www.futuretokenization.com/sitemap.xml
