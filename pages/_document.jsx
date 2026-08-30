@@ -15,6 +15,7 @@ export default function Document() {
         <meta property="og:description" content="Authoritative education on tokenization, RWAs, stablecoins, and digital finance. Not financial advice." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.futuretokenization.com" />
+        <meta name="google-site-verification" content="lRfZL65i1_lnLbjtxYoWa6aZzjDa4Ur-snFvsRBYJ7s" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
