@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-30T11:24:32.441Z",
-  "generatedLabel": "30 Aug 2026",
-  "count": 10,
+  "generated": "2026-08-31T12:54:15.700Z",
+  "generatedLabel": "31 Aug 2026",
+  "count": 4,
   "items": [
     {
-      "brief": "Stellar's tokenized RWA market expands to nearly $4B",
-      "why": "Demonstrates institutional adoption and growth in on-chain RWA tokenization",
+      "brief": "Stellar's tokenized RWA market quadruples to nearly $4B",
+      "why": "Direct measure of RWA tokenization growth and institutional adoption on blockchain",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/markets/stellar-tokenized-rwa-market-nears-4b-after-fourfold-2026-growth?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
@@ -13,8 +13,8 @@
       "dateLabel": "29 Aug 2026"
     },
     {
-      "brief": "Tokenized stock transfer volume jumps 415% in 30 days",
-      "why": "Shows accelerating adoption of equity tokenization with rising on-chain activity",
+      "brief": "Tokenized stock transfer volume jumps 415% in 30 days to $29.5B",
+      "why": "Demonstrates rapid scaling of tokenized equities as core RWA use case",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/markets/tokenized-stock-transfer-volume-jumps-416-in-30-days-to-295b?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -22,8 +22,8 @@
       "dateLabel": "29 Aug 2026"
     },
     {
-      "brief": "Tokenized asset utilization approaches 20% when adjusted",
-      "why": "Analysis of actual utilization rates in tokenized asset markets informs adoption metrics",
+      "brief": "Tokenized asset utilization rate estimated at ~20% when adjusted for methodology",
+      "why": "Analysis of actual tokenized asset usage patterns relevant to RWA market maturity",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
@@ -31,67 +31,13 @@
       "dateLabel": "29 Aug 2026"
     },
     {
-      "brief": "BIS chief questions stablecoin credibility for scaled payments",
-      "why": "Regulatory perspective on stablecoin viability for large-scale payment systems",
+      "brief": "BIS chief says stablecoins lack credibility for large-scale payments",
+      "why": "Regulatory perspective on stablecoin limitations for payment infrastructure",
       "category": "Stablecoin",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-08-29",
       "dateLabel": "29 Aug 2026"
-    },
-    {
-      "brief": "Visa partners with Dunamu on stablecoin payments and remittances",
-      "why": "Major payment network backing stablecoin infrastructure for cross-border settlements",
-      "category": "Stablecoin",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/visa-signs-2nd-korean-stablecoin-deal-this-week-with-hana-backed-dunamu/",
-      "date": "2026-08-28",
-      "dateLabel": "28 Aug 2026"
-    },
-    {
-      "brief": "SBI invests $270M in Ajaib, which offers stablecoins and OTC settlement",
-      "why": "Financial institution backing digital asset platform with stablecoin and settlement services",
-      "category": "DigitalBank",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/deals/2026-08-28-sbi-holdings-invests-270-million-in-ajaib-taking-20-stake-amid-asia-digital-asset-push-413023",
-      "date": "2026-08-28",
-      "dateLabel": "28 Aug 2026"
-    },
-    {
-      "brief": "Ethena expects real-world asset perpetuals to back USDe stablecoin",
-      "why": "Stablecoin collateralization shifting toward RWA-based backing over crypto",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/28/ethena-looks-beyond-crypto-to-squeeze-yield-from-booming-equity-perpetuals",
-      "date": "2026-08-28",
-      "dateLabel": "28 Aug 2026"
-    },
-    {
-      "brief": "SBI acquires 20% of Ajaib to expand yen stablecoin in Southeast Asia",
-      "why": "Central institution building blockchain settlement network with stablecoin infrastructure",
-      "category": "DigitalBank",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/28/sbi-stakes-usd270-million-in-ajaib-to-expand-yen-stablecoin-in-southeast-asia",
-      "date": "2026-08-28",
-      "dateLabel": "28 Aug 2026"
-    },
-    {
-      "brief": "Circle's USDC secures Premier League jersey sponsorship",
-      "why": "Stablecoin mainstream adoption and brand visibility expansion",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/28/circle-s-usdc-takes-over-chelsea-s-jersey-in-premier-league-first",
-      "date": "2026-08-28",
-      "dateLabel": "28 Aug 2026"
-    },
-    {
-      "brief": "Circle's USDC featured on Chelsea FC shirts",
-      "why": "Stablecoin mainstream integration and visibility in sports partnerships",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-08-28-circle-strikes-chelsea-front-of-shirt-sponsorship-deal-featuring-usdc-413002",
-      "date": "2026-08-28",
-      "dateLabel": "28 Aug 2026"
     }
   ],
   "feedsOk": [
