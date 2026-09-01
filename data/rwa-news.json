@@ -1,43 +1,52 @@
 {
-  "generated": "2026-08-31T12:54:15.700Z",
-  "generatedLabel": "31 Aug 2026",
-  "count": 4,
+  "generated": "2026-09-01T11:13:57.253Z",
+  "generatedLabel": "01 Sept 2026",
+  "count": 5,
   "items": [
     {
-      "brief": "Stellar's tokenized RWA market quadruples to nearly $4B",
-      "why": "Direct measure of RWA tokenization growth and institutional adoption on blockchain",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/stellar-tokenized-rwa-market-nears-4b-after-fourfold-2026-growth?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-29",
-      "dateLabel": "29 Aug 2026"
-    },
-    {
-      "brief": "Tokenized stock transfer volume jumps 415% in 30 days to $29.5B",
-      "why": "Demonstrates rapid scaling of tokenized equities as core RWA use case",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/tokenized-stock-transfer-volume-jumps-416-in-30-days-to-295b?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-29",
-      "dateLabel": "29 Aug 2026"
-    },
-    {
-      "brief": "Tokenized asset utilization rate estimated at ~20% when adjusted for methodology",
-      "why": "Analysis of actual tokenized asset usage patterns relevant to RWA market maturity",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
-      "date": "2026-08-29",
-      "dateLabel": "29 Aug 2026"
-    },
-    {
-      "brief": "BIS chief says stablecoins lack credibility for large-scale payments",
-      "why": "Regulatory perspective on stablecoin limitations for payment infrastructure",
+      "brief": "Singapore proposes 100% reserves and yield ban for stablecoin issuers",
+      "why": "Establishes regulatory framework for stablecoin issuance and reserves, aligning with global standards",
       "category": "Stablecoin",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-29",
-      "dateLabel": "29 Aug 2026"
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/01/singapore-proposes-100-reserves-and-a-ban-on-yields-for-stablecoin-issuers",
+      "date": "2026-09-01",
+      "dateLabel": "01 Sept 2026"
+    },
+    {
+      "brief": "Payward to tokenize 100 London-listed stocks as xStocks",
+      "why": "Major equity tokenization initiative bringing traditional stocks onchain via regulated framework",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-01-kraken-parent-payward-to-tokenize-100-london-listed-stocks-with-lse-24-trading-planned-413208",
+      "date": "2026-09-01",
+      "dateLabel": "01 Sept 2026"
+    },
+    {
+      "brief": "LSE partners with Payward to bring UK stocks onchain",
+      "why": "Traditional exchange enabling tokenization of major listed equities, advancing RWA infrastructure",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/01/london-stock-exchange-to-work-with-payward-to-bring-biggest-uk-stocks-onchain",
+      "date": "2026-09-01",
+      "dateLabel": "01 Sept 2026"
+    },
+    {
+      "brief": "ICE partners with tZERO on tokenized securities platform infrastructure",
+      "why": "NYSE owner building settlement and transfer infrastructure for tokenized securities market",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-08-31-nyse-parent-ice-partners-with-tzero-infrastructure-tokenized-securities-413111",
+      "date": "2026-08-31",
+      "dateLabel": "31 Aug 2026"
+    },
+    {
+      "brief": "ICE invests in tZERO, taps firm for tokenized securities infrastructure",
+      "why": "Major exchange operator adding settlement infrastructure to tokenized stocks platform",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
+      "date": "2026-08-31",
+      "dateLabel": "31 Aug 2026"
     }
   ],
   "feedsOk": [
@@ -47,5 +56,7 @@
     "DL News",
     "Cointelegraph"
   ],
-  "feedsFailed": []
+  "feedsFailed": [
+    "Cointelegraph"
+  ]
 }
