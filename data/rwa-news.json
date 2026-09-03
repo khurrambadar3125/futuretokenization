@@ -1,11 +1,47 @@
 {
-  "generated": "2026-09-02T10:47:21.910Z",
-  "generatedLabel": "02 Sept 2026",
-  "count": 10,
+  "generated": "2026-09-03T10:47:37.603Z",
+  "generatedLabel": "03 Sept 2026",
+  "count": 9,
   "items": [
     {
-      "brief": "SEC updates transfer agent rules for blockchain and tokenization",
-      "why": "Regulatory modernization directly enables tokenization infrastructure",
+      "brief": "Catastrophe bonds may tokenize with test issuance planned for 2027",
+      "why": "Extends tokenization to new RWA class, potentially lowering investment minimums via onchain ownership",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/03/catastrophe-bonds-may-join-tokenization-rush-with-plans-for-test-issuance-in-2027",
+      "date": "2026-09-03",
+      "dateLabel": "03 Sept 2026"
+    },
+    {
+      "brief": "Securitize and Socios tokenize equity in pro sports teams",
+      "why": "First project under EU DLT Pilot Regime, demonstrating RWA tokenization in regulated environment",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-09-02-securitize-and-socios-team-up-to-tokenize-equity-in-pro-sports-teams-413378",
+      "date": "2026-09-02",
+      "dateLabel": "02 Sept 2026"
+    },
+    {
+      "brief": "Hashkey joins DTCC tokenization working group as first Asian crypto provider",
+      "why": "Major financial institutions coordinating on tokenization standards and infrastructure",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/hashkey-dtcc-first-asian-crypto-service-provider?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-02",
+      "dateLabel": "02 Sept 2026"
+    },
+    {
+      "brief": "Tokenization enables programmable value creation, ownership and movement",
+      "why": "Foundational narrative on how tokenization transforms asset management and settlement",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/09/02/the-token-supercycle-everything-of-value-is-becoming-programmable",
+      "date": "2026-09-02",
+      "dateLabel": "02 Sept 2026"
+    },
+    {
+      "brief": "SEC updates 1970s transfer agent rules for blockchain and tokenization",
+      "why": "Regulatory framework evolution to accommodate tokenized asset settlement infrastructure",
       "category": "Tokenization",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-09-01-sec-seeks-update-1970s-era-transfer-agent-rules-for-blockchain-age-413278",
@@ -13,44 +49,17 @@
       "dateLabel": "01 Sept 2026"
     },
     {
-      "brief": "Global banks launch stablecoin venture for payments and settlement",
-      "why": "Major financial institutions entering stablecoin space for digital asset settlement",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
-    },
-    {
-      "brief": "Silhouette enables RFQ trading for tokenized equities on Hyperliquid",
-      "why": "Market infrastructure for onchain tokenized equity trading and settlement",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-01-silhouette-debuts-rfq-trading-for-xstocks-on-hyperliquid-413226",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
-    },
-    {
-      "brief": "Ethena integrates stablecoins into banking services with savings and cards",
-      "why": "Stablecoin adoption expanding into traditional banking use cases",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/01/ethena-pushes-stablecoins-into-everyday-banking-with-high-yield-savings-cards-and-payments",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
-    },
-    {
-      "brief": "Ripple advances tokenized asset custody and management in Asia",
-      "why": "Infrastructure development for institutional tokenized asset management",
-      "category": "RWA",
+      "brief": "Ripple, Coincheck build custody and tokenized asset solutions for Asia",
+      "why": "Institutional infrastructure for managing tokenized assets across Asia",
+      "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/asia-digital-asset-custody-deals-ripple-coincheck?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-09-01",
       "dateLabel": "01 Sept 2026"
     },
     {
-      "brief": "London Stock Exchange partners on tokenized UK equities trading",
-      "why": "Major exchange enabling 24/5 trading of tokenized equities",
+      "brief": "London Stock Exchange offers 24/5 tokenized UK equities via Kraken parent",
+      "why": "Major exchange enabling RWA tokenization with extended trading hours and institutional access",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/london-stock-exchange-partners-kraken-for-tokenized-uk-stocks?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -58,17 +67,8 @@
       "dateLabel": "01 Sept 2026"
     },
     {
-      "brief": "Singapore proposes stablecoin rules requiring 100% reserves",
-      "why": "Regulatory framework aligning stablecoin rules across jurisdictions",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/01/singapore-proposes-100-reserves-and-a-ban-on-yields-for-stablecoin-issuers",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
-    },
-    {
-      "brief": "Bitfinex Securities lists tokenized equity-backed notes",
-      "why": "Tokenized financial instruments expanding institutional investment options",
+      "brief": "Bitfinex Securities lists tokenized equity-backed notes via Luxembourg fund",
+      "why": "Tokenized financial instruments providing onchain exposure to equity strategies",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitfinex-tokenized-strategy-metaplanet-notes?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -76,17 +76,8 @@
       "dateLabel": "01 Sept 2026"
     },
     {
-      "brief": "Payward to tokenize 100 London stocks as xStocks with LSE trading",
-      "why": "Major exchange adoption of tokenized equities framework for institutional trading",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-01-kraken-parent-payward-to-tokenize-100-london-listed-stocks-with-lse-24-trading-planned-413208",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
-    },
-    {
-      "brief": "LSE partners Payward to bring top UK equities onchain as xStocks",
-      "why": "Exchange infrastructure integration enabling tokenized equity issuance and trading",
+      "brief": "LSE supports xStocks tokenized equity trading for 100 largest UK companies",
+      "why": "Major exchange integration of tokenized equities with regulatory approval pathway",
       "category": "RWA",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/london-stock-exchange-to-support-xstocks-tokenized-stock-trading-in-payward-deal/",
