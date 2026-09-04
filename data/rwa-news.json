@@ -1,88 +1,97 @@
 {
-  "generated": "2026-09-03T10:47:37.603Z",
-  "generatedLabel": "03 Sept 2026",
-  "count": 9,
+  "generated": "2026-09-04T10:46:00.273Z",
+  "generatedLabel": "04 Sept 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Catastrophe bonds may tokenize with test issuance planned for 2027",
-      "why": "Extends tokenization to new RWA class, potentially lowering investment minimums via onchain ownership",
+      "brief": "South Korea introduces three-phase tokenized securities roadmap, starting February 2027",
+      "why": "National framework for tokenized asset issuance signals regulatory clarity for RWA markets.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/south-korean-regulators-tokenized-securities-roadmap?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-04",
+      "dateLabel": "04 Sept 2026"
+    },
+    {
+      "brief": "AMC CEO criticizes Robinhood's tokenized stock offerings as unregulated",
+      "why": "Raises questions about regulatory status of tokenized equity offerings in securities markets.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-04",
+      "dateLabel": "04 Sept 2026"
+    },
+    {
+      "brief": "South Korea plans three-stage tokenized securities rollout with stablecoin settlement",
+      "why": "Integrates stablecoins into onchain tokenized securities settlement infrastructure.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-09-04-south-korea-to-start-tokenizing-all-types-of-securities-in-three-stages-from-2027-413523",
+      "date": "2026-09-04",
+      "dateLabel": "04 Sept 2026"
+    },
+    {
+      "brief": "South Korea targets February 2027 for phased tokenized securities market with stablecoin settlement",
+      "why": "Regulatory roadmap for distributed ledger capital markets with stablecoin-based settlement.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
+      "date": "2026-09-04",
+      "dateLabel": "04 Sept 2026"
+    },
+    {
+      "brief": "AMC stock surges as CEO contests Robinhood's tokenized share issuance",
+      "why": "Dispute over unauthorized tokenized equity offerings highlights regulatory gaps.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-04-amc-ceo-slams-robinhood-413513",
+      "date": "2026-09-04",
+      "dateLabel": "04 Sept 2026"
+    },
+    {
+      "brief": "AMC CEO disputes Robinhood's tokenized shares, questioning onchain equity mechanics",
+      "why": "Raises regulatory and structural concerns about how stocks are tokenized onchain.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/03/amc-ceo-blasts-robinhood-for-stock-token-putting-synthetic-shares-in-spotlight",
+      "date": "2026-09-04",
+      "dateLabel": "04 Sept 2026"
+    },
+    {
+      "brief": "Stablecoin payments infrastructure startup Diameter Pay raises $10 million Series A",
+      "why": "Stablecoin infrastructure funding advances payment settlement for tokenized assets.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/deals/2026-09-03-diameter-pay-funding-stablecoin-payments-infrastructure-413454",
+      "date": "2026-09-03",
+      "dateLabel": "03 Sept 2026"
+    },
+    {
+      "brief": "Bitget in talks with BlackRock to expand tokenized ETF distribution in Asia",
+      "why": "Major asset manager pursuing onchain distribution of tokenized ETFs.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/03/bitget-in-talks-with-wall-street-giants-including-blackrock-for-asian-distribution",
+      "date": "2026-09-03",
+      "dateLabel": "03 Sept 2026"
+    },
+    {
+      "brief": "VARA and Securitize partner on tokenization innovation and regulation in Dubai",
+      "why": "Regional framework for tokenized financial products and regulatory exploration.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/vara-securitize-mou-tokenization-dubai?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-03",
+      "dateLabel": "03 Sept 2026"
+    },
+    {
+      "brief": "Catastrophe bonds planned for onchain tokenization with 2027 test issuance",
+      "why": "Expands RWA tokenization to alternative asset class with lowered investment minimums.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/03/catastrophe-bonds-may-join-tokenization-rush-with-plans-for-test-issuance-in-2027",
       "date": "2026-09-03",
       "dateLabel": "03 Sept 2026"
-    },
-    {
-      "brief": "Securitize and Socios tokenize equity in pro sports teams",
-      "why": "First project under EU DLT Pilot Regime, demonstrating RWA tokenization in regulated environment",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/ecosystems/2026-09-02-securitize-and-socios-team-up-to-tokenize-equity-in-pro-sports-teams-413378",
-      "date": "2026-09-02",
-      "dateLabel": "02 Sept 2026"
-    },
-    {
-      "brief": "Hashkey joins DTCC tokenization working group as first Asian crypto provider",
-      "why": "Major financial institutions coordinating on tokenization standards and infrastructure",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/hashkey-dtcc-first-asian-crypto-service-provider?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-02",
-      "dateLabel": "02 Sept 2026"
-    },
-    {
-      "brief": "Tokenization enables programmable value creation, ownership and movement",
-      "why": "Foundational narrative on how tokenization transforms asset management and settlement",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/09/02/the-token-supercycle-everything-of-value-is-becoming-programmable",
-      "date": "2026-09-02",
-      "dateLabel": "02 Sept 2026"
-    },
-    {
-      "brief": "SEC updates 1970s transfer agent rules for blockchain and tokenization",
-      "why": "Regulatory framework evolution to accommodate tokenized asset settlement infrastructure",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-09-01-sec-seeks-update-1970s-era-transfer-agent-rules-for-blockchain-age-413278",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
-    },
-    {
-      "brief": "Ripple, Coincheck build custody and tokenized asset solutions for Asia",
-      "why": "Institutional infrastructure for managing tokenized assets across Asia",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/asia-digital-asset-custody-deals-ripple-coincheck?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
-    },
-    {
-      "brief": "London Stock Exchange offers 24/5 tokenized UK equities via Kraken parent",
-      "why": "Major exchange enabling RWA tokenization with extended trading hours and institutional access",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/london-stock-exchange-partners-kraken-for-tokenized-uk-stocks?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
-    },
-    {
-      "brief": "Bitfinex Securities lists tokenized equity-backed notes via Luxembourg fund",
-      "why": "Tokenized financial instruments providing onchain exposure to equity strategies",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitfinex-tokenized-strategy-metaplanet-notes?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
-    },
-    {
-      "brief": "LSE supports xStocks tokenized equity trading for 100 largest UK companies",
-      "why": "Major exchange integration of tokenized equities with regulatory approval pathway",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/london-stock-exchange-to-support-xstocks-tokenized-stock-trading-in-payward-deal/",
-      "date": "2026-09-01",
-      "dateLabel": "01 Sept 2026"
     }
   ],
   "feedsOk": [
