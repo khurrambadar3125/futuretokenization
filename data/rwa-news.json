@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-04T10:46:00.273Z",
-  "generatedLabel": "04 Sept 2026",
-  "count": 10,
+  "generated": "2026-09-05T10:04:15.568Z",
+  "generatedLabel": "05 Sept 2026",
+  "count": 8,
   "items": [
     {
-      "brief": "South Korea introduces three-phase tokenized securities roadmap, starting February 2027",
-      "why": "National framework for tokenized asset issuance signals regulatory clarity for RWA markets.",
-      "category": "RWA",
+      "brief": "South Korea introduces tokenized securities roadmap, framework launching Feb 2027",
+      "why": "National regulatory framework for tokenized assets establishes legitimacy and adoption pathway",
+      "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/south-korean-regulators-tokenized-securities-roadmap?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-09-04",
@@ -14,52 +14,43 @@
     },
     {
       "brief": "AMC CEO criticizes Robinhood's tokenized stock offerings as unregulated",
-      "why": "Raises questions about regulatory status of tokenized equity offerings in securities markets.",
-      "category": "RWA",
+      "why": "Highlights regulatory gaps and corporate concerns around tokenized equity issuance",
+      "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-09-04",
       "dateLabel": "04 Sept 2026"
     },
     {
-      "brief": "South Korea plans three-stage tokenized securities rollout with stablecoin settlement",
-      "why": "Integrates stablecoins into onchain tokenized securities settlement infrastructure.",
-      "category": "RWA",
+      "brief": "South Korea tokenization plan includes stablecoin settlement by 2027",
+      "why": "Stablecoin integration as official settlement layer for tokenized securities ecosystem",
+      "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-09-04-south-korea-to-start-tokenizing-all-types-of-securities-in-three-stages-from-2027-413523",
       "date": "2026-09-04",
       "dateLabel": "04 Sept 2026"
     },
     {
-      "brief": "South Korea targets February 2027 for phased tokenized securities market with stablecoin settlement",
-      "why": "Regulatory roadmap for distributed ledger capital markets with stablecoin-based settlement.",
-      "category": "RWA",
+      "brief": "South Korea Feb 2027 tokenized securities rollout includes onchain stablecoin settlement",
+      "why": "Regulatory roadmap establishes stablecoins as core infrastructure for tokenized markets",
+      "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
       "date": "2026-09-04",
       "dateLabel": "04 Sept 2026"
     },
     {
-      "brief": "AMC stock surges as CEO contests Robinhood's tokenized share issuance",
-      "why": "Dispute over unauthorized tokenized equity offerings highlights regulatory gaps.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-04-amc-ceo-slams-robinhood-413513",
-      "date": "2026-09-04",
-      "dateLabel": "04 Sept 2026"
-    },
-    {
-      "brief": "AMC CEO disputes Robinhood's tokenized shares, questioning onchain equity mechanics",
-      "why": "Raises regulatory and structural concerns about how stocks are tokenized onchain.",
-      "category": "RWA",
+      "brief": "AMC CEO denies connection to Robinhood tokenized shares, raises onchain equity concerns",
+      "why": "Corporate pushback on unauthorized tokenized equity reveals regulatory and consent issues",
+      "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/03/amc-ceo-blasts-robinhood-for-stock-token-putting-synthetic-shares-in-spotlight",
       "date": "2026-09-04",
       "dateLabel": "04 Sept 2026"
     },
     {
-      "brief": "Stablecoin payments infrastructure startup Diameter Pay raises $10 million Series A",
-      "why": "Stablecoin infrastructure funding advances payment settlement for tokenized assets.",
+      "brief": "Stablecoin payments startup Diameter Pay raises $10M Series A funding",
+      "why": "Infrastructure investment in stablecoin-based payments supports tokenization ecosystem growth",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/deals/2026-09-03-diameter-pay-funding-stablecoin-payments-infrastructure-413454",
@@ -67,8 +58,8 @@
       "dateLabel": "03 Sept 2026"
     },
     {
-      "brief": "Bitget in talks with BlackRock to expand tokenized ETF distribution in Asia",
-      "why": "Major asset manager pursuing onchain distribution of tokenized ETFs.",
+      "brief": "Bitget in talks with BlackRock on tokenized ETF distribution in Asia",
+      "why": "Major asset manager exploring tokenized fund distribution expands institutional adoption",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/03/bitget-in-talks-with-wall-street-giants-including-blackrock-for-asian-distribution",
@@ -77,19 +68,10 @@
     },
     {
       "brief": "VARA and Securitize partner on tokenization innovation and regulation in Dubai",
-      "why": "Regional framework for tokenized financial products and regulatory exploration.",
+      "why": "Regulatory collaboration advances tokenization framework development in emerging hub",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/vara-securitize-mou-tokenization-dubai?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-03",
-      "dateLabel": "03 Sept 2026"
-    },
-    {
-      "brief": "Catastrophe bonds planned for onchain tokenization with 2027 test issuance",
-      "why": "Expands RWA tokenization to alternative asset class with lowered investment minimums.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/03/catastrophe-bonds-may-join-tokenization-rush-with-plans-for-test-issuance-in-2027",
       "date": "2026-09-03",
       "dateLabel": "03 Sept 2026"
     }
