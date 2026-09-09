@@ -1,11 +1,47 @@
 {
-  "generated": "2026-09-08T10:44:20.429Z",
-  "generatedLabel": "08 Sept 2026",
-  "count": 8,
+  "generated": "2026-09-09T10:52:27.908Z",
+  "generatedLabel": "09 Sept 2026",
+  "count": 7,
   "items": [
     {
-      "brief": "Robinhood chain could generate $160M annual fees by 2028 via tokenized stock trading",
-      "why": "Demonstrates revenue potential of tokenized equity trading as a tokenization use case.",
+      "brief": "Circle acquires Tazapay for $400M to bridge stablecoins with local banking",
+      "why": "Regulated infrastructure connecting stablecoins to traditional banking systems strengthens tokenization ecosystem.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million",
+      "date": "2026-09-08",
+      "dateLabel": "08 Sept 2026"
+    },
+    {
+      "brief": "Visa links VisaNet data with onchain lending for stablecoin issuer credit",
+      "why": "Stablecoin settlement data used to enable blockchain-based credit products for tokenization participants.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/08/visa-opens-settlement-data-to-help-blockchain-lenders-finance-crypto-cards-as-volume-surges",
+      "date": "2026-09-08",
+      "dateLabel": "08 Sept 2026"
+    },
+    {
+      "brief": "India's REC issues ₹5 billion tokenized corporate bond via distributed ledger",
+      "why": "State-owned company tokenizes bond issuance under regulatory sandbox, advancing RWA tokenization.",
+      "category": "RWA",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/state-owned-india-company-rec-issues-first-tokenized-corporate-bond/",
+      "date": "2026-09-08",
+      "dateLabel": "08 Sept 2026"
+    },
+    {
+      "brief": "Visa stablecoin settlement volume reaches $20B annualized run rate, up 15x",
+      "why": "Demonstrates significant payment use case growth validating stablecoin infrastructure maturation.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-08-visa-stablecoin-settlement-tops-20-billion-annualized-run-rate-up-more-than-15x-year-over-year-413749",
+      "date": "2026-09-08",
+      "dateLabel": "08 Sept 2026"
+    },
+    {
+      "brief": "Robinhood chain fees could reach $160M annually by 2028 via tokenized stocks",
+      "why": "Tokenized equity trading adoption projected to drive substantial network economics.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -13,8 +49,8 @@
       "dateLabel": "08 Sept 2026"
     },
     {
-      "brief": "Stablecoins could save South Korean merchants $3.8B yearly, budget office warns",
-      "why": "Shows stablecoin adoption's impact on payment efficiency and financial intermediation.",
+      "brief": "South Korea budget office warns stablecoins could save merchants $3.8B yearly",
+      "why": "Analysis of stablecoin economic impact on payments and banking infrastructure relevant to adoption.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/08/stablecoins-could-save-south-korean-merchants-up-to-usd3-8-billion-a-year-budget-office-says",
@@ -22,56 +58,11 @@
       "dateLabel": "08 Sept 2026"
     },
     {
-      "brief": "Stablecoin wallets may reshape traditional bank accounts as primary money hub",
-      "why": "Explores stablecoins' potential to replace core banking functions in consumer finance.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
-      "date": "2026-09-07",
-      "dateLabel": "07 Sept 2026"
-    },
-    {
-      "brief": "DBS and Citi complete first weekend USD settlement via tokenized deposits",
-      "why": "Live cross-border payment using tokenized deposits demonstrates RWA settlement innovation.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-07-dbs-citi-say-they-completed-first-weekend-usd-payment-between-singapore-and-us-via-tokenized-deposits-413689",
-      "date": "2026-09-07",
-      "dateLabel": "07 Sept 2026"
-    },
-    {
-      "brief": "DBS and Citi settle USD payment via Swift's blockchain using tokenized deposits",
-      "why": "Shows tokenized deposit infrastructure enabling 24/7 cross-border settlement.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/07/dbs-and-citi-enable-instant-24-7-cross-border-tokenised-deposit-payments-on-the-swift-ledger",
-      "date": "2026-09-07",
-      "dateLabel": "07 Sept 2026"
-    },
-    {
-      "brief": "Security framework for $91B USDT combines auditing with on-chain code reviews",
-      "why": "Highlights stablecoin security evaluation combining traditional and blockchain oversight.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/09/04/tether-receives-bluechip-rating-upgrade-but-hacken-finds-major-key-security-gaps",
-      "date": "2026-09-07",
-      "dateLabel": "07 Sept 2026"
-    },
-    {
-      "brief": "Citi and DBS complete weekend tokenized cross-border transfer on Swift blockchain",
-      "why": "Demonstrates tokenized deposit settlement bypassing traditional banking hour constraints.",
+      "brief": "Citi and DBS complete tokenized cross-border deposit transfer via Swift",
+      "why": "Tokenized deposit settlement over blockchain demonstrates institutional RWA infrastructure progress.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/dbs-citi-first-weekend-tokenized-deposit-swift?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-07",
-      "dateLabel": "07 Sept 2026"
-    },
-    {
-      "brief": "Hanwha develops tokenized securities platform on Avalanche amid South Korean regulatory progress",
-      "why": "Shows regulatory integration of tokenized securities into existing financial frameworks.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-07-south-korea-hanwha-tokenized-securities-platform-avalanche-413652",
       "date": "2026-09-07",
       "dateLabel": "07 Sept 2026"
     }
