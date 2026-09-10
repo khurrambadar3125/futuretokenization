@@ -1,70 +1,70 @@
 {
-  "generated": "2026-09-09T10:52:27.908Z",
-  "generatedLabel": "09 Sept 2026",
+  "generated": "2026-09-10T10:47:09.509Z",
+  "generatedLabel": "10 Sept 2026",
   "count": 7,
   "items": [
     {
-      "brief": "Circle acquires Tazapay for $400M to bridge stablecoins with local banking",
-      "why": "Regulated infrastructure connecting stablecoins to traditional banking systems strengthens tokenization ecosystem.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million",
-      "date": "2026-09-08",
-      "dateLabel": "08 Sept 2026"
-    },
-    {
-      "brief": "Visa links VisaNet data with onchain lending for stablecoin issuer credit",
-      "why": "Stablecoin settlement data used to enable blockchain-based credit products for tokenization participants.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/08/visa-opens-settlement-data-to-help-blockchain-lenders-finance-crypto-cards-as-volume-surges",
-      "date": "2026-09-08",
-      "dateLabel": "08 Sept 2026"
-    },
-    {
-      "brief": "India's REC issues ₹5 billion tokenized corporate bond via distributed ledger",
-      "why": "State-owned company tokenizes bond issuance under regulatory sandbox, advancing RWA tokenization.",
+      "brief": "Indian ag firm tokenizes $2B in grain-backed loans on Avalanche",
+      "why": "Direct RWA tokenization: grain deposits backing agricultural loans verified onchain",
       "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/state-owned-india-company-rec-issues-first-tokenized-corporate-bond/",
-      "date": "2026-09-08",
-      "dateLabel": "08 Sept 2026"
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/10/indian-agri-warehouse-giant-is-putting-usd2-billion-in-grain-backed-loans-onchain",
+      "date": "2026-09-10",
+      "dateLabel": "10 Sept 2026"
     },
     {
-      "brief": "Visa stablecoin settlement volume reaches $20B annualized run rate, up 15x",
-      "why": "Demonstrates significant payment use case growth validating stablecoin infrastructure maturation.",
+      "brief": "Tether launches $400M private credit fund with Fasanara",
+      "why": "Stablecoin issuer enabling stablecoin payments for tokenized lending opportunities",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
+      "date": "2026-09-09",
+      "dateLabel": "09 Sept 2026"
+    },
+    {
+      "brief": "Euro stablecoins lag dollar-pegged tokens; MiCA regulation emerging",
+      "why": "Stablecoin supply disparity and regulatory infrastructure impact tokenization adoption",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/09/08/crypto-long-and-short-inside-the-300-to-1-onchain-gap-between-the-dollar-and-euro",
+      "date": "2026-09-09",
+      "dateLabel": "09 Sept 2026"
+    },
+    {
+      "brief": "PayPal launches custom stablecoin issuance platform for PYUSD",
+      "why": "Stablecoin infrastructure expansion enabling tokenized applications",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
+      "date": "2026-09-09",
+      "dateLabel": "09 Sept 2026"
+    },
+    {
+      "brief": "Tether, Fasanara seek $3B for stablecoin-enabled private credit",
+      "why": "Stablecoin payment rails scaling tokenized private credit markets",
       "category": "Stablecoin",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-08-visa-stablecoin-settlement-tops-20-billion-annualized-run-rate-up-more-than-15x-year-over-year-413749",
-      "date": "2026-09-08",
-      "dateLabel": "08 Sept 2026"
+      "url": "https://www.theblock.co/news/deals/2026-09-09-tether-fasanara-launch-400-million-fund-for-stablecoin-enabled-private-credit-414011",
+      "date": "2026-09-09",
+      "dateLabel": "09 Sept 2026"
     },
     {
-      "brief": "Robinhood chain fees could reach $160M annually by 2028 via tokenized stocks",
-      "why": "Tokenized equity trading adoption projected to drive substantial network economics.",
-      "category": "Tokenization",
+      "brief": "U.S. Bank tests stablecoin for treasury and collateral payments",
+      "why": "Digital bank exploring stablecoin tokenization for institutional finance use",
+      "category": "DigitalBank",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/08/u-s-bank-takes-next-step-towards-launching-its-stablecoin-with-cross-border-payment-test",
+      "date": "2026-09-09",
+      "dateLabel": "09 Sept 2026"
+    },
+    {
+      "brief": "Robinhood chain may generate $160M annual fees from tokenized stock trading",
+      "why": "Tokenized securities trading infrastructure driving financial application growth",
+      "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-09-08",
       "dateLabel": "08 Sept 2026"
-    },
-    {
-      "brief": "South Korea budget office warns stablecoins could save merchants $3.8B yearly",
-      "why": "Analysis of stablecoin economic impact on payments and banking infrastructure relevant to adoption.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/08/stablecoins-could-save-south-korean-merchants-up-to-usd3-8-billion-a-year-budget-office-says",
-      "date": "2026-09-08",
-      "dateLabel": "08 Sept 2026"
-    },
-    {
-      "brief": "Citi and DBS complete tokenized cross-border deposit transfer via Swift",
-      "why": "Tokenized deposit settlement over blockchain demonstrates institutional RWA infrastructure progress.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/dbs-citi-first-weekend-tokenized-deposit-swift?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-07",
-      "dateLabel": "07 Sept 2026"
     }
   ],
   "feedsOk": [
