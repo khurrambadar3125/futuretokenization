@@ -1,70 +1,97 @@
 {
-  "generated": "2026-09-10T10:47:09.509Z",
-  "generatedLabel": "10 Sept 2026",
-  "count": 7,
+  "generated": "2026-09-11T10:44:53.623Z",
+  "generatedLabel": "11 Sept 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Indian ag firm tokenizes $2B in grain-backed loans on Avalanche",
-      "why": "Direct RWA tokenization: grain deposits backing agricultural loans verified onchain",
+      "brief": "India launches tokenized bond pilot with $107M issued",
+      "why": "SEBI's Demat 2.0 pilot tokenizes bonds with plans for secondary trading and retail access.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/india-launches-tokenized-bond-pilot-with-107m-issued?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-11",
+      "dateLabel": "11 Sept 2026"
+    },
+    {
+      "brief": "India tokenizes $620B corporate bond market with digital rupee settlement",
+      "why": "SEBI converts corporate bonds to digital tokens settled via RBI's wholesale digital rupee.",
       "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/10/indian-agri-warehouse-giant-is-putting-usd2-billion-in-grain-backed-loans-onchain",
+      "url": "https://www.coindesk.com/markets/2026/09/11/india-starts-tokenizing-usd620-billion-corporate-bond-market-with-digital-rupee-settlement",
+      "date": "2026-09-11",
+      "dateLabel": "11 Sept 2026"
+    },
+    {
+      "brief": "SEC plan could ease legal hurdles for tokenized securities",
+      "why": "Overhaul of transfer-agent rules reduces duplicate records and reconciliation costs for tokenized securities.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
       "date": "2026-09-10",
       "dateLabel": "10 Sept 2026"
     },
     {
-      "brief": "Tether launches $400M private credit fund with Fasanara",
-      "why": "Stablecoin issuer enabling stablecoin payments for tokenized lending opportunities",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
-      "date": "2026-09-09",
-      "dateLabel": "09 Sept 2026"
-    },
-    {
-      "brief": "Euro stablecoins lag dollar-pegged tokens; MiCA regulation emerging",
-      "why": "Stablecoin supply disparity and regulatory infrastructure impact tokenization adoption",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/09/08/crypto-long-and-short-inside-the-300-to-1-onchain-gap-between-the-dollar-and-euro",
-      "date": "2026-09-09",
-      "dateLabel": "09 Sept 2026"
-    },
-    {
-      "brief": "PayPal launches custom stablecoin issuance platform for PYUSD",
-      "why": "Stablecoin infrastructure expansion enabling tokenized applications",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
-      "date": "2026-09-09",
-      "dateLabel": "09 Sept 2026"
-    },
-    {
-      "brief": "Tether, Fasanara seek $3B for stablecoin-enabled private credit",
-      "why": "Stablecoin payment rails scaling tokenized private credit markets",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/deals/2026-09-09-tether-fasanara-launch-400-million-fund-for-stablecoin-enabled-private-credit-414011",
-      "date": "2026-09-09",
-      "dateLabel": "09 Sept 2026"
-    },
-    {
-      "brief": "U.S. Bank tests stablecoin for treasury and collateral payments",
-      "why": "Digital bank exploring stablecoin tokenization for institutional finance use",
+      "brief": "Monument Bank delays retail tokenized deposits pending FCA compliance",
+      "why": "Digital bank tokenizing deposits for retail customers with regulatory custody requirements.",
       "category": "DigitalBank",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/08/u-s-bank-takes-next-step-towards-launching-its-stablecoin-with-cross-border-payment-test",
-      "date": "2026-09-09",
-      "dateLabel": "09 Sept 2026"
+      "url": "https://www.coindesk.com/business/2026/09/10/monument-bank-delays-retail-tokenized-deposits-cites-regulatory-issues-in-the-uk",
+      "date": "2026-09-10",
+      "dateLabel": "10 Sept 2026"
     },
     {
-      "brief": "Robinhood chain may generate $160M annual fees from tokenized stock trading",
-      "why": "Tokenized securities trading infrastructure driving financial application growth",
-      "category": "RWA",
+      "brief": "EU groups push to remove cap on tokenized securities on DLT",
+      "why": "Regulatory advocacy to expand limits for tokenized assets on distributed ledger infrastructure.",
+      "category": "Tokenization",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-08",
-      "dateLabel": "08 Sept 2026"
+      "url": "https://cointelegraph.com/news/european-finance-groups-urge-eu-to-scrap-tokenized-securities-cap-propose-15t-fallback?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-10",
+      "dateLabel": "10 Sept 2026"
+    },
+    {
+      "brief": "Coinbase and Moov embed stablecoin payments in community bank networks",
+      "why": "Stablecoin infrastructure integrated into banking payments for credit unions and community banks.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-10-coinbase-moov-bring-stablecoin-payment-infrastructure-community-banks-credit-unions-414153",
+      "date": "2026-09-10",
+      "dateLabel": "10 Sept 2026"
+    },
+    {
+      "brief": "MoneyGram rolls out stablecoin-backed Visa card for spending",
+      "why": "Stablecoin-backed card enables digital dollar holdings and everyday payments.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/08/moneygram-unveils-stablecoin-backed-card-as-digital-dollars-move-into-everyday-spending",
+      "date": "2026-09-10",
+      "dateLabel": "10 Sept 2026"
+    },
+    {
+      "brief": "MoneyGram launches stablecoin-backed Visa card in Colombia",
+      "why": "Stablecoin payment card expansion for consumer spending and remittances.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-10-moneygram-card-stablecoin-visa-colombia-414137",
+      "date": "2026-09-10",
+      "dateLabel": "10 Sept 2026"
+    },
+    {
+      "brief": "Nasdaq and exchanges urge EU to remove tokenization asset cap",
+      "why": "Industry coalition seeks higher DLT limits as existing tokenization projects exceed current thresholds.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/10/nasdaq-boerse-stuttgart-others-ask-eu-to-remove-or-increase-cap-in-tokenization-trial",
+      "date": "2026-09-10",
+      "dateLabel": "10 Sept 2026"
+    },
+    {
+      "brief": "Nasdaq invests $100M in Kraken parent for tokenized equity infrastructure",
+      "why": "Strategic expansion of partnership to deploy tokenized stock products with continuous trading.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/deals/2026-09-10-nasdaq-to-invest-100-million-in-kraken-parent-payward-as-firms-expand-partnership-414120",
+      "date": "2026-09-10",
+      "dateLabel": "10 Sept 2026"
     }
   ],
   "feedsOk": [
