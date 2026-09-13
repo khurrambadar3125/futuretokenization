@@ -1,11 +1,20 @@
 {
-  "generated": "2026-09-12T10:13:30.659Z",
-  "generatedLabel": "12 Sept 2026",
-  "count": 10,
+  "generated": "2026-09-13T11:13:18.373Z",
+  "generatedLabel": "13 Sept 2026",
+  "count": 6,
   "items": [
     {
-      "brief": "Maharashtra explores tokenizing state assets for infrastructure funding",
-      "why": "State asset tokenization expands RWA use cases beyond traditional financial instruments.",
+      "brief": "Ripple stablecoin chief sees $13T corporate treasury opportunity for RLUSD",
+      "why": "Stablecoin expansion into capital markets and corporate treasury use cases demonstrates growing tokenization demand",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
+      "date": "2026-09-12",
+      "dateLabel": "12 Sept 2026"
+    },
+    {
+      "brief": "Maharashtra explores tokenizing state assets including electricity infrastructure",
+      "why": "Government asset tokenization for infrastructure funding demonstrates real-world RWA tokenization application",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
@@ -14,7 +23,7 @@
     },
     {
       "brief": "India's SEBI Demat 2.0 pilot raises $100M in tokenized corporate bonds",
-      "why": "Live tokenized bond issuance with CBDC settlement demonstrates institutional RWA infrastructure.",
+      "why": "Large-scale tokenized bond issuance with wholesale CBDC settlement proves RWA tokenization infrastructure viability",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-09-11-indias-sebi-demat-2-0-pilot-debuts-with-over-100-million-in-tokenized-bonds-414252",
@@ -22,17 +31,17 @@
       "dateLabel": "11 Sept 2026"
     },
     {
-      "brief": "UniCredit seeks partner for crypto trading and tokenized investment products",
-      "why": "Traditional bank integrating tokenized products signals institutional adoption pathway.",
-      "category": "Tokenization",
+      "brief": "UniCredit seeks infrastructure partner for crypto trading, custody, tokenized products",
+      "why": "Traditional bank exploring tokenized investment products indicates institutional adoption of tokenization",
+      "category": "DigitalBank",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/unicredit-infrastructure-partners-crypto-trading-custody?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-09-11",
       "dateLabel": "11 Sept 2026"
     },
     {
-      "brief": "India launches tokenized bond pilot with $107M issuance",
-      "why": "Corporate bond tokenization with planned retail access expands RWA market reach.",
+      "brief": "India launches tokenized bond pilot with $107M issued, retail access planned",
+      "why": "Tokenized bond issuance with planned secondary trading and retail access demonstrates RWA market maturation",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/india-launches-tokenized-bond-pilot-with-107m-issued?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -40,58 +49,13 @@
       "dateLabel": "11 Sept 2026"
     },
     {
-      "brief": "India tokenizes $620B corporate bond market with digital rupee settlement",
-      "why": "Large-scale RWA tokenization using CBDC demonstrates systemic financial infrastructure shift.",
+      "brief": "India tokenizes $620B corporate bond market using digital rupee settlement",
+      "why": "Large-scale corporate bond tokenization with CBDC settlement shows institutional RWA tokenization at scale",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/09/11/india-starts-tokenizing-usd620-billion-corporate-bond-market-with-digital-rupee-settlement",
       "date": "2026-09-11",
       "dateLabel": "11 Sept 2026"
-    },
-    {
-      "brief": "SEC proposes transfer-agent rule changes for tokenized securities",
-      "why": "Regulatory framework improvement reduces barriers for tokenized securities adoption.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
-      "date": "2026-09-10",
-      "dateLabel": "10 Sept 2026"
-    },
-    {
-      "brief": "Monument Bank delays retail tokenized deposits pending custody setup",
-      "why": "Digital bank deploying tokenized deposits signals DigitalBank tokenization adoption.",
-      "category": "DigitalBank",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/10/monument-bank-delays-retail-tokenized-deposits-cites-regulatory-issues-in-the-uk",
-      "date": "2026-09-10",
-      "dateLabel": "10 Sept 2026"
-    },
-    {
-      "brief": "EU groups seek to raise or remove tokenized securities asset caps",
-      "why": "Regulatory advocacy for higher tokenization limits enables scaled RWA infrastructure.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/european-finance-groups-urge-eu-to-scrap-tokenized-securities-cap-propose-15t-fallback?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-10",
-      "dateLabel": "10 Sept 2026"
-    },
-    {
-      "brief": "Coinbase, Moov embed stablecoin rails into community bank payments",
-      "why": "Stablecoin infrastructure integration extends to traditional financial institutions.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-10-coinbase-moov-bring-stablecoin-payment-infrastructure-community-banks-credit-unions-414153",
-      "date": "2026-09-10",
-      "dateLabel": "10 Sept 2026"
-    },
-    {
-      "brief": "MoneyGram launches stablecoin-backed Visa card for everyday spending",
-      "why": "Stablecoin adoption in consumer payment products demonstrates utility expansion.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/08/moneygram-unveils-stablecoin-backed-card-as-digital-dollars-move-into-everyday-spending",
-      "date": "2026-09-10",
-      "dateLabel": "10 Sept 2026"
     }
   ],
   "feedsOk": [
