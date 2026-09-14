@@ -1,61 +1,52 @@
 {
-  "generated": "2026-09-13T11:13:18.373Z",
-  "generatedLabel": "13 Sept 2026",
-  "count": 6,
+  "generated": "2026-09-14T12:00:16.088Z",
+  "generatedLabel": "14 Sept 2026",
+  "count": 5,
   "items": [
     {
+      "brief": "FCA exploring exemption for tokenized gold from UK fund rules",
+      "why": "Regulatory clarity on tokenized commodities affects adoption and market development",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/14/fca-considers-exempting-tokenized-gold-from-fund-rules-to-defend-london-market",
+      "date": "2026-09-14",
+      "dateLabel": "14 Sept 2026"
+    },
+    {
+      "brief": "UK FCA seeks input on fund rule exemptions for tokenized gold",
+      "why": "Regulatory uncertainty over tokenized gold classification impacts investor access",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/uk-fca-weighs-fund-rules-exemption-for-tokenized-gold-ft?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-14",
+      "dateLabel": "14 Sept 2026"
+    },
+    {
+      "brief": "Robinhood CEO: stock issuers shouldn't veto tokenized share instruments",
+      "why": "Clarifies governance for tokenized equities and issuer involvement boundaries",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/robinhood-ceo-issuer-veto-tokenized-stocks?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-14",
+      "dateLabel": "14 Sept 2026"
+    },
+    {
+      "brief": "Circle acquires Tazapay for $400M to expand USDC in emerging markets",
+      "why": "Stablecoin infrastructure expansion targets growth in underserved markets",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build",
+      "date": "2026-09-13",
+      "dateLabel": "13 Sept 2026"
+    },
+    {
       "brief": "Ripple stablecoin chief sees $13T corporate treasury opportunity for RLUSD",
-      "why": "Stablecoin expansion into capital markets and corporate treasury use cases demonstrates growing tokenization demand",
+      "why": "Digital dollar positioned for enterprise capital markets and treasury use cases",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
       "date": "2026-09-12",
       "dateLabel": "12 Sept 2026"
-    },
-    {
-      "brief": "Maharashtra explores tokenizing state assets including electricity infrastructure",
-      "why": "Government asset tokenization for infrastructure funding demonstrates real-world RWA tokenization application",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
-      "date": "2026-09-11",
-      "dateLabel": "11 Sept 2026"
-    },
-    {
-      "brief": "India's SEBI Demat 2.0 pilot raises $100M in tokenized corporate bonds",
-      "why": "Large-scale tokenized bond issuance with wholesale CBDC settlement proves RWA tokenization infrastructure viability",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-09-11-indias-sebi-demat-2-0-pilot-debuts-with-over-100-million-in-tokenized-bonds-414252",
-      "date": "2026-09-11",
-      "dateLabel": "11 Sept 2026"
-    },
-    {
-      "brief": "UniCredit seeks infrastructure partner for crypto trading, custody, tokenized products",
-      "why": "Traditional bank exploring tokenized investment products indicates institutional adoption of tokenization",
-      "category": "DigitalBank",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/unicredit-infrastructure-partners-crypto-trading-custody?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-11",
-      "dateLabel": "11 Sept 2026"
-    },
-    {
-      "brief": "India launches tokenized bond pilot with $107M issued, retail access planned",
-      "why": "Tokenized bond issuance with planned secondary trading and retail access demonstrates RWA market maturation",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/india-launches-tokenized-bond-pilot-with-107m-issued?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-11",
-      "dateLabel": "11 Sept 2026"
-    },
-    {
-      "brief": "India tokenizes $620B corporate bond market using digital rupee settlement",
-      "why": "Large-scale corporate bond tokenization with CBDC settlement shows institutional RWA tokenization at scale",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/11/india-starts-tokenizing-usd620-billion-corporate-bond-market-with-digital-rupee-settlement",
-      "date": "2026-09-11",
-      "dateLabel": "11 Sept 2026"
     }
   ],
   "feedsOk": [
