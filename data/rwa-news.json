@@ -1,20 +1,29 @@
 {
-  "generated": "2026-09-14T12:00:16.088Z",
-  "generatedLabel": "14 Sept 2026",
-  "count": 5,
+  "generated": "2026-09-15T11:15:31.948Z",
+  "generatedLabel": "15 Sept 2026",
+  "count": 4,
   "items": [
     {
-      "brief": "FCA exploring exemption for tokenized gold from UK fund rules",
-      "why": "Regulatory clarity on tokenized commodities affects adoption and market development",
-      "category": "RWA",
+      "brief": "Banks push for tighter stablecoin reward limits ahead of Senate Clarity Act vote",
+      "why": "Regulatory debate directly shapes stablecoin product design and market viability.",
+      "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/14/fca-considers-exempting-tokenized-gold-from-fund-rules-to-defend-london-market",
+      "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
       "date": "2026-09-14",
       "dateLabel": "14 Sept 2026"
     },
     {
-      "brief": "UK FCA seeks input on fund rule exemptions for tokenized gold",
-      "why": "Regulatory uncertainty over tokenized gold classification impacts investor access",
+      "brief": "S&P Global backs Kaiko Series B at $110M for tokenized securities data",
+      "why": "Infrastructure for tokenized securities and onchain markets expands institutional adoption.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/sp-global-leads-110m-kaiko-funding-round-as-wall-street-eyes-tokenized-markets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-14",
+      "dateLabel": "14 Sept 2026"
+    },
+    {
+      "brief": "UK FCA clarifies fund rule treatment for tokenized gold products",
+      "why": "Regulatory clarity on tokenized commodity classification impacts RWA adoption path.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/uk-fca-weighs-fund-rules-exemption-for-tokenized-gold-ft?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -22,31 +31,13 @@
       "dateLabel": "14 Sept 2026"
     },
     {
-      "brief": "Robinhood CEO: stock issuers shouldn't veto tokenized share instruments",
-      "why": "Clarifies governance for tokenized equities and issuer involvement boundaries",
-      "category": "Tokenization",
+      "brief": "Robinhood CEO: stock issuers should not veto tokenized stock instruments",
+      "why": "Positions tokenized equities as independent financial products, reshaping RWA governance.",
+      "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/robinhood-ceo-issuer-veto-tokenized-stocks?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-09-14",
       "dateLabel": "14 Sept 2026"
-    },
-    {
-      "brief": "Circle acquires Tazapay for $400M to expand USDC in emerging markets",
-      "why": "Stablecoin infrastructure expansion targets growth in underserved markets",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build",
-      "date": "2026-09-13",
-      "dateLabel": "13 Sept 2026"
-    },
-    {
-      "brief": "Ripple stablecoin chief sees $13T corporate treasury opportunity for RLUSD",
-      "why": "Digital dollar positioned for enterprise capital markets and treasury use cases",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
-      "date": "2026-09-12",
-      "dateLabel": "12 Sept 2026"
     }
   ],
   "feedsOk": [
