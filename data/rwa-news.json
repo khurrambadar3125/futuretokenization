@@ -1,43 +1,97 @@
 {
-  "generated": "2026-09-15T11:15:31.948Z",
-  "generatedLabel": "15 Sept 2026",
-  "count": 4,
+  "generated": "2026-09-16T10:57:56.443Z",
+  "generatedLabel": "16 Sept 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Banks push for tighter stablecoin reward limits ahead of Senate Clarity Act vote",
-      "why": "Regulatory debate directly shapes stablecoin product design and market viability.",
+      "brief": "Deutsche Bank nears crypto custody launch for institutions",
+      "why": "Traditional bank expanding stablecoin custody infrastructure for institutional clients.",
+      "category": "DigitalBank",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/16/deutsche-bank-nears-crypto-custody-service-debut-for-institutional-clients",
+      "date": "2026-09-16",
+      "dateLabel": "16 Sept 2026"
+    },
+    {
+      "brief": "Deutsche Bank seeks regulatory approval for institutional crypto custody",
+      "why": "Major bank planning custody and tokenized asset services pending regulatory clearance.",
+      "category": "DigitalBank",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/deutsche-bank-regulatory-nod-institutional-crypto-custody?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-16",
+      "dateLabel": "16 Sept 2026"
+    },
+    {
+      "brief": "Circle launches Arc blockchain for payments and tokenized assets",
+      "why": "Stablecoin issuer building infrastructure for tokenized assets and institutional finance.",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
-      "date": "2026-09-14",
-      "dateLabel": "14 Sept 2026"
+      "url": "https://www.coindesk.com/business/2026/09/15/circle-debuts-arc-blockchain-which-jeremy-allaire-calls-more-consequential-than-usdc",
+      "date": "2026-09-16",
+      "dateLabel": "16 Sept 2026"
     },
     {
-      "brief": "S&P Global backs Kaiko Series B at $110M for tokenized securities data",
-      "why": "Infrastructure for tokenized securities and onchain markets expands institutional adoption.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/sp-global-leads-110m-kaiko-funding-round-as-wall-street-eyes-tokenized-markets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-14",
-      "dateLabel": "14 Sept 2026"
+      "brief": "Deutsche Bank plans European digital asset custody service",
+      "why": "Traditional bank entering stablecoin custody market for European institutional clients.",
+      "category": "DigitalBank",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251",
+      "date": "2026-09-16",
+      "dateLabel": "16 Sept 2026"
     },
     {
-      "brief": "UK FCA clarifies fund rule treatment for tokenized gold products",
-      "why": "Regulatory clarity on tokenized commodity classification impacts RWA adoption path.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/uk-fca-weighs-fund-rules-exemption-for-tokenized-gold-ft?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-14",
-      "dateLabel": "14 Sept 2026"
+      "brief": "Kamino hires fintech CEO to lead U.S. tokenized assets expansion",
+      "why": "DeFi lender expanding into tokenized assets infrastructure with fintech leadership.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion",
+      "date": "2026-09-15",
+      "dateLabel": "15 Sept 2026"
     },
     {
-      "brief": "Robinhood CEO: stock issuers should not veto tokenized stock instruments",
-      "why": "Positions tokenized equities as independent financial products, reshaping RWA governance.",
-      "category": "RWA",
+      "brief": "Standard Chartered sees tokenization transforming Arbitrum economics",
+      "why": "Major bank views tokenization as key driver for blockchain network adoption.",
+      "category": "Tokenization",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/robinhood-ceo-issuer-veto-tokenized-stocks?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-14",
-      "dateLabel": "14 Sept 2026"
+      "url": "https://cointelegraph.com/news/standard-chartered-arbitrum-arb-price-10-2030?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-15",
+      "dateLabel": "15 Sept 2026"
+    },
+    {
+      "brief": "Standard Chartered predicts tokenization makes Arbitrum favored TradFi network",
+      "why": "Bank expects tokenization to attract traditional finance to blockchain infrastructure.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue",
+      "date": "2026-09-15",
+      "dateLabel": "15 Sept 2026"
+    },
+    {
+      "brief": "Clarity Act receives cloture vote with stablecoin provisions updated",
+      "why": "Pending legislation addresses stablecoin regulation as key policy issue.",
+      "category": "Stablecoin",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/ahead-of-clarity-act-vote-stablecoin-interest-ethics-remain-key-issues/",
+      "date": "2026-09-15",
+      "dateLabel": "15 Sept 2026"
+    },
+    {
+      "brief": "House crypto tax bill includes stablecoin provisions",
+      "why": "Legislative framework addressing stablecoin taxation and regulation.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-09-15-house-committee-crypto-tax-bill-414824",
+      "date": "2026-09-15",
+      "dateLabel": "15 Sept 2026"
+    },
+    {
+      "brief": "Standard Chartered projects tokenization drives Arbitrum adoption",
+      "why": "Institution forecasts tokenization growth attracting traditional finance onchain.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-09-15-standard-chartered-sees-arbitrum-at-10-by-end-2030-up-70-fold-414821",
+      "date": "2026-09-15",
+      "dateLabel": "15 Sept 2026"
     }
   ],
   "feedsOk": [
