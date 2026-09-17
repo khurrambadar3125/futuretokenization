@@ -1,11 +1,38 @@
 {
-  "generated": "2026-09-16T10:57:56.443Z",
-  "generatedLabel": "16 Sept 2026",
-  "count": 10,
+  "generated": "2026-09-17T11:07:18.160Z",
+  "generatedLabel": "17 Sept 2026",
+  "count": 8,
   "items": [
     {
-      "brief": "Deutsche Bank nears crypto custody launch for institutions",
-      "why": "Traditional bank expanding stablecoin custody infrastructure for institutional clients.",
+      "brief": "Anchorage Digital Bank adds custody for Etherlink and tokenized uranium",
+      "why": "Digital bank expanding custody infrastructure for tokenized commodities (RWA).",
+      "category": "DigitalBank",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/anchorage-digital-brings-tokenized-uranium-custody-to-federally-chartered-crypto-bank?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-16",
+      "dateLabel": "16 Sept 2026"
+    },
+    {
+      "brief": "Theo launches tokenized silver backed by $40M in active leases",
+      "why": "Tokenized precious metal enabling income generation from institutional lending.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/16/blockchain-finance-platform-theo-launches-tokenized-silver-backed-by-usd40-million-in-active-leases",
+      "date": "2026-09-16",
+      "dateLabel": "16 Sept 2026"
+    },
+    {
+      "brief": "LatAm telecom operator VIVA using stablecoins on Avalanche for settlement",
+      "why": "Stablecoins enabling new financial services and dollar reserve management.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/15/a-latam-telecom-operator-is-putting-part-of-its-finances-on-avalanche",
+      "date": "2026-09-16",
+      "dateLabel": "16 Sept 2026"
+    },
+    {
+      "brief": "Deutsche Bank launching institutional crypto custody including USDC, EURC",
+      "why": "Major bank entering digital asset custody with stablecoin support.",
       "category": "DigitalBank",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/16/deutsche-bank-nears-crypto-custody-service-debut-for-institutional-clients",
@@ -13,8 +40,8 @@
       "dateLabel": "16 Sept 2026"
     },
     {
-      "brief": "Deutsche Bank seeks regulatory approval for institutional crypto custody",
-      "why": "Major bank planning custody and tokenized asset services pending regulatory clearance.",
+      "brief": "Deutsche Bank seeks regulatory approval for crypto custody, plans tokenized assets",
+      "why": "Bank preparing to support tokenized assets after initial stablecoin/digital currency phase.",
       "category": "DigitalBank",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/deutsche-bank-regulatory-nod-institutional-crypto-custody?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -22,8 +49,8 @@
       "dateLabel": "16 Sept 2026"
     },
     {
-      "brief": "Circle launches Arc blockchain for payments and tokenized assets",
-      "why": "Stablecoin issuer building infrastructure for tokenized assets and institutional finance.",
+      "brief": "Circle launches Arc blockchain for payments, tokenized assets, institutional finance",
+      "why": "Stablecoin issuer building infrastructure specifically for tokenized assets.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/15/circle-debuts-arc-blockchain-which-jeremy-allaire-calls-more-consequential-than-usdc",
@@ -31,8 +58,8 @@
       "dateLabel": "16 Sept 2026"
     },
     {
-      "brief": "Deutsche Bank plans European digital asset custody service",
-      "why": "Traditional bank entering stablecoin custody market for European institutional clients.",
+      "brief": "Deutsche Bank launching European digital asset custody for BTC, ETH, stablecoins",
+      "why": "Major bank entering institutional stablecoin and digital asset custody.",
       "category": "DigitalBank",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251",
@@ -40,56 +67,11 @@
       "dateLabel": "16 Sept 2026"
     },
     {
-      "brief": "Kamino hires fintech CEO to lead U.S. tokenized assets expansion",
-      "why": "DeFi lender expanding into tokenized assets infrastructure with fintech leadership.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion",
-      "date": "2026-09-15",
-      "dateLabel": "15 Sept 2026"
-    },
-    {
-      "brief": "Standard Chartered sees tokenization transforming Arbitrum economics",
-      "why": "Major bank views tokenization as key driver for blockchain network adoption.",
+      "brief": "Standard Chartered: tokenization could transform Arbitrum economics by 2030",
+      "why": "Major bank sees tokenization as structural driver for blockchain platform value.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/standard-chartered-arbitrum-arb-price-10-2030?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-15",
-      "dateLabel": "15 Sept 2026"
-    },
-    {
-      "brief": "Standard Chartered predicts tokenization makes Arbitrum favored TradFi network",
-      "why": "Bank expects tokenization to attract traditional finance to blockchain infrastructure.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue",
-      "date": "2026-09-15",
-      "dateLabel": "15 Sept 2026"
-    },
-    {
-      "brief": "Clarity Act receives cloture vote with stablecoin provisions updated",
-      "why": "Pending legislation addresses stablecoin regulation as key policy issue.",
-      "category": "Stablecoin",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/ahead-of-clarity-act-vote-stablecoin-interest-ethics-remain-key-issues/",
-      "date": "2026-09-15",
-      "dateLabel": "15 Sept 2026"
-    },
-    {
-      "brief": "House crypto tax bill includes stablecoin provisions",
-      "why": "Legislative framework addressing stablecoin taxation and regulation.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-09-15-house-committee-crypto-tax-bill-414824",
-      "date": "2026-09-15",
-      "dateLabel": "15 Sept 2026"
-    },
-    {
-      "brief": "Standard Chartered projects tokenization drives Arbitrum adoption",
-      "why": "Institution forecasts tokenization growth attracting traditional finance onchain.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-09-15-standard-chartered-sees-arbitrum-at-10-by-end-2030-up-70-fold-414821",
       "date": "2026-09-15",
       "dateLabel": "15 Sept 2026"
     }
