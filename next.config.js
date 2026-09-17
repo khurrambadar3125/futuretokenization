@@ -9,16 +9,17 @@
 // hijacking, but is NOT nonce-strict. 'unsafe-eval' is dev-only (react-refresh).
 const scriptSrc =
   process.env.NODE_ENV === 'development'
-    ? "'self' 'unsafe-inline' 'unsafe-eval'"
-    : "'self' 'unsafe-inline'";
+    ? "'self' 'unsafe-inline' 'unsafe-eval' blob: https://voice-service-ten.vercel.app"
+    : "'self' 'unsafe-inline' blob: https://voice-service-ten.vercel.app"; // blob: + voice-service: the voice assistant widget (2026-09-17)
 const csp = [
   "default-src 'self'",
   `script-src ${scriptSrc}`,
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
-  "img-src 'self' data:",
-  "media-src 'self'",
-  "connect-src 'self'",
+  "img-src 'self' data: blob:",
+  "media-src 'self' blob:",
+  "connect-src 'self' https://voice-service-ten.vercel.app wss://generativelanguage.googleapis.com https://generativelanguage.googleapis.com wss://*.livekit.cloud https://*.livekit.cloud https://api.simli.ai wss://*.simli.ai",
+  "worker-src 'self' blob:",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",
@@ -31,7 +32,7 @@ const securityHeaders = [
   { key: 'X-Frame-Options', value: 'DENY' },
   { key: 'X-Content-Type-Options', value: 'nosniff' },
   { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-  { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(), payment=()' },
+  { key: 'Permissions-Policy', value: 'camera=(), microphone=(self), geolocation=(), payment=()' }, // microphone=(self) for the voice assistant — 2026-09-17
   { key: 'X-DNS-Prefetch-Control', value: 'on' },
 ];
 

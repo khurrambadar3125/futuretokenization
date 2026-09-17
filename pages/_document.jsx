@@ -21,6 +21,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        {/* The voice assistant (Khurram's voice-service); config, knowledge and face live in the service, keyed by this site's Origin. */}
+        <script src="https://voice-service-ten.vercel.app/voice-widget.js" data-site="futuretokenization" defer></script>
       </body>
     </Html>
   );
