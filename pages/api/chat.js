@@ -1,7 +1,8 @@
 import Anthropic from '@anthropic-ai/sdk';
+import { withDeepSeek } from '../../lib/deepseekShim';
 import { CZAR_CORPUS } from '../../lib/czarCorpus';
 
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const client = withDeepSeek(new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })); // DeepSeek via the gateway (his /goal 2026-09-17); Anthropic is the failover
 
 const LANG_NAMES = {
   en: 'English', ar: 'Arabic', fr: 'French', es: 'Spanish',
