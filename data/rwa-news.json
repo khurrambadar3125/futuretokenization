@@ -1,79 +1,97 @@
 {
-  "generated": "2026-09-17T11:07:18.160Z",
-  "generatedLabel": "17 Sept 2026",
-  "count": 8,
+  "generated": "2026-09-18T10:42:24.609Z",
+  "generatedLabel": "18 Sept 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Anchorage Digital Bank adds custody for Etherlink and tokenized uranium",
-      "why": "Digital bank expanding custody infrastructure for tokenized commodities (RWA).",
-      "category": "DigitalBank",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/anchorage-digital-brings-tokenized-uranium-custody-to-federally-chartered-crypto-bank?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-16",
-      "dateLabel": "16 Sept 2026"
+      "brief": "SBI Group backs stablecoin payments firm dtcpay in $25M Series A",
+      "why": "Major financial institution investing in stablecoin payments infrastructure demonstrates institutional adoption.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round",
+      "date": "2026-09-18",
+      "dateLabel": "18 Sept 2026"
     },
     {
-      "brief": "Theo launches tokenized silver backed by $40M in active leases",
-      "why": "Tokenized precious metal enabling income generation from institutional lending.",
+      "brief": "dtcpay closes $25M Series A with SBI, expands merchant network",
+      "why": "Stablecoin payments firm scaling product and enterprise client base with strategic backing.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
+      "date": "2026-09-18",
+      "dateLabel": "18 Sept 2026"
+    },
+    {
+      "brief": "SEC creates regulated pathway for tokenized US stocks on blockchain",
+      "why": "Establishes regulatory framework enabling tokenized equity trading on blockchain venues.",
       "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/16/blockchain-finance-platform-theo-launches-tokenized-silver-backed-by-usd40-million-in-active-leases",
-      "date": "2026-09-16",
-      "dateLabel": "16 Sept 2026"
+      "url": "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work",
+      "date": "2026-09-17",
+      "dateLabel": "17 Sept 2026"
     },
     {
-      "brief": "LatAm telecom operator VIVA using stablecoins on Avalanche for settlement",
-      "why": "Stablecoins enabling new financial services and dollar reserve management.",
-      "category": "Stablecoin",
+      "brief": "SEC opens tokenized US stock trading pathway for five-year experiment",
+      "why": "Creates regulatory framework for tokenization platforms and DeFi trading venues.",
+      "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/15/a-latam-telecom-operator-is-putting-part-of-its-finances-on-avalanche",
-      "date": "2026-09-16",
-      "dateLabel": "16 Sept 2026"
+      "url": "https://www.coindesk.com/business/2026/09/17/sec-opens-door-to-tokenized-u-s-stock-trading-here-s-who-could-benefit",
+      "date": "2026-09-17",
+      "dateLabel": "17 Sept 2026"
     },
     {
-      "brief": "Deutsche Bank launching institutional crypto custody including USDC, EURC",
-      "why": "Major bank entering digital asset custody with stablecoin support.",
-      "category": "DigitalBank",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/16/deutsche-bank-nears-crypto-custody-service-debut-for-institutional-clients",
-      "date": "2026-09-16",
-      "dateLabel": "16 Sept 2026"
-    },
-    {
-      "brief": "Deutsche Bank seeks regulatory approval for crypto custody, plans tokenized assets",
-      "why": "Bank preparing to support tokenized assets after initial stablecoin/digital currency phase.",
-      "category": "DigitalBank",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/deutsche-bank-regulatory-nod-institutional-crypto-custody?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-16",
-      "dateLabel": "16 Sept 2026"
-    },
-    {
-      "brief": "Circle launches Arc blockchain for payments, tokenized assets, institutional finance",
-      "why": "Stablecoin issuer building infrastructure specifically for tokenized assets.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/15/circle-debuts-arc-blockchain-which-jeremy-allaire-calls-more-consequential-than-usdc",
-      "date": "2026-09-16",
-      "dateLabel": "16 Sept 2026"
-    },
-    {
-      "brief": "Deutsche Bank launching European digital asset custody for BTC, ETH, stablecoins",
-      "why": "Major bank entering institutional stablecoin and digital asset custody.",
-      "category": "DigitalBank",
+      "brief": "RWA trading surge signals crypto maturation toward tokenized assets",
+      "why": "Reflects growing market adoption of tokenized stocks, bonds, and real-world assets.",
+      "category": "RWA",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251",
-      "date": "2026-09-16",
-      "dateLabel": "16 Sept 2026"
+      "url": "https://www.theblock.co/news/ecosystems/2026-09-17-as-rwa-trading-surges-hyperliquid-dragonflys-qureshi-makes-case-multichain-future-415406",
+      "date": "2026-09-17",
+      "dateLabel": "17 Sept 2026"
     },
     {
-      "brief": "Standard Chartered: tokenization could transform Arbitrum economics by 2030",
-      "why": "Major bank sees tokenization as structural driver for blockchain platform value.",
-      "category": "Tokenization",
+      "brief": "World launches super app integrating stablecoins and identity verification",
+      "why": "Self-custody app demonstrates stablecoin infrastructure expanding beyond trading.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-17-world-launches-world-money-super-app-stablecoins-stripe-integration-boosted-rewards-415394",
+      "date": "2026-09-17",
+      "dateLabel": "17 Sept 2026"
+    },
+    {
+      "brief": "SEC explores around-the-clock trading amid tokenized securities approval",
+      "why": "Regulatory evolution supporting continuous tokenized securities market operations.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/17/u-s-sec-begins-prepping-for-round-the-clock-trading-that-crypto-treats-as-the-norm",
+      "date": "2026-09-17",
+      "dateLabel": "17 Sept 2026"
+    },
+    {
+      "brief": "SEC exemption enables tokenized stocks trading via AMMs without registration",
+      "why": "Regulatory pathway allowing automated market makers to trade tokenized equities.",
+      "category": "RWA",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/secs-tokenized-stock-exemption-allows-third-party-tokens-but-with-full-rights/",
+      "date": "2026-09-17",
+      "dateLabel": "17 Sept 2026"
+    },
+    {
+      "brief": "SEC grants temporary exemption for tokenized US stock trading",
+      "why": "Innovation exemption establishes limited framework for onchain tokenized equity trading.",
+      "category": "RWA",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/standard-chartered-arbitrum-arb-price-10-2030?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-15",
-      "dateLabel": "15 Sept 2026"
+      "url": "https://cointelegraph.com/news/sec-temporary-exemption-tokenized-us-stock-trading?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-17",
+      "dateLabel": "17 Sept 2026"
+    },
+    {
+      "brief": "S&P Global acquires OpenZeppelin to assess tokenized finance risks",
+      "why": "Rating agency strengthens capability to evaluate technological risks in onchain asset markets.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push",
+      "date": "2026-09-17",
+      "dateLabel": "17 Sept 2026"
     }
   ],
   "feedsOk": [
