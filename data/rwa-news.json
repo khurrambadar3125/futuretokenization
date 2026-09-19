@@ -1,11 +1,20 @@
 {
-  "generated": "2026-09-18T10:42:24.609Z",
-  "generatedLabel": "18 Sept 2026",
+  "generated": "2026-09-19T10:26:29.391Z",
+  "generatedLabel": "19 Sept 2026",
   "count": 10,
   "items": [
     {
-      "brief": "SBI Group backs stablecoin payments firm dtcpay in $25M Series A",
-      "why": "Major financial institution investing in stablecoin payments infrastructure demonstrates institutional adoption.",
+      "brief": "NYSE tested Avalanche for tokenization plans, says Ava Labs president",
+      "why": "Major exchange exploring blockchain infrastructure for RWA tokenization",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-09-18-ava-labs-president-says-nyse-spent-a-year-testing-avalanche-technology-tokenization-plans-415509",
+      "date": "2026-09-18",
+      "dateLabel": "18 Sept 2026"
+    },
+    {
+      "brief": "Stablecoin payments firm dtcpay raises $25M from SBI Group",
+      "why": "Stablecoin company funding enables scaling of payments infrastructure",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round",
@@ -13,8 +22,8 @@
       "dateLabel": "18 Sept 2026"
     },
     {
-      "brief": "dtcpay closes $25M Series A with SBI, expands merchant network",
-      "why": "Stablecoin payments firm scaling product and enterprise client base with strategic backing.",
+      "brief": "dtcpay closes $25M Series A to scale stablecoin payments and merchant network",
+      "why": "Capital enables expansion of enterprise stablecoin payment solutions",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
@@ -22,8 +31,8 @@
       "dateLabel": "18 Sept 2026"
     },
     {
-      "brief": "SEC creates regulated pathway for tokenized US stocks on blockchain",
-      "why": "Establishes regulatory framework enabling tokenized equity trading on blockchain venues.",
+      "brief": "SEC approves regulated pathway for tokenized U.S. stock trading",
+      "why": "First U.S. regulatory framework enabling onchain equity tokenization",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work",
@@ -31,8 +40,8 @@
       "dateLabel": "17 Sept 2026"
     },
     {
-      "brief": "SEC opens tokenized US stock trading pathway for five-year experiment",
-      "why": "Creates regulatory framework for tokenization platforms and DeFi trading venues.",
+      "brief": "SEC's tokenized stock exemption opens venue for DeFi platforms and tokenization firms",
+      "why": "Regulatory framework enables new market participants in tokenized equity trading",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/17/sec-opens-door-to-tokenized-u-s-stock-trading-here-s-who-could-benefit",
@@ -40,8 +49,8 @@
       "dateLabel": "17 Sept 2026"
     },
     {
-      "brief": "RWA trading surge signals crypto maturation toward tokenized assets",
-      "why": "Reflects growing market adoption of tokenized stocks, bonds, and real-world assets.",
+      "brief": "RWA trading surge on Hyperliquid reflects crypto maturation toward tokenized assets",
+      "why": "Growing trading volume in tokenized stocks, bonds, and real-world assets",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/news/ecosystems/2026-09-17-as-rwa-trading-surges-hyperliquid-dragonflys-qureshi-makes-case-multichain-future-415406",
@@ -49,8 +58,8 @@
       "dateLabel": "17 Sept 2026"
     },
     {
-      "brief": "World launches super app integrating stablecoins and identity verification",
-      "why": "Self-custody app demonstrates stablecoin infrastructure expanding beyond trading.",
+      "brief": "World launches super app with stablecoins and Stripe integration",
+      "why": "Stablecoin application enabling self-custody payments and ecosystem integration",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-09-17-world-launches-world-money-super-app-stablecoins-stripe-integration-boosted-rewards-415394",
@@ -58,8 +67,8 @@
       "dateLabel": "17 Sept 2026"
     },
     {
-      "brief": "SEC explores around-the-clock trading amid tokenized securities approval",
-      "why": "Regulatory evolution supporting continuous tokenized securities market operations.",
+      "brief": "SEC explores around-the-clock trading as tokenized securities approval advances",
+      "why": "Regulatory adaptation to continuous trading enabled by tokenized securities",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/09/17/u-s-sec-begins-prepping-for-round-the-clock-trading-that-crypto-treats-as-the-norm",
@@ -67,8 +76,8 @@
       "dateLabel": "17 Sept 2026"
     },
     {
-      "brief": "SEC exemption enables tokenized stocks trading via AMMs without registration",
-      "why": "Regulatory pathway allowing automated market makers to trade tokenized equities.",
+      "brief": "SEC exemption allows tokenized stocks on AMMs without venue registration",
+      "why": "Regulatory framework permits decentralized trading of tokenized equities",
       "category": "RWA",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/secs-tokenized-stock-exemption-allows-third-party-tokens-but-with-full-rights/",
@@ -76,20 +85,11 @@
       "dateLabel": "17 Sept 2026"
     },
     {
-      "brief": "SEC grants temporary exemption for tokenized US stock trading",
-      "why": "Innovation exemption establishes limited framework for onchain tokenized equity trading.",
+      "brief": "SEC grants temporary exemption for tokenized U.S. stock trading on onchain venues",
+      "why": "Innovation exemption enables limited RWA trading with regulatory oversight",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/sec-temporary-exemption-tokenized-us-stock-trading?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-17",
-      "dateLabel": "17 Sept 2026"
-    },
-    {
-      "brief": "S&P Global acquires OpenZeppelin to assess tokenized finance risks",
-      "why": "Rating agency strengthens capability to evaluate technological risks in onchain asset markets.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push",
       "date": "2026-09-17",
       "dateLabel": "17 Sept 2026"
     }
