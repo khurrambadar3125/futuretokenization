@@ -1,12 +1,30 @@
 {
-  "generated": "2026-09-19T10:26:29.391Z",
-  "generatedLabel": "19 Sept 2026",
-  "count": 10,
+  "generated": "2026-09-20T10:46:35.233Z",
+  "generatedLabel": "20 Sept 2026",
+  "count": 5,
   "items": [
     {
-      "brief": "NYSE tested Avalanche for tokenization plans, says Ava Labs president",
-      "why": "Major exchange exploring blockchain infrastructure for RWA tokenization",
+      "brief": "JPMorgan, Citi move tokenized deposits internally; UK challenger bank plans broader access",
+      "why": "Shows institutional tokenized deposit adoption and competitive pressure for wider tokenization access",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/15/why-wall-street-giants-build-tokenization-money-for-institutions-not-regular-consumers",
+      "date": "2026-09-19",
+      "dateLabel": "19 Sept 2026"
+    },
+    {
+      "brief": "CFTC advances crypto rules; SEC opens path for tokenized stock trading",
+      "why": "SEC regulatory progress on tokenized securities trading could accelerate RWA tokenization adoption",
       "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act",
+      "date": "2026-09-18",
+      "dateLabel": "18 Sept 2026"
+    },
+    {
+      "brief": "NYSE spent year testing Avalanche for tokenization plans",
+      "why": "Major exchange exploring blockchain infrastructure for tokenization demonstrates institutional adoption momentum",
+      "category": "Tokenization",
       "source": "The Block",
       "url": "https://www.theblock.co/news/ecosystems/2026-09-18-ava-labs-president-says-nyse-spent-a-year-testing-avalanche-technology-tokenization-plans-415509",
       "date": "2026-09-18",
@@ -14,7 +32,7 @@
     },
     {
       "brief": "Stablecoin payments firm dtcpay raises $25M from SBI Group",
-      "why": "Stablecoin company funding enables scaling of payments infrastructure",
+      "why": "Stablecoin payments infrastructure funding signals growth in tokenized payment settlement systems",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round",
@@ -22,76 +40,13 @@
       "dateLabel": "18 Sept 2026"
     },
     {
-      "brief": "dtcpay closes $25M Series A to scale stablecoin payments and merchant network",
-      "why": "Capital enables expansion of enterprise stablecoin payment solutions",
+      "brief": "Stablecoin firm dtcpay closes $25M Series A with SBI investment",
+      "why": "Capital for scaling stablecoin payments and merchant network expands tokenized transaction infrastructure",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
       "date": "2026-09-18",
       "dateLabel": "18 Sept 2026"
-    },
-    {
-      "brief": "SEC approves regulated pathway for tokenized U.S. stock trading",
-      "why": "First U.S. regulatory framework enabling onchain equity tokenization",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work",
-      "date": "2026-09-17",
-      "dateLabel": "17 Sept 2026"
-    },
-    {
-      "brief": "SEC's tokenized stock exemption opens venue for DeFi platforms and tokenization firms",
-      "why": "Regulatory framework enables new market participants in tokenized equity trading",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/17/sec-opens-door-to-tokenized-u-s-stock-trading-here-s-who-could-benefit",
-      "date": "2026-09-17",
-      "dateLabel": "17 Sept 2026"
-    },
-    {
-      "brief": "RWA trading surge on Hyperliquid reflects crypto maturation toward tokenized assets",
-      "why": "Growing trading volume in tokenized stocks, bonds, and real-world assets",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/ecosystems/2026-09-17-as-rwa-trading-surges-hyperliquid-dragonflys-qureshi-makes-case-multichain-future-415406",
-      "date": "2026-09-17",
-      "dateLabel": "17 Sept 2026"
-    },
-    {
-      "brief": "World launches super app with stablecoins and Stripe integration",
-      "why": "Stablecoin application enabling self-custody payments and ecosystem integration",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-17-world-launches-world-money-super-app-stablecoins-stripe-integration-boosted-rewards-415394",
-      "date": "2026-09-17",
-      "dateLabel": "17 Sept 2026"
-    },
-    {
-      "brief": "SEC explores around-the-clock trading as tokenized securities approval advances",
-      "why": "Regulatory adaptation to continuous trading enabled by tokenized securities",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/17/u-s-sec-begins-prepping-for-round-the-clock-trading-that-crypto-treats-as-the-norm",
-      "date": "2026-09-17",
-      "dateLabel": "17 Sept 2026"
-    },
-    {
-      "brief": "SEC exemption allows tokenized stocks on AMMs without venue registration",
-      "why": "Regulatory framework permits decentralized trading of tokenized equities",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/secs-tokenized-stock-exemption-allows-third-party-tokens-but-with-full-rights/",
-      "date": "2026-09-17",
-      "dateLabel": "17 Sept 2026"
-    },
-    {
-      "brief": "SEC grants temporary exemption for tokenized U.S. stock trading on onchain venues",
-      "why": "Innovation exemption enables limited RWA trading with regulatory oversight",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/sec-temporary-exemption-tokenized-us-stock-trading?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-17",
-      "dateLabel": "17 Sept 2026"
     }
   ],
   "feedsOk": [
