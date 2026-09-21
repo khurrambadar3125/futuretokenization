@@ -1,52 +1,52 @@
 {
-  "generated": "2026-09-20T10:46:35.233Z",
-  "generatedLabel": "20 Sept 2026",
+  "generated": "2026-09-21T12:11:10.454Z",
+  "generatedLabel": "21 Sept 2026",
   "count": 5,
   "items": [
     {
-      "brief": "JPMorgan, Citi move tokenized deposits internally; UK challenger bank plans broader access",
-      "why": "Shows institutional tokenized deposit adoption and competitive pressure for wider tokenization access",
+      "brief": "ECB launches Pontes platform for settling tokenized assets",
+      "why": "Central bank infrastructure for tokenized asset settlement expands DLT integration",
       "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/eurosystem-central-bank-money-tokenized-finance?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-21",
+      "dateLabel": "21 Sept 2026"
+    },
+    {
+      "brief": "ECB deploys Pontes for wholesale tokenized asset settlement in central-bank money",
+      "why": "Direct connection of DLT infrastructure to CBDCs for tokenized asset settlement",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/21/ecb-deploys-pontes-platform-to-settle-wholesale-tokenized-assets-in-central-bank-money",
+      "date": "2026-09-21",
+      "dateLabel": "21 Sept 2026"
+    },
+    {
+      "brief": "Hana Bank issues South Korea's first digital bond on blockchain",
+      "why": "Tokenized bond issuance reduces settlement time via blockchain infrastructure",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/21/hana-bank-issues-south-korea-s-first-digital-bond-using-euroclear-s-blockchain",
+      "date": "2026-09-21",
+      "dateLabel": "21 Sept 2026"
+    },
+    {
+      "brief": "SEC's tokenized-stock push creates custody and stablecoin settlement opportunities",
+      "why": "Regulatory movement toward tokenized securities benefits stablecoin infrastructure",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
+      "date": "2026-09-20",
+      "dateLabel": "20 Sept 2026"
+    },
+    {
+      "brief": "JPMorgan and Citi tokenize deposits; U.K. challenger bank explores broader access",
+      "why": "Institutional tokenized deposits expand as digital banking infrastructure evolves",
+      "category": "DigitalBank",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/15/why-wall-street-giants-build-tokenization-money-for-institutions-not-regular-consumers",
       "date": "2026-09-19",
       "dateLabel": "19 Sept 2026"
-    },
-    {
-      "brief": "CFTC advances crypto rules; SEC opens path for tokenized stock trading",
-      "why": "SEC regulatory progress on tokenized securities trading could accelerate RWA tokenization adoption",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act",
-      "date": "2026-09-18",
-      "dateLabel": "18 Sept 2026"
-    },
-    {
-      "brief": "NYSE spent year testing Avalanche for tokenization plans",
-      "why": "Major exchange exploring blockchain infrastructure for tokenization demonstrates institutional adoption momentum",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/ecosystems/2026-09-18-ava-labs-president-says-nyse-spent-a-year-testing-avalanche-technology-tokenization-plans-415509",
-      "date": "2026-09-18",
-      "dateLabel": "18 Sept 2026"
-    },
-    {
-      "brief": "Stablecoin payments firm dtcpay raises $25M from SBI Group",
-      "why": "Stablecoin payments infrastructure funding signals growth in tokenized payment settlement systems",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round",
-      "date": "2026-09-18",
-      "dateLabel": "18 Sept 2026"
-    },
-    {
-      "brief": "Stablecoin firm dtcpay closes $25M Series A with SBI investment",
-      "why": "Capital for scaling stablecoin payments and merchant network expands tokenized transaction infrastructure",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
-      "date": "2026-09-18",
-      "dateLabel": "18 Sept 2026"
     }
   ],
   "feedsOk": [
