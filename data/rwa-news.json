@@ -1,52 +1,79 @@
 {
-  "generated": "2026-09-21T12:11:10.454Z",
-  "generatedLabel": "21 Sept 2026",
-  "count": 5,
+  "generated": "2026-09-22T11:05:35.146Z",
+  "generatedLabel": "22 Sept 2026",
+  "count": 8,
   "items": [
     {
-      "brief": "ECB launches Pontes platform for settling tokenized assets",
-      "why": "Central bank infrastructure for tokenized asset settlement expands DLT integration",
+      "brief": "Investment bank expects limited demand for tokenized stocks despite SEC rules",
+      "why": "Market adoption signals matter for tokenized equity infrastructure viability",
       "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/21/why-this-investment-bank-sees-little-demand-for-tokenized-stocks-despite-sec-s-new-trading-rules",
+      "date": "2026-09-21",
+      "dateLabel": "21 Sept 2026"
+    },
+    {
+      "brief": "Ondo enables institutions to convert stocks into tokenized shares in-kind",
+      "why": "Direct conversion mechanism expands institutional access to tokenized equities",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-21",
+      "dateLabel": "21 Sept 2026"
+    },
+    {
+      "brief": "ECB plans to invest in tokenized bonds via blockchain-linked payment system",
+      "why": "Central bank adoption validates tokenized securities infrastructure at scale",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform",
+      "date": "2026-09-21",
+      "dateLabel": "21 Sept 2026"
+    },
+    {
+      "brief": "ECB launches Pontes for tokenized central bank money settlement; plans digital bond investments",
+      "why": "Wholesale CBDC and tokenized securities settlement enable tokenization ecosystem maturity",
+      "category": "RWA",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/eurosystems-pontes-tokenized-central-bank-money-goes-live-ecb-to-invest-in-digital-bonds/",
+      "date": "2026-09-21",
+      "dateLabel": "21 Sept 2026"
+    },
+    {
+      "brief": "Google and Apple recruit crypto talent for stablecoin and tokenization projects",
+      "why": "Big Tech entry signals mainstream adoption potential for tokenization infrastructure",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
+      "date": "2026-09-21",
+      "dateLabel": "21 Sept 2026"
+    },
+    {
+      "brief": "ECB's Pontes platform settles tokenized assets in central bank money without stablecoins",
+      "why": "CBDC-based settlement provides alternative to stablecoin-dependent tokenization",
+      "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/eurosystem-central-bank-money-tokenized-finance?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-09-21",
       "dateLabel": "21 Sept 2026"
     },
     {
-      "brief": "ECB deploys Pontes for wholesale tokenized asset settlement in central-bank money",
-      "why": "Direct connection of DLT infrastructure to CBDCs for tokenized asset settlement",
-      "category": "Tokenization",
+      "brief": "ECB deploys Pontes to settle wholesale tokenized assets in central bank money",
+      "why": "DLT-integrated central bank rails enable institutional tokenized asset settlement",
+      "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/21/ecb-deploys-pontes-platform-to-settle-wholesale-tokenized-assets-in-central-bank-money",
       "date": "2026-09-21",
       "dateLabel": "21 Sept 2026"
     },
     {
-      "brief": "Hana Bank issues South Korea's first digital bond on blockchain",
-      "why": "Tokenized bond issuance reduces settlement time via blockchain infrastructure",
+      "brief": "South Korea's second-largest bank issues $100M digital bond on Euroclear blockchain",
+      "why": "Blockchain bond settlement reduces settlement time, validating tokenized debt issuance",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/21/hana-bank-issues-south-korea-s-first-digital-bond-using-euroclear-s-blockchain",
       "date": "2026-09-21",
       "dateLabel": "21 Sept 2026"
-    },
-    {
-      "brief": "SEC's tokenized-stock push creates custody and stablecoin settlement opportunities",
-      "why": "Regulatory movement toward tokenized securities benefits stablecoin infrastructure",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
-      "date": "2026-09-20",
-      "dateLabel": "20 Sept 2026"
-    },
-    {
-      "brief": "JPMorgan and Citi tokenize deposits; U.K. challenger bank explores broader access",
-      "why": "Institutional tokenized deposits expand as digital banking infrastructure evolves",
-      "category": "DigitalBank",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/15/why-wall-street-giants-build-tokenization-money-for-institutions-not-regular-consumers",
-      "date": "2026-09-19",
-      "dateLabel": "19 Sept 2026"
     }
   ],
   "feedsOk": [
