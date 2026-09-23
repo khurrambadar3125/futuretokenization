@@ -1,79 +1,97 @@
 {
-  "generated": "2026-09-22T11:05:35.146Z",
-  "generatedLabel": "22 Sept 2026",
-  "count": 8,
+  "generated": "2026-09-23T10:55:21.515Z",
+  "generatedLabel": "23 Sept 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Investment bank expects limited demand for tokenized stocks despite SEC rules",
-      "why": "Market adoption signals matter for tokenized equity infrastructure viability",
-      "category": "Tokenization",
+      "brief": "AI agents may use stablecoins to buy computing power and data",
+      "why": "Stablecoins enabling new payment use cases in digital economies",
+      "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/21/why-this-investment-bank-sees-little-demand-for-tokenized-stocks-despite-sec-s-new-trading-rules",
-      "date": "2026-09-21",
-      "dateLabel": "21 Sept 2026"
+      "url": "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock",
+      "date": "2026-09-23",
+      "dateLabel": "23 Sept 2026"
     },
     {
-      "brief": "Ondo enables institutions to convert stocks into tokenized shares in-kind",
-      "why": "Direct conversion mechanism expands institutional access to tokenized equities",
+      "brief": "Coinbase enables fixed-rate USDC borrowing against bitcoin",
+      "why": "Stablecoin lending infrastructure expanding on major platforms",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/23/coinbase-users-can-now-borrow-usdc-against-bitcoin-at-a-fixed-rate",
+      "date": "2026-09-23",
+      "dateLabel": "23 Sept 2026"
+    },
+    {
+      "brief": "Canada's big six banks explore tokenized deposit system",
+      "why": "Banks tokenizing deposits for interbank settlement efficiency",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-23-canada-banks-tokenized-deposit-system-416129",
+      "date": "2026-09-23",
+      "dateLabel": "23 Sept 2026"
+    },
+    {
+      "brief": "CFTC Chair says markets must prepare for mass tokenization",
+      "why": "Regulatory signal on tokenization becoming mainstream priority",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-selig-mass-tokenization-24-7-trading-416111",
+      "date": "2026-09-22",
+      "dateLabel": "22 Sept 2026"
+    },
+    {
+      "brief": "Canada's six largest banks explore tokenized CAD deposits",
+      "why": "Major banks tokenizing deposits for interbank payments",
       "category": "Tokenization",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-21",
-      "dateLabel": "21 Sept 2026"
+      "url": "https://cointelegraph.com/news/canada-six-largest-banks-explore-tokenized-canadian-dollar-deposits?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-22",
+      "dateLabel": "22 Sept 2026"
     },
     {
-      "brief": "ECB plans to invest in tokenized bonds via blockchain-linked payment system",
-      "why": "Central bank adoption validates tokenized securities infrastructure at scale",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform",
-      "date": "2026-09-21",
-      "dateLabel": "21 Sept 2026"
-    },
-    {
-      "brief": "ECB launches Pontes for tokenized central bank money settlement; plans digital bond investments",
-      "why": "Wholesale CBDC and tokenized securities settlement enable tokenization ecosystem maturity",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/eurosystems-pontes-tokenized-central-bank-money-goes-live-ecb-to-invest-in-digital-bonds/",
-      "date": "2026-09-21",
-      "dateLabel": "21 Sept 2026"
-    },
-    {
-      "brief": "Google and Apple recruit crypto talent for stablecoin and tokenization projects",
-      "why": "Big Tech entry signals mainstream adoption potential for tokenization infrastructure",
+      "brief": "Canada's Big Six launch interbank tokenized deposit initiative",
+      "why": "Banks implementing tokenized deposits for cross-institution transfers",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
-      "date": "2026-09-21",
-      "dateLabel": "21 Sept 2026"
+      "url": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative",
+      "date": "2026-09-22",
+      "dateLabel": "22 Sept 2026"
     },
     {
-      "brief": "ECB's Pontes platform settles tokenized assets in central bank money without stablecoins",
-      "why": "CBDC-based settlement provides alternative to stablecoin-dependent tokenization",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/eurosystem-central-bank-money-tokenized-finance?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-21",
-      "dateLabel": "21 Sept 2026"
-    },
-    {
-      "brief": "ECB deploys Pontes to settle wholesale tokenized assets in central bank money",
-      "why": "DLT-integrated central bank rails enable institutional tokenized asset settlement",
-      "category": "RWA",
+      "brief": "ECB pushes to ban stablecoin yields and crypto lending structures",
+      "why": "Central banks regulating stablecoin features to protect banking system",
+      "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/21/ecb-deploys-pontes-platform-to-settle-wholesale-tokenized-assets-in-central-bank-money",
-      "date": "2026-09-21",
-      "dateLabel": "21 Sept 2026"
+      "url": "https://www.coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
+      "date": "2026-09-22",
+      "dateLabel": "22 Sept 2026"
     },
     {
-      "brief": "South Korea's second-largest bank issues $100M digital bond on Euroclear blockchain",
-      "why": "Blockchain bond settlement reduces settlement time, validating tokenized debt issuance",
-      "category": "RWA",
+      "brief": "Coinbase adds fixed-rate USDC loans via Morpho Midnight",
+      "why": "Stablecoin lending product expanding on major exchange",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-09-22-coinbase-fixed-rate-bitcoin-loans-morpho-midnight-416050",
+      "date": "2026-09-22",
+      "dateLabel": "22 Sept 2026"
+    },
+    {
+      "brief": "Binance takes $100M Circle stake, expands USDC partnership",
+      "why": "Major exchange backing stablecoin growth and promotion",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042",
+      "date": "2026-09-22",
+      "dateLabel": "22 Sept 2026"
+    },
+    {
+      "brief": "Reap bets on multi-currency stablecoins for 24/7 FX settlement",
+      "why": "Non-USD stablecoins enabling cross-border settlement outside banking hours",
+      "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/21/hana-bank-issues-south-korea-s-first-digital-bond-using-euroclear-s-blockchain",
-      "date": "2026-09-21",
-      "dateLabel": "21 Sept 2026"
+      "url": "https://www.coindesk.com/business/2026/09/22/visa-partner-reap-eyes-local-currency-stablecoins-in-several-countries-for-24-7-onchain-fx",
+      "date": "2026-09-22",
+      "dateLabel": "22 Sept 2026"
     }
   ],
   "feedsOk": [
