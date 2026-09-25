@@ -1,97 +1,97 @@
 {
-  "generated": "2026-09-24T11:14:17.563Z",
-  "generatedLabel": "24 Sept 2026",
+  "generated": "2026-09-25T11:19:56.699Z",
+  "generatedLabel": "25 Sept 2026",
   "count": 10,
   "items": [
     {
-      "brief": "IBM Digital Asset Haven connects to Swift ledger for tokenized deposits",
-      "why": "Demonstrates infrastructure integration enabling tokenized deposit transactions at scale",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-09-24-ibm-connects-digital-asset-haven-to-swift-blockchain-ledger-for-tokenized-deposit-transactions-416237",
+      "brief": "Fed proposes GENIUS Act rules for stablecoins, including yield programs",
+      "why": "Establishes federal regulatory framework for stablecoin issuance and operations",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
       "date": "2026-09-24",
       "dateLabel": "24 Sept 2026"
     },
     {
-      "brief": "US explores global USD-backed stablecoin promotion strategy",
-      "why": "Government-level stablecoin adoption and policy could reshape tokenized payment infrastructure",
+      "brief": "Fed proposes reserve limits and capital standards for stablecoin issuers",
+      "why": "Sets prudential requirements for entities issuing tokenized deposits and stablecoins",
       "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/24/trump-administration-weighs-a-global-stablecoin-plan-to-cement-dollar-s-dominance",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-09-24-fed-proposes-reserve-limits-capital-standards-stablecoin-issuers-genius-act-416336",
       "date": "2026-09-24",
       "dateLabel": "24 Sept 2026"
     },
     {
-      "brief": "NYSE, Blockchain.com plan tokenized US stocks and ETFs access",
-      "why": "Traditional exchange entering tokenized securities market signals institutional RWA adoption",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-23",
-      "dateLabel": "23 Sept 2026"
-    },
-    {
-      "brief": "Blockchain.com, NYSE explore tokenized stocks and ETFs partnership",
-      "why": "Major crypto platform and stock exchange collaboration advances tokenized securities infrastructure",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/web3/2026-09-23-blockchain-com-nyse-tokenized-us-stocks-etfs-416176",
-      "date": "2026-09-23",
-      "dateLabel": "23 Sept 2026"
-    },
-    {
-      "brief": "MoonPay acquires North Capital for tokenized securities infrastructure",
-      "why": "Expansion into regulated tokenized assets adds broker-dealer and settlement capabilities",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/moonpay-buys-north-capital-including-ats-for-tokenized-securities/",
-      "date": "2026-09-23",
-      "dateLabel": "23 Sept 2026"
-    },
-    {
-      "brief": "Tron processes $150B+ weekly in stablecoin transfers",
-      "why": "Demonstrates stablecoin infrastructure maturity and settlement layer importance for tokenization",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
-      "date": "2026-09-23",
-      "dateLabel": "23 Sept 2026"
-    },
-    {
-      "brief": "ESMA prioritizes tokenization supervision across EU in 2027",
-      "why": "Regulatory framework development critical for standardized tokenization oversight",
+      "brief": "Coalition pushes issuer-backed tokenized stocks linked to shareholder records",
+      "why": "Advances tokenization infrastructure for equity securities under SEC framework",
       "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/esma-to-focus-eu-wide-supervision-on-ai-and-tokenization-from-2027?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-23",
-      "dateLabel": "23 Sept 2026"
-    },
-    {
-      "brief": "SEC opens five-year path for tokenized stocks with venue constraints",
-      "why": "Regulatory approval unlocks institutional tokenized securities trading with specific venue rules",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/magazine/winners-and-losers-of-the-secs-new-tokenized-stocks-rules?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-23",
-      "dateLabel": "23 Sept 2026"
-    },
-    {
-      "brief": "MoonPay acquires North Capital for $60M to expand tokenized assets",
-      "why": "Infrastructure acquisition supports institutional real-world asset tokenization adoption",
-      "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
-      "date": "2026-09-23",
-      "dateLabel": "23 Sept 2026"
+      "url": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks",
+      "date": "2026-09-24",
+      "dateLabel": "24 Sept 2026"
     },
     {
-      "brief": "Stablecoin adoption intent rises to 56% with bank-level protections",
-      "why": "Bank-backed stablecoin protections significantly increase consumer adoption likelihood",
-      "category": "Stablecoin",
+      "brief": "CFTC allows commodities firms to invest in and use blockchain for tokenized assets",
+      "why": "Regulatory clarity enabling institutional adoption of tokenized commodities",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/24/u-s-commodities-firms-can-invest-in-tokenized-assets-use-blockchain-records-cftc",
+      "date": "2026-09-24",
+      "dateLabel": "24 Sept 2026"
+    },
+    {
+      "brief": "SEC clarifies tokenized stock model legitimacy amid market structure debate",
+      "why": "SEC guidance defines which tokenization models meet securities regulations",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/09/24/the-stock-token-debate-and-the-gap-nobody-can-close-alone",
+      "date": "2026-09-24",
+      "dateLabel": "24 Sept 2026"
+    },
+    {
+      "brief": "ARK Invest tokenizes $1.3B venture fund on Ethereum via Securitize",
+      "why": "Major RWA tokenization: private fund shares moved onchain for broader access",
+      "category": "RWA",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136",
-      "date": "2026-09-23",
-      "dateLabel": "23 Sept 2026"
+      "url": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294",
+      "date": "2026-09-24",
+      "dateLabel": "24 Sept 2026"
+    },
+    {
+      "brief": "UK banks complete interbank tokenized deposit transactions across institutions",
+      "why": "Demonstrates cross-institutional tokenized deposit settlement and payments",
+      "category": "DigitalBank",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/24/uk-s-largest-banks-complete-world-s-first-interbank-transactions-using-tokenized-deposits",
+      "date": "2026-09-24",
+      "dateLabel": "24 Sept 2026"
+    },
+    {
+      "brief": "Stablecoin issuer sees trade finance moving to stablecoins",
+      "why": "Stablecoins enabling transformation of international trade finance infrastructure",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/24/european-stablecoin-issuer-qivalis-sees-transformation-of-global-trade-finance",
+      "date": "2026-09-24",
+      "dateLabel": "24 Sept 2026"
+    },
+    {
+      "brief": "Ondo launches onchain portfolio tokens using BlackRock model strategies",
+      "why": "RWA tokenization of professionally-managed investment portfolios onchain",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260",
+      "date": "2026-09-24",
+      "dateLabel": "24 Sept 2026"
+    },
+    {
+      "brief": "IBM links Swift ledger for 24/7 tokenized deposit transfers via existing messaging",
+      "why": "Integration of tokenized deposits with legacy banking infrastructure and Swift",
+      "category": "DigitalBank",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ibm-banks-swift-ledger-tokenized-deposit-transfers?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-24",
+      "dateLabel": "24 Sept 2026"
     }
   ],
   "feedsOk": [
