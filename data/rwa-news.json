@@ -1,11 +1,47 @@
 {
-  "generated": "2026-09-25T11:19:56.699Z",
-  "generatedLabel": "25 Sept 2026",
+  "generated": "2026-09-26T10:56:11.064Z",
+  "generatedLabel": "26 Sept 2026",
   "count": 10,
   "items": [
     {
-      "brief": "Fed proposes GENIUS Act rules for stablecoins, including yield programs",
-      "why": "Establishes federal regulatory framework for stablecoin issuance and operations",
+      "brief": "Stablecoins and tokenized assets blur lines between banks, exchanges, crypto",
+      "why": "Shows tokenization and stablecoins driving convergence in payments and asset markets",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-biz-crypto-tradfi-stablecoins-tokenized-assets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-25",
+      "dateLabel": "25 Sept 2026"
+    },
+    {
+      "brief": "Stablecoin issuers freeze wallet after Bitget hack",
+      "why": "Demonstrates stablecoin issuer controls and asset recovery mechanisms",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
+      "date": "2026-09-25",
+      "dateLabel": "25 Sept 2026"
+    },
+    {
+      "brief": "Tokenization adoption outpacing regulatory clarity",
+      "why": "Highlights regulatory gap in tokenization market expansion",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/09/25/tokenization-is-moving-faster-than-washington",
+      "date": "2026-09-25",
+      "dateLabel": "25 Sept 2026"
+    },
+    {
+      "brief": "Aave adds tokenized stocks as collateral for stablecoin loans",
+      "why": "Shows tokenized equity integration with stablecoin lending infrastructure",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372",
+      "date": "2026-09-25",
+      "dateLabel": "25 Sept 2026"
+    },
+    {
+      "brief": "Federal Reserve proposes GENIUS Act rules for stablecoins",
+      "why": "Major regulatory framework establishing stablecoin reserve and yield requirements",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
@@ -13,8 +49,8 @@
       "dateLabel": "24 Sept 2026"
     },
     {
-      "brief": "Fed proposes reserve limits and capital standards for stablecoin issuers",
-      "why": "Sets prudential requirements for entities issuing tokenized deposits and stablecoins",
+      "brief": "Fed proposes capital standards and reserves for stablecoin issuers",
+      "why": "Establishes regulatory capital and reserve requirements for stablecoin operations",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-09-24-fed-proposes-reserve-limits-capital-standards-stablecoin-issuers-genius-act-416336",
@@ -22,8 +58,8 @@
       "dateLabel": "24 Sept 2026"
     },
     {
-      "brief": "Coalition pushes issuer-backed tokenized stocks linked to shareholder records",
-      "why": "Advances tokenization infrastructure for equity securities under SEC framework",
+      "brief": "Coalition advances SEC-approved tokenized stock model with official records",
+      "why": "Industry group standardizing issuer-backed tokenized stocks post-SEC exemption",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks",
@@ -31,8 +67,8 @@
       "dateLabel": "24 Sept 2026"
     },
     {
-      "brief": "CFTC allows commodities firms to invest in and use blockchain for tokenized assets",
-      "why": "Regulatory clarity enabling institutional adoption of tokenized commodities",
+      "brief": "CFTC clears commodity firms to invest in tokenized assets on blockchain",
+      "why": "Regulator embraces tokenization and blockchain recordkeeping as industry standard",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/09/24/u-s-commodities-firms-can-invest-in-tokenized-assets-use-blockchain-records-cftc",
@@ -40,8 +76,8 @@
       "dateLabel": "24 Sept 2026"
     },
     {
-      "brief": "SEC clarifies tokenized stock model legitimacy amid market structure debate",
-      "why": "SEC guidance defines which tokenization models meet securities regulations",
+      "brief": "SEC draws line on tokenized stock legitimacy amid market debate",
+      "why": "Regulatory clarity emerging on which tokenization models satisfy securities standards",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/opinion/2026/09/24/the-stock-token-debate-and-the-gap-nobody-can-close-alone",
@@ -50,46 +86,10 @@
     },
     {
       "brief": "ARK Invest tokenizes $1.3B venture fund on Ethereum via Securitize",
-      "why": "Major RWA tokenization: private fund shares moved onchain for broader access",
+      "why": "Major fund brings institutional assets onchain through tokenization infrastructure",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294",
-      "date": "2026-09-24",
-      "dateLabel": "24 Sept 2026"
-    },
-    {
-      "brief": "UK banks complete interbank tokenized deposit transactions across institutions",
-      "why": "Demonstrates cross-institutional tokenized deposit settlement and payments",
-      "category": "DigitalBank",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/24/uk-s-largest-banks-complete-world-s-first-interbank-transactions-using-tokenized-deposits",
-      "date": "2026-09-24",
-      "dateLabel": "24 Sept 2026"
-    },
-    {
-      "brief": "Stablecoin issuer sees trade finance moving to stablecoins",
-      "why": "Stablecoins enabling transformation of international trade finance infrastructure",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/24/european-stablecoin-issuer-qivalis-sees-transformation-of-global-trade-finance",
-      "date": "2026-09-24",
-      "dateLabel": "24 Sept 2026"
-    },
-    {
-      "brief": "Ondo launches onchain portfolio tokens using BlackRock model strategies",
-      "why": "RWA tokenization of professionally-managed investment portfolios onchain",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260",
-      "date": "2026-09-24",
-      "dateLabel": "24 Sept 2026"
-    },
-    {
-      "brief": "IBM links Swift ledger for 24/7 tokenized deposit transfers via existing messaging",
-      "why": "Integration of tokenized deposits with legacy banking infrastructure and Swift",
-      "category": "DigitalBank",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ibm-banks-swift-ledger-tokenized-deposit-transfers?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-09-24",
       "dateLabel": "24 Sept 2026"
     }
