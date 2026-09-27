@@ -131,10 +131,10 @@ export default function Provider({ provider, sharedRef, meta }) {
           </div>
         )}
 
-        {p.address && (
+        {p.addressText && (
           <div className="prof-section">
             <div className="prof-label">Registered address</div>
-            <p style={{ fontSize: 14, color: 'var(--text-muted)', lineHeight: 1.7 }}>{p.address}</p>
+            <p style={{ fontSize: 14, color: 'var(--text-muted)', lineHeight: 1.7 }}>{p.addressText}</p>
           </div>
         )}
 

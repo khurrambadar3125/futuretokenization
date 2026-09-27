@@ -54,25 +54,30 @@ A VASP licence authorises one or more of these specific activities:
 
 Many firms hold several activities at once. A licence is restricted to the specific activities granted and does not imply VARA endorsement of the firm or any investment.
 
-### Verified per-activity counts (from the register, 2026-07-22)
-Of the 51 firms: 34 hold a single activity, 17 hold multiple (78 activity-grants in total). Exact counts per activity:
-- Broker-Dealer Services — 36 (the broad base)
-- Management & Investment Services — 13
+### Verified per-activity counts (from the register, 2026-09-27)
+Of the 56 firms: 38 hold a single activity, 18 hold multiple (84 activity-grants in total). Exact counts per activity:
+- Broker-Dealer Services — 41 (the broad base)
+- Management & Investment Services — 12
 - Exchange Services — 13
 - Custody Services — 6 (Ceffu Custody, Bitpanda Custody MENA, BitGo Custody MENA, Zand Bank P.J.S.C., Hex Trust MENA, Komainu MEA)
 - Lending & Borrowing Services — 5 (Amber Premium, OKX Middle East Fintech, Aquanow ME, Binance, Foris DAX Middle East)
 - Advisory Services — 3 (RIV Technologies, DKK Digital, Gap 3 Partners)
 - Category 1 VA Issuance — 2 (Ctrl Alt Solutions, Tokinvest) — the rarest and highest-value permission; it allows minting/originating tokens
-These counts sum to more than 51 because multi-activity firms are counted in each category they hold. Re-verify against the live register, as new licences shift the totals.
+These counts sum to more than 56 because multi-activity firms are counted in each category they hold. Re-verify against the live register, as new licences shift the totals.
 
 ---
 
-## PART 2 — THE VASP REGISTER (the 51 licensed firms)
+## PART 2 — THE VASP REGISTER (the 56 licensed firms)
 
-Source: VARA public register, verified 2026-07-22 (scripts/pull-vara-register.py, cross-checked against the rendered register page). Format per firm: name · reference · activities · issued date. Reference numbers are NOT sequential by issue date (assigned at application). Re-verify against vara.ae before quoting as current.
+Source: VARA public register, verified 2026-09-27 (scripts/pull-vara-register.py, cross-checked against the rendered register page). Format per firm: name · reference · activities · issued date. Reference numbers are NOT sequential by issue date (assigned at application). Re-verify against vara.ae before quoting as current.
 
 | VASP | Reference | Licensed activities | Issued |
 |---|---|---|---|
+| Flowdesk Omega FZE | VL/26/08/001 | Broker-Dealer | 2026/08/07 |
+| DIMENT VA EXCHANGE SERVICES DMCC | VL/26/08/002 | Broker-Dealer | 2026/08/07 |
+| ARP Digital FZCO | VL/26/07/03 | Broker-Dealer | 2026/08/07 |
+| Flipster FZE | VL/26/07/002 | Exchange | 2026/07/14 |
+| ARBEAT Group FZE | VL/26/07/001 | Broker-Dealer; Exchange | 2026/06/23 |
 | Tribe Tokenisation FZE | VL/26/06/002 | Broker-Dealer | 2026/06/22 |
 | YHEGO Virtual Assets Exchange Service L.L.C (Yhego Technology Investment L.L.C) | VL/26/06/001 | Broker-Dealer; Exchange | 2026/06/02 |
 | CoinCorner Virtual Assets Broker & Dealer Services L.L.C. | VL/26/05/001 | Broker-Dealer | 2026/05/05 |
@@ -87,30 +92,30 @@ Source: VARA public register, verified 2026-07-22 (scripts/pull-vara-register.py
 | LCT Global FZE | VL/25/12/001 | Exchange | 2025/12/26 |
 | Ceffu Custody FZE | VL/25/10/001 | Custody | 2025/10/09 |
 | Selini Capital FZE | VL/25/10/002 | Broker-Dealer | 2025/10/08 |
-| BitGo MENA FZE | VL/23/09/001 | Broker-Dealer | 2025/09/17 |
+| BitGo MENA FZE | VL/25/09/001 | Broker-Dealer | 2025/09/17 |
 | Prypco FZE | VL/25/05/001 | Broker-Dealer | 2025/05/24 |
 | Ctrl Alt Solutions DMCC | VL/25/05/002 | Broker-Dealer; Category 1 VA Issuance | 2025/05/24 |
 | Midchains FZE | VL/25/04/008 | Broker-Dealer | 2025/04/29 |
 | Gate Technology FZE | VL/25/04/007 | Exchange | 2025/04/25 |
-| Bitpanda Custody MENA DMCC | VL/25/04/006 | Custody (incl. custodial staking) | 2025/04/25 |
+| Bitpanda Custody MENA FZCO | VL/25/04/006 | Custody (incl. custodial staking) | 2025/04/25 |
 | BitGo Custody MENA FZE | VL/25/04/003 | Custody (incl. custodial staking) | 2025/04/25 |
 | Atremo Digital FZE | VL/25/04/005 | Broker-Dealer | 2025/04/25 |
 | MKX Virtual Assets Broker & Dealer Services L.L.C. | VL/25/04/001 | Broker-Dealer | 2025/04/18 |
 | DKK Digital FZE | VL/25/04/002 | Broker-Dealer; Advisory | 2025/04/18 |
-| Hashkey MENA FZE (HashKey) | VL/25/03/002 | Broker-Dealer; Exchange | 2025/04/14 |
+| Hashkey MENA FZE (HashKey) | VL/25/03/002 | Broker-Dealer; Exchange Services (including Exchange Traded Derivative Services) | 2025/04/14 |
 | Gap 3 Partners FZCO | VL/25/04/004 | Advisory | 2025/04/14 |
-| Bitpanda Broker MENA DMCC | VL/25/03/001 | Broker-Dealer | 2025/03/19 |
+| Bitpanda Broker MENA FZCO | VL/25/03/001 | Broker-Dealer | 2025/03/19 |
 | Mantra Finance FZE | VL/25/02/001 | Exchange; Broker-Dealer; Mgmt & Investment | 2025/02/19 |
 | Tokinvest DMCC | VL/2024/12/004 | Broker-Dealer; Category 1 VA Issuance | 2024/12/30 |
 | OFZA Fintech Virtual Asset Exchange Services LLC | VL/24/12/002 | Exchange; Broker-Dealer; Mgmt & Investment | 2024/12/30 |
 | Zand Bank P.J.S.C. | VL/2024/12/001 | Custody | 2024/12/09 |
 | BitOasis Technologies FZE | VL/2024/11/001 | Broker-Dealer | 2024/11/29 |
-| Deribit FZE | VL/23/12/002 | Exchange (incl. VA Derivatives) | 2024/11/01 |
+| Deribit FZE | VL/23/12/002 | Exchange Services (including Exchange Traded Derivative Services); Broker-Dealer | 2024/11/01 |
 | OKX Middle East Fintech FZE | VL/23/12/003 | Lending & Borrowing; Mgmt & Investment; Exchange (incl. VA Derivatives); Broker-Dealer | 2024/09/17 |
 | Varni Labs FZE (Roma) | VL/23/10/001 | Broker-Dealer | 2024/07/22 |
 | Aquanow ME FZE | VL/24/01/001 | Broker-Dealer; Mgmt & Investment; Lending & Borrowing | 2024/07/22 |
 | MBIO FZE (MB.IO) | VL/24/06/001 | Broker-Dealer; Exchange | 2024/07/18 |
-| HT Markets MENA FZE | VL/23/08/003 | Broker-Dealer; Mgmt & Investment | 2024/05/31 |
+| HT Markets MENA FZE | VL/23/08/003 | Broker-Dealer | 2024/05/31 |
 | Binance FZE | VL/24/04/001 | Broker-Dealer; Mgmt & Investment; Lending & Borrowing; Exchange (incl. VA Derivatives) | 2024/04/15 |
 | Foris DAX Middle East FZE (Crypto.com) | VL/23/10/003 | Broker-Dealer; Mgmt & Investment; Lending & Borrowing; Exchange (incl. VA Derivatives) | 2024/04/03 |
 | Web 3 Innovations FZE (AYA) | VL/23/12/001 | Mgmt & Investment | 2023/12/01 |

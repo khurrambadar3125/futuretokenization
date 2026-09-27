@@ -2,18 +2,18 @@
  "source": "VARA Public Register (Gatsby static-query JSON, cross-checked vs rendered page)",
  "sourceUrl": "https://vara.ae/en/licenses-and-register/public-register/",
  "method": "scripts/pull-vara-register.py — see data/vara-register.README.md",
- "pulled": "2026-07-22T17:12:16Z",
+ "pulled": "2026-09-27T06:51:22Z",
  "liveCounters": {
-  "renderedPageDistinctVlRefs": 50,
-  "renderedPageVlRows": 51
+  "renderedPageDistinctVlRefs": 56,
+  "renderedPageVlRows": 56
  },
- "agreedHeadlineCount": 51,
+ "agreedHeadlineCount": 57,
  "counts": {
-  "totalFirms": 73,
-  "activeFirms": 51,
-  "distinctActiveLicenceRefs": 50,
+  "totalFirms": 80,
+  "activeFirms": 56,
+  "distinctActiveLicenceRefs": 56,
   "pendingLicensed": 0,
-  "inPrincipleApproval": 20
+  "inPrincipleApproval": 22
  },
  "dataQuirks": [
   "VL/23/09/001 shared by TWO real firms (CoinMENA FZE & BitGo MENA FZE); both listed.",
@@ -23,6 +23,157 @@
   "Tribe Tokenisation (ex IPA/25/12/005) and YHEGO (ex IPA/25/10/006) graduated to full licences VL/26/06/002 / VL/26/06/001 in June 2026."
  ],
  "entities": [
+  {
+   "name": "WEXID Exchange FZE",
+   "slug": "wexid-exchange-fze",
+   "reference": "IPA/26/09/005",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Exchange Services"
+   ],
+   "issuanceDate": "2026-09-22",
+   "website": null,
+   "address": "<h4>CVT-FLR05-05.17 Floor 05,</h4>\n<h4>Convention Tower,</h4>\n<h4>Dubai World Trade Centre</h4>",
+   "url": "/en/licenses-and-register/public-register/wexid-exchange-fze/"
+  },
+  {
+   "name": "IG Digital FZE",
+   "slug": "ig-digital-fze",
+   "reference": "IPA/26/09/001",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-09-17",
+   "website": null,
+   "address": "<h4>Unit 23.01-EO10, Floor 23,</h4>\n<h4>Sheikh Rashid Tower,</h4>\n<h4>Dubai World Trade Centre,</h4>\n<h4>Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/ig-digital-fze/"
+  },
+  {
+   "name": "CLDN Broker Dealer FZE",
+   "slug": "cldn-broker-dealer-fze",
+   "reference": "IPA/26/09/004",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-09-15",
+   "website": null,
+   "address": "<h4>Unit No: TEC 536 - Desk 1, 2, 3, 4; Floor 3, <br>The Offices 3,<br>One Central, <br>Dubai World Trade Centre</h4>",
+   "url": "/en/licenses-and-register/public-register/cldn-broker-dealer-fze/"
+  },
+  {
+   "name": "Davensi AM FZCO",
+   "slug": "davensi-am-fzco",
+   "reference": "IPA/26/08/003",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Management and Investment Services",
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-08-26",
+   "website": "https://davensi.com/",
+   "address": "<h4>CVT-FLR05-05.33,<br>Convention Tower,<br>Dubai World Trade Centre,<br>Dubai,<br>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/davensi-am-fzco/"
+  },
+  {
+   "name": "DIMENT VA EXCHANGE SERVICES DMCC",
+   "slug": "diment-va-exchange-services-dmcc",
+   "reference": "VL/26/08/002",
+   "scaNumber": "CMA-VASP-0100000-0058",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-08-07",
+   "website": "https://www.dvaex.io/",
+   "address": "<h4>Unit No: O5-PF-CWC172, Detached Retail O5,</h4>\n<h4>Plot No: Level No 1,</h4>\n<h4>Jumeirah Lakes Towers,</h4>\n<h4>Dubai,</h4>\n<h4>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/diment-va-exchange-services-dmcc/"
+  },
+  {
+   "name": "ARP Digital FZCO",
+   "slug": "arp-digital-fzco",
+   "reference": "VL/26/07/03",
+   "scaNumber": "CMA-VASP-0100000-0064",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-08-07",
+   "website": "https://www.arpdigital.io/en",
+   "address": "<h4>Unit No: AG-13-H-F198,</h4>\n<h4>AG Tower Plot No: JLT-PH1-I1A,</h4>\n<h4>Jumeirah Lakes Towers,</h4>\n<h4>Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/arp-digital-fzco/"
+  },
+  {
+   "name": "Flowdesk Omega FZE",
+   "slug": "flowdesk-omega-fze",
+   "reference": "VL/26/08/001",
+   "scaNumber": "CMA-VASP-0100000-0071",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-08-07",
+   "website": "https://www.flowdesk.co/",
+   "address": "<h4>One Central, The Offices 4<br>Level 8, Premises 08-162-001 to 08-162 - 016<br>Dubai<br>United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/flowdesk-omega-fze/"
+  },
+  {
+   "name": "Cregis Custody FZE",
+   "slug": "cregis-custody-fze",
+   "reference": "IPA/26/08/002",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Custody Services"
+   ],
+   "issuanceDate": "2026-08-07",
+   "website": null,
+   "address": "<h4>Office 50-51, Level 9<br>Convention Tower<br>Sentinel Business Center<br>Dubai</h4>",
+   "url": "/en/licenses-and-register/public-register/cregis-custody-fze/"
+  },
+  {
+   "name": "WUBU FZCO",
+   "slug": "wubu-fzco",
+   "reference": "IPA/26/08/001",
+   "scaNumber": null,
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-08-03",
+   "website": null,
+   "address": null,
+   "url": "/en/licenses-and-register/public-register/wubu-fzco/"
+  },
+  {
+   "name": "METRA VIRTUAL ASSETS EXCHANGE L.L.C",
+   "slug": "metra-virtual-assets-exchange-l-l-c",
+   "reference": "IPA/26/07/002",
+   "scaNumber": "CMA-VASP-0100000-0076",
+   "status": "Issued",
+   "licenseType": "In-Principle Approval (“IPA”)",
+   "activities": [
+    "Broker-Dealer Services"
+   ],
+   "issuanceDate": "2026-07-31",
+   "website": null,
+   "address": "<h4>Office No. 2101,<br>Mashreq Bank HQ Building, <br>Burj Khalifa, <br>Downtown Dubai.</h4>",
+   "url": "/en/licenses-and-register/public-register/metra-virtual-assets-exchange-llc/"
+  },
   {
    "name": "Web3Exchange DMCC",
    "slug": "web3exchange-dmcc",
@@ -40,6 +191,21 @@
    "url": "/en/licenses-and-register/public-register/web3exchange-dmcc/"
   },
   {
+   "name": "Flipster FZE",
+   "slug": "flipster-fze",
+   "reference": "VL/26/07/002",
+   "scaNumber": "CMA-VASP-1000000-0061",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Exchange Services"
+   ],
+   "issuanceDate": "2026-07-14",
+   "website": "https://www.flipster.io",
+   "address": "<h4>Office 910/911/912, Sentinel Business Centre, 9th Floor, Convention Tower<br>Dubai World Trade Centre, Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/flipster-fze/"
+  },
+  {
    "name": "Triple A Technologies FZCO (\"Triple A\")",
    "slug": "triple-a-technologies-fzco-triple-a",
    "reference": "IPA/26/06/004",
@@ -53,6 +219,22 @@
    "website": null,
    "address": "<h4>Unit No: UT-12-PO-20,</h4>\n<h4>DMCC Business Centre,</h4>\n<h4>Level No 12,</h4>\n<h4>Uptown Tower,</h4>\n<h4>Dubai, United Arab Emirates</h4>",
    "url": "/en/licenses-and-register/public-register/triple-a-technologies-fzco-triple-a/"
+  },
+  {
+   "name": "ARBEAT Group FZE",
+   "slug": "arbeat-group-fze",
+   "reference": "VL/26/07/001",
+   "scaNumber": "CMA-VASP-1100000-0062",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Broker-Dealer Services",
+    "Exchange Services"
+   ],
+   "issuanceDate": "2026-06-23",
+   "website": "https://arbeat.io/",
+   "address": "<h4>Level 7, Office 7-9, Convention Tower, Dubai, United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/arbeat-group-fze/"
   },
   {
    "name": "Tribe Tokenisation FZE",
@@ -85,21 +267,6 @@
    "website": null,
    "address": "<h4>23.01-EP02,</h4>\n<h4>Sheikh Rashid Tower, Floor no. 23, Premises,</h4>\n<h4>Dubai World Trade Centre,</h4>\n<h4>Dubai, UAE</h4>",
    "url": "/en/licenses-and-register/public-register/revolut-digital-assets-fze/"
-  },
-  {
-   "name": "Flowdesk Omega FZE",
-   "slug": "flowdesk-omega-fze",
-   "reference": "IPA/26/06/001",
-   "scaNumber": null,
-   "status": "Issued",
-   "licenseType": "In-Principle Approval (“IPA”)",
-   "activities": [
-    "Broker-Dealer Services"
-   ],
-   "issuanceDate": "2026-06-04",
-   "website": null,
-   "address": "<h4>One Central, The Offices 4<br>Level 8, Premises 08-162-001 to 08-162 - 016<br>Dubai<br>United Arab Emirates</h4>",
-   "url": "/en/licenses-and-register/public-register/flowdesk-omega-fze/"
   },
   {
    "name": "YHEGO Virtual Assets Exchange Service L.L.C (Yhego Technology Investment L.L.C)",
@@ -207,21 +374,6 @@
    "website": "https://fce.global/",
    "address": "<h4>Boulevard Plaza Tower 1,<br>Office 1702,<br>Sheikh Mohammed bin Rashid Boulevard,<br>Downtown Dubai,<br>United Arab Emirates</h4>",
    "url": "/en/licenses-and-register/public-register/first-crypto-exchange-llc-first-crypto/"
-  },
-  {
-   "name": "ARP Digital FZCO",
-   "slug": "arp-digital-fzco",
-   "reference": "IPA/26/04/002",
-   "scaNumber": null,
-   "status": "Issued",
-   "licenseType": "In-Principle Approval (“IPA”)",
-   "activities": [
-    "Broker-Dealer Services"
-   ],
-   "issuanceDate": "2026-04-21",
-   "website": null,
-   "address": "<h4>Unit No: AG-13-H-F198,</h4>\n<h4>AG Tower Plot No: JLT-PH1-I1A,</h4>\n<h4>Jumeirah Lakes Towers,</h4>\n<h4>Dubai, United Arab Emirates</h4>",
-   "url": "/en/licenses-and-register/public-register/arp-digital-fzco/"
   },
   {
    "name": "Liquidity Fintech FZE",
@@ -348,37 +500,6 @@
    "url": "/en/licenses-and-register/public-register/nova-digital-fze/"
   },
   {
-   "name": "Flipster FZE",
-   "slug": "flipster-fze",
-   "reference": "IPA/26/01/004",
-   "scaNumber": "CMA-VASP-1000000-0061",
-   "status": "Issued",
-   "licenseType": "In-Principle Approval (“IPA”)",
-   "activities": [
-    "Exchange Services"
-   ],
-   "issuanceDate": "2026-01-30",
-   "website": "https://www.flipster.io",
-   "address": "<h4>Office 910/911/912, Sentinel Business Centre, 9th Floor, Convention Tower<br>Dubai World Trade Centre, Dubai, United Arab Emirates</h4>",
-   "url": "/en/licenses-and-register/public-register/flipster-fze/"
-  },
-  {
-   "name": "ARBEAT GROUP FZE",
-   "slug": "arbeat-group-fze",
-   "reference": "IPA/26/01/003",
-   "scaNumber": "CMA-VASP-1100000-0062",
-   "status": "Issued",
-   "licenseType": "In-Principle Approval (“IPA”)",
-   "activities": [
-    "Broker-Dealer Services",
-    "Exchange Services"
-   ],
-   "issuanceDate": "2026-01-22",
-   "website": null,
-   "address": "<h4>Level 7, Office 7-9, Convention Tower, Dubai</h4>",
-   "url": "/en/licenses-and-register/public-register/arbeat-group-fze/"
-  },
-  {
    "name": "Shipfinex FZCO",
    "slug": "shipfinex-fzco",
    "reference": "IPA/26/01/002",
@@ -422,21 +543,6 @@
    "website": null,
    "address": null,
    "url": "/en/licenses-and-register/public-register/musetech-va-fzco/"
-  },
-  {
-   "name": "DIMENT VA EXCHANGE SERVICES DMCC (DVA)",
-   "slug": "diment-va-exchange-services-dmcc-dva",
-   "reference": "IPA/25/12/007",
-   "scaNumber": "CMA-VASP-0100000-0058",
-   "status": "Issued",
-   "licenseType": "In-Principle Approval (“IPA”)",
-   "activities": [
-    "Broker-Dealer Services"
-   ],
-   "issuanceDate": "2025-12-31",
-   "website": null,
-   "address": null,
-   "url": "/en/licenses-and-register/public-register/diment-va-exchange-services-dmcc-dva/"
   },
   {
    "name": "LCT Global FZE",
@@ -530,7 +636,7 @@
    ],
    "issuanceDate": "2025-10-09",
    "website": "https://www.ceffu.com/en-AE",
-   "address": "<h4>One Central, The Offices 1,&nbsp;<br>Level 2, Office 229,&nbsp;<br>Dubai, UAE</h4>",
+   "address": "<h4>Office 114, Level 9,<br>The Offices 4, One Central,&nbsp;<br>Dubai World Trade Centre,<br>Dubai, UAE</h4>",
    "url": "/en/licenses-and-register/public-register/ceffu-custody-fze/"
   },
   {
@@ -551,7 +657,7 @@
   {
    "name": "BitGo MENA FZE",
    "slug": "bitgo-mena-fze",
-   "reference": "VL/23/09/001",
+   "reference": "VL/25/09/001",
    "scaNumber": "CMA-VASP-0100000-0039",
    "status": "Active",
    "licenseType": "VASP Licence",
@@ -620,9 +726,24 @@
     "Exchange Services"
    ],
    "issuanceDate": "2025-04-25",
-   "website": "https://www.gate.ae/",
+   "website": "https://www.gate.com/en-dubai",
    "address": "<h4>Premises No. EO13 SRT,<br>Floor Number 24, Sheikh Rashid Tower,<br>Dubai World Trade Center,<br>Dubai, UAE</h4>",
    "url": "/en/licenses-and-register/public-register/gate-technology-fze/"
+  },
+  {
+   "name": "Bitpanda Custody MENA FZCO",
+   "slug": "bitpanda-custody-mena-fzco",
+   "reference": "VL/25/04/006",
+   "scaNumber": "CMA-VASP-0010000-0035",
+   "status": "Active",
+   "licenseType": "VASP Licence",
+   "activities": [
+    "Custody Services [including custodial staking]"
+   ],
+   "issuanceDate": "2025-04-25",
+   "website": "https://www.bitpanda.com/en",
+   "address": "<h4>Unit No: UT-12-PO-14<br>DMCC Business Centre<br>Level No 12 Uptown Tower<br>Dubai United Arab Emirates</h4>",
+   "url": "/en/licenses-and-register/public-register/bitpanda-custody-mena-fzco/"
   },
   {
    "name": "BitGo Custody MENA FZE",
@@ -638,21 +759,6 @@
    "website": "https://www.bitgo.ae",
    "address": "<h4>Premises No. 503 1-4 TEC,<br>Floor Number 03, The Office 3 - One&nbsp;Central,<br>Dubai World Trade Center, Dubai, UAE</h4>",
    "url": "/en/licenses-and-register/public-register/bitgo-custody-mena-fze/"
-  },
-  {
-   "name": "Bitpanda Custody MENA DMCC",
-   "slug": "bitpanda-custody-mena-dmcc",
-   "reference": "VL/25/04/006",
-   "scaNumber": "CMA-VASP-0010000-0035",
-   "status": "Active",
-   "licenseType": "VASP Licence",
-   "activities": [
-    "Custody Services [including custodial staking]"
-   ],
-   "issuanceDate": "2025-04-25",
-   "website": "https://www.bitpanda.com/en",
-   "address": "<h4>Unit No: UT-12-PO-14<br>DMCC Business Centre<br>Level No 12 Uptown Tower<br>Dubai United Arab Emirates</h4>",
-   "url": "/en/licenses-and-register/public-register/bitpanda-custody-mena-dmcc/"
   },
   {
    "name": "Atremo Digital FZE",
@@ -681,7 +787,7 @@
    ],
    "issuanceDate": "2025-04-18",
    "website": "https://www.mkx.ae/",
-   "address": "<h4>Unit&nbsp;number&nbsp;S01, Building&nbsp;R260, Al&nbsp;Rigga,&nbsp;Dubai,&nbsp;UAE</h4>",
+   "address": "<h4>Office No 4001, Concorde Tower 1,<br>Al Thanyah Fifth, &nbsp;Dubai, UAE.</h4>",
    "url": "/en/licenses-and-register/public-register/mkx-virtual-assets-broker-dealer-services-llc/"
   },
   {
@@ -709,7 +815,7 @@
    "licenseType": "VASP Licence",
    "activities": [
     "Broker-Dealer Services",
-    "Exchange Services"
+    "Exchange Services (including Exchange Traded Derivative Services)"
    ],
    "issuanceDate": "2025-04-14",
    "website": "https://global.hashkey.com/ae",
@@ -732,8 +838,8 @@
    "url": "/en/licenses-and-register/public-register/gap-3-partners-fzco/"
   },
   {
-   "name": "Bitpanda Broker MENA DMCC",
-   "slug": "bitpanda-broker-mena-dmcc",
+   "name": "Bitpanda Broker MENA FZCO",
+   "slug": "bitpanda-broker-mena-fzco",
    "reference": "VL/25/03/001",
    "scaNumber": "CMA-VASP-0100000-0027",
    "status": "Active",
@@ -744,7 +850,7 @@
    "issuanceDate": "2025-03-19",
    "website": "https://www.bitpanda.com/en/uae/homepage",
    "address": "<h4>Unit No: 1633<br>DMCC Business Centre<br>Level No 1 Jewellery &amp; Gemplex 3<br>Dubai<br>United Arab Emirates</h4>",
-   "url": "/en/licenses-and-register/public-register/bitpanda-broker-mena-dmcc/"
+   "url": "/en/licenses-and-register/public-register/bitpanda-broker-mena-fzco/"
   },
   {
    "name": "Mantra Finance FZE",
@@ -834,7 +940,8 @@
    "status": "Active",
    "licenseType": "VASP Licence",
    "activities": [
-    "Exchange Services (including VA Derivatives Trading)"
+    "Exchange Services (including Exchange Traded Derivative Services)",
+    "Broker-Dealer Services"
    ],
    "issuanceDate": "2024-11-01",
    "website": "https://www.deribit.com",
@@ -930,8 +1037,7 @@
    "status": "Active",
    "licenseType": "VASP Licence",
    "activities": [
-    "Broker-Dealer Services",
-    "Management and Investment Services"
+    "Broker-Dealer Services"
    ],
    "issuanceDate": "2024-05-31",
    "website": "https://hextrust.com/",
@@ -1091,7 +1197,7 @@
    ],
    "issuanceDate": "2023-11-15",
    "website": "https://hextrust.com/",
-   "address": "<h4>Convention tower, Level 4, Italia Camp, Unit 426<br>Dubai World Trade Centre<br>Dubai, UAE</h4>",
+   "address": "<h4>Convention Tower, Level 4, Italia Camp, Unit 414<br>Dubai World Trade Centre<br>Dubai, UAE</h4>",
    "url": "/en/licenses-and-register/public-register/hex-trust-mena-fze/"
   },
   {

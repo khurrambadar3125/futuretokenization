@@ -21,7 +21,9 @@ from datetime import datetime, timezone
 BASE = "https://vara.ae"
 REGISTER_PATH = "/en/licenses-and-register/public-register/"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
-REF_RE = re.compile(r"(?:VL|IPA)/\d{2,4}/\d{2}/\d{3}")
+# Last group 2-3 digits (2026-09-27): VARA's own register prints "VL/26/07/03" (their typo, not ours).
+# The cross-check still requires an EXACT match between our refs and the live page; refs are kept as VARA prints them.
+REF_RE = re.compile(r"(?:VL|IPA)/\d{2,4}/\d{2}/\d{2,3}")
 
 
 def fetch(url):
