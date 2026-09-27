@@ -1,7 +1,8 @@
 name: RWA News Brief (daily)
 
 # Autonomous daily RWA/tokenization/stablecoin news brief.
-# Fetches real RSS headlines, condenses via Haiku, commits data/rwa-news.json.
+# Fetches real RSS headlines; Jev judges relevance; the chain (DeepSeek -> Moonshot -> Haiku) condenses;
+# every brief passes the Jev enforce gate; commits data/rwa-news.json. Unjudged (no Jev) = exit 2, file untouched.
 # The commit triggers Vercel to rebuild -> the new brief goes live. Auto-publish.
 
 on:
@@ -30,8 +31,14 @@ jobs:
         run: npm ci
 
       - name: Generate daily RWA brief
+        # Secret NAMES only. A provider whose secret is absent is skipped by the chain; without TYPESAFE_API_KEY
+        # the run stops (exit 2) and leaves the live brief untouched — unjudged is never published.
         env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_BASE_URL: ${{ secrets.DEEPSEEK_BASE_URL }}
+          MOONSHOT_API_KEY: ${{ secrets.MOONSHOT_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
         run: node scripts/rwa-news.mjs
 
       - name: Commit if changed
