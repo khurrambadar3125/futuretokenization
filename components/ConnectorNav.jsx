@@ -11,7 +11,7 @@ export default function ConnectorNav({ back }) {
       <nav className="cn-links">
         <Link href="/directory">Directory</Link>
         <Link href="/ecosystem">Ecosystem</Link>
-        <Link href="/validate">Validate</Link>
+        <a href="https://www.vara.ae/en/licenses-and-register/public-register/" target="_blank" rel="noopener noreferrer">VARA register ↗</a>
         <Link href="/investors">For Investors</Link>
         <Link href="/providers">For Providers</Link>
       </nav>

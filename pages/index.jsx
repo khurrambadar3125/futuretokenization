@@ -91,7 +91,7 @@ const BODY_HTML = `<!-- NAV -->
         <a href="/directory">VARA Directory ▾</a>
         <div class="dropdown">
           <a href="/directory">Licensed Providers</a>
-          <a href="/validate">Validate a Licence</a>
+          <a href="https://www.vara.ae/en/licenses-and-register/public-register/" target="_blank" rel="noopener noreferrer">VARA official register ↗</a>
           <a href="/investors">For Investors</a>
           <a href="/providers">For Providers</a>
         </div>
@@ -2345,7 +2345,7 @@ export default function Home({ news }) {
         <a href="/pakistan#pk-sukuk" className="sub">Tokenized Sukuk</a>
         <div className="mobile-nav-label">VARA Directory</div>
         <a href="/directory" className="sub">Licensed Providers</a>
-        <a href="/validate" className="sub">Validate a Licence</a>
+        <a href="https://www.vara.ae/en/licenses-and-register/public-register/" target="_blank" rel="noopener noreferrer" className="sub">VARA official register ↗</a>
         <a href="/investors" className="sub">For Investors</a>
         <a href="/providers" className="sub">For Providers</a>
         <div className="mobile-nav-label">Tokenization</div>

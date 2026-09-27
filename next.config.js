@@ -39,6 +39,10 @@ const securityHeaders = [
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // /validate removed 2026-09-27 (Khurram: "I am no authority to do that") — VARA alone confirms licences.
+  async redirects() {
+    return [{ source: '/validate', destination: 'https://www.vara.ae/en/licenses-and-register/public-register/', permanent: true }];
+  },
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
   },

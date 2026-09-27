@@ -52,11 +52,11 @@ export default function Ecosystem({ entities, meta }) {
           <Link href="/directory" style={{ color: 'var(--gold)' }}>
             VARA directory
           </Link>{' '}
-          or check any name with{' '}
-          <Link href="/validate" style={{ color: 'var(--gold)' }}>
-            Validate a Licence
-          </Link>
-          .
+          or check any name on{' '}
+          <a href="https://www.vara.ae/en/licenses-and-register/public-register/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)' }}>
+            VARA&apos;s official public register
+          </a>
+          . Only VARA can confirm a licence.
         </div>
 
         {hasEntries ? (

@@ -39,9 +39,9 @@ export default function Investors({ firms, licences }) {
             <Link href="/directory" className="btn-primary">
               Browse the directory →
             </Link>
-            <Link href="/validate" className="btn-ghost">
-              Validate a licence
-            </Link>
+            <a href="https://www.vara.ae/en/licenses-and-register/public-register/" target="_blank" rel="noopener noreferrer" className="btn-ghost">
+              Check VARA&apos;s official register ↗
+            </a>
           </div>
         </div>
 
@@ -62,8 +62,8 @@ export default function Investors({ firms, licences }) {
               <div className="step-n">02</div>
               <h3>Verify</h3>
               <p>
-                Check any firm with the Validate tool: fully licensed, In-Principle Approval only, or not on the
-                register. Status is never blurred.
+                Check any firm on VARA&apos;s official public register. Only VARA can confirm a licence — this site
+                does not validate licences.
               </p>
             </div>
             <div className="step">

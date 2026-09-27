@@ -39,9 +39,9 @@ export default function Providers({ firms }) {
             <Link href="/directory" className="btn-primary">
               See your listing →
             </Link>
-            <Link href="/validate" className="btn-ghost">
-              Check your record
-            </Link>
+            <a href="https://www.vara.ae/en/licenses-and-register/public-register/" target="_blank" rel="noopener noreferrer" className="btn-ghost">
+              Check VARA&apos;s official register ↗
+            </a>
           </div>
         </div>
 

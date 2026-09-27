@@ -11,7 +11,6 @@ const HOST = 'https://www.futuretokenization.com';
 const staticPages = [
   ['/', 'daily', '1.0'],
   ['/directory', 'weekly', '0.9'],
-  ['/validate', 'weekly', '0.8'],
   ['/ecosystem', 'weekly', '0.8'],
   ['/investors', 'monthly', '0.7'],
   ['/providers', 'monthly', '0.7'],
