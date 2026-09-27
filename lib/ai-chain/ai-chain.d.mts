@@ -16,13 +16,22 @@ export declare function anthropicModel<T extends string>(model: T): T;
 export declare function assertModelFor(provider: string, cfg: ProviderConfig, model: string): string;
 export declare function redact(s: unknown, env?: Record<string, string | undefined>): string;
 export declare function cleanMessages(msgs: ChatMessage[]): ChatMessage[];
+/** A system entry: a plain string is STABLE (cached on Anthropic); { text, cache: false } marks a per-request snippet — put it last. */
+export type SystemBlock = string | { text: string; cache?: boolean };
+export declare const MAX_CACHE_BREAKPOINTS: 4;
+export declare function systemBlocks(system: SystemBlock | SystemBlock[] | undefined | null): { text: string; cache: boolean }[];
+export declare function anthropicSystem(blocks: { text: string; cache: boolean }[]): ({ type: "text"; text: string; cache_control?: { type: "ephemeral" } })[];
+export type Lane = "fast" | "deep";
+export declare function laneOf(req: { deep?: boolean; latency?: string }): Lane;
 
 export interface ChatMessage { role: "user" | "assistant"; content: string }
-export interface SpendRecord { task: string; provider: ProviderName; model: string; input: number; output: number; cacheRead: number; cacheWrite: number; usd: number; estimated: boolean; outcome: string; priceSource: string; priceChecked: string; at: string }
-export interface FailoverEvent { task: string; from: ProviderName; to: ProviderName | null; reason: "breaker-open" | "hedge-ttft" | `error:${string}` | string; detail?: string; at: string }
+export interface SpendRecord { task: string; provider: ProviderName; model: string; input: number; output: number; cacheRead: number; cacheWrite: number; usd: number; estimated: boolean; outcome: string; lane?: Lane; priceSource: string; priceChecked: string; at: string }
+export interface FailoverEvent { task: string; from: ProviderName; to: ProviderName | null; reason: "breaker-open" | "hedge-ttft" | `error:${string}` | string; lane?: Lane; detail?: string; at: string }
 export interface AttemptView { provider: ProviderName; model: string; outcome: "ok" | "error" | "cancelled" | "aborted" | "running"; ttftMs: number | null; totalMs: number | null; reason: string; error?: string }
-export interface ChainResult { text: string; json?: any; provider: ProviderName; model: string; degraded: boolean; ttftMs: number; totalMs: number; usage: { input: number; output: number; cacheRead: number; cacheWrite: number }; usd: number; attempts: AttemptView[]; gate?: Promise<GateResult>; preJudge?: Promise<JudgeResult> }
-export declare class ChainError extends Error { attempts: AttemptView[] }
+export interface ChainResult { text: string; json?: any; provider: ProviderName; model: string; degraded: boolean; ttftMs: number; totalMs: number; usage: { input: number; output: number; cacheRead: number; cacheWrite: number }; usd: number; attempts: AttemptView[]; hooks?: HooksReport; gate?: Promise<GateResult>; preJudge?: Promise<JudgeResult> }
+/** What the chain did with the ledger hooks before settling: awaited = hooks tracked, pending = still running at the bound. */
+export interface HooksReport { awaited: number; pending: number; ms: number; timedOut: boolean }
+export declare class ChainError extends Error { attempts: AttemptView[]; hooks?: HooksReport }
 
 export interface BreakerOptions { window?: number; minSamples?: number; errorRate?: number; consecutive?: number; slowTtftMs?: number; cooldownMs?: number; now?: () => number }
 export declare class Breaker {
@@ -37,14 +46,16 @@ export declare class Breaker {
 export interface ChainOptions {
   env?: Record<string, string | undefined>; fetch?: typeof fetch; order?: ProviderName[]; models?: Partial<Record<ProviderName, string>>;
   providers?: Partial<Record<ProviderName, Partial<ProviderConfig>>>; budgets?: Partial<Record<string, Budget>>; hedge?: boolean;
-  breaker?: BreakerOptions; breakers?: Map<string, Breaker>;
+  breaker?: BreakerOptions; deepBreaker?: BreakerOptions; breakers?: Map<string, Breaker>;
+  /** Max ms to await onSpend/onFailover/onAttempt before settling (default 1500). */ hookTimeoutMs?: number;
+  /** Receives hooks still pending at hookTimeoutMs (e.g. Vercel's waitUntil). */ waitUntil?: (p: Promise<unknown>) => void;
   onSpend?: (r: SpendRecord) => void | Promise<void>; onFailover?: (e: FailoverEvent) => void | Promise<void>; onAttempt?: (e: AttemptView & { task: string }) => void | Promise<void>;
   log?: (msg: string) => void; now?: () => number;
 }
 interface CommonCall { task: string; maxTokens?: number; temperature?: number; json?: boolean; deep?: boolean; latency?: "chat" | "complete" | "batch" | "deep" | string; budget?: Partial<Budget> }
-export interface CompleteInput extends CommonCall { system: string | string[]; context?: string; user?: string; messages?: ChatMessage[] }
+export interface CompleteInput extends CommonCall { system: SystemBlock | SystemBlock[]; context?: SystemBlock | SystemBlock[]; user?: string; messages?: ChatMessage[] }
 export interface StreamChatInput extends CommonCall {
-  system: string | string[]; messages: ChatMessage[]; onText: (t: string) => void;
+  system: SystemBlock | SystemBlock[]; messages: ChatMessage[]; onText: (t: string) => void;
   preJudge?: { state: unknown; questions: Record<string, JevQuestion>; fallback?: (state: unknown) => any; timeoutMs?: number };
   shadowGate?: GateOptions; onGate?: (g: GateResult) => void;
 }
@@ -53,6 +64,7 @@ export interface Chain {
   streamChat(g: StreamChatInput): Promise<ChainResult>;
   available(): ProviderName[];
   breakers: Record<ProviderName, Breaker>;
+  deepBreakers: Record<ProviderName, Breaker>;
   providers: Record<ProviderName, ProviderConfig>;
   order: ProviderName[];
 }
