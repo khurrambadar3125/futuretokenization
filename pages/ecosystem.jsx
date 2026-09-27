@@ -29,7 +29,7 @@ export default function Ecosystem({ entities, meta }) {
         <link rel="canonical" href="https://www.futuretokenization.com/ecosystem" />
         <meta
           name="description"
-          content="A verified directory of UAE Web3 ecosystem firms — dev studios, infrastructure, DeFi, advisory, VCs. NOT VARA-licensed VASPs. Educational only."
+          content="A verified directory of UAE Web3 ecosystem firms — dev studios, infrastructure, DeFi, advisory, VCs. NOT listed on VARA&apos;s register as VASPs. Educational only."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -42,12 +42,12 @@ export default function Ecosystem({ entities, meta }) {
         </h1>
         <p className="dir-sub">
           The wider UAE Web3 economy — dev studios, infrastructure, DeFi, NFT/gaming, advisory, market makers,
-          and VCs. This is a <strong>separate directory</strong> from the VARA-licensed providers.
+          and VCs. This is a <strong>separate directory</strong> from the providers listed on VARA&apos;s register.
         </p>
 
         <div className="prof-note warn" style={{ marginTop: 16 }}>
-          <strong>These firms are NOT VARA-licensed VASPs.</strong> Listing here means a firm is an ecosystem
-          participant, not a licensed virtual-asset provider — and is not an endorsement. For licensed providers,
+          <strong>These firms are NOT listed on VARA&apos;s register as VASPs.</strong> Listing here means a firm is an ecosystem
+          participant, not a VARA-listed virtual-asset provider — and is not an endorsement. For firms listed on VARA&apos;s register,
           see the{' '}
           <Link href="/directory" style={{ color: 'var(--gold)' }}>
             VARA directory

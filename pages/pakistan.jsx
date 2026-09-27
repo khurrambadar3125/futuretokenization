@@ -23,7 +23,7 @@ const BODY_HTML = `<!-- NAV -->
       <li>
         <a href="/directory">VARA Directory ▾</a>
         <div class="dropdown">
-          <a href="/directory">Licensed Providers</a>
+          <a href="/directory">VARA-listed Providers</a>
           <a href="https://www.vara.ae/en/licenses-and-register/public-register/" target="_blank" rel="noopener noreferrer">VARA official register ↗</a>
           <a href="/investors">For Investors</a>
           <a href="/providers">For Providers</a>

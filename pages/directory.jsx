@@ -71,11 +71,11 @@ export default function Directory({ providers, categoryCounts, meta }) {
   return (
     <>
       <Head>
-        <title>VARA-Licensed Providers — Directory | FutureTokenization</title>
+        <title>Providers Listed on VARA&apos;s Register — Directory | FutureTokenization</title>
         <link rel="canonical" href="https://www.futuretokenization.com/directory" />
         <meta
           name="description"
-          content="Every VARA-licensed virtual-asset provider in the UAE, filterable by activity. Sourced from the VARA public register, last verified at the date shown. Educational only — not financial advice."
+          content="Virtual-asset providers listed on VARA&apos;s public register, as of the date shown, filterable by activity. A dated copy of the register — only VARA can confirm current status. Educational only — not financial advice."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -84,25 +84,26 @@ export default function Directory({ providers, categoryCounts, meta }) {
         <ConnectorNav back={{ href: '/', label: 'Home' }} />
 
         <h1 className="dir-h1">
-          VARA-Licensed <em>Providers</em>
+          Listed on VARA&apos;s <em>Register</em>
         </h1>
         <p className="dir-sub">
-          {licences} active VARA licences across {firms} licensed firms in the UAE, plus In-Principle
-          Approval holders. Sourced from the VARA public register — every record traces back to it, as last
-          verified on the date shown below.
+          {licences} active licence references across {firms} firms listed on VARA&apos;s public register as of{' '}
+          {meta.asOf}, plus In-Principle Approval holders. This is a dated copy of VARA&apos;s register, not a
+          licence check — only VARA can confirm a firm&apos;s current status.
         </p>
         <div className="dir-stamp">
           <span className="dir-dot" />
-          Last verified {meta.pulled} · source:{' '}
+          Copy of VARA&apos;s register as of {meta.asOf} · check current status on{' '}
           <a href={meta.sourceUrl} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
-            vara.ae public register
+            VARA&apos;s official register ↗
           </a>
         </div>
 
         <div className="dir-disclaimer">
           A VARA licence authorises specific activities and is <strong>not an endorsement</strong> of any firm
           or investment. In-Principle Approval (IPA) holders are <strong>not yet licensed</strong> to operate.
-          This directory is a discovery tool and is educational only — not financial, investment, or legal advice.
+          This site does not validate licences. This directory is a discovery tool and is educational only — not
+          financial, investment, or legal advice.
         </div>
 
         <div className="dir-controls">
@@ -118,7 +119,7 @@ export default function Directory({ providers, categoryCounts, meta }) {
               className={`dir-chip ${tier === 'licensed' ? 'active' : ''}`}
               onClick={() => setTier('licensed')}
             >
-              Licensed
+              Listed as licensed
             </button>
             <button className={`dir-chip ${tier === 'ipa' ? 'active' : ''}`} onClick={() => setTier('ipa')}>
               In-Principle Approval

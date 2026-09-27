@@ -16,7 +16,7 @@ export default function Providers({ firms }) {
         <link rel="canonical" href="https://www.futuretokenization.com/providers" />
         <meta
           name="description"
-          content="VARA-licensed virtual-asset providers: your register listing is already live. Claim it to add detail and receive qualified investor introductions. Educational platform — not an endorsement."
+          content="Virtual-asset providers listed on VARA&apos;s public register: your listing is already live. Claim it to add detail and receive qualified investor introductions. Educational platform — not an endorsement."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -27,10 +27,10 @@ export default function Providers({ firms }) {
         <div className="land-hero">
           <div className="land-eyebrow">For Providers</div>
           <h1 className="land-h1">
-            Be found by investors looking for <em>licensed</em> firms.
+            Be found by investors looking for firms <em>listed on VARA&apos;s register</em>.
           </h1>
           <p className="land-lede">
-            All {firms} VARA-licensed firms are already listed here, sourced from the public register — your basic
+            All {firms} firms listed on VARA&apos;s public register are already here (a dated copy) — your basic
             profile is live whether you claim it or not. Claiming it lets you add detail, correct your record, and
             (soon) receive qualified investor introductions. Listing is sourced from the register and is not an
             endorsement.

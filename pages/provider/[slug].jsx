@@ -102,7 +102,7 @@ export default function Provider({ provider, sharedRef, meta }) {
         )}
 
         <div className="prof-section">
-          <div className="prof-label">Licensed activities</div>
+          <div className="prof-label">Activities listed on VARA&apos;s register</div>
           <div className="firm-chips">
             {(p.activities || []).map((a) => (
               <span key={a} className="firm-chip" style={{ fontSize: 11, padding: '5px 9px' }}>
@@ -140,8 +140,8 @@ export default function Provider({ provider, sharedRef, meta }) {
 
         <div className="prof-note" style={{ marginTop: 28 }}>
           A VARA licence authorises the specific activities listed above and is <strong>not an endorsement</strong>{' '}
-          of the firm or any investment. This page is sourced from the VARA public register (last verified{' '}
-          {meta.pulled}) and is educational only — not financial, investment, or legal advice. Always confirm
+          of the firm or any investment. This page is a copy of VARA&apos;s public register as of{' '}
+          {meta.asOf} — this site does not validate licences — and is educational only — not financial, investment, or legal advice. Always confirm
           current licensing on the{' '}
           <a href={meta.sourceUrl} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)' }}>
             official VARA register

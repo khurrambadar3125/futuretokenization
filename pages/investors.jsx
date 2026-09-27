@@ -5,18 +5,18 @@ import { getMeta } from '../lib/registry';
 
 export async function getStaticProps() {
   const meta = getMeta();
-  return { props: { firms: meta.counts.activeFirms, licences: meta.headline?.activeLicensedVASPs ?? meta.counts.distinctActiveLicenceRefs } };
+  return { props: { asOf: meta.asOf, firms: meta.counts.activeFirms, licences: meta.headline?.activeLicensedVASPs ?? meta.counts.distinctActiveLicenceRefs } };
 }
 
-export default function Investors({ firms, licences }) {
+export default function Investors({ asOf, firms, licences }) {
   return (
     <>
       <Head>
-        <title>For Investors — Find VARA-Licensed Providers | FutureTokenization</title>
+        <title>For Investors — Find Providers Listed on VARA&apos;s Register | FutureTokenization</title>
         <link rel="canonical" href="https://www.futuretokenization.com/investors" />
         <meta
           name="description"
-          content="Discover and verify VARA-licensed virtual-asset providers in the UAE. A discovery platform — not a broker or advisor. Educational only."
+          content="Discover virtual-asset providers listed on VARA&apos;s public register in the UAE. A discovery platform — not a broker or advisor. Educational only."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -27,13 +27,13 @@ export default function Investors({ firms, licences }) {
         <div className="land-hero">
           <div className="land-eyebrow">For Investors</div>
           <h1 className="land-h1">
-            Find the right <em>VARA-licensed</em> provider.
+            Find the right provider <em>listed on VARA&apos;s register</em>.
           </h1>
           <p className="land-lede">
-            One verified place to discover, compare, and check every VARA-licensed virtual-asset provider in
-            the UAE — {licences} active licences across {firms} firms, straight from the public register. We are
-            a discovery platform, not a broker or advisor: we help you find licensed firms and verify them, then
-            you deal with them directly.
+            One place to discover and compare the virtual-asset providers listed on VARA&apos;s public register —
+            {licences} active licence references across {firms} firms, as of {asOf}. We are a discovery platform,
+            not a broker or advisor, and we do not validate licences: check any firm&apos;s current status on
+            VARA&apos;s official register, then deal with it directly.
           </p>
           <div className="land-cta-row">
             <Link href="/directory" className="btn-primary">
@@ -70,7 +70,7 @@ export default function Investors({ firms, licences }) {
               <div className="step-n">03</div>
               <h3>Connect</h3>
               <p>
-                Reach licensed firms directly from their profile. Guided introductions are coming — see below.
+                Reach listed firms directly from their profile. Guided introductions are coming — see below.
               </p>
             </div>
           </div>
@@ -80,16 +80,16 @@ export default function Investors({ firms, licences }) {
           <span className="soon-tag">Coming soon</span>
           <div>
             <strong>Guided introductions.</strong> We&rsquo;re building a way to route your interest (asset class,
-            ticket size, jurisdiction) to the licensed firms that match — launching after UAE regulatory sign-off.
+            ticket size, jurisdiction) to the listed firms that match — launching after UAE regulatory sign-off.
             It will be a marketing introduction only: <strong>no advice, no custody, no handling of funds</strong>,
-            and an introduction is never a recommendation. Until then, contact licensed firms directly from their
+            and an introduction is never a recommendation. Until then, contact listed firms directly from their
             profiles.
           </div>
         </div>
 
         <div className="dir-disclaimer" style={{ marginTop: 26 }}>
           FutureTokenization is a discovery and information platform — <strong>not a financial advisor, broker,
-          or VARA-licensed provider</strong>. Listing or verifying a firm is not an endorsement. Nothing here is
+          or VARA-licensed provider</strong>. Listing a firm is not an endorsement, and this site does not validate licences. Nothing here is
           financial, investment, or legal advice. Always confirm current licensing on the official VARA register.
         </div>
       </div>
