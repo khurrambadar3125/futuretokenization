@@ -1,43 +1,25 @@
 {
-  "generated": "2026-09-27T11:32:43.061Z",
-  "generatedLabel": "27 Sept 2026",
-  "count": 4,
+  "generated": "2026-09-28T13:06:06.144Z",
+  "generatedLabel": "28 Sept 2026",
+  "count": 2,
   "items": [
     {
+      "brief": "Franklin Templeton brings tokenized collateral service to Bybit",
+      "why": "Tokenized money market shares serve as collateral for stablecoin trading credit lines.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/28/crypto-friendly-institution-franklin-templeton-brings-its-tokenized-collateral-service-to-bybit",
+      "date": "2026-09-28",
+      "dateLabel": "28 Sept 2026"
+    },
+    {
       "brief": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
-      "why": "Strengthens USDC's reach in emerging markets, though Tether's liquidity advantage remains.",
+      "why": "Stablecoin adoption may expand reach for tokenized trading and liquidity.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
       "date": "2026-09-26",
       "dateLabel": "26 Sept 2026"
-    },
-    {
-      "brief": "Wall Street and crypto fight for the same turf as stablecoins, tokenized assets grow",
-      "why": "Stablecoins and tokenized assets push banks, exchanges and crypto firms into the same markets.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-biz-crypto-tradfi-stablecoins-tokenized-assets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-25",
-      "dateLabel": "25 Sept 2026"
-    },
-    {
-      "brief": "Tokenization is moving faster than Washington",
-      "why": "Regulatory clarity for tokenization is an economic issue, not only legal or political.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/09/25/tokenization-is-moving-faster-than-washington",
-      "date": "2026-09-25",
-      "dateLabel": "25 Sept 2026"
-    },
-    {
-      "brief": "Aave V4 on Base adds Coinbase tokenized stocks as collateral for USDC loans",
-      "why": "Tokenized equities used as DeFi collateral for stablecoin borrowing.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372",
-      "date": "2026-09-25",
-      "dateLabel": "25 Sept 2026"
     }
   ],
   "feedsOk": [
