@@ -3,6 +3,7 @@ import { getMeta } from '../../lib/registry';
 import { getChatChain, afterResponse } from '../../lib/ai-chain/index.mjs';
 import { czarGate } from '../../lib/ai-chain/czar-gate.mjs';
 import { jevLedger } from '../../lib/ai-chain/ledger.mjs';
+import { rateLimit, reserveSpend, settleSpendUsd } from '../../lib/security/ai-guard.mjs';
 
 // Provider chain (his /goal 2026-09-27): DeepSeek deepseek-v4-pro via the khurrambadar gateway → Moonshot kimi-k2.6 → Anthropic
 // Haiku, fallback only before an answer exists, so one provider failing no longer fails the request. Every attempt is booked in
@@ -65,32 +66,19 @@ const ALLOWED_ROLES = ['user', 'assistant']; // never 'system' — the server ow
 const MAX_MESSAGES = 20;
 const MAX_CHARS_PER_MESSAGE = 4000;
 const MAX_TOTAL_CHARS = 24000;
-const PER_IP_PER_MINUTE = 10; // per warm instance — a floor, not a global limit (no KV on this platform)
+// Per-IP fixed windows + a daily USD ceiling (AI_DAILY_BUDGET_USD, default 3) via lib/security/ai-guard.mjs — shared across
+// instances when the Upstash/Vercel KV store is attached (KV_REST_API_URL), per-instance memory otherwise.
+const PER_IP_LIMITS = [[10, 60], [60, 86400]];
+const MAX_OUTPUT_TOKENS = 1400;
 
 const KNOWLEDGE_BASE = `=== KNOWLEDGE BASE (the Digital Czar corpus — your only source for factual claims) ===\n\n${CZAR_CORPUS}`;
-
-// Per-IP fixed window, in memory (same shape as lib/rateLimit.ts, kept in JS so this JS-only app needs no TypeScript toolchain).
-const buckets = new Map();
-function rateLimit(key, limit, windowMs) {
-  const now = Date.now();
-  if (buckets.size > 5000) for (const [k, b] of buckets) if (b.resetAt < now) buckets.delete(k);
-  const b = buckets.get(key);
-  if (!b || b.resetAt < now) { const nb = { count: 1, resetAt: now + windowMs }; buckets.set(key, nb); return { ok: true, resetAt: nb.resetAt }; }
-  if (b.count >= limit) return { ok: false, resetAt: b.resetAt };
-  b.count++; return { ok: true, resetAt: b.resetAt };
-}
-
-function clientIp(req) {
-  const h = req.headers || {};
-  return String(h['x-vercel-forwarded-for'] || h['x-real-ip'] || String(h['x-forwarded-for'] || '').split(',')[0] || req.socket?.remoteAddress || 'anon').trim();
-}
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
-  const rl = rateLimit(`czar:${clientIp(req)}`, PER_IP_PER_MINUTE, 60_000);
+  const rl = await rateLimit(req, 'czar', PER_IP_LIMITS);
   if (!rl.ok) {
-    res.setHeader('Retry-After', String(Math.max(1, Math.ceil((rl.resetAt - Date.now()) / 1000))));
+    res.setHeader('Retry-After', String(rl.retryAfter));
     return res.status(429).json({ error: 'Too many requests', reply: 'Too many questions in a minute — please wait a moment and try again.' });
   }
 
@@ -108,17 +96,27 @@ export default async function handler(req, res) {
   if (turns.reduce((n, m) => n + m.content.length, 0) > MAX_TOTAL_CHARS) return res.status(413).json({ error: 'Conversation too large' });
   const langName = LANG_NAMES[language] || 'English';
 
+  // Daily spend ceiling: reserve the worst case (system + corpus + turns in, full output) before the call; settle after.
+  const system = [buildInstructions(), KNOWLEDGE_BASE, languageRule(langName)];
+  const inputChars = system.reduce((n, s) => n + s.length, 0) + turns.reduce((n, m) => n + m.content.length, 0);
+  const spend = await reserveSpend(inputChars, MAX_OUTPUT_TOKENS);
+  if (!spend.ok) {
+    res.setHeader('Retry-After', '3600');
+    return res.status(429).json({ error: 'Daily limit reached', reply: 'The Digital Czar has reached its daily limit — please try again later.' });
+  }
+
   try {
     const r = await getChatChain().complete({
       task: 'czar-chat',
       // Stable first: rules → corpus → the one per-language line.
-      system: [buildInstructions(), KNOWLEDGE_BASE, languageRule(langName)],
+      system,
       messages: turns,
-      maxTokens: 1400,
+      maxTokens: MAX_OUTPUT_TOKENS,
       // Long context (~15k tokens): hedge to the next provider only if no first token in 12 s.
       budget: { ttftMs: 12000, totalMs: 55000 },
     });
 
+    await settleSpendUsd(spend.reserved, r.usd);
     const reply = r.text.trim() || 'Sorry, could not process that request.';
     res.status(200).json({ reply });
 
