@@ -1,11 +1,20 @@
 {
-  "generated": "2026-10-03T11:13:54.427Z",
-  "generatedLabel": "03 Oct 2026",
-  "count": 7,
+  "generated": "2026-10-04T11:53:03.066Z",
+  "generatedLabel": "04 Oct 2026",
+  "count": 6,
   "items": [
     {
-      "brief": "71% of UK finance leaders expect tokenization to reshape financial services: Lloyds",
-      "why": "Survey signals UK finance sector anticipates tokenization reshaping services and settlement.",
+      "brief": "BlackRock outlines how tokenization may change investment portfolios",
+      "why": "Signals major asset manager interest in tokenized, real-time portfolio management.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/03/blackrock-offers-a-glimpse-of-how-tokenization-may-change-your-investment-portfolio",
+      "date": "2026-10-03",
+      "dateLabel": "03 Oct 2026"
+    },
+    {
+      "brief": "71% of UK finance leaders expect tokenization to reshape finance: Lloyds",
+      "why": "Shows institutional expectation that tokenization will transform UK financial services.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/71-percent-uk-finance-leaders-expect-tokenization-reshape-financial-services-lloyds?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -14,7 +23,7 @@
     },
     {
       "brief": "BNB Chain crosses $1B in tokenized stocks, ETFs as market hits $3.7B",
-      "why": "Shows tokenized stocks and ETFs gaining scale on a major blockchain network.",
+      "why": "Illustrates growth of tokenized securities market and BNB Chain's large share.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/markets/bnb-chain-1-billion-tokenized-assets-market-3-7-billion?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -22,49 +31,31 @@
       "dateLabel": "02 Oct 2026"
     },
     {
-      "brief": "SEC’s innovation exemption poses constraint on bringing stock tokens to US, Robinhood crypto chief says",
-      "why": "SEC exemption affects how tokenized stocks can reach US investors.",
+      "brief": "Tether-backed Utexo plans USDT on Bitcoin with private transfers",
+      "why": "Shows tokenized asset issuance extending to Bitcoin via Tether-backed project.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/09/29/tether-s-usdt-is-coming-home-to-bitcoin-this-month-after-more-than-a-decade",
+      "date": "2026-10-02",
+      "dateLabel": "02 Oct 2026"
+    },
+    {
+      "brief": "South Korea proposes tokenized securities rules ahead of 2027 rollout",
+      "why": "Indicates regulatory framework development for tokenized securities in South Korea.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/south-korea-tokenized-securities-rules-2027?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-02",
+      "dateLabel": "02 Oct 2026"
+    },
+    {
+      "brief": "SEC innovation exemption constrains stock tokens in US, Robinhood exec says",
+      "why": "Highlights regulatory hurdles for tokenized stocks entering the US market.",
       "category": "Tokenization",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-10-02-secs-innovation-exemption-robinhood-417538",
       "date": "2026-10-02",
       "dateLabel": "02 Oct 2026"
-    },
-    {
-      "brief": "Hyperliquid Policy Center, Circle press EU on perps and stablecoin reserves in MiCA review",
-      "why": "MiCA review filings could shape tokenized perps and stablecoin reserve rules in EU.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452",
-      "date": "2026-10-01",
-      "dateLabel": "01 Oct 2026"
-    },
-    {
-      "brief": "Lloyds, Visa settle $750,000 using USDC in live cross-border pilot",
-      "why": "Live USDC settlement pilot shows tokenized payment rails in cross-border finance.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-01-lloyds-visa-settle-750000-using-usdc-in-live-cross-border-pilot-417378",
-      "date": "2026-10-01",
-      "dateLabel": "01 Oct 2026"
-    },
-    {
-      "brief": "Synthetic tokenized stocks are bad for American investors",
-      "why": "Argues synthetic tokenized stocks undermine trust in traditional share ownership.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/10/01/synthetic-tokenized-stocks-are-bad-for-american-investors",
-      "date": "2026-10-01",
-      "dateLabel": "01 Oct 2026"
-    },
-    {
-      "brief": "Tokenized assets don’t always mirror traditional markets, Dune finds",
-      "why": "Dune data shows tokenized markets deviate from traditional trading patterns.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tokenized-assets-traditional-markets-dune-rwa-report?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-01",
-      "dateLabel": "01 Oct 2026"
     }
   ],
   "feedsOk": [
