@@ -1,61 +1,34 @@
 {
-  "generated": "2026-10-04T11:53:03.066Z",
-  "generatedLabel": "04 Oct 2026",
-  "count": 6,
+  "generated": "2026-10-05T13:48:39.818Z",
+  "generatedLabel": "05 Oct 2026",
+  "count": 3,
   "items": [
     {
-      "brief": "BlackRock outlines how tokenization may change investment portfolios",
-      "why": "Signals major asset manager interest in tokenized, real-time portfolio management.",
+      "brief": "Stripe to expand stablecoin cards to over 100 countries by end of year",
+      "why": "Signals broader stablecoin payment adoption and tokenized deposits exploration.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/01/stripe-to-expand-stablecoin-cards-to-over-100-countries-by-the-end-of-the-year",
+      "date": "2026-10-05",
+      "dateLabel": "05 Oct 2026"
+    },
+    {
+      "brief": "Visa, CoinShares find growing crypto appetite among consumers and investors",
+      "why": "Shows rising stablecoin interest and digital-asset ownership among investors.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-05-visa-coinshares-find-growing-crypto-appetite-among-consumers-and-affluent-investors-417642",
+      "date": "2026-10-05",
+      "dateLabel": "05 Oct 2026"
+    },
+    {
+      "brief": "BlackRock offers glimpse of how tokenization may change investment portfolios",
+      "why": "Suggests entire portfolios could be traded and rebalanced onchain in real-time.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/03/blackrock-offers-a-glimpse-of-how-tokenization-may-change-your-investment-portfolio",
       "date": "2026-10-03",
       "dateLabel": "03 Oct 2026"
-    },
-    {
-      "brief": "71% of UK finance leaders expect tokenization to reshape finance: Lloyds",
-      "why": "Shows institutional expectation that tokenization will transform UK financial services.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/71-percent-uk-finance-leaders-expect-tokenization-reshape-financial-services-lloyds?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-02",
-      "dateLabel": "02 Oct 2026"
-    },
-    {
-      "brief": "BNB Chain crosses $1B in tokenized stocks, ETFs as market hits $3.7B",
-      "why": "Illustrates growth of tokenized securities market and BNB Chain's large share.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bnb-chain-1-billion-tokenized-assets-market-3-7-billion?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-02",
-      "dateLabel": "02 Oct 2026"
-    },
-    {
-      "brief": "Tether-backed Utexo plans USDT on Bitcoin with private transfers",
-      "why": "Shows tokenized asset issuance extending to Bitcoin via Tether-backed project.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/09/29/tether-s-usdt-is-coming-home-to-bitcoin-this-month-after-more-than-a-decade",
-      "date": "2026-10-02",
-      "dateLabel": "02 Oct 2026"
-    },
-    {
-      "brief": "South Korea proposes tokenized securities rules ahead of 2027 rollout",
-      "why": "Indicates regulatory framework development for tokenized securities in South Korea.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/south-korea-tokenized-securities-rules-2027?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-02",
-      "dateLabel": "02 Oct 2026"
-    },
-    {
-      "brief": "SEC innovation exemption constrains stock tokens in US, Robinhood exec says",
-      "why": "Highlights regulatory hurdles for tokenized stocks entering the US market.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-10-02-secs-innovation-exemption-robinhood-417538",
-      "date": "2026-10-02",
-      "dateLabel": "02 Oct 2026"
     }
   ],
   "feedsOk": [
