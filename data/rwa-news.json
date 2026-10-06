@@ -1,11 +1,56 @@
 {
-  "generated": "2026-10-05T13:48:39.818Z",
-  "generatedLabel": "05 Oct 2026",
-  "count": 3,
+  "generated": "2026-10-06T12:53:38.151Z",
+  "generatedLabel": "06 Oct 2026",
+  "count": 9,
   "items": [
     {
-      "brief": "Stripe to expand stablecoin cards to over 100 countries by end of year",
-      "why": "Signals broader stablecoin payment adoption and tokenized deposits exploration.",
+      "brief": "Spiko raises $90 million to expand tokenized cash funds across markets",
+      "why": "Funds tokenized cash fund business, scaling tokenized money market products.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-06-spiko-raises-90-million-to-expand-tokenized-cash-funds-across-markets-417774",
+      "date": "2026-10-06",
+      "dateLabel": "06 Oct 2026"
+    },
+    {
+      "brief": "Ondo launches onchain private-company exposure, starting with AI",
+      "why": "Tokenized notes give exposure to private companies, starting with pre-IPO AI.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-06-ondo-launches-onchain-private-company-exposure-starting-with-ai-417762",
+      "date": "2026-10-06",
+      "dateLabel": "06 Oct 2026"
+    },
+    {
+      "brief": "Ondo opens private markets with tokenized pre-IPO AI exposure",
+      "why": "Tokenized notes offer eligible investors exposure to private companies.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ondo-private-markets-tokenized-pre-ipo-ai?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-06",
+      "dateLabel": "06 Oct 2026"
+    },
+    {
+      "brief": "OKX Money lets users save, earn 10% yield and spend stablecoins in one app",
+      "why": "Converts local currencies into stablecoins with up to 10% rewards on USDG.",
+      "category": "DigitalBank",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/06/okx-money-lets-users-save-earn-10-yield-and-spend-dollar-stablecoins-in-one-app",
+      "date": "2026-10-06",
+      "dateLabel": "06 Oct 2026"
+    },
+    {
+      "brief": "More than 60 U.S. stocks including Nvidia and Tesla are headed onchain",
+      "why": "Tokenized U.S. stocks trade against stablecoins via blockchain liquidity pools.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/05/more-than-60-u-s-stocks-including-nvidia-and-tesla-are-headed-onchain-here-s-how-it-works",
+      "date": "2026-10-05",
+      "dateLabel": "05 Oct 2026"
+    },
+    {
+      "brief": "Stripe to expand stablecoin cards to over 100 countries by year's end",
+      "why": "Expansion explores tokenized deposits and DeFi use cases.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/01/stripe-to-expand-stablecoin-cards-to-over-100-countries-by-the-end-of-the-year",
@@ -14,7 +59,7 @@
     },
     {
       "brief": "Visa, CoinShares find growing crypto appetite among consumers and investors",
-      "why": "Shows rising stablecoin interest and digital-asset ownership among investors.",
+      "why": "Surveys show rising stablecoin interest in Asia Pacific.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-10-05-visa-coinshares-find-growing-crypto-appetite-among-consumers-and-affluent-investors-417642",
@@ -22,13 +67,22 @@
       "dateLabel": "05 Oct 2026"
     },
     {
-      "brief": "BlackRock offers glimpse of how tokenization may change investment portfolios",
-      "why": "Suggests entire portfolios could be traded and rebalanced onchain in real-time.",
+      "brief": "OKX and ICE joint venture seeks to launch tokenized US stock trading venue",
+      "why": "Signals major exchange push into tokenized securities trading under innovation exemption.",
       "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/03/blackrock-offers-a-glimpse-of-how-tokenization-may-change-your-investment-portfolio",
-      "date": "2026-10-03",
-      "dateLabel": "03 Oct 2026"
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-05-okx-ice-joint-venture-tokenized-stock-trading-417613",
+      "date": "2026-10-05",
+      "dateLabel": "05 Oct 2026"
+    },
+    {
+      "brief": "OKX, NYSE parent file to launch tokenized US stock platform",
+      "why": "Platform seeks tokenized shares in over 60 US-listed companies.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/okx-nyse-parent-file-to-launch-tokenized-us-stock-platform?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-05",
+      "dateLabel": "05 Oct 2026"
     }
   ],
   "feedsOk": [
