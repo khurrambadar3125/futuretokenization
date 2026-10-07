@@ -1,11 +1,74 @@
 {
-  "generated": "2026-10-06T12:53:38.151Z",
-  "generatedLabel": "06 Oct 2026",
-  "count": 9,
+  "generated": "2026-10-07T12:47:11.503Z",
+  "generatedLabel": "07 Oct 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Spiko raises $90 million to expand tokenized cash funds across markets",
-      "why": "Funds tokenized cash fund business, scaling tokenized money market products.",
+      "brief": "GSR launches $100M vault business for stablecoin and tokenized gold",
+      "why": "Institutional capital moves further into onchain credit and tokenized assets.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/07/crypto-trading-giant-gsr-s-new-vault-business-is-a-usd100m-bet-on-onchain-credit",
+      "date": "2026-10-07",
+      "dateLabel": "07 Oct 2026"
+    },
+    {
+      "brief": "Taurus co-founder warns Swift ledger needs bank internal layers",
+      "why": "Banks need permissioned ledgers and smart contracts before using tokenized-deposit networks.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/07/swift-blockchain-ledger-requires-key-internal-layers-taurus-co-founder-warns",
+      "date": "2026-10-07",
+      "dateLabel": "07 Oct 2026"
+    },
+    {
+      "brief": "Rain seeks national trust bank charter to bypass third-party banks",
+      "why": "Stablecoin firm would custody digital assets, manage reserves, and issue tokens.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/07/rain-becomes-12th-crypto-firm-seeking-occ-trust-bank-charter-amid-community-bank-pushback",
+      "date": "2026-10-07",
+      "dateLabel": "07 Oct 2026"
+    },
+    {
+      "brief": "Cardano gives token issuers power to freeze, seize and restrict assets",
+      "why": "New standard targets regulated stablecoins, funds, and bonds with built-in transfer rules.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/07/cardano-gives-token-issuers-power-to-freeze-seize-and-restrict-assets",
+      "date": "2026-10-07",
+      "dateLabel": "07 Oct 2026"
+    },
+    {
+      "brief": "Conduit sues Tether over $2.76M freeze, claims no legal entitlement",
+      "why": "Dispute highlights risks of centralized control over tokenized dollar assets.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-06-conduit-sues-tether-usdt-freeze-417831",
+      "date": "2026-10-06",
+      "dateLabel": "06 Oct 2026"
+    },
+    {
+      "brief": "Securitize stock jumps 8% amid South Korea tokenization push",
+      "why": "LG CNS partnership positions Securitize as Seoul prepares tokenized asset rules.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/securitize-lg-cns-south-korea-tokenized-assets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-06",
+      "dateLabel": "06 Oct 2026"
+    },
+    {
+      "brief": "Arbitrum joins Paxos-led Global Dollar to capture digital dollar growth",
+      "why": "Layer-2 backs USDG stablecoin to share in reserve income and distribution.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/05/arbitrum-joins-paxos-led-stablecoin-group-global-dollar-to-capture-digital-dollar-growth",
+      "date": "2026-10-06",
+      "dateLabel": "06 Oct 2026"
+    },
+    {
+      "brief": "Spiko raises $90M to expand tokenized cash funds across markets",
+      "why": "Funding scales tokenized cash fund business and expands into new markets.",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-10-06-spiko-raises-90-million-to-expand-tokenized-cash-funds-across-markets-417774",
@@ -14,7 +77,7 @@
     },
     {
       "brief": "Ondo launches onchain private-company exposure, starting with AI",
-      "why": "Tokenized notes give exposure to private companies, starting with pre-IPO AI.",
+      "why": "Tokenized notes give exposure to pre-IPO companies via private-markets platform.",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-10-06-ondo-launches-onchain-private-company-exposure-starting-with-ai-417762",
@@ -23,66 +86,12 @@
     },
     {
       "brief": "Ondo opens private markets with tokenized pre-IPO AI exposure",
-      "why": "Tokenized notes offer eligible investors exposure to private companies.",
+      "why": "Tokenized notes offer eligible investors exposure to private pre-IPO companies.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/ondo-private-markets-tokenized-pre-ipo-ai?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
       "date": "2026-10-06",
       "dateLabel": "06 Oct 2026"
-    },
-    {
-      "brief": "OKX Money lets users save, earn 10% yield and spend stablecoins in one app",
-      "why": "Converts local currencies into stablecoins with up to 10% rewards on USDG.",
-      "category": "DigitalBank",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/06/okx-money-lets-users-save-earn-10-yield-and-spend-dollar-stablecoins-in-one-app",
-      "date": "2026-10-06",
-      "dateLabel": "06 Oct 2026"
-    },
-    {
-      "brief": "More than 60 U.S. stocks including Nvidia and Tesla are headed onchain",
-      "why": "Tokenized U.S. stocks trade against stablecoins via blockchain liquidity pools.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/05/more-than-60-u-s-stocks-including-nvidia-and-tesla-are-headed-onchain-here-s-how-it-works",
-      "date": "2026-10-05",
-      "dateLabel": "05 Oct 2026"
-    },
-    {
-      "brief": "Stripe to expand stablecoin cards to over 100 countries by year's end",
-      "why": "Expansion explores tokenized deposits and DeFi use cases.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/01/stripe-to-expand-stablecoin-cards-to-over-100-countries-by-the-end-of-the-year",
-      "date": "2026-10-05",
-      "dateLabel": "05 Oct 2026"
-    },
-    {
-      "brief": "Visa, CoinShares find growing crypto appetite among consumers and investors",
-      "why": "Surveys show rising stablecoin interest in Asia Pacific.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-05-visa-coinshares-find-growing-crypto-appetite-among-consumers-and-affluent-investors-417642",
-      "date": "2026-10-05",
-      "dateLabel": "05 Oct 2026"
-    },
-    {
-      "brief": "OKX and ICE joint venture seeks to launch tokenized US stock trading venue",
-      "why": "Signals major exchange push into tokenized securities trading under innovation exemption.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-05-okx-ice-joint-venture-tokenized-stock-trading-417613",
-      "date": "2026-10-05",
-      "dateLabel": "05 Oct 2026"
-    },
-    {
-      "brief": "OKX, NYSE parent file to launch tokenized US stock platform",
-      "why": "Platform seeks tokenized shares in over 60 US-listed companies.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/okx-nyse-parent-file-to-launch-tokenized-us-stock-platform?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-05",
-      "dateLabel": "05 Oct 2026"
     }
   ],
   "feedsOk": [
