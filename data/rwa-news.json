@@ -1,11 +1,38 @@
 {
-  "generated": "2026-10-09T12:42:26.527Z",
-  "generatedLabel": "09 Oct 2026",
+  "generated": "2026-10-10T12:01:43.238Z",
+  "generatedLabel": "10 Oct 2026",
   "count": 10,
   "items": [
     {
-      "brief": "XRP Ledger adds controls for banks, stablecoins and tokenized funds",
-      "why": "New account permissions may aid tokenized fund and stablecoin operations.",
+      "brief": "Tokenized commodities look beyond gold as lending and oil open new markets",
+      "why": "Shows tokenization expanding to commodities like energy, beyond precious metals.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/05/tokenized-commodities-look-beyond-gold-as-lending-and-oil-open-new-markets",
+      "date": "2026-10-10",
+      "dateLabel": "10 Oct 2026"
+    },
+    {
+      "brief": "Visa survey says nearly half of APAC consumers open to using stablecoins by 2031",
+      "why": "Signals growing stablecoin payment demand, though understanding remains low.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/05/1-2-billion-apac-consumers-could-adopt-stablecoins-by-2031-according-to-visa",
+      "date": "2026-10-10",
+      "dateLabel": "10 Oct 2026"
+    },
+    {
+      "brief": "Base creator says equities and non-dollar stablecoins will lead tokenization supercycle",
+      "why": "Points to tokenized stocks and non-dollar stablecoins as growth drivers.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-10-09-tokenization-supercycle-base-jesse-pollak-418144",
+      "date": "2026-10-09",
+      "dateLabel": "09 Oct 2026"
+    },
+    {
+      "brief": "XRP Ledger adds new controls for banks, stablecoins and tokenized funds",
+      "why": "Gives institutions granular account controls for tokenized asset custody.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/tech/2026/10/09/xrp-ledger-adds-new-controls-for-banks-stablecoins-and-tokenized-funds",
@@ -13,17 +40,8 @@
       "dateLabel": "09 Oct 2026"
     },
     {
-      "brief": "Citrini: tokenization boom could have bigger winners than bitcoin, ether",
-      "why": "Tokenized stocks, bonds and loans may create new trading and lending markets.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/08/wall-street-s-tokenization-boom-could-have-bigger-winners-than-bitcoin-and-ether-citrini-says",
-      "date": "2026-10-08",
-      "dateLabel": "08 Oct 2026"
-    },
-    {
-      "brief": "Securitize stock jumps over 10% after tokenized US equities on Solana",
-      "why": "Tokenized equities with dividends and voting rights expand tokenized asset offerings.",
+      "brief": "Securitize stock jumps over 10% after launching tokenized US equities on Solana",
+      "why": "Tokenized equities with dividend and voting rights expand onchain market access.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/securitize-stock-jumps-launching-tokenized-us-equities-solana?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
@@ -31,8 +49,8 @@
       "dateLabel": "08 Oct 2026"
     },
     {
-      "brief": "Crédit Agricole insurance arm invests €100m in tokenized Amundi money fund",
-      "why": "Large institutional investment signals growing adoption of tokenized funds.",
+      "brief": "Crédit Agricole insurance arm invests €100m in tokenized Amundi money market fund",
+      "why": "Major institutional investment in tokenized money market fund shares.",
       "category": "RWA",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/credit-agricole-insurance-arm-invests-e100m-in-tokenized-amundi-money-market-fund/",
@@ -41,7 +59,7 @@
     },
     {
       "brief": "IMF warns tokenized markets could amplify financial risks",
-      "why": "Tokenized equity markets found less liquid and more volatile than traditional.",
+      "why": "Highlights liquidity and volatility concerns for tokenized equity markets.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/imf-flags-volatility-liquidity-risks-tokenized-markets-grow?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -49,26 +67,8 @@
       "dateLabel": "08 Oct 2026"
     },
     {
-      "brief": "EU regulator gives crypto platforms 3 months to remove unauthorized stablecoins",
-      "why": "MiCA enforcement shapes which stablecoins can support tokenized markets in EU.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins",
-      "date": "2026-10-08",
-      "dateLabel": "08 Oct 2026"
-    },
-    {
-      "brief": "Cardano Foundation spins out Veridian, tokenizes its shares on new standard",
-      "why": "First use of Cardano's programmable-token standard for tokenized equity.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/08/cardano-foundation-spins-out-veridian-tokenizes-its-shares-on-new-standard",
-      "date": "2026-10-08",
-      "dateLabel": "08 Oct 2026"
-    },
-    {
-      "brief": "Securitize launches 1:1-backed tokenized stocks, starting with Apple, Nvidia",
-      "why": "Tokenized stocks backed 1:1 by real shares with dividends and USDC settlement.",
+      "brief": "Securitize launches 1:1-backed tokenized US stocks on Solana",
+      "why": "Tokenized equities backed by real shares may expand tokenization into stock trading.",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043",
@@ -76,8 +76,8 @@
       "dateLabel": "08 Oct 2026"
     },
     {
-      "brief": "Fidelity: 'no going back' for institutions moving toward tokenized onchain future",
-      "why": "Tokenization offers structural advantages and helps asset managers reach markets.",
+      "brief": "'No going back' for institutions moving toward tokenized onchain future, says Fidelity",
+      "why": "Institutional conviction that tokenization offers structural advantages.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/institutions-tokenized-onchain-future-no-going-back-fidelity?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -86,7 +86,7 @@
     },
     {
       "brief": "Samsung to launch USDC transfers on Solana for US Galaxy users",
-      "why": "Stablecoin transfers built into Samsung Wallet with fiat on- and off-ramps, not a separate crypto app.",
+      "why": "Brings USDC transfers into Samsung Wallet with fiat on- and off-ramps.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
