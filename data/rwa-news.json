@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-10T12:01:43.238Z",
-  "generatedLabel": "10 Oct 2026",
-  "count": 10,
+  "generated": "2026-10-11T12:14:01.266Z",
+  "generatedLabel": "11 Oct 2026",
+  "count": 4,
   "items": [
     {
-      "brief": "Tokenized commodities look beyond gold as lending and oil open new markets",
-      "why": "Shows tokenization expanding to commodities like energy, beyond precious metals.",
+      "brief": "Tokenized commodities expand beyond gold into lending and oil",
+      "why": "Shows tokenization moving from metals into lending and energy assets.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/05/tokenized-commodities-look-beyond-gold-as-lending-and-oil-open-new-markets",
@@ -13,8 +13,8 @@
       "dateLabel": "10 Oct 2026"
     },
     {
-      "brief": "Visa survey says nearly half of APAC consumers open to using stablecoins by 2031",
-      "why": "Signals growing stablecoin payment demand, though understanding remains low.",
+      "brief": "Visa survey: nearly half of APAC consumers open to stablecoins by 2031",
+      "why": "Signals growing stablecoin payment interest but low understanding among users.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/05/1-2-billion-apac-consumers-could-adopt-stablecoins-by-2031-according-to-visa",
@@ -22,8 +22,8 @@
       "dateLabel": "10 Oct 2026"
     },
     {
-      "brief": "Base creator says equities and non-dollar stablecoins will lead tokenization supercycle",
-      "why": "Points to tokenized stocks and non-dollar stablecoins as growth drivers.",
+      "brief": "Pollak: equities, non-dollar stablecoins to lead tokenization supercycle",
+      "why": "Points to equities and non-dollar stablecoins driving tokenization growth.",
       "category": "Tokenization",
       "source": "The Block",
       "url": "https://www.theblock.co/news/defi/2026-10-09-tokenization-supercycle-base-jesse-pollak-418144",
@@ -31,67 +31,13 @@
       "dateLabel": "09 Oct 2026"
     },
     {
-      "brief": "XRP Ledger adds new controls for banks, stablecoins and tokenized funds",
-      "why": "Gives institutions granular account controls for tokenized asset custody.",
+      "brief": "XRP Ledger adds controls for banks, stablecoins, tokenized funds",
+      "why": "Enables banks to manage tokenized assets with limited account permissions.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/tech/2026/10/09/xrp-ledger-adds-new-controls-for-banks-stablecoins-and-tokenized-funds",
       "date": "2026-10-09",
       "dateLabel": "09 Oct 2026"
-    },
-    {
-      "brief": "Securitize stock jumps over 10% after launching tokenized US equities on Solana",
-      "why": "Tokenized equities with dividend and voting rights expand onchain market access.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/securitize-stock-jumps-launching-tokenized-us-equities-solana?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-08",
-      "dateLabel": "08 Oct 2026"
-    },
-    {
-      "brief": "Crédit Agricole insurance arm invests €100m in tokenized Amundi money market fund",
-      "why": "Major institutional investment in tokenized money market fund shares.",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/credit-agricole-insurance-arm-invests-e100m-in-tokenized-amundi-money-market-fund/",
-      "date": "2026-10-08",
-      "dateLabel": "08 Oct 2026"
-    },
-    {
-      "brief": "IMF warns tokenized markets could amplify financial risks",
-      "why": "Highlights liquidity and volatility concerns for tokenized equity markets.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/imf-flags-volatility-liquidity-risks-tokenized-markets-grow?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-08",
-      "dateLabel": "08 Oct 2026"
-    },
-    {
-      "brief": "Securitize launches 1:1-backed tokenized US stocks on Solana",
-      "why": "Tokenized equities backed by real shares may expand tokenization into stock trading.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043",
-      "date": "2026-10-08",
-      "dateLabel": "08 Oct 2026"
-    },
-    {
-      "brief": "'No going back' for institutions moving toward tokenized onchain future, says Fidelity",
-      "why": "Institutional conviction that tokenization offers structural advantages.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/institutions-tokenized-onchain-future-no-going-back-fidelity?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-08",
-      "dateLabel": "08 Oct 2026"
-    },
-    {
-      "brief": "Samsung to launch USDC transfers on Solana for US Galaxy users",
-      "why": "Brings USDC transfers into Samsung Wallet with fiat on- and off-ramps.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
-      "date": "2026-10-08",
-      "dateLabel": "08 Oct 2026"
     }
   ],
   "feedsOk": [
