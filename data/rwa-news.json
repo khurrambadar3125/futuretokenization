@@ -1,11 +1,38 @@
 {
-  "generated": "2026-10-11T12:14:01.266Z",
-  "generatedLabel": "11 Oct 2026",
-  "count": 4,
+  "generated": "2026-10-12T14:37:18.664Z",
+  "generatedLabel": "12 Oct 2026",
+  "count": 5,
   "items": [
     {
-      "brief": "Tokenized commodities expand beyond gold into lending and oil",
-      "why": "Shows tokenization moving from metals into lending and energy assets.",
+      "brief": "Global financial watchdog calls for cross-border information sharing on stablecoin crisis planning",
+      "why": "Highlights need for cross-border coordination as tokenized stablecoins complicate reserve and redemption oversight.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis",
+      "date": "2026-10-12",
+      "dateLabel": "12 Oct 2026"
+    },
+    {
+      "brief": "Clarity's failure could speed crypto innovation while shielding incumbents",
+      "why": "Notes tokenization and DeFi openings, but unresolved oversight may shape tokenization rules.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
+      "date": "2026-10-11",
+      "dateLabel": "11 Oct 2026"
+    },
+    {
+      "brief": "IMF finds demand for tokenized stocks, says market is still volatile, illiquid",
+      "why": "Shows tokenized equity demand while flagging liquidity, legal and settlement gaps for tokenization.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+      "date": "2026-10-11",
+      "dateLabel": "11 Oct 2026"
+    },
+    {
+      "brief": "Tokenized commodities look beyond gold as lending and oil open new markets",
+      "why": "Indicates tokenization expanding from precious metals into lending and energy asset use cases.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/05/tokenized-commodities-look-beyond-gold-as-lending-and-oil-open-new-markets",
@@ -13,31 +40,13 @@
       "dateLabel": "10 Oct 2026"
     },
     {
-      "brief": "Visa survey: nearly half of APAC consumers open to stablecoins by 2031",
-      "why": "Signals growing stablecoin payment interest but low understanding among users.",
+      "brief": "Visa survey says nearly half of APAC consumers open to using stablecoins by 2031",
+      "why": "Suggests stablecoin payment demand growth in APAC, though understanding remains low for tokenized money.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/05/1-2-billion-apac-consumers-could-adopt-stablecoins-by-2031-according-to-visa",
       "date": "2026-10-10",
       "dateLabel": "10 Oct 2026"
-    },
-    {
-      "brief": "Pollak: equities, non-dollar stablecoins to lead tokenization supercycle",
-      "why": "Points to equities and non-dollar stablecoins driving tokenization growth.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-10-09-tokenization-supercycle-base-jesse-pollak-418144",
-      "date": "2026-10-09",
-      "dateLabel": "09 Oct 2026"
-    },
-    {
-      "brief": "XRP Ledger adds controls for banks, stablecoins, tokenized funds",
-      "why": "Enables banks to manage tokenized assets with limited account permissions.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/10/09/xrp-ledger-adds-new-controls-for-banks-stablecoins-and-tokenized-funds",
-      "date": "2026-10-09",
-      "dateLabel": "09 Oct 2026"
     }
   ],
   "feedsOk": [
