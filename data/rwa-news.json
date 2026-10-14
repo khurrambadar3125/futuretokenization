@@ -1,34 +1,52 @@
 {
-  "generated": "2026-10-13T13:42:17.662Z",
-  "generatedLabel": "13 Oct 2026",
-  "count": 3,
+  "generated": "2026-10-14T11:21:06.216Z",
+  "generatedLabel": "14 Oct 2026",
+  "count": 5,
   "items": [
     {
+      "brief": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
+      "why": "High taxes on regulated stablecoins may push activity into unmonitored channels, affecting tokenized stablecoin adoption.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/14/proposed-french-tax-on-regulated-stablecoins-could-drive-crypto-traders-offshore",
+      "date": "2026-10-14",
+      "dateLabel": "14 Oct 2026"
+    },
+    {
+      "brief": "BNY, Citadel Securities test tokenized U.S. Treasuries to speed up Wall Street financing",
+      "why": "Tokenized Treasuries could enable faster collateral movement between settlement and financing.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing",
+      "date": "2026-10-13",
+      "dateLabel": "13 Oct 2026"
+    },
+    {
+      "brief": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+      "why": "Shows tokenized equities offering round-the-clock access beyond Wall Street hours.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-solana-bnb-chain?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-13",
+      "dateLabel": "13 Oct 2026"
+    },
+    {
+      "brief": "DRW and Marex complete OTC swap referencing tokenized S&P iBoxx Index",
+      "why": "Demonstrates first OTC swap referencing a fully tokenized index on a blockchain network.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-10-13-drw-marex-first-otc-swap-tokenized-sp-iboxx-index-canton-network-418440",
+      "date": "2026-10-13",
+      "dateLabel": "13 Oct 2026"
+    },
+    {
       "brief": "Federated Hermes plans first onchain fund shares with Prometheum",
-      "why": "Major asset manager bringing blockchain-based share classes to traditional brokerage accounts",
+      "why": "Asset manager joining tokenization push to bring blockchain-based share classes to brokerage accounts.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
       "date": "2026-10-13",
       "dateLabel": "13 Oct 2026"
-    },
-    {
-      "brief": "Tokenized catastrophe bonds target disaster-insurance gap",
-      "why": "Planned Bermuda issuance puts legal ownership onchain for disaster risks",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/12/tokenized-catastrophe-bonds-target-the-disaster-insurance-gap",
-      "date": "2026-10-12",
-      "dateLabel": "12 Oct 2026"
-    },
-    {
-      "brief": "Global watchdog calls for cross-border sharing on stablecoin crisis",
-      "why": "Cross-border stablecoin reserves complicate crisis response for tokenized assets",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis",
-      "date": "2026-10-12",
-      "dateLabel": "12 Oct 2026"
     }
   ],
   "feedsOk": [
