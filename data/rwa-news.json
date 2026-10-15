@@ -1,11 +1,47 @@
 {
-  "generated": "2026-10-14T11:21:06.216Z",
-  "generatedLabel": "14 Oct 2026",
-  "count": 5,
+  "generated": "2026-10-15T10:58:18.449Z",
+  "generatedLabel": "15 Oct 2026",
+  "count": 7,
   "items": [
     {
-      "brief": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
-      "why": "High taxes on regulated stablecoins may push activity into unmonitored channels, affecting tokenized stablecoin adoption.",
+      "brief": "Standard Chartered moves $2 trillion stablecoin forecast from 2028 to 2030 as supply growth stalls",
+      "why": "Stablecoins are core settlement infrastructure for tokenized markets.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/web3/2026-10-14-standard-chartered-stablecoin-market-report-418578",
+      "date": "2026-10-14",
+      "dateLabel": "14 Oct 2026"
+    },
+    {
+      "brief": "BNY and Citadel Securities complete first tokenized Treasury repo on major triparty platform",
+      "why": "Signals tokenized assets entering mainstream triparty repo infrastructure.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-14-bny-citadel-securities-complete-treasury-repo-in-first-use-of-tokenized-assets-on-major-triparty-platform-418534",
+      "date": "2026-10-14",
+      "dateLabel": "14 Oct 2026"
+    },
+    {
+      "brief": "DriveWealth to use Ripple's RLUSD for stablecoin settlement and cross-border payments",
+      "why": "Stablecoin settlement adoption expands tokenized payment rails in Europe.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
+      "date": "2026-10-14",
+      "dateLabel": "14 Oct 2026"
+    },
+    {
+      "brief": "Polygon Labs completes Coinme acquisition, adding 37 state money transmitter licenses",
+      "why": "Expands regulated payment coverage for stablecoin payments infrastructure.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
+      "date": "2026-10-14",
+      "dateLabel": "14 Oct 2026"
+    },
+    {
+      "brief": "Proposed 31.4% French tax on regulated stablecoins could push traders offshore",
+      "why": "Tax burden on regulated stablecoins may hinder compliant tokenized settlement.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/10/14/proposed-french-tax-on-regulated-stablecoins-could-drive-crypto-traders-offshore",
@@ -13,18 +49,9 @@
       "dateLabel": "14 Oct 2026"
     },
     {
-      "brief": "BNY, Citadel Securities test tokenized U.S. Treasuries to speed up Wall Street financing",
-      "why": "Tokenized Treasuries could enable faster collateral movement between settlement and financing.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing",
-      "date": "2026-10-13",
-      "dateLabel": "13 Oct 2026"
-    },
-    {
-      "brief": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
-      "why": "Shows tokenized equities offering round-the-clock access beyond Wall Street hours.",
-      "category": "RWA",
+      "brief": "Most tokenized stock trading on Solana, BNB Chain happens outside US market hours",
+      "why": "Round-the-clock tokenized equity trading shows demand beyond Wall Street hours.",
+      "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-solana-bnb-chain?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-10-13",
@@ -32,19 +59,10 @@
     },
     {
       "brief": "DRW and Marex complete OTC swap referencing tokenized S&P iBoxx Index",
-      "why": "Demonstrates first OTC swap referencing a fully tokenized index on a blockchain network.",
+      "why": "First OTC swap on a fully tokenized index shows derivative use of tokenized assets.",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/news/markets/2026-10-13-drw-marex-first-otc-swap-tokenized-sp-iboxx-index-canton-network-418440",
-      "date": "2026-10-13",
-      "dateLabel": "13 Oct 2026"
-    },
-    {
-      "brief": "Federated Hermes plans first onchain fund shares with Prometheum",
-      "why": "Asset manager joining tokenization push to bring blockchain-based share classes to brokerage accounts.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
       "date": "2026-10-13",
       "dateLabel": "13 Oct 2026"
     }
