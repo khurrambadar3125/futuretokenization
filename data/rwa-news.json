@@ -1,70 +1,43 @@
 {
-  "generated": "2026-10-15T10:58:18.449Z",
-  "generatedLabel": "15 Oct 2026",
-  "count": 7,
+  "generated": "2026-10-16T10:51:25.515Z",
+  "generatedLabel": "16 Oct 2026",
+  "count": 4,
   "items": [
     {
-      "brief": "Standard Chartered moves $2 trillion stablecoin forecast from 2028 to 2030 as supply growth stalls",
-      "why": "Stablecoins are core settlement infrastructure for tokenized markets.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/web3/2026-10-14-standard-chartered-stablecoin-market-report-418578",
-      "date": "2026-10-14",
-      "dateLabel": "14 Oct 2026"
-    },
-    {
-      "brief": "BNY and Citadel Securities complete first tokenized Treasury repo on major triparty platform",
-      "why": "Signals tokenized assets entering mainstream triparty repo infrastructure.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-14-bny-citadel-securities-complete-treasury-repo-in-first-use-of-tokenized-assets-on-major-triparty-platform-418534",
-      "date": "2026-10-14",
-      "dateLabel": "14 Oct 2026"
-    },
-    {
-      "brief": "DriveWealth to use Ripple's RLUSD for stablecoin settlement and cross-border payments",
-      "why": "Stablecoin settlement adoption expands tokenized payment rails in Europe.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
-      "date": "2026-10-14",
-      "dateLabel": "14 Oct 2026"
-    },
-    {
-      "brief": "Polygon Labs completes Coinme acquisition, adding 37 state money transmitter licenses",
-      "why": "Expands regulated payment coverage for stablecoin payments infrastructure.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
-      "date": "2026-10-14",
-      "dateLabel": "14 Oct 2026"
-    },
-    {
-      "brief": "Proposed 31.4% French tax on regulated stablecoins could push traders offshore",
-      "why": "Tax burden on regulated stablecoins may hinder compliant tokenized settlement.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/14/proposed-french-tax-on-regulated-stablecoins-could-drive-crypto-traders-offshore",
-      "date": "2026-10-14",
-      "dateLabel": "14 Oct 2026"
-    },
-    {
-      "brief": "Most tokenized stock trading on Solana, BNB Chain happens outside US market hours",
-      "why": "Round-the-clock tokenized equity trading shows demand beyond Wall Street hours.",
+      "brief": "CONNECT recap: liquidity is tokenization’s next challenge, stablecoins",
+      "why": "Highlights liquidity as key hurdle for tokenized markets and stablecoin payments.",
       "category": "Tokenization",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-solana-bnb-chain?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-13",
-      "dateLabel": "13 Oct 2026"
+      "url": "https://cointelegraph.com/news/connect-recap-tokenizations-next-challenge-is-building-liquidity-gsr-executive-says?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-16",
+      "dateLabel": "16 Oct 2026"
     },
     {
-      "brief": "DRW and Marex complete OTC swap referencing tokenized S&P iBoxx Index",
-      "why": "First OTC swap on a fully tokenized index shows derivative use of tokenized assets.",
+      "brief": "Multiliquid raises $8 million for tokenized asset settlement platform",
+      "why": "Funding supports settlement infrastructure for tokenized assets.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693",
+      "date": "2026-10-15",
+      "dateLabel": "15 Oct 2026"
+    },
+    {
+      "brief": "Ripple Prime adds RWA swaps referencing Hyperliquid perpetual futures",
+      "why": "Expands tokenized RWA trading with 24/7 swaps tied to traditional assets.",
       "category": "RWA",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-10-13-drw-marex-first-otc-swap-tokenized-sp-iboxx-index-canton-network-418440",
-      "date": "2026-10-13",
-      "dateLabel": "13 Oct 2026"
+      "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681",
+      "date": "2026-10-15",
+      "dateLabel": "15 Oct 2026"
+    },
+    {
+      "brief": "EBA designates Circle’s USDC as EU’s first ‘significant’ e-money token",
+      "why": "Sets precedent for regulatory classification of tokenized e-money in EU.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
+      "date": "2026-10-15",
+      "dateLabel": "15 Oct 2026"
     }
   ],
   "feedsOk": [
