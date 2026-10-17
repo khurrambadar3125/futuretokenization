@@ -1,11 +1,47 @@
 {
-  "generated": "2026-10-16T10:51:25.515Z",
-  "generatedLabel": "16 Oct 2026",
-  "count": 4,
+  "generated": "2026-10-17T10:15:51.315Z",
+  "generatedLabel": "17 Oct 2026",
+  "count": 7,
   "items": [
     {
-      "brief": "CONNECT recap: liquidity is tokenization’s next challenge, stablecoins",
-      "why": "Highlights liquidity as key hurdle for tokenized markets and stablecoin payments.",
+      "brief": "Coinbase to power stablecoin-backed cards for Marqeta customers",
+      "why": "Stablecoin-backed card infrastructure expands payment use of digital assets.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833",
+      "date": "2026-10-16",
+      "dateLabel": "16 Oct 2026"
+    },
+    {
+      "brief": "Tokenized stocks draw trading activity beyond Wall Street hours",
+      "why": "Shows tokenized equities trading outside traditional market hours.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-crypto-biz?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-16",
+      "dateLabel": "16 Oct 2026"
+    },
+    {
+      "brief": "Circle details USDC revenue split; $819M to partners and costs in H1 2026",
+      "why": "Reveals stablecoin revenue economics shared with partners.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
+      "date": "2026-10-16",
+      "dateLabel": "16 Oct 2026"
+    },
+    {
+      "brief": "Visa Direct moves USDC prefunding into commercial production with Inyo Global",
+      "why": "Stablecoin settlement enters commercial payments production.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-16-visa-direct-moves-usdc-prefunding-into-commercial-production-with-inyo-global-418802",
+      "date": "2026-10-16",
+      "dateLabel": "16 Oct 2026"
+    },
+    {
+      "brief": "CONNECT recap: liquidity is tokenization's next challenge",
+      "why": "Highlights liquidity as the key hurdle for tokenized markets.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/connect-recap-tokenizations-next-challenge-is-building-liquidity-gsr-executive-says?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
@@ -13,7 +49,7 @@
       "dateLabel": "16 Oct 2026"
     },
     {
-      "brief": "Multiliquid raises $8 million for tokenized asset settlement platform",
+      "brief": "Multiliquid, a settlement platform for tokenized assets, raises $8 million",
       "why": "Funding supports settlement infrastructure for tokenized assets.",
       "category": "Tokenization",
       "source": "The Block",
@@ -22,17 +58,8 @@
       "dateLabel": "15 Oct 2026"
     },
     {
-      "brief": "Ripple Prime adds RWA swaps referencing Hyperliquid perpetual futures",
-      "why": "Expands tokenized RWA trading with 24/7 swaps tied to traditional assets.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681",
-      "date": "2026-10-15",
-      "dateLabel": "15 Oct 2026"
-    },
-    {
-      "brief": "EBA designates Circle’s USDC as EU’s first ‘significant’ e-money token",
-      "why": "Sets precedent for regulatory classification of tokenized e-money in EU.",
+      "brief": "EBA designates Circle's USDC as EU's first 'significant' e-money token",
+      "why": "Brings stablecoin under expanded EU supervisory oversight.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
