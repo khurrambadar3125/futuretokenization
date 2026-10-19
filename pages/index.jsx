@@ -2182,6 +2182,7 @@ const BODY_HTML = `<!-- NAV -->
       <p style="font-size:12px;color:var(--text-dim);">© 2026 FutureTokenization.com. All content is for educational purposes only. Not financial advice.</p>
       <p style="font-size:12px;color:var(--text-dim);">Data sourced from RWA.xyz, BIS, Chainlink, academic papers, and public institutional research.</p>
     </div>
+    <p class="powered-by" style="font-size:12px;color:var(--text-dim);margin-top:12px;" data-powered-by="khurrambadar.com">Powered by <a href="https://khurrambadar.com" target="_blank" rel="noopener" style="color:inherit;">khurrambadar.com</a></p>
   </div>
 </div>
 
