@@ -1,11 +1,20 @@
 {
-  "generated": "2026-10-19T12:21:05.081Z",
+  "generated": "2026-10-19T14:21:46.833Z",
   "generatedLabel": "19 Oct 2026",
-  "count": 6,
+  "count": 7,
   "items": [
     {
-      "brief": "Issuers object to OKX-ICE tokenized stock listing under SEC framework",
-      "why": "Issuer pushback shapes how tokenized equities can list and trade.",
+      "brief": "Nine public companies object to OKX-ICE tokenized stock plan",
+      "why": "Tests whether tokenized markets can launch without issuer consent.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/public-companies-object-okx-ice-tokenized-stock?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-19",
+      "dateLabel": "19 Oct 2026"
+    },
+    {
+      "brief": "SEC tokenized stock framework faces issuer pushback; Nasdaq to opt out",
+      "why": "Issuer objections shape how tokenized equity listings proceed under SEC framework.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing",
@@ -13,8 +22,8 @@
       "dateLabel": "18 Oct 2026"
     },
     {
-      "brief": "Stablecoin supply stalls but payments jump 45% as payment firms add crypto rails",
-      "why": "Rising stablecoin payment volume supports tokenized settlement use cases.",
+      "brief": "Stablecoin payments hit $482B this year, up 45%, as payment firms add crypto rails",
+      "why": "Shows payment firms linking crypto stablecoins to cash settlement rails.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
@@ -23,7 +32,7 @@
     },
     {
       "brief": "Circle defends USDC economics as rivals court partners with bigger cut",
-      "why": "Stablecoin partner economics affect who captures value in tokenized payments.",
+      "why": "Highlights competition over how stablecoin reserve income is shared with partners.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
@@ -32,7 +41,7 @@
     },
     {
       "brief": "Nine companies object to tokenized trading of their shares on OKXICE",
-      "why": "Corporate objections test issuer consent in tokenized equity markets.",
+      "why": "Shows corporate pushback on tokenized equities over price, liquidity and volatility concerns.",
       "category": "Tokenization",
       "source": "The Block",
       "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
@@ -41,7 +50,7 @@
     },
     {
       "brief": "Major banks see tokenization as growth play, not threat",
-      "why": "Large banks eyeing tokenization signals institutional adoption of the model.",
+      "why": "Signals Wall Street banks pursuing tokenization for trading and payments.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
@@ -50,7 +59,7 @@
     },
     {
       "brief": "Citrini sees tokenization boom; question is who profits",
-      "why": "Identifying which companies and protocols capture tokenization revenue matters for investors.",
+      "why": "Raises which companies and protocols capture tokenization revenue.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/17/citrini-sees-a-tokenization-boom-the-harder-question-is-who-profits",
