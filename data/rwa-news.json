@@ -1,11 +1,29 @@
 {
-  "generated": "2026-10-18T10:31:12.530Z",
-  "generatedLabel": "18 Oct 2026",
-  "count": 10,
+  "generated": "2026-10-19T12:21:05.081Z",
+  "generatedLabel": "19 Oct 2026",
+  "count": 6,
   "items": [
     {
-      "brief": "Circle defends USDC economics as rivals offer partners bigger cuts",
-      "why": "Shows competition over how stablecoin reserve income is shared with partners.",
+      "brief": "Issuers object to OKX-ICE tokenized stock listing under SEC framework",
+      "why": "Issuer pushback shapes how tokenized equities can list and trade.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing",
+      "date": "2026-10-18",
+      "dateLabel": "18 Oct 2026"
+    },
+    {
+      "brief": "Stablecoin supply stalls but payments jump 45% as payment firms add crypto rails",
+      "why": "Rising stablecoin payment volume supports tokenized settlement use cases.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+      "date": "2026-10-18",
+      "dateLabel": "18 Oct 2026"
+    },
+    {
+      "brief": "Circle defends USDC economics as rivals court partners with bigger cut",
+      "why": "Stablecoin partner economics affect who captures value in tokenized payments.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
@@ -13,8 +31,8 @@
       "dateLabel": "18 Oct 2026"
     },
     {
-      "brief": "Nine companies object to tokenized trading of their shares on OKX",
-      "why": "Issuer consent questions arise for tokenized equity markets.",
+      "brief": "Nine companies object to tokenized trading of their shares on OKXICE",
+      "why": "Corporate objections test issuer consent in tokenized equity markets.",
       "category": "Tokenization",
       "source": "The Block",
       "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
@@ -23,7 +41,7 @@
     },
     {
       "brief": "Major banks see tokenization as growth play, not threat",
-      "why": "Bank adoption signals institutional appetite for tokenized markets.",
+      "why": "Large banks eyeing tokenization signals institutional adoption of the model.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
@@ -32,66 +50,12 @@
     },
     {
       "brief": "Citrini sees tokenization boom; question is who profits",
-      "why": "Investors face picking which networks and protocols capture tokenization revenue.",
+      "why": "Identifying which companies and protocols capture tokenization revenue matters for investors.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/17/citrini-sees-a-tokenization-boom-the-harder-question-is-who-profits",
       "date": "2026-10-17",
       "dateLabel": "17 Oct 2026"
-    },
-    {
-      "brief": "BIS paper: higher bank deposit rates could slow stablecoin growth",
-      "why": "Rate sensitivity informs stablecoin demand models in tokenized finance.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
-      "date": "2026-10-17",
-      "dateLabel": "17 Oct 2026"
-    },
-    {
-      "brief": "Coinbase to power stablecoin-backed cards for Marqeta customers",
-      "why": "Expands stablecoin use in payments infrastructure.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833",
-      "date": "2026-10-16",
-      "dateLabel": "16 Oct 2026"
-    },
-    {
-      "brief": "Wall Street closes at 4; tokenized stocks keep trading",
-      "why": "Round-the-clock tokenized equity trading extends beyond market hours.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-crypto-biz?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-16",
-      "dateLabel": "16 Oct 2026"
-    },
-    {
-      "brief": "Circle details USDC revenue split; $819M to partners in H1 2026",
-      "why": "Revenue-sharing economics underpin stablecoin partner models.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
-      "date": "2026-10-16",
-      "dateLabel": "16 Oct 2026"
-    },
-    {
-      "brief": "Visa Direct moves USDC prefunding into commercial production",
-      "why": "Stablecoin settlement enters commercial payments infrastructure.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-16-visa-direct-moves-usdc-prefunding-into-commercial-production-with-inyo-global-418802",
-      "date": "2026-10-16",
-      "dateLabel": "16 Oct 2026"
-    },
-    {
-      "brief": "CONNECT recap: liquidity is tokenization's next challenge",
-      "why": "Liquidity constraints shape tokenized market development.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/connect-recap-tokenizations-next-challenge-is-building-liquidity-gsr-executive-says?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-16",
-      "dateLabel": "16 Oct 2026"
     }
   ],
   "feedsOk": [
