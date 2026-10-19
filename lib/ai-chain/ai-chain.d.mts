@@ -52,7 +52,7 @@ export interface ChainOptions {
   onSpend?: (r: SpendRecord) => void | Promise<void>; onFailover?: (e: FailoverEvent) => void | Promise<void>; onAttempt?: (e: AttemptView & { task: string }) => void | Promise<void>;
   log?: (msg: string) => void; now?: () => number;
 }
-interface CommonCall { task: string; maxTokens?: number; temperature?: number; json?: boolean; deep?: boolean; latency?: "chat" | "complete" | "batch" | "deep" | string; budget?: Partial<Budget> }
+interface CommonCall { task: string; signal?: AbortSignal; maxTokens?: number; temperature?: number; json?: boolean; deep?: boolean; latency?: "chat" | "complete" | "batch" | "deep" | string; budget?: Partial<Budget> }
 export interface CompleteInput extends CommonCall { system: SystemBlock | SystemBlock[]; context?: SystemBlock | SystemBlock[]; user?: string; messages?: ChatMessage[] }
 export interface StreamChatInput extends CommonCall {
   system: SystemBlock | SystemBlock[]; messages: ChatMessage[]; onText: (t: string) => void;
