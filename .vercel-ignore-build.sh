@@ -15,11 +15,8 @@
 case "$VERCEL_PROJECT_PRODUCTION_URL" in
   *futuretokenization-f1ls*) echo "Skip: duplicate project futuretokenization-f1ls — builds off (his Vercel rules)"; exit 0 ;;
 esac
-# His estate rule (Vercel rules 2026-10-19): robot commits (the daily news refresh) commit but do not deploy;
-# they go live on his next push.
-case "$VERCEL_GIT_COMMIT_AUTHOR_LOGIN" in
-  *"[bot]"*|actions|github-actions) echo "Skip: not a push by Khurram"; exit 0 ;;
-esac
+# His ruling 2026-10-19 (exception to the estate bot rule): the REAL project builds the daily robot news pushes,
+# so the news goes live by itself. Only the duplicate above skips.
 
 BASE="${VERCEL_GIT_PREVIOUS_SHA:-HEAD~1}"
 CHANGED=$(git diff --name-only "$BASE" HEAD 2>/dev/null)
