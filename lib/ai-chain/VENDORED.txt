@@ -1,1 +1,1 @@
-// vendored from ~/projects/mac-scripts/ai-chain @ 9af57b0 on 2026-10-19 — edit the source, then re-run vendor.sh
+// vendored from ~/projects/mac-scripts/ai-chain @ bd591bf on 2026-10-19 — edit the source, then re-run vendor.sh
