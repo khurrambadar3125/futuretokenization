@@ -1,10 +1,37 @@
 {
-  "generated": "2026-10-19T14:21:46.833Z",
-  "generatedLabel": "19 Oct 2026",
-  "count": 7,
+  "generated": "2026-10-20T11:01:23.389Z",
+  "generatedLabel": "20 Oct 2026",
+  "count": 6,
   "items": [
     {
-      "brief": "Nine public companies object to OKX-ICE tokenized stock plan",
+      "brief": "Blockchain Association seeks clearer DeFi, foreign issuer rules in Treasury GENIUS Act rollout",
+      "why": "Rules on who may issue and sell payment stablecoins shape tokenized payment rails.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-20-blockchain-association-clearer-rules-genius-act-421092",
+      "date": "2026-10-20",
+      "dateLabel": "20 Oct 2026"
+    },
+    {
+      "brief": "Tether says senator's investigation misses positive work behind lower Iran volumes",
+      "why": "Stablecoin issuer scrutiny bears on compliance expectations for tokenized payment assets.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes",
+      "date": "2026-10-19",
+      "dateLabel": "19 Oct 2026"
+    },
+    {
+      "brief": "Mastercard unveils Stablecoin Security tool to screen payments for fraud and sanctions",
+      "why": "Risk screening infrastructure supports compliant stablecoin payment tokenization.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-19-mastercard-unveils-stablecoin-security-tool-to-screen-payments-for-fraud-and-sanctions-risks-420658",
+      "date": "2026-10-19",
+      "dateLabel": "19 Oct 2026"
+    },
+    {
+      "brief": "Public companies object to OKX-ICE plan to offer their shares in tokenized form",
       "why": "Tests whether tokenized markets can launch without issuer consent.",
       "category": "Tokenization",
       "source": "Cointelegraph",
@@ -13,8 +40,8 @@
       "dateLabel": "19 Oct 2026"
     },
     {
-      "brief": "SEC tokenized stock framework faces issuer pushback; Nasdaq to opt out",
-      "why": "Issuer objections shape how tokenized equity listings proceed under SEC framework.",
+      "brief": "SEC tokenized stock framework faces issuer pushback; Broadcom, Verizon object to OKX-ICE",
+      "why": "Issuer objections and Nasdaq opting out test the SEC framework for tokenized equities.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing",
@@ -22,49 +49,13 @@
       "dateLabel": "18 Oct 2026"
     },
     {
-      "brief": "Stablecoin payments hit $482B this year, up 45%, as payment firms add crypto rails",
-      "why": "Shows payment firms linking crypto stablecoins to cash settlement rails.",
+      "brief": "Stablecoin supply stalls but payments jump 45% as Visa, Mastercard, Stripe add crypto rails",
+      "why": "Card and payment firms adding crypto rails shows stablecoin payment tokenization traction.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
       "date": "2026-10-18",
       "dateLabel": "18 Oct 2026"
-    },
-    {
-      "brief": "Circle defends USDC economics as rivals court partners with bigger cut",
-      "why": "Highlights competition over how stablecoin reserve income is shared with partners.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
-      "date": "2026-10-18",
-      "dateLabel": "18 Oct 2026"
-    },
-    {
-      "brief": "Nine companies object to tokenized trading of their shares on OKXICE",
-      "why": "Shows corporate pushback on tokenized equities over price, liquidity and volatility concerns.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
-      "date": "2026-10-17",
-      "dateLabel": "17 Oct 2026"
-    },
-    {
-      "brief": "Major banks see tokenization as growth play, not threat",
-      "why": "Signals Wall Street banks pursuing tokenization for trading and payments.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
-      "date": "2026-10-17",
-      "dateLabel": "17 Oct 2026"
-    },
-    {
-      "brief": "Citrini sees tokenization boom; question is who profits",
-      "why": "Raises which companies and protocols capture tokenization revenue.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/17/citrini-sees-a-tokenization-boom-the-harder-question-is-who-profits",
-      "date": "2026-10-17",
-      "dateLabel": "17 Oct 2026"
     }
   ],
   "feedsOk": [
