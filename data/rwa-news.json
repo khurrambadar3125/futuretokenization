@@ -1,61 +1,97 @@
 {
-  "generated": "2026-10-20T11:01:23.389Z",
-  "generatedLabel": "20 Oct 2026",
-  "count": 6,
+  "generated": "2026-10-21T11:18:16.083Z",
+  "generatedLabel": "21 Oct 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Blockchain Association seeks clearer DeFi, foreign issuer rules in Treasury GENIUS Act rollout",
-      "why": "Rules on who may issue and sell payment stablecoins shape tokenized payment rails.",
+      "brief": "OCC publishes final GENIUS Act stablecoin rule, effective Jan. 18",
+      "why": "First final stablecoin rule under the GENIUS Act, dropping a proposed presumption on third-party rewards.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
+      "date": "2026-10-21",
+      "dateLabel": "21 Oct 2026"
+    },
+    {
+      "brief": "OCC final rule to weigh stablecoin rewards against GENIUS Act ban",
+      "why": "Clarifies how stablecoin reward programs fit under the new federal framework.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/21/occ-s-final-rule-to-start-fresh-in-weighing-stablecoin-rewards-against-genius-act-ban",
+      "date": "2026-10-21",
+      "dateLabel": "21 Oct 2026"
+    },
+    {
+      "brief": "MoonPay, Upbit parent Dunamu explore stablecoin payments collaboration",
+      "why": "Signals stablecoin payment and chain expansion efforts in Asian markets.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476",
+      "date": "2026-10-21",
+      "dateLabel": "21 Oct 2026"
+    },
+    {
+      "brief": "OKX-ICE co-chair Andrew Cuomo calls corporate objections a 'natural response' to tokenized stock plans",
+      "why": "Signals pushback from companies on tokenized equities via the OKX-ICE venture.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/20/okx-ice-s-andrew-cuomo-calls-issuer-objections-a-natural-response-to-tokenized-stock-plans",
+      "date": "2026-10-20",
+      "dateLabel": "20 Oct 2026"
+    },
+    {
+      "brief": "Alphabet, Microsoft object to OKX-ICE proposed tokenized stock platform",
+      "why": "Companies are seeking to opt out of a tokenized stock platform tied to US-listed equities.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/alphabet-microsoft-goldman-object-okx-ice-tokenized-stock?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-20",
+      "dateLabel": "20 Oct 2026"
+    },
+    {
+      "brief": "Injective partners with BDACS to bring Korean won stablecoin to RWA ecosystem",
+      "why": "Adds a fiat stablecoin to tokenized real-world asset settlement.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-10-20-injective-partners-bdacs-418883",
+      "date": "2026-10-20",
+      "dateLabel": "20 Oct 2026"
+    },
+    {
+      "brief": "Stablecoins move over $400M per hour as off-hours transfers dominate",
+      "why": "Shows stablecoin rails carrying growing tokenized transfer volume.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/web3/2026-10-20-stablecoins-move-400-million-per-hour-421111",
+      "date": "2026-10-20",
+      "dateLabel": "20 Oct 2026"
+    },
+    {
+      "brief": "Microsoft, Alphabet, Goldman Sachs object to OKX-ICE tokenized stock trading plan",
+      "why": "Adds to issuer objections that could shape which stocks appear on tokenized stock venues.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading",
+      "date": "2026-10-20",
+      "dateLabel": "20 Oct 2026"
+    },
+    {
+      "brief": "France's parliament approves 31% capital gains tax on stablecoin trades",
+      "why": "Tax treatment shapes stablecoin use as settlement for tokenized assets.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/20/france-s-parliament-approves-vote-to-hit-crypto-to-stablecoin-trades-with-31-levy",
+      "date": "2026-10-20",
+      "dateLabel": "20 Oct 2026"
+    },
+    {
+      "brief": "Blockchain Association seeks clearer DeFi, foreign issuer rules in GENIUS rollout",
+      "why": "Comments target who may issue and sell tokenized payment stablecoins.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-10-20-blockchain-association-clearer-rules-genius-act-421092",
       "date": "2026-10-20",
       "dateLabel": "20 Oct 2026"
-    },
-    {
-      "brief": "Tether says senator's investigation misses positive work behind lower Iran volumes",
-      "why": "Stablecoin issuer scrutiny bears on compliance expectations for tokenized payment assets.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes",
-      "date": "2026-10-19",
-      "dateLabel": "19 Oct 2026"
-    },
-    {
-      "brief": "Mastercard unveils Stablecoin Security tool to screen payments for fraud and sanctions",
-      "why": "Risk screening infrastructure supports compliant stablecoin payment tokenization.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-19-mastercard-unveils-stablecoin-security-tool-to-screen-payments-for-fraud-and-sanctions-risks-420658",
-      "date": "2026-10-19",
-      "dateLabel": "19 Oct 2026"
-    },
-    {
-      "brief": "Public companies object to OKX-ICE plan to offer their shares in tokenized form",
-      "why": "Tests whether tokenized markets can launch without issuer consent.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/public-companies-object-okx-ice-tokenized-stock?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-19",
-      "dateLabel": "19 Oct 2026"
-    },
-    {
-      "brief": "SEC tokenized stock framework faces issuer pushback; Broadcom, Verizon object to OKX-ICE",
-      "why": "Issuer objections and Nasdaq opting out test the SEC framework for tokenized equities.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing",
-      "date": "2026-10-18",
-      "dateLabel": "18 Oct 2026"
-    },
-    {
-      "brief": "Stablecoin supply stalls but payments jump 45% as Visa, Mastercard, Stripe add crypto rails",
-      "why": "Card and payment firms adding crypto rails shows stablecoin payment tokenization traction.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
-      "date": "2026-10-18",
-      "dateLabel": "18 Oct 2026"
     }
   ],
   "feedsOk": [
