@@ -1,97 +1,43 @@
 {
-  "generated": "2026-10-21T11:18:16.083Z",
-  "generatedLabel": "21 Oct 2026",
-  "count": 10,
+  "generated": "2026-10-22T11:17:20.854Z",
+  "generatedLabel": "22 Oct 2026",
+  "count": 4,
   "items": [
     {
-      "brief": "OCC publishes final GENIUS Act stablecoin rule, effective Jan. 18",
-      "why": "First final stablecoin rule under the GENIUS Act, dropping a proposed presumption on third-party rewards.",
+      "brief": "South Korea crypto bill nears completion as tax debate intensifies",
+      "why": "Bill would set framework for digital assets, including exchange licensing and stablecoin issuance rules.",
       "category": "Stablecoin",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
+      "url": "https://www.theblock.co/news/regulation/2026-10-22-south-koreas-crypto-bill-nears-completion-421880",
+      "date": "2026-10-22",
+      "dateLabel": "22 Oct 2026"
+    },
+    {
+      "brief": "Commentary: real-world assets need fixed-rate loans onchain",
+      "why": "Notes RWA borrowing onchain runs through variable-rate pools; fixed-rate lending cited as missing piece.",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/10/21/crypto-long-and-short-why-real-world-assets-need-fixed-rate-loans-onchain",
       "date": "2026-10-21",
       "dateLabel": "21 Oct 2026"
     },
     {
-      "brief": "OCC final rule to weigh stablecoin rewards against GENIUS Act ban",
-      "why": "Clarifies how stablecoin reward programs fit under the new federal framework.",
+      "brief": "Shinhan-SBI pact may let Japanese visitors pay with yen stablecoins in South Korea",
+      "why": "Explores stablecoin merchant payments and wallet transfers, relevant to tokenized cross-border payments.",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/21/occ-s-final-rule-to-start-fresh-in-weighing-stablecoin-rewards-against-genius-act-ban",
+      "url": "https://www.coindesk.com/business/2026/10/21/japanese-visitors-may-be-able-to-pay-with-yen-stablecoins-in-south-korea-under-shinhan-sbi-pact",
       "date": "2026-10-21",
       "dateLabel": "21 Oct 2026"
     },
     {
-      "brief": "MoonPay, Upbit parent Dunamu explore stablecoin payments collaboration",
-      "why": "Signals stablecoin payment and chain expansion efforts in Asian markets.",
+      "brief": "MoonPay, Dunamu explore stablecoin payments and GIWA expansion",
+      "why": "Stablecoin payments and Layer 2 expansion relate to tokenized payment infrastructure.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476",
       "date": "2026-10-21",
       "dateLabel": "21 Oct 2026"
-    },
-    {
-      "brief": "OKX-ICE co-chair Andrew Cuomo calls corporate objections a 'natural response' to tokenized stock plans",
-      "why": "Signals pushback from companies on tokenized equities via the OKX-ICE venture.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/20/okx-ice-s-andrew-cuomo-calls-issuer-objections-a-natural-response-to-tokenized-stock-plans",
-      "date": "2026-10-20",
-      "dateLabel": "20 Oct 2026"
-    },
-    {
-      "brief": "Alphabet, Microsoft object to OKX-ICE proposed tokenized stock platform",
-      "why": "Companies are seeking to opt out of a tokenized stock platform tied to US-listed equities.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/alphabet-microsoft-goldman-object-okx-ice-tokenized-stock?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-20",
-      "dateLabel": "20 Oct 2026"
-    },
-    {
-      "brief": "Injective partners with BDACS to bring Korean won stablecoin to RWA ecosystem",
-      "why": "Adds a fiat stablecoin to tokenized real-world asset settlement.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-10-20-injective-partners-bdacs-418883",
-      "date": "2026-10-20",
-      "dateLabel": "20 Oct 2026"
-    },
-    {
-      "brief": "Stablecoins move over $400M per hour as off-hours transfers dominate",
-      "why": "Shows stablecoin rails carrying growing tokenized transfer volume.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/web3/2026-10-20-stablecoins-move-400-million-per-hour-421111",
-      "date": "2026-10-20",
-      "dateLabel": "20 Oct 2026"
-    },
-    {
-      "brief": "Microsoft, Alphabet, Goldman Sachs object to OKX-ICE tokenized stock trading plan",
-      "why": "Adds to issuer objections that could shape which stocks appear on tokenized stock venues.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading",
-      "date": "2026-10-20",
-      "dateLabel": "20 Oct 2026"
-    },
-    {
-      "brief": "France's parliament approves 31% capital gains tax on stablecoin trades",
-      "why": "Tax treatment shapes stablecoin use as settlement for tokenized assets.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/20/france-s-parliament-approves-vote-to-hit-crypto-to-stablecoin-trades-with-31-levy",
-      "date": "2026-10-20",
-      "dateLabel": "20 Oct 2026"
-    },
-    {
-      "brief": "Blockchain Association seeks clearer DeFi, foreign issuer rules in GENIUS rollout",
-      "why": "Comments target who may issue and sell tokenized payment stablecoins.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-10-20-blockchain-association-clearer-rules-genius-act-421092",
-      "date": "2026-10-20",
-      "dateLabel": "20 Oct 2026"
     }
   ],
   "feedsOk": [
