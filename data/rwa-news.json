@@ -1,11 +1,47 @@
 {
-  "generated": "2026-10-23T11:08:29.000Z",
-  "generatedLabel": "23 Oct 2026",
-  "count": 8,
+  "generated": "2026-10-24T10:25:24.601Z",
+  "generatedLabel": "24 Oct 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Cardano holders asked to bet $5 million on tokenized copper hitting new record",
-      "why": "Shows a treasury-funded proposal to buy tokenized copper, tying tokenization to commodity returns.",
+      "brief": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: report",
+      "why": "Objections to a proposed SEC-exemption tokenized stock platform show regulatory friction for tokenized equities.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-23",
+      "dateLabel": "23 Oct 2026"
+    },
+    {
+      "brief": "SEC flags tokenization as high-risk area in 2027 market examinations",
+      "why": "Regulator naming tokenization an emerging risk signals heightened scrutiny for tokenized products.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-23",
+      "dateLabel": "23 Oct 2026"
+    },
+    {
+      "brief": "Singapore, Malaysia, Thailand central banks expand cross-border stablecoin initiative",
+      "why": "More central banks joining cross-border stablecoin and tokenized deposit settlement expands tokenization use.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
+      "date": "2026-10-23",
+      "dateLabel": "23 Oct 2026"
+    },
+    {
+      "brief": "Malaysia, Thailand join Singapore cross-border stablecoin push",
+      "why": "BLOOM aims to cut costs by coordinating cross-border stablecoin and tokenized deposit use among institutions.",
+      "category": "Stablecoin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/malaysia-thailand-join-singapores-cross-border-stablecoin-push?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-23",
+      "dateLabel": "23 Oct 2026"
+    },
+    {
+      "brief": "Cardano holders asked to bet $5M on tokenized copper hitting a record",
+      "why": "Shows a treasury-funded proposal to buy tokenized metal, a real-world asset tokenization use case.",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/10/23/cardano-holders-are-being-asked-to-bet-usd5-million-on-copper-hitting-a-new-record",
@@ -13,8 +49,8 @@
       "dateLabel": "23 Oct 2026"
     },
     {
-      "brief": "HSBC rolls out its HKD stablecoin RedCoin to retail users",
-      "why": "Retail stablecoin wallet enables peer-to-peer and peer-to-merchant payments.",
+      "brief": "HSBC rolls out its first HKD stablecoin RedCoin to retail users",
+      "why": "Retail in-app stablecoin payments show tokenized money entering everyday consumer transactions.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018",
@@ -23,7 +59,7 @@
     },
     {
       "brief": "Chainlink partners with LG CNS to drive Korean won stablecoin expansion",
-      "why": "Infrastructure integration supports won stablecoin growth on a digital asset platform.",
+      "why": "Integrating cross-chain infrastructure into LG CNS's digital asset platform supports won stablecoin growth.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-10-22-chainlink-partners-with-lg-cns-423993",
@@ -32,7 +68,7 @@
     },
     {
       "brief": "Securitize shares slide 38% since it put Apple and Nvidia stock on Solana",
-      "why": "Weak performance clouds tokenized equity issuance and its trading transparency.",
+      "why": "Weak share performance after tokenized equity launch highlights market reception risk for tokenized stocks.",
       "category": "Tokenization",
       "source": "DL News",
       "url": "https://www.dlnews.com/articles/markets/securitize-shares-fall-38percent-since-solana-stock-token-launch-or-dl-news/",
@@ -41,7 +77,7 @@
     },
     {
       "brief": "SoFi launches retail tokenized deposits paying 4.4%",
-      "why": "Retail tokenized deposits with FDIC coverage and a linked bank stablecoin for on-chain use.",
+      "why": "An FDIC-covered tokenized deposit convertible to a bank stablecoin shows bank-issued tokenized money.",
       "category": "DigitalBank",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/sofi-launches-retail-tokenized-deposits-paying-4-4/",
@@ -50,28 +86,10 @@
     },
     {
       "brief": "Crypto for Advisors: Stablecoins are ready for prime time",
-      "why": "Advisor-focused framing signals stablecoins are being positioned as a mainstream asset.",
+      "why": "Advisor-focused coverage suggests stablecoins are gaining acceptance as a tokenized payment tool.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/coindesk-indices/2026/10/22/crypto-for-advisors-stablecoins-are-ready-for-prime-time",
-      "date": "2026-10-22",
-      "dateLabel": "22 Oct 2026"
-    },
-    {
-      "brief": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
-      "why": "Tokenized deposit with 4.4% APY and stablecoin conversion links banking to tokens.",
-      "category": "DigitalBank",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916",
-      "date": "2026-10-22",
-      "dateLabel": "22 Oct 2026"
-    },
-    {
-      "brief": "South Korea's crypto bill nears completion while tax debate intensifies",
-      "why": "Stablecoin issuance rules fall under a broader digital asset framework in progress.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-10-22-south-koreas-crypto-bill-nears-completion-421880",
       "date": "2026-10-22",
       "dateLabel": "22 Oct 2026"
     }
