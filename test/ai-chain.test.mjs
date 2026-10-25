@@ -15,7 +15,7 @@ const enc = new TextEncoder();
 const sse = (events) => new Response(new ReadableStream({ start(c) { for (const e of events) c.enqueue(enc.encode(`data: ${JSON.stringify(e)}\n\n`)); c.enqueue(enc.encode('data: [DONE]\n\n')); c.close(); } }), { status: 200 });
 function fakeProviders(script, seen) {
   return async (url, init) => {
-    const u = String(url); const body = JSON.parse(init.body); seen.push({ u, model: body.model, temperature: body.temperature });
+    const u = String(url); const body = JSON.parse(init.body); seen.push({ u, model: body.model, temperature: body.temperature, body });
     const p = u.includes('moonshot') ? 'moonshot' : u.includes('anthropic') ? 'anthropic' : 'deepseek';
     if (script[p] !== 'ok') return new Response('{"error":"down"}', { status: 503 });
     if (p === 'anthropic') return sse([{ type: 'message_start', message: { model: body.model, usage: { input_tokens: 10 } } }, { type: 'content_block_delta', delta: { type: 'text_delta', text: `from ${p}` } }, { type: 'message_delta', usage: { output_tokens: 2 } }]);
@@ -35,6 +35,9 @@ test('chain: DeepSeek (gateway, v4-pro tier) → Moonshot → Haiku, each only o
     assert.equal(seen[0].model, 'deepseek-v4-pro', "the Czar keeps today's pro tier");
     assert.equal(fo.length, n - 1, 'one failover event per switch');
     assert.ok(spend.length >= 1 && spend.every((s) => typeof s.usd === 'number'), 'every attempt is booked in the spend ledger');
+    if (want === 'anthropic') { // his ruling 2026-10-25: cheapest Haiku only; temperature 0 from the caller is never sent (400 on 5.x)
+      assert.equal(seen[2].model, 'claude-haiku-5-5'); assert.equal(seen[2].body.temperature, undefined); assert.deepEqual(seen[2].body.thinking, { type: 'disabled' });
+    }
   }
 });
 
