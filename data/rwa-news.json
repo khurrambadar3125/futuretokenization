@@ -1,20 +1,29 @@
 {
-  "generated": "2026-10-24T10:25:24.601Z",
-  "generatedLabel": "24 Oct 2026",
-  "count": 10,
+  "generated": "2026-10-25T10:52:46.068Z",
+  "generatedLabel": "25 Oct 2026",
+  "count": 7,
   "items": [
     {
-      "brief": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: report",
-      "why": "Objections to a proposed SEC-exemption tokenized stock platform show regulatory friction for tokenized equities.",
+      "brief": "McDonald's, Microsoft, Google object to tokenized stock listings; pushback may reflect issuer caution",
+      "why": "Issuer objections could shape how tokenized securities venues list company stocks.",
       "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-23",
-      "dateLabel": "23 Oct 2026"
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
+      "date": "2026-10-24",
+      "dateLabel": "24 Oct 2026"
+    },
+    {
+      "brief": "Wells Fargo, Cisco, Marvell among firms objecting to OKXICE tokenized stock plan",
+      "why": "More issuer objections could affect listings on tokenized securities venues.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+      "date": "2026-10-24",
+      "dateLabel": "24 Oct 2026"
     },
     {
       "brief": "SEC flags tokenization as high-risk area in 2027 market examinations",
-      "why": "Regulator naming tokenization an emerging risk signals heightened scrutiny for tokenized products.",
+      "why": "Regulatory scrutiny of tokenization could affect tokenized market oversight.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -23,7 +32,7 @@
     },
     {
       "brief": "Singapore, Malaysia, Thailand central banks expand cross-border stablecoin initiative",
-      "why": "More central banks joining cross-border stablecoin and tokenized deposit settlement expands tokenization use.",
+      "why": "Expanded stablecoin and tokenized deposit settlement involves Ripple, Visa and Mastercard.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
@@ -31,8 +40,17 @@
       "dateLabel": "23 Oct 2026"
     },
     {
-      "brief": "Malaysia, Thailand join Singapore cross-border stablecoin push",
-      "why": "BLOOM aims to cut costs by coordinating cross-border stablecoin and tokenized deposit use among institutions.",
+      "brief": "HSBC launches first stablecoin to over 3 million app users",
+      "why": "Stablecoins extending to millions of mainstream banking customers signals tokenization scale.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
+      "date": "2026-10-23",
+      "dateLabel": "23 Oct 2026"
+    },
+    {
+      "brief": "Malaysia, Thailand join Singapore's cross-border stablecoin push",
+      "why": "BLOOM aims to cut costs via stablecoins and tokenized deposits.",
       "category": "Stablecoin",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/malaysia-thailand-join-singapores-cross-border-stablecoin-push?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -40,58 +58,13 @@
       "dateLabel": "23 Oct 2026"
     },
     {
-      "brief": "Cardano holders asked to bet $5M on tokenized copper hitting a record",
-      "why": "Shows a treasury-funded proposal to buy tokenized metal, a real-world asset tokenization use case.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/23/cardano-holders-are-being-asked-to-bet-usd5-million-on-copper-hitting-a-new-record",
-      "date": "2026-10-23",
-      "dateLabel": "23 Oct 2026"
-    },
-    {
-      "brief": "HSBC rolls out its first HKD stablecoin RedCoin to retail users",
-      "why": "Retail in-app stablecoin payments show tokenized money entering everyday consumer transactions.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018",
-      "date": "2026-10-23",
-      "dateLabel": "23 Oct 2026"
-    },
-    {
       "brief": "Chainlink partners with LG CNS to drive Korean won stablecoin expansion",
-      "why": "Integrating cross-chain infrastructure into LG CNS's digital asset platform supports won stablecoin growth.",
+      "why": "Integration of cross-chain infrastructure supports won stablecoin platform.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-10-22-chainlink-partners-with-lg-cns-423993",
       "date": "2026-10-23",
       "dateLabel": "23 Oct 2026"
-    },
-    {
-      "brief": "Securitize shares slide 38% since it put Apple and Nvidia stock on Solana",
-      "why": "Weak share performance after tokenized equity launch highlights market reception risk for tokenized stocks.",
-      "category": "Tokenization",
-      "source": "DL News",
-      "url": "https://www.dlnews.com/articles/markets/securitize-shares-fall-38percent-since-solana-stock-token-launch-or-dl-news/",
-      "date": "2026-10-22",
-      "dateLabel": "22 Oct 2026"
-    },
-    {
-      "brief": "SoFi launches retail tokenized deposits paying 4.4%",
-      "why": "An FDIC-covered tokenized deposit convertible to a bank stablecoin shows bank-issued tokenized money.",
-      "category": "DigitalBank",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/sofi-launches-retail-tokenized-deposits-paying-4-4/",
-      "date": "2026-10-22",
-      "dateLabel": "22 Oct 2026"
-    },
-    {
-      "brief": "Crypto for Advisors: Stablecoins are ready for prime time",
-      "why": "Advisor-focused coverage suggests stablecoins are gaining acceptance as a tokenized payment tool.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/22/crypto-for-advisors-stablecoins-are-ready-for-prime-time",
-      "date": "2026-10-22",
-      "dateLabel": "22 Oct 2026"
     }
   ],
   "feedsOk": [
