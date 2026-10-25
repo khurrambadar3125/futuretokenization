@@ -1,1 +1,14 @@
-{"ignoreCommand": "bash .vercel-ignore-build.sh"}
+{
+  "ignoreCommand": "bash .vercel-ignore-build.sh",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai"
+        }
+      ]
+    }
+  ]
+}

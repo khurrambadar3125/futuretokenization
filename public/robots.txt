@@ -1,21 +1,18 @@
+# --- All crawlers blocked: AI bots, AI agents and search engines (owner ruling 2026-10-25). Managed by ~/projects/mac-scripts/robots: edit bots.json there, re-run apply.mjs ---
+# Link previews only (a shared link shows its card). They fetch the one page that was shared; they do not crawl.
+User-agent: facebookexternalhit
+User-agent: WhatsApp
+User-agent: LinkedInBot
+User-agent: Twitterbot
+User-agent: Slackbot
+User-agent: TelegramBot
+User-agent: Discordbot
+Allow: /
+
 User-agent: *
-Allow: /
-Disallow: /dashboard/
-Disallow: /admin/
-Disallow: /login
-Disallow: /onboard
-Disallow: /api/
+Disallow: /
 
-# Adjust per project — by default lock down auth + admin + dashboards.
-
-User-agent: Googlebot
-Allow: /
-User-agent: Bingbot
-Allow: /
-
-Sitemap: https://www.futuretokenization.com/sitemap.xml
-
-# --- AI crawlers: blocked (owner ruling 2026-10-18). Managed by ~/projects/mac-scripts/robots: edit bots.json there, re-run apply.mjs ---
+# Named explicitly as well, so no crawler can claim it was not addressed.
 User-agent: GPTBot
 User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
@@ -44,5 +41,48 @@ User-agent: Timpibot
 User-agent: ImagesiftBot
 User-agent: FacebookBot
 User-agent: Google-CloudVertexBot
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Googlebot-Video
+User-agent: GoogleOther
+User-agent: Google-InspectionTool
+User-agent: Storebot-Google
+User-agent: Gemini-Deep-Research
+User-agent: Google-NotebookLM
+User-agent: Bingbot
+User-agent: BingPreview
+User-agent: MicrosoftPreview
+User-agent: Applebot
+User-agent: DuckDuckBot
+User-agent: YandexBot
+User-agent: Baiduspider
+User-agent: Slurp
+User-agent: SeznamBot
+User-agent: Yeti
+User-agent: PetalBot
+User-agent: Sogou
+User-agent: ia_archiver
+User-agent: archive.org_bot
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: DataForSeoBot
+User-agent: BLEXBot
+User-agent: Barkrowler
+User-agent: img2dataset
+User-agent: omgili
+User-agent: Kangaroo Bot
+User-agent: Scrapy
+User-agent: ChatGPT Agent
+User-agent: OAI-Operator
+User-agent: Claude-Web
+User-agent: Grok
+User-agent: xAI-Bot
+User-agent: DeepSeekBot
+User-agent: Brightbot
+User-agent: Crawl4AI
+User-agent: FirecrawlAgent
 Disallow: /
 # --- end AI crawlers ---
