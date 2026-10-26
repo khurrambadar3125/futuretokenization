@@ -1,11 +1,29 @@
 {
-  "generated": "2026-10-25T10:52:46.068Z",
-  "generatedLabel": "25 Oct 2026",
-  "count": 7,
+  "generated": "2026-10-26T12:23:23.754Z",
+  "generatedLabel": "26 Oct 2026",
+  "count": 4,
   "items": [
     {
-      "brief": "McDonald's, Microsoft, Google object to tokenized stock listings; pushback may reflect issuer caution",
-      "why": "Issuer objections could shape how tokenized securities venues list company stocks.",
+      "brief": "Aviva Investors launches tokenized share class of $29B sterling fund on XRP Ledger",
+      "why": "Second Aviva fund with tokenized shares; part of effort to bring more tokenized funds to XRP Ledger.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-26",
+      "dateLabel": "26 Oct 2026"
+    },
+    {
+      "brief": "Securitize's tokenized stock value halves as Circle widens lead",
+      "why": "Shows shifting market share among tokenized equity issuers in a $3.3B tokenized equities market.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/securitizes-tokenized-stock-circle-lead?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-26",
+      "dateLabel": "26 Oct 2026"
+    },
+    {
+      "brief": "Why McDonald's, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker",
+      "why": "Issuer pushback on tokenized securities venue reflects caution, not rejection of tokenization.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
@@ -13,58 +31,13 @@
       "dateLabel": "24 Oct 2026"
     },
     {
-      "brief": "Wells Fargo, Cisco, Marvell among firms objecting to OKXICE tokenized stock plan",
-      "why": "More issuer objections could affect listings on tokenized securities venues.",
+      "brief": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan",
+      "why": "Growing issuer objections, now 22 firms, show hurdles for tokenized securities listings.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
       "date": "2026-10-24",
       "dateLabel": "24 Oct 2026"
-    },
-    {
-      "brief": "SEC flags tokenization as high-risk area in 2027 market examinations",
-      "why": "Regulatory scrutiny of tokenization could affect tokenized market oversight.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-23",
-      "dateLabel": "23 Oct 2026"
-    },
-    {
-      "brief": "Singapore, Malaysia, Thailand central banks expand cross-border stablecoin initiative",
-      "why": "Expanded stablecoin and tokenized deposit settlement involves Ripple, Visa and Mastercard.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
-      "date": "2026-10-23",
-      "dateLabel": "23 Oct 2026"
-    },
-    {
-      "brief": "HSBC launches first stablecoin to over 3 million app users",
-      "why": "Stablecoins extending to millions of mainstream banking customers signals tokenization scale.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
-      "date": "2026-10-23",
-      "dateLabel": "23 Oct 2026"
-    },
-    {
-      "brief": "Malaysia, Thailand join Singapore's cross-border stablecoin push",
-      "why": "BLOOM aims to cut costs via stablecoins and tokenized deposits.",
-      "category": "Stablecoin",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/malaysia-thailand-join-singapores-cross-border-stablecoin-push?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-23",
-      "dateLabel": "23 Oct 2026"
-    },
-    {
-      "brief": "Chainlink partners with LG CNS to drive Korean won stablecoin expansion",
-      "why": "Integration of cross-chain infrastructure supports won stablecoin platform.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-22-chainlink-partners-with-lg-cns-423993",
-      "date": "2026-10-23",
-      "dateLabel": "23 Oct 2026"
     }
   ],
   "feedsOk": [
