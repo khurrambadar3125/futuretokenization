@@ -1,11 +1,56 @@
 {
-  "generated": "2026-10-26T12:23:23.754Z",
-  "generatedLabel": "26 Oct 2026",
-  "count": 4,
+  "generated": "2026-10-27T11:42:37.926Z",
+  "generatedLabel": "27 Oct 2026",
+  "count": 8,
   "items": [
     {
-      "brief": "Aviva Investors launches tokenized share class of $29B sterling fund on XRP Ledger",
-      "why": "Second Aviva fund with tokenized shares; part of effort to bring more tokenized funds to XRP Ledger.",
+      "brief": "Japan's top yen stablecoin falls short of target in first year",
+      "why": "Shows adoption limits for yen stablecoins amid transaction caps.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/27/japan-s-top-yen-stablecoin-falls-short-of-its-target-in-a-disappointing-first-year",
+      "date": "2026-10-27",
+      "dateLabel": "27 Oct 2026"
+    },
+    {
+      "brief": "Circle faces up to 20% revenue risk from AI agents, Mizuho says",
+      "why": "Signals reserve-revenue risk for stablecoin issuers from AI-driven flows.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-27-mizuho-cuts-circle-price-target-431826",
+      "date": "2026-10-27",
+      "dateLabel": "27 Oct 2026"
+    },
+    {
+      "brief": "BlackRock, SBI, Startale to link tokenized MMFs with yen stablecoins",
+      "why": "Ties tokenized money market funds to yen stablecoin rails.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-26-blackrock-sbi-startale-mou-431642",
+      "date": "2026-10-27",
+      "dateLabel": "27 Oct 2026"
+    },
+    {
+      "brief": "OCC calls on community banks to enter stablecoin payments market",
+      "why": "Regulator push could widen stablecoin issuance among smaller banks.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+      "date": "2026-10-26",
+      "dateLabel": "26 Oct 2026"
+    },
+    {
+      "brief": "Canada opens consultation on draft stablecoin rules, keeps yield ban",
+      "why": "Draft rules set reserve and redemption standards for non-bank issuers.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
+      "date": "2026-10-26",
+      "dateLabel": "26 Oct 2026"
+    },
+    {
+      "brief": "Aviva launches tokenized share class of $29B sterling fund on XRP Ledger",
+      "why": "Adds another tokenized fund share class on XRP Ledger.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -13,31 +58,22 @@
       "dateLabel": "26 Oct 2026"
     },
     {
-      "brief": "Securitize's tokenized stock value halves as Circle widens lead",
-      "why": "Shows shifting market share among tokenized equity issuers in a $3.3B tokenized equities market.",
+      "brief": "Aviva Investors, Ripple launch tokenized share class of sterling fund on XRP Ledger",
+      "why": "Shows a large asset manager tokenizing a fund share class on a public blockchain.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712",
+      "date": "2026-10-26",
+      "dateLabel": "26 Oct 2026"
+    },
+    {
+      "brief": "Securitize tokenized stock value halves as Circle widens lead",
+      "why": "Shows shifting share of tokenized equities market among issuers.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/markets/securitizes-tokenized-stock-circle-lead?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-10-26",
       "dateLabel": "26 Oct 2026"
-    },
-    {
-      "brief": "Why McDonald's, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker",
-      "why": "Issuer pushback on tokenized securities venue reflects caution, not rejection of tokenization.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
-      "date": "2026-10-24",
-      "dateLabel": "24 Oct 2026"
-    },
-    {
-      "brief": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan",
-      "why": "Growing issuer objections, now 22 firms, show hurdles for tokenized securities listings.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
-      "date": "2026-10-24",
-      "dateLabel": "24 Oct 2026"
     }
   ],
   "feedsOk": [
