@@ -1,29 +1,74 @@
 {
-  "generated": "2026-10-28T12:15:17.159Z",
-  "generatedLabel": "28 Oct 2026",
+  "generated": "2026-10-29T12:25:19.610Z",
+  "generatedLabel": "29 Oct 2026",
   "count": 10,
   "items": [
     {
-      "brief": "XRP Ledger devs propose zero-XRP wallets for stablecoin payments",
-      "why": "Could lower onboarding friction for stablecoin accounts and AI agents without first buying XRP.",
+      "brief": "Former Swift CEO Lazaro Campos joins OpenTrade as chairman",
+      "why": "Stablecoin firm adds ex-Swift leadership; reports $300M assets locked and $1B+ annual volume.",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments",
-      "date": "2026-10-28",
-      "dateLabel": "28 Oct 2026"
+      "url": "https://www.coindesk.com/business/2026/10/29/former-swift-ceo-joins-stablecoin-firm-opentrade-as-chairman-after-a-usd17-million-raise",
+      "date": "2026-10-29",
+      "dateLabel": "29 Oct 2026"
     },
     {
-      "brief": "Nearly 90% of large businesses embracing tokenized cash: DBS",
-      "why": "Signals corporate demand for tokenized cash and stablecoins in payments.",
+      "brief": "Mystery WSJ ad sparks fight over tokenized stocks",
+      "why": "Highlights debate over tokenized stock trading and who is funding opposition",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/28/nearly-90-of-large-businesses-are-embracing-tokenized-cash-to-speed-up-payments-dbs",
+      "url": "https://www.coindesk.com/policy/2026/10/28/mystery-wall-street-journal-ad-sparks-new-fight-over-tokenized-stocks",
+      "date": "2026-10-29",
+      "dateLabel": "29 Oct 2026"
+    },
+    {
+      "brief": "Aviva adds tokenized share class to £22bn Sterling Liquidity Fund on XRP Ledger",
+      "why": "Tokenized share class on XRP Ledger backed by £50m commitment signals institutional fund tokenization.",
+      "category": "RWA",
+      "source": "DL News",
+      "url": "https://www.dlnews.com/articles/markets/aviva-tokenized-liquidity-fund-explained/",
       "date": "2026-10-28",
       "dateLabel": "28 Oct 2026"
     },
     {
-      "brief": "Moody's assigns investment-grade ratings to Ripple's RLUSD stablecoin",
-      "why": "Ratings could aid institutional adoption of tokenized stablecoin reserves.",
+      "brief": "Coinbase lists Ripple's RLUSD across retail, exchange and Prime platforms",
+      "why": "RLUSD live with 1:1 USD conversion on XRP Ledger, Ethereum and Base; broadens stablecoin access.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-28-coinbase-adds-ripple-rlusd-stablecoin-432009",
+      "date": "2026-10-28",
+      "dateLabel": "28 Oct 2026"
+    },
+    {
+      "brief": "DTCC unit launches tokenization services for securities",
+      "why": "Post-trade infrastructure provider frames services as practical path for tokenized securities adoption.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/dtcc-subsidiary-launches-tokenization-services?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-28",
+      "dateLabel": "28 Oct 2026"
+    },
+    {
+      "brief": "DTCC tokenization service live on Canton Network and Besu with 20 firms signed up",
+      "why": "Moves securities settlement infrastructure toward blockchain-based tokenization.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/28/wall-street-backbone-dtcc-brings-usd30-trillion-securities-closer-to-blockchain-with-major-banks",
+      "date": "2026-10-28",
+      "dateLabel": "28 Oct 2026"
+    },
+    {
+      "brief": "JPMorgan, Coca-Cola, Dell object to OKX-ICE tokenized stock trading plan",
+      "why": "Companies push back on their shares trading on a planned blockchain-based venue.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
+      "date": "2026-10-28",
+      "dateLabel": "28 Oct 2026"
+    },
+    {
+      "brief": "Moody's assigns A2/P-1 investment-grade ratings to Ripple's RLUSD",
+      "why": "Stablecoin ratings cite reserve credit quality, a signal for tokenized cash instruments.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
@@ -31,17 +76,8 @@
       "dateLabel": "28 Oct 2026"
     },
     {
-      "brief": "Securitize adds Stellar blockchain for institutional tokenization",
-      "why": "Expands blockchain rails available for institutional tokenized assets.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/28/securitize-adds-stellar-blockchain-as-institutional-tokenization-gathers-steam",
-      "date": "2026-10-28",
-      "dateLabel": "28 Oct 2026"
-    },
-    {
       "brief": "Robinhood's Tenev: US tokenization uncertainty deters serious assets",
-      "why": "Highlights regulatory clarity as a hurdle for tokenized equities in the US.",
+      "why": "CEO says tokenized equities need more than temporary SEC exemption to flourish in US.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/robinhoods-tenev-warns-us-tokenization-uncertainty-deters-serious-assets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -49,47 +85,11 @@
       "dateLabel": "28 Oct 2026"
     },
     {
-      "brief": "Intel, Oracle, IBM join objections to OKX-ICE tokenized stock plans",
-      "why": "Objections mount as venture tests SEC framework for blockchain stock trading.",
+      "brief": "Intel, IBM, Oracle, IonQ object to OKX-ICE tokenized stocks listing",
+      "why": "Over 40% of proposed companies opted out, showing issuer pushback on tokenized equities.",
       "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/27/intel-oracle-ibm-join-growing-list-of-firms-objecting-to-okx-ice-tokenized-stock-plans",
-      "date": "2026-10-27",
-      "dateLabel": "27 Oct 2026"
-    },
-    {
-      "brief": "Brazilian firms used stablecoins on election day amid currency crash",
-      "why": "Shows stablecoins as a hedge in currency stress, relevant to tokenization demand.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/27/brazilian-companies-turned-to-stablecoins-on-election-day-to-dodge-a-currency-crash",
-      "date": "2026-10-27",
-      "dateLabel": "27 Oct 2026"
-    },
-    {
-      "brief": "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar",
-      "why": "Adds another tokenized fund offering for non-US investors onchain.",
-      "category": "RWA",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/janus-henderson-centrifuge-launch-tokenized-nasdaq-100-fund-on-stellar?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-27",
-      "dateLabel": "27 Oct 2026"
-    },
-    {
-      "brief": "CF Benchmarks brings Wall Street pricing data onchain",
-      "why": "Benchmarks could underpin tokenized index funds and portfolios.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/27/cf-benchmarks-brings-wall-street-pricing-infrastructure-onchain-including-data-used-by-blackrock",
-      "date": "2026-10-27",
-      "dateLabel": "27 Oct 2026"
-    },
-    {
-      "brief": "Hong Kong launches regulated 24/7 trading of retail tokenized MMF",
-      "why": "First approved 24/7 retail tokenized money market fund trading.",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/hong-kong-launches-regulated-24-7-trading-of-retail-tokenized-money-market-funds/",
+      "url": "https://cointelegraph.com/news/intel-ibm-oracle-ionq-object-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-10-27",
       "dateLabel": "27 Oct 2026"
     }
