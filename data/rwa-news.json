@@ -1,29 +1,47 @@
 {
-  "generated": "2026-10-29T12:25:19.610Z",
-  "generatedLabel": "29 Oct 2026",
-  "count": 10,
+  "generated": "2026-10-30T12:16:13.613Z",
+  "generatedLabel": "30 Oct 2026",
+  "count": 9,
   "items": [
     {
-      "brief": "Former Swift CEO Lazaro Campos joins OpenTrade as chairman",
-      "why": "Stablecoin firm adds ex-Swift leadership; reports $300M assets locked and $1B+ annual volume.",
+      "brief": "WSJ full-page ad attacks SEC innovation exemption for tokenized securities venues",
+      "why": "Shows pushback against regulatory exemptions enabling tokenized securities trading",
+      "category": "Tokenization",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/who-is-behind-the-wsj-ad-attacking-tokenized-stock-venues/",
+      "date": "2026-10-29",
+      "dateLabel": "29 Oct 2026"
+    },
+    {
+      "brief": "Polygon and Solana team up to bring stablecoin payments to banks",
+      "why": "Links stablecoin activity with banking and payment infrastructure for tokenization",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/29/former-swift-ceo-joins-stablecoin-firm-opentrade-as-chairman-after-a-usd17-million-raise",
+      "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
       "date": "2026-10-29",
       "dateLabel": "29 Oct 2026"
     },
     {
-      "brief": "Mystery WSJ ad sparks fight over tokenized stocks",
-      "why": "Highlights debate over tokenized stock trading and who is funding opposition",
+      "brief": "Bank of England opens consultation on tokenized collateral for clearing",
+      "why": "Proposed guidance would require tokenized collateral to meet liquidity and risk tests",
       "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/28/mystery-wall-street-journal-ad-sparks-new-fight-over-tokenized-stocks",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bank-of-england-opens-consultation-on-tokenized-collateral-for-clearing?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-10-29",
       "dateLabel": "29 Oct 2026"
     },
     {
-      "brief": "Aviva adds tokenized share class to £22bn Sterling Liquidity Fund on XRP Ledger",
-      "why": "Tokenized share class on XRP Ledger backed by £50m commitment signals institutional fund tokenization.",
+      "brief": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner",
+      "why": "Addresses pricing gaps when traditional markets close for tokenized assets",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/28/chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
+      "date": "2026-10-29",
+      "dateLabel": "29 Oct 2026"
+    },
+    {
+      "brief": "Aviva adds tokenized share class to Sterling Liquidity Fund on XRP Ledger",
+      "why": "Tokenized fund share class backed by a £50 million commitment",
       "category": "RWA",
       "source": "DL News",
       "url": "https://www.dlnews.com/articles/markets/aviva-tokenized-liquidity-fund-explained/",
@@ -31,8 +49,8 @@
       "dateLabel": "28 Oct 2026"
     },
     {
-      "brief": "Coinbase lists Ripple's RLUSD across retail, exchange and Prime platforms",
-      "why": "RLUSD live with 1:1 USD conversion on XRP Ledger, Ethereum and Base; broadens stablecoin access.",
+      "brief": "Coinbase adds Ripple's RLUSD stablecoin across retail, exchange and Prime",
+      "why": "Stablecoin listing with 1:1 USD conversion on multiple networks",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-10-28-coinbase-adds-ripple-rlusd-stablecoin-432009",
@@ -40,8 +58,8 @@
       "dateLabel": "28 Oct 2026"
     },
     {
-      "brief": "DTCC unit launches tokenization services for securities",
-      "why": "Post-trade infrastructure provider frames services as practical path for tokenized securities adoption.",
+      "brief": "DTCC unit launches tokenization services",
+      "why": "Post-trade infrastructure aims to create a path for tokenized securities adoption",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/dtcc-subsidiary-launches-tokenization-services?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -49,26 +67,8 @@
       "dateLabel": "28 Oct 2026"
     },
     {
-      "brief": "DTCC tokenization service live on Canton Network and Besu with 20 firms signed up",
-      "why": "Moves securities settlement infrastructure toward blockchain-based tokenization.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/28/wall-street-backbone-dtcc-brings-usd30-trillion-securities-closer-to-blockchain-with-major-banks",
-      "date": "2026-10-28",
-      "dateLabel": "28 Oct 2026"
-    },
-    {
-      "brief": "JPMorgan, Coca-Cola, Dell object to OKX-ICE tokenized stock trading plan",
-      "why": "Companies push back on their shares trading on a planned blockchain-based venue.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
-      "date": "2026-10-28",
-      "dateLabel": "28 Oct 2026"
-    },
-    {
-      "brief": "Moody's assigns A2/P-1 investment-grade ratings to Ripple's RLUSD",
-      "why": "Stablecoin ratings cite reserve credit quality, a signal for tokenized cash instruments.",
+      "brief": "Moody's assigns investment-grade ratings to Ripple's RLUSD stablecoin",
+      "why": "Credit ratings citing reserve asset quality for a tokenized stablecoin",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
@@ -76,22 +76,13 @@
       "dateLabel": "28 Oct 2026"
     },
     {
-      "brief": "Robinhood's Tenev: US tokenization uncertainty deters serious assets",
-      "why": "CEO says tokenized equities need more than temporary SEC exemption to flourish in US.",
+      "brief": "Robinhood's Tenev warns tokenization uncertainty deters serious assets in US",
+      "why": "Says tokenized equities need more than a temporary SEC exemption",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/robinhoods-tenev-warns-us-tokenization-uncertainty-deters-serious-assets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-10-28",
       "dateLabel": "28 Oct 2026"
-    },
-    {
-      "brief": "Intel, IBM, Oracle, IonQ object to OKX-ICE tokenized stocks listing",
-      "why": "Over 40% of proposed companies opted out, showing issuer pushback on tokenized equities.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/intel-ibm-oracle-ionq-object-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-27",
-      "dateLabel": "27 Oct 2026"
     }
   ],
   "feedsOk": [
