@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-30T12:16:13.613Z",
-  "generatedLabel": "30 Oct 2026",
-  "count": 9,
+  "generated": "2026-10-31T11:47:51.821Z",
+  "generatedLabel": "31 Oct 2026",
+  "count": 4,
   "items": [
     {
-      "brief": "WSJ full-page ad attacks SEC innovation exemption for tokenized securities venues",
-      "why": "Shows pushback against regulatory exemptions enabling tokenized securities trading",
+      "brief": "WSJ full-page ad targets SEC exemption for tokenized securities venues",
+      "why": "Signals industry pushback on regulatory exemptions enabling tokenized stock trading.",
       "category": "Tokenization",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/who-is-behind-the-wsj-ad-attacking-tokenized-stock-venues/",
@@ -13,8 +13,8 @@
       "dateLabel": "29 Oct 2026"
     },
     {
-      "brief": "Polygon and Solana team up to bring stablecoin payments to banks",
-      "why": "Links stablecoin activity with banking and payment infrastructure for tokenization",
+      "brief": "Polygon and Solana partner to bring stablecoin payments to banks",
+      "why": "Shows interoperability between networks for stablecoin settlement in banking.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
@@ -22,67 +22,22 @@
       "dateLabel": "29 Oct 2026"
     },
     {
-      "brief": "Bank of England opens consultation on tokenized collateral for clearing",
-      "why": "Proposed guidance would require tokenized collateral to meet liquidity and risk tests",
+      "brief": "Canton Strategic Holdings plans tokenized stock trading from Nov. 2",
+      "why": "Adds regulated, round-the-clock tokenized equities under the SEC innovation exemption.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/canton-strategic-holdings-tokenized-stock-trading-november-2026?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-29",
+      "dateLabel": "29 Oct 2026"
+    },
+    {
+      "brief": "Bank of England consults on tokenized collateral for clearing",
+      "why": "Central counterparties would need to show tokenized collateral meets liquidity and risk tests.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bank-of-england-opens-consultation-on-tokenized-collateral-for-clearing?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-10-29",
       "dateLabel": "29 Oct 2026"
-    },
-    {
-      "brief": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner",
-      "why": "Addresses pricing gaps when traditional markets close for tokenized assets",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/10/28/chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
-      "date": "2026-10-29",
-      "dateLabel": "29 Oct 2026"
-    },
-    {
-      "brief": "Aviva adds tokenized share class to Sterling Liquidity Fund on XRP Ledger",
-      "why": "Tokenized fund share class backed by a £50 million commitment",
-      "category": "RWA",
-      "source": "DL News",
-      "url": "https://www.dlnews.com/articles/markets/aviva-tokenized-liquidity-fund-explained/",
-      "date": "2026-10-28",
-      "dateLabel": "28 Oct 2026"
-    },
-    {
-      "brief": "Coinbase adds Ripple's RLUSD stablecoin across retail, exchange and Prime",
-      "why": "Stablecoin listing with 1:1 USD conversion on multiple networks",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-10-28-coinbase-adds-ripple-rlusd-stablecoin-432009",
-      "date": "2026-10-28",
-      "dateLabel": "28 Oct 2026"
-    },
-    {
-      "brief": "DTCC unit launches tokenization services",
-      "why": "Post-trade infrastructure aims to create a path for tokenized securities adoption",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/dtcc-subsidiary-launches-tokenization-services?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-28",
-      "dateLabel": "28 Oct 2026"
-    },
-    {
-      "brief": "Moody's assigns investment-grade ratings to Ripple's RLUSD stablecoin",
-      "why": "Credit ratings citing reserve asset quality for a tokenized stablecoin",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
-      "date": "2026-10-28",
-      "dateLabel": "28 Oct 2026"
-    },
-    {
-      "brief": "Robinhood's Tenev warns tokenization uncertainty deters serious assets in US",
-      "why": "Says tokenized equities need more than a temporary SEC exemption",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/robinhoods-tenev-warns-us-tokenization-uncertainty-deters-serious-assets?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-28",
-      "dateLabel": "28 Oct 2026"
     }
   ],
   "feedsOk": [
