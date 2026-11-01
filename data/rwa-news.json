@@ -1,43 +1,16 @@
 {
-  "generated": "2026-10-31T11:47:51.821Z",
-  "generatedLabel": "31 Oct 2026",
-  "count": 4,
+  "generated": "2026-11-01T12:47:24.257Z",
+  "generatedLabel": "01 Nov 2026",
+  "count": 1,
   "items": [
     {
-      "brief": "WSJ full-page ad targets SEC exemption for tokenized securities venues",
-      "why": "Signals industry pushback on regulatory exemptions enabling tokenized stock trading.",
-      "category": "Tokenization",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/who-is-behind-the-wsj-ad-attacking-tokenized-stock-venues/",
-      "date": "2026-10-29",
-      "dateLabel": "29 Oct 2026"
-    },
-    {
-      "brief": "Polygon and Solana partner to bring stablecoin payments to banks",
-      "why": "Shows interoperability between networks for stablecoin settlement in banking.",
-      "category": "Stablecoin",
+      "brief": "Uber tests tokenization to keep idle cash invested via HSBC, Franklin Templeton",
+      "why": "Pilot shows tokenized money market funds can keep funds invested while remaining accessible for payments",
+      "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
-      "date": "2026-10-29",
-      "dateLabel": "29 Oct 2026"
-    },
-    {
-      "brief": "Canton Strategic Holdings plans tokenized stock trading from Nov. 2",
-      "why": "Adds regulated, round-the-clock tokenized equities under the SEC innovation exemption.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/canton-strategic-holdings-tokenized-stock-trading-november-2026?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-29",
-      "dateLabel": "29 Oct 2026"
-    },
-    {
-      "brief": "Bank of England consults on tokenized collateral for clearing",
-      "why": "Central counterparties would need to show tokenized collateral meets liquidity and risk tests.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bank-of-england-opens-consultation-on-tokenized-collateral-for-clearing?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-29",
-      "dateLabel": "29 Oct 2026"
+      "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
+      "date": "2026-10-31",
+      "dateLabel": "31 Oct 2026"
     }
   ],
   "feedsOk": [
