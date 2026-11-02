@@ -1,16 +1,16 @@
 {
-  "generated": "2026-11-01T12:47:24.257Z",
-  "generatedLabel": "01 Nov 2026",
+  "generated": "2026-11-02T14:55:56.840Z",
+  "generatedLabel": "02 Nov 2026",
   "count": 1,
   "items": [
     {
-      "brief": "Uber tests tokenization to keep idle cash invested via HSBC, Franklin Templeton",
-      "why": "Pilot shows tokenized money market funds can keep funds invested while remaining accessible for payments",
-      "category": "RWA",
+      "brief": "XRP Ledger to fix flaw letting stablecoin partners print new tokens",
+      "why": "Shows token issuance controls and security matter for stablecoins on public ledgers.",
+      "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
-      "date": "2026-10-31",
-      "dateLabel": "31 Oct 2026"
+      "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens",
+      "date": "2026-11-02",
+      "dateLabel": "02 Nov 2026"
     }
   ],
   "feedsOk": [
