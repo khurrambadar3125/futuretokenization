@@ -1,56 +1,65 @@
 {
-  "generated": "2026-11-03T13:44:58.637Z",
-  "generatedLabel": "03 Nov 2026",
-  "count": 6,
+  "generated": "2026-11-04T13:53:33.380Z",
+  "generatedLabel": "04 Nov 2026",
+  "count": 7,
   "items": [
     {
-      "brief": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
-      "why": "Discloses large BTC holdings outside USDT reserves, relevant to reserve transparency.",
-      "category": "Stablecoin",
+      "brief": "Schroders brings emerging market bond fund to Solana",
+      "why": "Shows major asset manager using tokenization to move an actively managed bond strategy onchain.",
+      "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/03/tether-holds-150-000-bitcoin-worth-usd11-5-billion-ceo-paolo-ardoino-says",
+      "url": "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
+      "date": "2026-11-04",
+      "dateLabel": "04 Nov 2026"
+    },
+    {
+      "brief": "Morgan Stanley tokenizes US equities, Treasurys through DTCC service",
+      "why": "Major bank converts traditional assets into tokenized form",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-11-04-morgan-stanley-among-first-banks-to-tokenize-us-equities-treasurys-through-dtccs-service-432633",
+      "date": "2026-11-04",
+      "dateLabel": "04 Nov 2026"
+    },
+    {
+      "brief": "Morgan Stanley says it is among first banks to tokenize real world assets",
+      "why": "Bank joins DTCC Tokenization Service launched Oct. 28",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/04/morgan-stanley-says-it-is-among-the-first-banks-to-put-u-s-stocks-and-treasuries-on-a-blockchain",
+      "date": "2026-11-04",
+      "dateLabel": "04 Nov 2026"
+    },
+    {
+      "brief": "What happens if North Korea steals Wall Street's tokenized assets next",
+      "why": "Examines recourse and market stress in tokenized securities after theft",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/03/what-happens-if-north-korea-steals-wall-street-s-tokenized-assets-next",
       "date": "2026-11-03",
       "dateLabel": "03 Nov 2026"
     },
     {
-      "brief": "DTCC's tokenization launch could accelerate adoption and boost Securitize, StoneX says",
-      "why": "Suggests DTCC's tokenization service validates tokenized securities models.",
+      "brief": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom",
+      "why": "Issuer objection challenges tokenized equity trading models",
       "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331",
-      "date": "2026-11-02",
-      "dateLabel": "02 Nov 2026"
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/spacex-tokenization-okxice?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-03",
+      "dateLabel": "03 Nov 2026"
     },
     {
-      "brief": "NYSE tokenized stock plans take shape as four more transfer agents join",
-      "why": "Transfer agents bringing shareholder records and voting onchain supports tokenized equities.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
-      "date": "2026-11-02",
-      "dateLabel": "02 Nov 2026"
-    },
-    {
-      "brief": "Nvidia, Costco and Nike join pushback against OKX-ICE tokenized stock plans",
-      "why": "Company opt-outs near the response deadline signal friction for tokenized stock listings.",
+      "brief": "Amazon, Tesla, SpaceX join OKX–ICE tokenized stock objections as deadline looms",
+      "why": "56 companies object, 80% of initial stock selection opting out",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
-      "date": "2026-11-02",
-      "dateLabel": "02 Nov 2026"
+      "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
+      "date": "2026-11-03",
+      "dateLabel": "03 Nov 2026"
     },
     {
-      "brief": "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients",
-      "why": "Bank tokenized deposits moving around the clock settle in central bank money.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/02/standard-chartered-debuts-tokenized-deposits-in-hong-kong-for-corporate-clients",
-      "date": "2026-11-02",
-      "dateLabel": "02 Nov 2026"
-    },
-    {
-      "brief": "Hong Kong's EnsembleTX pilot now supports 24/7 tokenized central bank money",
-      "why": "Adds 24/7 tokenized central bank money to interbank settlement for tokenized deposits.",
+      "brief": "Hong Kong's EnsembleTX pilot supports 24/7 tokenized central bank money",
+      "why": "Pilot adds tokenized central bank money for round-the-clock settlement",
       "category": "Tokenization",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/hong-kongs-ensembletx-pilot-now-supports-24-7-tokenized-central-bank-money/",
