@@ -1,20 +1,29 @@
 {
-  "generated": "2026-11-04T13:53:33.380Z",
-  "generatedLabel": "04 Nov 2026",
-  "count": 7,
+  "generated": "2026-11-05T14:07:25.680Z",
+  "generatedLabel": "05 Nov 2026",
+  "count": 4,
   "items": [
     {
-      "brief": "Schroders brings emerging market bond fund to Solana",
-      "why": "Shows major asset manager using tokenization to move an actively managed bond strategy onchain.",
-      "category": "RWA",
+      "brief": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
+      "why": "Suggests tokenization can continue under existing laws despite regulatory uncertainty.",
+      "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
+      "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
       "date": "2026-11-04",
       "dateLabel": "04 Nov 2026"
     },
     {
-      "brief": "Morgan Stanley tokenizes US equities, Treasurys through DTCC service",
-      "why": "Major bank converts traditional assets into tokenized form",
+      "brief": "Schroders launches tokenized emerging markets debt fund on Solana with Centrifuge",
+      "why": "Major asset manager expands onchain actively managed funds via tokenization.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-04-schroders-centrifuge-tokenized-emerging-markets-debt-fund-solana-432878",
+      "date": "2026-11-04",
+      "dateLabel": "04 Nov 2026"
+    },
+    {
+      "brief": "Morgan Stanley tokenizes US equities and Treasurys via DTCC service",
+      "why": "Major bank converts securities to tokenized form through DTCC's new service.",
       "category": "RWA",
       "source": "The Block",
       "url": "https://www.theblock.co/news/markets/2026-11-04-morgan-stanley-among-first-banks-to-tokenize-us-equities-treasurys-through-dtccs-service-432633",
@@ -22,49 +31,13 @@
       "dateLabel": "04 Nov 2026"
     },
     {
-      "brief": "Morgan Stanley says it is among first banks to tokenize real world assets",
-      "why": "Bank joins DTCC Tokenization Service launched Oct. 28",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/04/morgan-stanley-says-it-is-among-the-first-banks-to-put-u-s-stocks-and-treasuries-on-a-blockchain",
-      "date": "2026-11-04",
-      "dateLabel": "04 Nov 2026"
-    },
-    {
-      "brief": "What happens if North Korea steals Wall Street's tokenized assets next",
-      "why": "Examines recourse and market stress in tokenized securities after theft",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/03/what-happens-if-north-korea-steals-wall-street-s-tokenized-assets-next",
-      "date": "2026-11-03",
-      "dateLabel": "03 Nov 2026"
-    },
-    {
       "brief": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom",
-      "why": "Issuer objection challenges tokenized equity trading models",
+      "why": "Shows issuers objecting to tokenized trading of their shares on crypto platforms.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/spacex-tokenization-okxice?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-11-03",
       "dateLabel": "03 Nov 2026"
-    },
-    {
-      "brief": "Amazon, Tesla, SpaceX join OKX–ICE tokenized stock objections as deadline looms",
-      "why": "56 companies object, 80% of initial stock selection opting out",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
-      "date": "2026-11-03",
-      "dateLabel": "03 Nov 2026"
-    },
-    {
-      "brief": "Hong Kong's EnsembleTX pilot supports 24/7 tokenized central bank money",
-      "why": "Pilot adds tokenized central bank money for round-the-clock settlement",
-      "category": "Tokenization",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/hong-kongs-ensembletx-pilot-now-supports-24-7-tokenized-central-bank-money/",
-      "date": "2026-11-02",
-      "dateLabel": "02 Nov 2026"
     }
   ],
   "feedsOk": [
