@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-07T12:34:57.132Z",
-  "generatedLabel": "07 Nov 2026",
-  "count": 4,
+  "generated": "2026-11-08T12:52:12.664Z",
+  "generatedLabel": "08 Nov 2026",
+  "count": 2,
   "items": [
     {
-      "brief": "Apple and Meta reject OKX-ICE tokenized stock plans; crypto firms remain",
-      "why": "Shows major tech issuers opting out of tokenized equity plans, leaving crypto firms.",
+      "brief": "Apple, Meta reject OKX–ICE tokenized stock plans; crypto firms remain",
+      "why": "Tokenized stock offerings face rejection from major issuers, shaping who can issue tokenized equities.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
@@ -13,31 +13,13 @@
       "dateLabel": "06 Nov 2026"
     },
     {
-      "brief": "Crypto firms expand into stablecoins and payments but earnings show volatility",
-      "why": "Highlights earnings volatility for tokenization-adjacent crypto business models.",
+      "brief": "Crypto firms expand into stablecoins and payments, but earnings show boom-and-bust strain",
+      "why": "Stablecoin and payments growth tied to crypto cycles affects tokenized asset business models.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/11/05/the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
       "date": "2026-11-06",
       "dateLabel": "06 Nov 2026"
-    },
-    {
-      "brief": "Amundi tokenizes equity index fund share class on Ethereum",
-      "why": "Shows a large asset manager using blockchain for tokenized fund shares.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/amundi-tokenizes-european-equity-index-fund-ethereum?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-05",
-      "dateLabel": "05 Nov 2026"
-    },
-    {
-      "brief": "Amundi adds tokenized share class to €22.8bn European equity index fund",
-      "why": "First large European equity index fund with tokenized share class on Ethereum.",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/amundi-adds-tokenized-share-class-to-e22-8bn-european-equity-index-fund/",
-      "date": "2026-11-05",
-      "dateLabel": "05 Nov 2026"
     }
   ],
   "feedsOk": [
