@@ -1,25 +1,61 @@
 {
-  "generated": "2026-11-08T12:52:12.664Z",
-  "generatedLabel": "08 Nov 2026",
-  "count": 2,
+  "generated": "2026-11-09T15:24:57.970Z",
+  "generatedLabel": "09 Nov 2026",
+  "count": 6,
   "items": [
     {
-      "brief": "Apple, Meta reject OKX–ICE tokenized stock plans; crypto firms remain",
-      "why": "Tokenized stock offerings face rejection from major issuers, shaping who can issue tokenized equities.",
+      "brief": "NYSE picks Avalanche as settlement ledger for planned tokenized stock market",
+      "why": "Major exchange taps blockchain for tokenized equity settlement.",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
-      "date": "2026-11-06",
-      "dateLabel": "06 Nov 2026"
+      "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
     },
     {
-      "brief": "Crypto firms expand into stablecoins and payments, but earnings show boom-and-bust strain",
-      "why": "Stablecoin and payments growth tied to crypto cycles affects tokenized asset business models.",
+      "brief": "Solana set for first tokenized stock venue under SEC framework, listing Galaxy",
+      "why": "Expands U.S. regulator's experiment in blockchain-based stock trading.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
+    },
+    {
+      "brief": "Formation notifies SEC to run first tokenized securities venue on Solana",
+      "why": "Regulatory step toward tokenized stock trading venue.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
+    },
+    {
+      "brief": "EU seeks industry group to draft tokenized securities standards",
+      "why": "Standards work shapes tokenized securities holding and settlement rules.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/eu-nominations-tokenization-standards-group?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
+    },
+    {
+      "brief": "Raycash launches confidential stablecoin payments and private yield on Ethereum",
+      "why": "Adds privacy features to stablecoin payments and yield onchain.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
+    },
+    {
+      "brief": "Stablecoin supply growth stalls even as payment activity surges",
+      "why": "Shows divergence between token supply and onchain payment usage.",
       "category": "Stablecoin",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/05/the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
-      "date": "2026-11-06",
-      "dateLabel": "06 Nov 2026"
+      "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t",
+      "date": "2026-11-08",
+      "dateLabel": "08 Nov 2026"
     }
   ],
   "feedsOk": [
