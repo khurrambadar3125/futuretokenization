@@ -1,11 +1,83 @@
 {
-  "generated": "2026-11-09T15:24:57.970Z",
-  "generatedLabel": "09 Nov 2026",
-  "count": 6,
+  "generated": "2026-11-10T14:27:40.014Z",
+  "generatedLabel": "10 Nov 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "NYSE picks Avalanche as settlement ledger for planned tokenized stock market",
-      "why": "Major exchange taps blockchain for tokenized equity settlement.",
+      "brief": "Visa adds Monad as stablecoin settlement network option",
+      "why": "Expands settlement rails available to stablecoin issuers and acquirers.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201",
+      "date": "2026-11-10",
+      "dateLabel": "10 Nov 2026"
+    },
+    {
+      "brief": "Securitize agrees to buy River One to expand into asset-backed lending",
+      "why": "Tokenization firm extending into stablecoin-funded asset-backed lending via acquisition.",
+      "category": "Stablecoin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/securitize-river-one-asset-backed-lending?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-10",
+      "dateLabel": "10 Nov 2026"
+    },
+    {
+      "brief": "Securitize shares rise 12% after hours on Q3 results and River One deal",
+      "why": "Acquisition expected to add asset-backed lending financing to the platform.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-09-securitize-shares-surge-river-one-436955",
+      "date": "2026-11-10",
+      "dateLabel": "10 Nov 2026"
+    },
+    {
+      "brief": "Formation Securities plans tokenized securities venue on Solana",
+      "why": "Would be an SEC-notified tokenized stock venue; trading eyed for early 2027.",
+      "category": "Tokenization",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/after-canton-debuts-tokenized-stock-venue-solana-venue-plans-galaxy-exodus-trading/",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
+    },
+    {
+      "brief": "Formation Securities plans Solana tokenized stock venue under SEC exemption",
+      "why": "Proposes 24/7 trading of tokenized shares starting early 2027.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/formation-securities-solana-stock-trading-venue-sec-exemption?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
+    },
+    {
+      "brief": "Robinhood backs tokenization of its stock on OKX–ICE platform",
+      "why": "Issuer support contrasts with corporate pushback to the tokenization venture.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/09/robinhood-backs-tokenization-of-its-stock-on-okx-ice-platform-even-as-most-companies-opt-out",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
+    },
+    {
+      "brief": "StoneX sees 97% upside for Bullish as Equiniti deal opens tokenization",
+      "why": "Analyst ties Bullish outlook to tokenization market opened by the deal.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
+    },
+    {
+      "brief": "Coinbase and PNC Bank expand partnership with USDC payments",
+      "why": "Bank pilots USDC payment acceptance for corporate and institutional clients.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466",
+      "date": "2026-11-09",
+      "dateLabel": "09 Nov 2026"
+    },
+    {
+      "brief": "NYSE picks Avalanche to settle tokenized stocks",
+      "why": "Avalanche to serve as core settlement ledger for planned blockchain stock market.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
@@ -13,49 +85,13 @@
       "dateLabel": "09 Nov 2026"
     },
     {
-      "brief": "Solana set for first tokenized stock venue under SEC framework, listing Galaxy",
-      "why": "Expands U.S. regulator's experiment in blockchain-based stock trading.",
+      "brief": "Solana set for first tokenized stock venue under SEC framework",
+      "why": "Formation Securities plans early 2027 launch listing Galaxy, Exodus, Forward.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
       "date": "2026-11-09",
       "dateLabel": "09 Nov 2026"
-    },
-    {
-      "brief": "Formation notifies SEC to run first tokenized securities venue on Solana",
-      "why": "Regulatory step toward tokenized stock trading venue.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
-      "date": "2026-11-09",
-      "dateLabel": "09 Nov 2026"
-    },
-    {
-      "brief": "EU seeks industry group to draft tokenized securities standards",
-      "why": "Standards work shapes tokenized securities holding and settlement rules.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/eu-nominations-tokenization-standards-group?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-09",
-      "dateLabel": "09 Nov 2026"
-    },
-    {
-      "brief": "Raycash launches confidential stablecoin payments and private yield on Ethereum",
-      "why": "Adds privacy features to stablecoin payments and yield onchain.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
-      "date": "2026-11-09",
-      "dateLabel": "09 Nov 2026"
-    },
-    {
-      "brief": "Stablecoin supply growth stalls even as payment activity surges",
-      "why": "Shows divergence between token supply and onchain payment usage.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t",
-      "date": "2026-11-08",
-      "dateLabel": "08 Nov 2026"
     }
   ],
   "feedsOk": [
