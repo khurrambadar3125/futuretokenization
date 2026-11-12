@@ -1,97 +1,97 @@
 {
-  "generated": "2026-11-11T13:41:07.886Z",
-  "generatedLabel": "11 Nov 2026",
+  "generated": "2026-11-12T14:45:11.167Z",
+  "generatedLabel": "12 Nov 2026",
   "count": 10,
   "items": [
     {
-      "brief": "Nomura's Laser Digital advises ZIG Finance on tokenized Saudi SME credit vault on BNB Chain",
-      "why": "Shows institutional backing for tokenized private credit on public chains.",
+      "brief": "DTCC plans to bring tokenized securities to Solana in second half of 2027",
+      "why": "Major clearinghouse adding Solana to tokenization service alongside Canton and Besu",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559",
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026"
+    },
+    {
+      "brief": "Securitize and Ethena's $100M BlackRock BUIDL liquidity facility goes live",
+      "why": "Lets eligible BUIDL holders swap into USDC and other stablecoins 24/7",
       "category": "RWA",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-11-11-nomuras-laser-digital-helps-launch-saudi-sme-credit-vault-targeting-100-million-on-bnb-chain-437824",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442",
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026"
+    },
+    {
+      "brief": "SoFiUSD bank-issued stablecoin goes live on Polygon",
+      "why": "Adds Polygon alongside Ethereum and Solana for bank-issued stablecoin",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-12-sofiusd-goes-live-on-polygon-as-bank-issued-stablecoin-expands-reach-438542",
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026"
+    },
+    {
+      "brief": "BitGo adds USDC minting and redemption for institutional clients",
+      "why": "Expands institutional stablecoin minting and redemption via Go Accounts",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-12-bitgo-expands-institutional-stablecoin-minting-and-redemption-platform-with-usdc-438525",
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026"
+    },
+    {
+      "brief": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+      "why": "Series B funding backs a bank's expansion into stablecoin payments",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026"
+    },
+    {
+      "brief": "Stablecoin supply drops $14.2 billion in largest contraction since 2022",
+      "why": "USDT and USDC supply fell nearly $11 billion over the past month",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907",
       "date": "2026-11-11",
       "dateLabel": "11 Nov 2026"
     },
     {
-      "brief": "Spiko's tokenized fund held $2.39 billion in assets under management",
-      "why": "Large AUM shows tokenized funds scaling beyond niche size.",
+      "brief": "Apex Group joins Hedera Council to explore tokenization and settlement",
+      "why": "Firm overseeing $3.5 trillion in assets to explore tokenization and settlement",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/deals/2026-11-11-apex-group-joins-hedera-council-tokenization-437917",
+      "date": "2026-11-11",
+      "dateLabel": "11 Nov 2026"
+    },
+    {
+      "brief": "GENIUS Act guarantees don't cover DeFi lending, authors argue",
+      "why": "Raises questions on who can change loan terms and stablecoin protections",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/11/11/crypto-long-and-short-the-genius-act-s-guarantees-don-t-cover-defi-lending",
+      "date": "2026-11-11",
+      "dateLabel": "11 Nov 2026"
+    },
+    {
+      "brief": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle",
+      "why": "Venue to list over 70 assets starting Nov. 23 after issuer pushback",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month",
+      "date": "2026-11-11",
+      "dateLabel": "11 Nov 2026"
+    },
+    {
+      "brief": "Spiko runs largest tokenized fund, with $2.39 billion in assets",
+      "why": "Flagship SAFO fund held $2.39 billion in assets under management",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/11/meet-spiko-the-largest-tokenized-fund-in-the-world-you-ve-probably-never-heard-about",
       "date": "2026-11-11",
       "dateLabel": "11 Nov 2026"
-    },
-    {
-      "brief": "Deutsche Bank launches digital asset custody, signs tokenized funds deal",
-      "why": "Bank custody for tokenized funds and stablecoins supports institutional adoption.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851",
-      "date": "2026-11-11",
-      "dateLabel": "11 Nov 2026"
-    },
-    {
-      "brief": "Kraken parent Payward adds 200+ UK and European equities to xStocks",
-      "why": "Expanding tokenized equity offerings past 1,500 assets broadens access.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-11-kraken-parent-payward-adds-200-tokenized-uk-and-european-equities-to-xstocks-offering-437837",
-      "date": "2026-11-11",
-      "dateLabel": "11 Nov 2026"
-    },
-    {
-      "brief": "Kimber Digital Securities gains broker-dealer status for tokenized assets",
-      "why": "Broker-dealer status enables tokenized stocks with shareholder rights.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/kimber-digital-securities-broker-dealer-tokenization?utm_source=rss_feed&utm_medium=rss_tag_rwa&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-10",
-      "dateLabel": "10 Nov 2026"
-    },
-    {
-      "brief": "Former NYSE president says stock issuers hold key to tokenization at Bullish",
-      "why": "Issuer-led tokenization framing shapes how platforms pursue tokenized stocks.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/10/former-nyse-president-says-stock-issuers-hold-the-key-to-tokenization-as-bullish-builds-its-platform",
-      "date": "2026-11-10",
-      "dateLabel": "10 Nov 2026"
-    },
-    {
-      "brief": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
-      "why": "Bank involvement in stablecoin issuance could reshape tokenized settlement.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
-      "date": "2026-11-10",
-      "dateLabel": "10 Nov 2026"
-    },
-    {
-      "brief": "Plume affiliate Kimber Digital Securities lands broker-dealer license",
-      "why": "SEC and Finra approvals enable legally binding tokenized real assets onchain.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain",
-      "date": "2026-11-10",
-      "dateLabel": "10 Nov 2026"
-    },
-    {
-      "brief": "Commentary questions stablecoin advantages as banks catch up",
-      "why": "Bank convergence raises questions on stablecoins' role in tokenized finance.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/11/10/will-stablecoins-survive-once-the-banks-catch-up",
-      "date": "2026-11-10",
-      "dateLabel": "10 Nov 2026"
-    },
-    {
-      "brief": "Securitize agrees to buy River One to expand into asset-backed lending",
-      "why": "Stablecoin funding for asset-backed lending extends tokenization into credit.",
-      "category": "Stablecoin",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/securitize-river-one-asset-backed-lending?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-10",
-      "dateLabel": "10 Nov 2026"
     }
   ],
   "feedsOk": [
