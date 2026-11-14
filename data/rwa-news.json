@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-13T14:02:09.391Z",
-  "generatedLabel": "13 Nov 2026",
-  "count": 8,
+  "generated": "2026-11-14T13:03:56.791Z",
+  "generatedLabel": "14 Nov 2026",
+  "count": 3,
   "items": [
     {
       "brief": "Thailand proposes $148,000 daily cap on certain stablecoin transfers",
-      "why": "Shows regulators imposing transfer limits on stablecoin flows.",
+      "why": "Draft rules would restrict stablecoin transfers to same-person accounts or wallets.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
@@ -13,8 +13,8 @@
       "dateLabel": "13 Nov 2026"
     },
     {
-      "brief": "DTCC plans Solana expansion for tokenized stocks amid wallet rules",
-      "why": "Wall Street clearinghouse extends tokenized securities to another chain.",
+      "brief": "DTCC plans tokenized stocks on Solana in 2027, but wallet rules may limit access",
+      "why": "Signals major clearinghouse entering tokenized securities, with wallet restrictions a potential adoption barrier",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -22,58 +22,13 @@
       "dateLabel": "12 Nov 2026"
     },
     {
-      "brief": "Avalanche is the sole settlement chain for NYSE's planned 24/7 tokenized stock platform",
-      "why": "Shows a major exchange choosing one blockchain for tokenized equity settlement",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-12-avalanche-owns-five-percent-tokenized-stocks-437310",
-      "date": "2026-11-12",
-      "dateLabel": "12 Nov 2026"
-    },
-    {
-      "brief": "Visa adds Western Union's USDPT stablecoin to settlement network",
-      "why": "Stablecoins gain a role in card network settlement.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520",
-      "date": "2026-11-12",
-      "dateLabel": "12 Nov 2026"
-    },
-    {
       "brief": "DTCC adds Solana to tokenization plans, targeting 2027 rollout",
-      "why": "Securities infrastructure expands tokenized assets across chains.",
+      "why": "Clearinghouse plans tokenized stocks, ETFs and Treasuries on Solana, expanding its roadmap.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
       "date": "2026-11-12",
       "dateLabel": "12 Nov 2026"
-    },
-    {
-      "brief": "Tether Gold issuer completes Big Four audit with clean opinion",
-      "why": "Audited reserves may support confidence in tokenized gold.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-12-tether-gold-issuer-follows-usdt-to-complete-big-four-audit-438849",
-      "date": "2026-11-12",
-      "dateLabel": "12 Nov 2026"
-    },
-    {
-      "brief": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-      "why": "Funding signals growing investment in stablecoin payment infrastructure.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
-      "date": "2026-11-12",
-      "dateLabel": "12 Nov 2026"
-    },
-    {
-      "brief": "OKXICE launches tokenized stocks, testing new SEC exemption",
-      "why": "Shows a new SEC exemption being tested for tokenized stock trading.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/okxice-tokenized-stocks-blue-chips-push-back?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-11",
-      "dateLabel": "11 Nov 2026"
     }
   ],
   "feedsOk": [
