@@ -1,34 +1,25 @@
 {
-  "generated": "2026-11-14T13:03:56.791Z",
-  "generatedLabel": "14 Nov 2026",
-  "count": 3,
+  "generated": "2026-11-15T13:32:29.670Z",
+  "generatedLabel": "15 Nov 2026",
+  "count": 2,
   "items": [
     {
-      "brief": "Thailand proposes $148,000 daily cap on certain stablecoin transfers",
-      "why": "Draft rules would restrict stablecoin transfers to same-person accounts or wallets.",
+      "brief": "UK, Singapore, Thailand central banks test cross-border FX settlement as stablecoins grow",
+      "why": "Demonstrates blockchain settlement coordinated with conventional systems across borders.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
+      "date": "2026-11-14",
+      "dateLabel": "14 Nov 2026"
+    },
+    {
+      "brief": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb laundering",
+      "why": "Illustrates regulatory limits on stablecoin transfers aimed at curbing money laundering.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
       "date": "2026-11-13",
       "dateLabel": "13 Nov 2026"
-    },
-    {
-      "brief": "DTCC plans tokenized stocks on Solana in 2027, but wallet rules may limit access",
-      "why": "Signals major clearinghouse entering tokenized securities, with wallet restrictions a potential adoption barrier",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-12",
-      "dateLabel": "12 Nov 2026"
-    },
-    {
-      "brief": "DTCC adds Solana to tokenization plans, targeting 2027 rollout",
-      "why": "Clearinghouse plans tokenized stocks, ETFs and Treasuries on Solana, expanding its roadmap.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
-      "date": "2026-11-12",
-      "dateLabel": "12 Nov 2026"
     }
   ],
   "feedsOk": [
