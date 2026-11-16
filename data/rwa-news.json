@@ -1,25 +1,61 @@
 {
-  "generated": "2026-11-15T13:32:29.670Z",
-  "generatedLabel": "15 Nov 2026",
-  "count": 2,
+  "generated": "2026-11-16T14:59:21.409Z",
+  "generatedLabel": "16 Nov 2026",
+  "count": 6,
   "items": [
     {
-      "brief": "UK, Singapore, Thailand central banks test cross-border FX settlement as stablecoins grow",
-      "why": "Demonstrates blockchain settlement coordinated with conventional systems across borders.",
+      "brief": "HKMA and Swift to explore tokenized deposits for cross-border bank payments",
+      "why": "Tests linking tokenized deposits to cross-border settlement infrastructure.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/hkma-swift-tokenized-deposits-cross-border-payments?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026"
+    },
+    {
+      "brief": "DBS, JPMorgan launch instant tokenized deposit transfers between US and Singapore",
+      "why": "Shows tokenized deposits moving between banks across borders in production.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-16-dbs-jpmorgan-launch-tokenized-deposit-transfers-440854",
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026"
+    },
+    {
+      "brief": "South Korean fintech Toss to launch in-app non-custodial crypto wallet",
+      "why": "Fintech expansion into self-custody and stablecoin payments signals tokenization use.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-16-toss-non-custodial-crypto-wallet-440847",
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026"
+    },
+    {
+      "brief": "DBS, JPMorgan's Kinexys launch 24/7 transfers of tokenized deposits",
+      "why": "Round-the-clock tokenized deposit transfers show always-on settlement potential.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/dbs-jpmorgans-kinexys-launch-tokenized-transfers?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026"
+    },
+    {
+      "brief": "JPMorgan and DBS let clients move dollars across borders on weekends",
+      "why": "Tokenized dollar deposits enable cross-border settlement outside banking hours.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/16/j-p-morgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026"
+    },
+    {
+      "brief": "UK, Singapore, Thailand central banks test cross-border FX settlement",
+      "why": "Central bank tests link blockchain and conventional settlement for FX tokenization.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
       "date": "2026-11-14",
       "dateLabel": "14 Nov 2026"
-    },
-    {
-      "brief": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb laundering",
-      "why": "Illustrates regulatory limits on stablecoin transfers aimed at curbing money laundering.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
-      "date": "2026-11-13",
-      "dateLabel": "13 Nov 2026"
     }
   ],
   "feedsOk": [
