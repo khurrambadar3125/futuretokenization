@@ -1,11 +1,83 @@
 {
-  "generated": "2026-11-16T14:59:21.409Z",
-  "generatedLabel": "16 Nov 2026",
-  "count": 6,
+  "generated": "2026-11-17T15:36:32.872Z",
+  "generatedLabel": "17 Nov 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "HKMA and Swift to explore tokenized deposits for cross-border bank payments",
-      "why": "Tests linking tokenized deposits to cross-border settlement infrastructure.",
+      "brief": "Hong Kong and Swift test tokenized bank deposits across currencies",
+      "why": "Central-bank-linked effort to connect tokenized deposits for cross-border bank payments.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026"
+    },
+    {
+      "brief": "Avenia raises $25 million in Series A extension",
+      "why": "New capital for stablecoin infrastructure signals growing investment in tokenized money rails.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/deals/2026-11-17-avenia-funding-stablecoin-crypto-infrastructure-442119",
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026"
+    },
+    {
+      "brief": "Grvt launches RWA perpetuals with funding tied to traditional markets",
+      "why": "Links tokenized real-world asset trading to traditional market financing costs.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-17-grvt-launches-rwa-perpetuals-with-funding-tied-to-traditional-markets-442089",
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026"
+    },
+    {
+      "brief": "Tether Capital invests $15 million in Nomad for Brazil access",
+      "why": "Aims to ease international payments and enable USDT and tokenized gold integrations.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097",
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026"
+    },
+    {
+      "brief": "Democratic senators warn SEC tokenized stock exemption has illicit finance gaps",
+      "why": "Regulatory scrutiny of tokenized securities exemptions could shape tokenization rules.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-16-democratic-senators-warn-secs-tokenized-stock-exemption-illicit-finance-gaps-441432",
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026"
+    },
+    {
+      "brief": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
+      "why": "Would connect tokenized stockholders to corporate disclosures across digital wallets.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026"
+    },
+    {
+      "brief": "Standard Chartered: Japan bond tokenization could help drive RWA market to $2 trillion",
+      "why": "Ties tokenized bond plans to forecasts for the tokenized real-world asset market by 2028.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/web3/2026-11-16-japan-tokenized-government-bonds-standard-chartered-rwa-2-trillion-441384",
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026"
+    },
+    {
+      "brief": "Brazil central bank faces backlash over stablecoin money laundering remarks",
+      "why": "Official scrutiny of stablecoins could affect their use as tokenized payment rails.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/16/brazil-s-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026"
+    },
+    {
+      "brief": "HKMA and Swift explore tokenized deposits for cross-border bank payments",
+      "why": "Links Project Ensemble with Swift's ledger for tokenized multi-currency payments.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/hkma-swift-tokenized-deposits-cross-border-payments?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -13,49 +85,13 @@
       "dateLabel": "16 Nov 2026"
     },
     {
-      "brief": "DBS, JPMorgan launch instant tokenized deposit transfers between US and Singapore",
-      "why": "Shows tokenized deposits moving between banks across borders in production.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-16-dbs-jpmorgan-launch-tokenized-deposit-transfers-440854",
-      "date": "2026-11-16",
-      "dateLabel": "16 Nov 2026"
-    },
-    {
-      "brief": "South Korean fintech Toss to launch in-app non-custodial crypto wallet",
-      "why": "Fintech expansion into self-custody and stablecoin payments signals tokenization use.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-16-toss-non-custodial-crypto-wallet-440847",
-      "date": "2026-11-16",
-      "dateLabel": "16 Nov 2026"
-    },
-    {
-      "brief": "DBS, JPMorgan's Kinexys launch 24/7 transfers of tokenized deposits",
-      "why": "Round-the-clock tokenized deposit transfers show always-on settlement potential.",
+      "brief": "DBS and JPMorgan's Kinexys launch 24/7 tokenized deposit transfers",
+      "why": "First live service moving tokenized deposits between Singapore and the US.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/dbs-jpmorgans-kinexys-launch-tokenized-transfers?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-11-16",
       "dateLabel": "16 Nov 2026"
-    },
-    {
-      "brief": "JPMorgan and DBS let clients move dollars across borders on weekends",
-      "why": "Tokenized dollar deposits enable cross-border settlement outside banking hours.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/16/j-p-morgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
-      "date": "2026-11-16",
-      "dateLabel": "16 Nov 2026"
-    },
-    {
-      "brief": "UK, Singapore, Thailand central banks test cross-border FX settlement",
-      "why": "Central bank tests link blockchain and conventional settlement for FX tokenization.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
-      "date": "2026-11-14",
-      "dateLabel": "14 Nov 2026"
     }
   ],
   "feedsOk": [
