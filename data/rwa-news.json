@@ -1,11 +1,83 @@
 {
-  "generated": "2026-11-17T15:36:32.872Z",
-  "generatedLabel": "17 Nov 2026",
+  "generated": "2026-11-18T15:13:51.450Z",
+  "generatedLabel": "18 Nov 2026",
   "count": 10,
   "items": [
     {
-      "brief": "Hong Kong and Swift test tokenized bank deposits across currencies",
-      "why": "Central-bank-linked effort to connect tokenized deposits for cross-border bank payments.",
+      "brief": "Circle taps DBS so institutions can buy and redeem USDC as Asian banks build rival systems",
+      "why": "Shows a bank-linked redemption channel for a major stablecoin in Asia.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/18/circle-turns-to-dbs-as-banks-build-rival-digital-payment-systems-across-asia",
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026"
+    },
+    {
+      "brief": "DBS lets eligible Asian institutions mint and redeem USDC around the clock",
+      "why": "Expands 24/7 institutional minting and redemption access to a stablecoin.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-18-dbs-circle-usdc-asia-442970",
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026"
+    },
+    {
+      "brief": "World Bank Group picks Circle and Citi to test stablecoin-based fund disbursements",
+      "why": "Signals institutional testing of stablecoins for payment disbursement models.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924",
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026"
+    },
+    {
+      "brief": "Maple Finance CEO targets up to $15B in assets by end of 2027",
+      "why": "Points to expansion plans into tokenized lending and traditional finance.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/maple-finance-15b-assets-target-2027?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026"
+    },
+    {
+      "brief": "Ocree, Canadian Securities Exchange, Apex launch tokenized real estate pilot",
+      "why": "Tests whether existing exchange, dealer and custody systems support tokenized private markets.",
+      "category": "RWA",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/ocree-canadian-securities-exchange-apex-launch-tokenized-real-estate-pilot/",
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026"
+    },
+    {
+      "brief": "Fed's Waller cites Binance hack in warning over tokenized finance risks",
+      "why": "Raises questions of fraud and key-compromise responsibility as assets move on-chain.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026"
+    },
+    {
+      "brief": "Fed Governor Waller pitches keeping central bank at center of tokenization",
+      "why": "Suggests the Fed could provide trusted rails for tokenized asset innovation.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/17/u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization",
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026"
+    },
+    {
+      "brief": "Alpaca says tokenization network tops $10 billion in minting and redemption volume",
+      "why": "Reports cumulative minting and redemption volume on a tokenization network.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-17-alpaca-says-tokenization-network-tops-10-billion-minting-redemption-volume-442667",
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026"
+    },
+    {
+      "brief": "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed",
+      "why": "Connects tokenized bank deposits across currencies, building on central bank money work.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
@@ -13,83 +85,11 @@
       "dateLabel": "17 Nov 2026"
     },
     {
-      "brief": "Avenia raises $25 million in Series A extension",
-      "why": "New capital for stablecoin infrastructure signals growing investment in tokenized money rails.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/deals/2026-11-17-avenia-funding-stablecoin-crypto-infrastructure-442119",
-      "date": "2026-11-17",
-      "dateLabel": "17 Nov 2026"
-    },
-    {
-      "brief": "Grvt launches RWA perpetuals with funding tied to traditional markets",
-      "why": "Links tokenized real-world asset trading to traditional market financing costs.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/ecosystems/2026-11-17-grvt-launches-rwa-perpetuals-with-funding-tied-to-traditional-markets-442089",
-      "date": "2026-11-17",
-      "dateLabel": "17 Nov 2026"
-    },
-    {
-      "brief": "Tether Capital invests $15 million in Nomad for Brazil access",
-      "why": "Aims to ease international payments and enable USDT and tokenized gold integrations.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097",
-      "date": "2026-11-17",
-      "dateLabel": "17 Nov 2026"
-    },
-    {
-      "brief": "Democratic senators warn SEC tokenized stock exemption has illicit finance gaps",
-      "why": "Regulatory scrutiny of tokenized securities exemptions could shape tokenization rules.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-11-16-democratic-senators-warn-secs-tokenized-stock-exemption-illicit-finance-gaps-441432",
-      "date": "2026-11-16",
-      "dateLabel": "16 Nov 2026"
-    },
-    {
       "brief": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
-      "why": "Would connect tokenized stockholders to corporate disclosures across digital wallets.",
+      "why": "Aims to link tokenized stockholders to disclosures and voting, without creating rights.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-16",
-      "dateLabel": "16 Nov 2026"
-    },
-    {
-      "brief": "Standard Chartered: Japan bond tokenization could help drive RWA market to $2 trillion",
-      "why": "Ties tokenized bond plans to forecasts for the tokenized real-world asset market by 2028.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/web3/2026-11-16-japan-tokenized-government-bonds-standard-chartered-rwa-2-trillion-441384",
-      "date": "2026-11-16",
-      "dateLabel": "16 Nov 2026"
-    },
-    {
-      "brief": "Brazil central bank faces backlash over stablecoin money laundering remarks",
-      "why": "Official scrutiny of stablecoins could affect their use as tokenized payment rails.",
-      "category": "Stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/16/brazil-s-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
-      "date": "2026-11-16",
-      "dateLabel": "16 Nov 2026"
-    },
-    {
-      "brief": "HKMA and Swift explore tokenized deposits for cross-border bank payments",
-      "why": "Links Project Ensemble with Swift's ledger for tokenized multi-currency payments.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/hkma-swift-tokenized-deposits-cross-border-payments?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-16",
-      "dateLabel": "16 Nov 2026"
-    },
-    {
-      "brief": "DBS and JPMorgan's Kinexys launch 24/7 tokenized deposit transfers",
-      "why": "First live service moving tokenized deposits between Singapore and the US.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/dbs-jpmorgans-kinexys-launch-tokenized-transfers?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-11-16",
       "dateLabel": "16 Nov 2026"
     }
