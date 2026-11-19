@@ -1,97 +1,97 @@
 {
-  "generated": "2026-11-18T15:13:51.450Z",
-  "generatedLabel": "18 Nov 2026",
+  "generated": "2026-11-19T15:21:14.672Z",
+  "generatedLabel": "19 Nov 2026",
   "count": 10,
   "items": [
     {
-      "brief": "Circle taps DBS so institutions can buy and redeem USDC as Asian banks build rival systems",
-      "why": "Shows a bank-linked redemption channel for a major stablecoin in Asia.",
-      "category": "Stablecoin",
+      "brief": "OKX to launch tokenized Anthropic shares as pre-IPO futures trade above offering price",
+      "why": "Tests whether tokenized pre-IPO equity markets can price assets versus Wall Street.",
+      "category": "RWA",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/18/circle-turns-to-dbs-as-banks-build-rival-digital-payment-systems-across-asia",
-      "date": "2026-11-18",
-      "dateLabel": "18 Nov 2026"
+      "url": "https://www.coindesk.com/markets/2026/11/19/crypto-traders-vs-wall-street-okx-s-anthropic-markets-put-ipo-pricing-to-the-test",
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026"
     },
     {
-      "brief": "DBS lets eligible Asian institutions mint and redeem USDC around the clock",
-      "why": "Expands 24/7 institutional minting and redemption access to a stablecoin.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-18-dbs-circle-usdc-asia-442970",
-      "date": "2026-11-18",
-      "dateLabel": "18 Nov 2026"
-    },
-    {
-      "brief": "World Bank Group picks Circle and Citi to test stablecoin-based fund disbursements",
-      "why": "Signals institutional testing of stablecoins for payment disbursement models.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924",
-      "date": "2026-11-18",
-      "dateLabel": "18 Nov 2026"
-    },
-    {
-      "brief": "Maple Finance CEO targets up to $15B in assets by end of 2027",
-      "why": "Points to expansion plans into tokenized lending and traditional finance.",
+      "brief": "Tokenized Take-Two shares draw nearly three times Nvidia's tokenized stock DEX volume",
+      "why": "Shows tokenized equity trading volume concentrating around individual stock events.",
       "category": "RWA",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/maple-finance-15b-assets-target-2027?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-17",
-      "dateLabel": "17 Nov 2026"
+      "url": "https://cointelegraph.com/news/gta-vi-launch-tokenized-ttwo-trade-triple-nvidia?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026"
     },
     {
-      "brief": "Ocree, Canadian Securities Exchange, Apex launch tokenized real estate pilot",
-      "why": "Tests whether existing exchange, dealer and custody systems support tokenized private markets.",
+      "brief": "Singapore settles $77.5 million tokenized bill sale in local CBDC",
+      "why": "Central bank CBDC settlement of tokenized securities expands institutional use cases.",
       "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/ocree-canadian-securities-exchange-apex-launch-tokenized-real-estate-pilot/",
-      "date": "2026-11-17",
-      "dateLabel": "17 Nov 2026"
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/19/singapore-settles-usd77-5-million-tokenized-bill-sale-in-local-cbdc",
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026"
     },
     {
-      "brief": "Fed's Waller cites Binance hack in warning over tokenized finance risks",
-      "why": "Raises questions of fraud and key-compromise responsibility as assets move on-chain.",
-      "category": "Tokenization",
+      "brief": "Ant International launches protocol for tokenized deposit and money market fund settlement",
+      "why": "Targets real-time interoperability between tokenized cash and tokenized fund tokens.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-19-ant-international-protocol-tokenized-assets-443586",
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026"
+    },
+    {
+      "brief": "Singapore settles $77.5M tokenized bill sale with wholesale CBDC",
+      "why": "MAS issues bills natively on its test network for CBDC settlement beyond trials.",
+      "category": "RWA",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-17",
-      "dateLabel": "17 Nov 2026"
+      "url": "https://cointelegraph.com/news/mas-issues-77m-tokenized-bills-singapore-dollar-test-network?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026"
     },
     {
-      "brief": "Fed Governor Waller pitches keeping central bank at center of tokenization",
-      "why": "Suggests the Fed could provide trusted rails for tokenized asset innovation.",
+      "brief": "Singapore's MAS issues $77 million in tokenized bills settled via CBDC",
+      "why": "Demonstrates native tokenized issuance and wholesale CBDC settlement by a central bank.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562",
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026"
+    },
+    {
+      "brief": "CZ says tokenized Anthropic to come to BNB Chain on IPO day",
+      "why": "Links tokenized pre-IPO equity issuance to a major public blockchain on listing day.",
       "category": "Tokenization",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/17/u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization",
-      "date": "2026-11-17",
-      "dateLabel": "17 Nov 2026"
+      "url": "https://www.coindesk.com/markets/2026/11/19/cz-says-tokenized-anthropic-is-coming-to-bnb-chain-on-ipo-day",
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026"
     },
     {
-      "brief": "Alpaca says tokenization network tops $10 billion in minting and redemption volume",
-      "why": "Reports cumulative minting and redemption volume on a tokenization network.",
+      "brief": "Standard Chartered, StraitsX, OCBC complete tokenized deposit interoperability trial",
+      "why": "Interoperability across platforms is framed as required for always-on tokenized deposits.",
       "category": "Tokenization",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-17-alpaca-says-tokenization-network-tops-10-billion-minting-redemption-volume-442667",
-      "date": "2026-11-17",
-      "dateLabel": "17 Nov 2026"
+      "url": "https://www.theblock.co/news/web3/2026-11-18-standard-chartered-straitsx-ocbc-tokenized-deposit-poc-442964",
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026"
     },
     {
-      "brief": "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed",
-      "why": "Connects tokenized bank deposits across currencies, building on central bank money work.",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
-      "date": "2026-11-17",
-      "dateLabel": "17 Nov 2026"
+      "brief": "Senators urge Treasury to ensure equal footing for stablecoin issuers under GENIUS Act",
+      "why": "State-regulated stablecoin issuers seek a safe harbor in federal implementation.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501",
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026"
     },
     {
-      "brief": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
-      "why": "Aims to link tokenized stockholders to disclosures and voting, without creating rights.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-16",
-      "dateLabel": "16 Nov 2026"
+      "brief": "Ondo to launch tokenized Anthropic stock on IPO day",
+      "why": "Adds tokenized equity tracking a Nasdaq listing from its first trading day.",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482",
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026"
     }
   ],
   "feedsOk": [
