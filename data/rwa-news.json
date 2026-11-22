@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-21T14:19:48.905Z",
-  "generatedLabel": "21 Nov 2026",
-  "count": 9,
+  "generated": "2026-11-22T14:11:07.108Z",
+  "generatedLabel": "22 Nov 2026",
+  "count": 5,
   "items": [
     {
       "brief": "ECB seeks industry partners for tokenized deposits, securities experiments",
-      "why": "Signals central-bank-led testing of tokenized settlement infrastructure.",
+      "why": "Central bank experiments could shape tokenized deposit and securities infrastructure standards.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -14,7 +14,7 @@
     },
     {
       "brief": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-      "why": "Shows tokenized equities advancing under an SEC innovation exemption.",
+      "why": "Builds blockchain-based stock markets under SEC's five-year innovation exemption",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
@@ -23,7 +23,7 @@
     },
     {
       "brief": "Lagarde warns Europe could miss chance to unify tokenized markets",
-      "why": "Highlights fragmentation risk in tokenized securities settlement.",
+      "why": "Warns tokenized securities market could split into platforms unable to settle trades",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -32,7 +32,7 @@
     },
     {
       "brief": "ECB's Lagarde warns Europe could lose control of growing tokenized asset market",
-      "why": "Points to regulatory control concerns around tokenized assets.",
+      "why": "Calls for common rules as EU blockchain settlement system handled digital bond trade",
       "category": "RWA",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/11/20/ecb-s-largarde-warns-europe-could-lose-control-of-growing-tokenized-asset-market",
@@ -41,48 +41,12 @@
     },
     {
       "brief": "MoonPay applies for national trust bank charter to expand stablecoin services",
-      "why": "Stablecoin custody shifting under federal oversight.",
+      "why": "Seeks federal oversight charter to expand custody and stablecoin services",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198",
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026"
-    },
-    {
-      "brief": "Ant International, DBS, Franklin Templeton automate tokenized deposit to MMF switching",
-      "why": "Demonstrates automated tokenized deposit and fund interoperability.",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/ant-international-dbs-franklin-templeton-automate-tokenized-deposit-to-mmf-switching/",
-      "date": "2026-11-19",
-      "dateLabel": "19 Nov 2026"
-    },
-    {
-      "brief": "Tokenized Stocks Shrug Off the Crypto Selloff",
-      "why": "Shows tokenized equities growing despite crypto market declines.",
-      "category": "Tokenization",
-      "source": "The Block",
-      "url": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829",
-      "date": "2026-11-19",
-      "dateLabel": "19 Nov 2026"
-    },
-    {
-      "brief": "GTA VI publisher racks up nearly 3x Nvidia's tokenized stock volume",
-      "why": "Indicates demand for tokenized equities via DEX trading.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/gta-vi-launch-tokenized-ttwo-trade-triple-nvidia?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-19",
-      "dateLabel": "19 Nov 2026"
-    },
-    {
-      "brief": "Singapore settles $77.5M tokenized bill sale using wholesale CBDC",
-      "why": "Central bank test network settles tokenized bill issuance, a CBDC settlement use case.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/mas-issues-77m-tokenized-bills-singapore-dollar-test-network?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-19",
-      "dateLabel": "19 Nov 2026"
     }
   ],
   "feedsOk": [
