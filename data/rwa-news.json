@@ -1,52 +1,70 @@
 {
-  "generated": "2026-11-22T14:11:07.108Z",
-  "generatedLabel": "22 Nov 2026",
-  "count": 5,
+  "generated": "2026-11-23T17:32:19.852Z",
+  "generatedLabel": "23 Nov 2026",
+  "count": 7,
   "items": [
     {
-      "brief": "ECB seeks industry partners for tokenized deposits, securities experiments",
-      "why": "Central bank experiments could shape tokenized deposit and securities infrastructure standards.",
+      "brief": "OKX-ICE tokenized securities venue launches with 113 assets for 24/7 trading",
+      "why": "Shows a major venue listing 113 tokenized securities for round-the-clock trading.",
+      "category": "Tokenization",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-23-okxice-launches-tokenized-securities-venue-444898",
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026"
+    },
+    {
+      "brief": "OKX and ICE launch 113 tokenized assets despite issuer objections",
+      "why": "Highlights 113 tokenized assets going live amid pushback from 67 companies.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026"
+    },
+    {
+      "brief": "Fidelity, Strive, Etoro join OKX-ICE tokenized securities venue",
+      "why": "Named issuers join a venue confirming 113 tokenized assets for listing.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026"
+    },
+    {
+      "brief": "ECB to let banks pledge more tokenized securities as collateral",
+      "why": "Banks could use tokenized securities as collateral under the DLT pilot program.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ecb-expands-eurosystem-collateral-tokenized-securities?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026"
+    },
+    {
+      "brief": "South Korea to publish draft crypto legal framework this week",
+      "why": "Draft includes licensing and a bank-centered stablecoin issuance system.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-23-south-korea-to-publish-draft-digital-asset-basic-act-444881",
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026"
+    },
+    {
+      "brief": "OCBC, StraitsX pilot cross-border stablecoin payments for businesses",
+      "why": "Uses onchain collection and compliance with an OCBC fiat off-ramp.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-23-ocbc-straitsx-pilot-stablecoin-payments-444880",
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026"
+    },
+    {
+      "brief": "ECB seeks industry partners for tokenized deposits and securities experiments",
+      "why": "Central bank explores tokenized deposits and securities under its Appia initiative.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026"
-    },
-    {
-      "brief": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-      "why": "Builds blockchain-based stock markets under SEC's five-year innovation exemption",
-      "category": "Tokenization",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
-      "date": "2026-11-20",
-      "dateLabel": "20 Nov 2026"
-    },
-    {
-      "brief": "Lagarde warns Europe could miss chance to unify tokenized markets",
-      "why": "Warns tokenized securities market could split into platforms unable to settle trades",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-20",
-      "dateLabel": "20 Nov 2026"
-    },
-    {
-      "brief": "ECB's Lagarde warns Europe could lose control of growing tokenized asset market",
-      "why": "Calls for common rules as EU blockchain settlement system handled digital bond trade",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/20/ecb-s-largarde-warns-europe-could-lose-control-of-growing-tokenized-asset-market",
-      "date": "2026-11-20",
-      "dateLabel": "20 Nov 2026"
-    },
-    {
-      "brief": "MoonPay applies for national trust bank charter to expand stablecoin services",
-      "why": "Seeks federal oversight charter to expand custody and stablecoin services",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198",
-      "date": "2026-11-20",
-      "dateLabel": "20 Nov 2026"
     }
   ],
   "feedsOk": [
