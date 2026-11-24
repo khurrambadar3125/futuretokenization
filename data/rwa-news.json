@@ -1,20 +1,83 @@
 {
-  "generated": "2026-11-23T17:32:19.852Z",
-  "generatedLabel": "23 Nov 2026",
-  "count": 7,
+  "generated": "2026-11-24T17:03:55.901Z",
+  "generatedLabel": "24 Nov 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "OKX-ICE tokenized securities venue launches with 113 assets for 24/7 trading",
-      "why": "Shows a major venue listing 113 tokenized securities for round-the-clock trading.",
-      "category": "Tokenization",
+      "brief": "Neuberger Berman HINC tokenized high-yield fund launches on Aave Horizon",
+      "why": "Tokenized fund usable as collateral for stablecoin borrowing on institutional lending platform",
+      "category": "RWA",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-23-okxice-launches-tokenized-securities-venue-444898",
+      "url": "https://www.theblock.co/news/markets/2026-11-24-neuberger-berman-tokenized-hinc-fund-aave-horizon-collateral-445391",
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026"
+    },
+    {
+      "brief": "Swiss central bank, UBS and SIX study shared ledger for tokenized settlement",
+      "why": "Assesses putting central bank money, commercial bank money and securities on one platform",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026"
+    },
+    {
+      "brief": "BlackRock opens tokenized HKD money market fund to Hong Kong investors",
+      "why": "Tokenized money market fund opened to retail and institutional investors in Hong Kong",
+      "category": "RWA",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-24-blackrock-opens-tokenized-money-market-fund-with-100-million-in-assets-to-hong-kong-investors-445524",
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026"
+    },
+    {
+      "brief": "JPMorgan, HSBC, StoneX complete first digital gold trades in London",
+      "why": "Tests trading fractions of gold and using it as collateral without moving it from vaults",
+      "category": "RWA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/24/jpmorgan-hsbc-and-stonex-complete-first-digital-gold-trades-in-london",
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026"
+    },
+    {
+      "brief": "South Korea regulator backs bank-controlled stablecoins",
+      "why": "Sets bank ownership rules for stablecoin issuers after months of dispute",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/24/south-korea-regulator-backs-bank-controlled-stablecoins-after-months-of-dispute",
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026"
+    },
+    {
+      "brief": "DOJ seeks $1.17 billion in USDC tied to Oct. 29 Binance hack",
+      "why": "Shows authorities pursuing stablecoin funds linked to a major exchange hack",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026"
+    },
+    {
+      "brief": "StraitsX partners OCBC for corporate stablecoin payments into bank accounts",
+      "why": "Pilot auto-credits received stablecoins to bank accounts, removing direct handling",
+      "category": "Stablecoin",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/straitsx-partners-ocbc-for-corporates-to-receive-stablecoin-payments-into-accounts/",
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026"
+    },
+    {
+      "brief": "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks",
+      "why": "Dispute over tokenized equities rollout centers on issuer consent",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-11-23",
       "dateLabel": "23 Nov 2026"
     },
     {
       "brief": "OKX and ICE launch 113 tokenized assets despite issuer objections",
-      "why": "Highlights 113 tokenized assets going live amid pushback from 67 companies.",
+      "why": "Shows tokenized equity trading proceeding despite objections from 67 issuers.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -23,48 +86,12 @@
     },
     {
       "brief": "Fidelity, Strive, Etoro join OKX-ICE tokenized securities venue",
-      "why": "Named issuers join a venue confirming 113 tokenized assets for listing.",
+      "why": "113 assets confirmed for listing as trading begins after issuer objections",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
       "date": "2026-11-23",
       "dateLabel": "23 Nov 2026"
-    },
-    {
-      "brief": "ECB to let banks pledge more tokenized securities as collateral",
-      "why": "Banks could use tokenized securities as collateral under the DLT pilot program.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ecb-expands-eurosystem-collateral-tokenized-securities?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23",
-      "dateLabel": "23 Nov 2026"
-    },
-    {
-      "brief": "South Korea to publish draft crypto legal framework this week",
-      "why": "Draft includes licensing and a bank-centered stablecoin issuance system.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-11-23-south-korea-to-publish-draft-digital-asset-basic-act-444881",
-      "date": "2026-11-23",
-      "dateLabel": "23 Nov 2026"
-    },
-    {
-      "brief": "OCBC, StraitsX pilot cross-border stablecoin payments for businesses",
-      "why": "Uses onchain collection and compliance with an OCBC fiat off-ramp.",
-      "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-23-ocbc-straitsx-pilot-stablecoin-payments-444880",
-      "date": "2026-11-23",
-      "dateLabel": "23 Nov 2026"
-    },
-    {
-      "brief": "ECB seeks industry partners for tokenized deposits and securities experiments",
-      "why": "Central bank explores tokenized deposits and securities under its Appia initiative.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-21",
-      "dateLabel": "21 Nov 2026"
     }
   ],
   "feedsOk": [
