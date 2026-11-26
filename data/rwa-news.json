@@ -1,11 +1,29 @@
 {
-  "generated": "2026-11-25T16:53:55.234Z",
-  "generatedLabel": "25 Nov 2026",
-  "count": 10,
+  "generated": "2026-11-26T16:30:51.921Z",
+  "generatedLabel": "26 Nov 2026",
+  "count": 7,
   "items": [
     {
+      "brief": "Nasdaq exec backs common EU rules for tokenized securities",
+      "why": "Signals push for harmonized EU framework as exchange seeks DLT licensing.",
+      "category": "Tokenization",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/nasdaq-exec-eu-wide-legal-framework-tokenized-securities?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026"
+    },
+    {
+      "brief": "ECB collateral eligibility seen boosting tokenized bond demand",
+      "why": "Central bank collateral rules could drive tokenized bond adoption.",
+      "category": "RWA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/why-ecb-collateral-eligibility-could-boost-demand-tokenized-bonds?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026"
+    },
+    {
       "brief": "Aave Labs launches savings app as balances top $63 million",
-      "why": "Shows consumer-facing savings app using stablecoin deposits across networks.",
+      "why": "Moves savings/stablecoin deposits into an app spanning eight networks.",
       "category": "DigitalBank",
       "source": "The Block",
       "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674",
@@ -13,26 +31,17 @@
       "dateLabel": "25 Nov 2026"
     },
     {
-      "brief": "Japan's SBI, SMFG launch Solana joint venture for stablecoin, tokenization",
-      "why": "Entity targets stablecoin payments and real-world asset tokenization.",
+      "brief": "Japan's SBI and SMFG launch Solana venture for stablecoins and tokenization",
+      "why": "Large Japanese financial groups plan stablecoin payment infrastructure and asset tokenization on Solana.",
       "category": "Stablecoin",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-25-japans-sbi-smfg-tap-solana-stablecoin-tokenization-joint-venture-446131",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/sbi-smfg-solana-global-stablecoin-tokenization?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-11-25",
       "dateLabel": "25 Nov 2026"
     },
     {
-      "brief": "HKMA launches digital asset platform for tokenized debt securities",
-      "why": "Ten banks are first direct participants on HKMA's tokenized debt platform.",
-      "category": "RWA",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-11-25-hong-kong-debt-securities-tokenization-446132",
-      "date": "2026-11-25",
-      "dateLabel": "25 Nov 2026"
-    },
-    {
-      "brief": "BlackRock launches HKD tokenized money market fund in Hong Kong",
-      "why": "Adds a fourth currency to BlackRock's tokenized MMF lineup after USD, EUR and GBP funds.",
+      "brief": "BlackRock launches HKD tokenized money market fund with Ant Intl, StanChart as investors",
+      "why": "Adds a fourth currency to BlackRock's tokenized MMF lineup, after USD, EUR and GBP.",
       "category": "RWA",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/blackrock-launches-100m-hkd-tokenized-mmf-with-ant-intl-stanchart-as-investors/",
@@ -40,17 +49,8 @@
       "dateLabel": "24 Nov 2026"
     },
     {
-      "brief": "Krak plans 2027 US credit cards with bitcoin cashback, one USDC-secured",
-      "why": "Card uses USDC as collateral, linking stablecoins to consumer credit.",
-      "category": "DigitalBank",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498",
-      "date": "2026-11-24",
-      "dateLabel": "24 Nov 2026"
-    },
-    {
-      "brief": "Fed Governor Waller warns of 'zombie chains' as tokenization grows",
-      "why": "Flags governance risk of tokenized assets stranded on failed blockchains.",
+      "brief": "Fed Governor Waller warns of zombie chains as tokenization grows",
+      "why": "Highlights blockchain governance risk for tokenized assets.",
       "category": "Tokenization",
       "source": "DL News",
       "url": "https://www.dlnews.com/articles/regulation/fed-governor-waller-warns-of-zombie-chains-as-tokenization-grows/",
@@ -59,39 +59,12 @@
     },
     {
       "brief": "Swiss central bank, UBS and SIX study ledger for tokenized settlement",
-      "why": "Assesses shared ledger for central bank money, commercial money and securities.",
+      "why": "Explores unifying central bank money, commercial money and securities on one ledger.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-11-24",
       "dateLabel": "24 Nov 2026"
-    },
-    {
-      "brief": "JPMorgan, HSBC, StoneX complete first digital gold trades in London",
-      "why": "Tests trading gold fractions and using metal as collateral without moving it.",
-      "category": "RWA",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/24/jpmorgan-hsbc-and-stonex-complete-first-digital-gold-trades-in-london",
-      "date": "2026-11-24",
-      "dateLabel": "24 Nov 2026"
-    },
-    {
-      "brief": "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks",
-      "why": "Shows pushback against tokenized equity rollout from competitors and issuers.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23",
-      "dateLabel": "23 Nov 2026"
-    },
-    {
-      "brief": "OKX and ICE launch 113 tokenized assets despite issuer objections",
-      "why": "Shows tokenized equity trading expanding despite pushback from 67 objecting companies.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23",
-      "dateLabel": "23 Nov 2026"
     }
   ],
   "feedsOk": [
@@ -101,5 +74,7 @@
     "DL News",
     "Cointelegraph"
   ],
-  "feedsFailed": []
+  "feedsFailed": [
+    "Cointelegraph"
+  ]
 }
