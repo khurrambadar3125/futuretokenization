@@ -1,11 +1,83 @@
 {
-  "generated": "2026-11-26T16:30:51.921Z",
-  "generatedLabel": "26 Nov 2026",
-  "count": 7,
+  "generated": "2026-11-27T16:15:56.992Z",
+  "generatedLabel": "27 Nov 2026",
+  "count": 10,
   "items": [
     {
-      "brief": "Nasdaq exec backs common EU rules for tokenized securities",
-      "why": "Signals push for harmonized EU framework as exchange seeks DLT licensing.",
+      "brief": "Brazil's stock exchange pushes stablecoin launch back to 2027",
+      "why": "Shows timeline for a major exchange's real-backed stablecoin initiative.",
+      "category": "Stablecoin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/brazil-b3-stablecoin-tokenization-launch-2027?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026"
+    },
+    {
+      "brief": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
+      "why": "Signals likely ECB leaning toward tokenized deposits in policy.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin",
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026"
+    },
+    {
+      "brief": "Injective asks SEC to allow order books for tokenized stock trading",
+      "why": "Raises rule questions on which blockchain systems can host tokenized stocks.",
+      "category": "Tokenization",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026"
+    },
+    {
+      "brief": "Brazil's stock exchange teams with banks on real-pegged stablecoin",
+      "why": "Exchange-issued, real-backed token adds to stablecoin tokenization trend.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026"
+    },
+    {
+      "brief": "Bank of Japan official: stablecoins need reserve rules for 'singleness of money'",
+      "why": "Central bank stance on reserves shapes stablecoin and tokenized deposit standards.",
+      "category": "Stablecoin",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059",
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026"
+    },
+    {
+      "brief": "Tether can freeze stolen crypto in minutes; recovery can take years",
+      "why": "Highlights limits of token freezing and recovery in stablecoin operations.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026"
+    },
+    {
+      "brief": "Ripple lending plan nears tapping XRP Ledger's $800 million in stablecoins",
+      "why": "Shows stablecoins being used as lending liquidity onchain.",
+      "category": "Stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins",
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026"
+    },
+    {
+      "brief": "EU banking regulator concerned about DeFi impact on investors, stablecoins",
+      "why": "EBA scrutiny may shape MiCA stablecoin rules affecting tokenization.",
+      "category": "Stablecoin",
+      "source": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/eu-banking-regulator-concerned-about-impact-of-defi-on-investors-stablecoins/",
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026"
+    },
+    {
+      "brief": "Nasdaq exec pushes for common EU rules on tokenized securities",
+      "why": "Exchange push for harmonized EU rules could shape tokenized securities market.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/nasdaq-exec-eu-wide-legal-framework-tokenized-securities?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -13,58 +85,13 @@
       "dateLabel": "26 Nov 2026"
     },
     {
-      "brief": "ECB collateral eligibility seen boosting tokenized bond demand",
-      "why": "Central bank collateral rules could drive tokenized bond adoption.",
+      "brief": "Why ECB collateral eligibility could boost demand for tokenized bonds",
+      "why": "Collateral rules may drive demand for tokenized bonds.",
       "category": "RWA",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/why-ecb-collateral-eligibility-could-boost-demand-tokenized-bonds?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-11-25",
       "dateLabel": "25 Nov 2026"
-    },
-    {
-      "brief": "Aave Labs launches savings app as balances top $63 million",
-      "why": "Moves savings/stablecoin deposits into an app spanning eight networks.",
-      "category": "DigitalBank",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674",
-      "date": "2026-11-25",
-      "dateLabel": "25 Nov 2026"
-    },
-    {
-      "brief": "Japan's SBI and SMFG launch Solana venture for stablecoins and tokenization",
-      "why": "Large Japanese financial groups plan stablecoin payment infrastructure and asset tokenization on Solana.",
-      "category": "Stablecoin",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/sbi-smfg-solana-global-stablecoin-tokenization?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-25",
-      "dateLabel": "25 Nov 2026"
-    },
-    {
-      "brief": "BlackRock launches HKD tokenized money market fund with Ant Intl, StanChart as investors",
-      "why": "Adds a fourth currency to BlackRock's tokenized MMF lineup, after USD, EUR and GBP.",
-      "category": "RWA",
-      "source": "Ledger Insights",
-      "url": "https://www.ledgerinsights.com/blackrock-launches-100m-hkd-tokenized-mmf-with-ant-intl-stanchart-as-investors/",
-      "date": "2026-11-24",
-      "dateLabel": "24 Nov 2026"
-    },
-    {
-      "brief": "Fed Governor Waller warns of zombie chains as tokenization grows",
-      "why": "Highlights blockchain governance risk for tokenized assets.",
-      "category": "Tokenization",
-      "source": "DL News",
-      "url": "https://www.dlnews.com/articles/regulation/fed-governor-waller-warns-of-zombie-chains-as-tokenization-grows/",
-      "date": "2026-11-24",
-      "dateLabel": "24 Nov 2026"
-    },
-    {
-      "brief": "Swiss central bank, UBS and SIX study ledger for tokenized settlement",
-      "why": "Explores unifying central bank money, commercial money and securities on one ledger.",
-      "category": "Tokenization",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-24",
-      "dateLabel": "24 Nov 2026"
     }
   ],
   "feedsOk": [
