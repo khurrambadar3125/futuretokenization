@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-27T16:15:56.992Z",
-  "generatedLabel": "27 Nov 2026",
-  "count": 10,
+  "generated": "2026-11-28T15:10:12.031Z",
+  "generatedLabel": "28 Nov 2026",
+  "count": 9,
   "items": [
     {
       "brief": "Brazil's stock exchange pushes stablecoin launch back to 2027",
-      "why": "Shows timeline for a major exchange's real-backed stablecoin initiative.",
+      "why": "Delayed real-backed stablecoin shows tokenized cash infrastructure timelines slipping.",
       "category": "Stablecoin",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/brazil-b3-stablecoin-tokenization-launch-2027?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
@@ -14,7 +14,7 @@
     },
     {
       "brief": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
-      "why": "Signals likely ECB leaning toward tokenized deposits in policy.",
+      "why": "Incoming ECB leadership's stance could shape EU tokenization and stablecoin rules.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin",
@@ -23,7 +23,7 @@
     },
     {
       "brief": "Injective asks SEC to allow order books for tokenized stock trading",
-      "why": "Raises rule questions on which blockchain systems can host tokenized stocks.",
+      "why": "Pushes regulator to broaden which blockchain systems can trade tokenized stocks.",
       "category": "Tokenization",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
@@ -31,8 +31,8 @@
       "dateLabel": "27 Nov 2026"
     },
     {
-      "brief": "Brazil's stock exchange teams with banks on real-pegged stablecoin",
-      "why": "Exchange-issued, real-backed token adds to stablecoin tokenization trend.",
+      "brief": "Brazil's stock exchange teams with major banks for real-pegged stablecoin",
+      "why": "Exchange-issued tokenized cash could underpin onchain settlement in Brazil.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
@@ -41,7 +41,7 @@
     },
     {
       "brief": "Bank of Japan official: stablecoins need reserve rules for 'singleness of money'",
-      "why": "Central bank stance on reserves shapes stablecoin and tokenized deposit standards.",
+      "why": "Central bank signals reserve safeguards for stablecoins and tokenized deposits.",
       "category": "Stablecoin",
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059",
@@ -50,7 +50,7 @@
     },
     {
       "brief": "Tether can freeze stolen crypto in minutes; recovery can take years",
-      "why": "Highlights limits of token freezing and recovery in stablecoin operations.",
+      "why": "Shows limits of tokenized asset freezing versus actual restitution for holders.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
@@ -58,8 +58,8 @@
       "dateLabel": "27 Nov 2026"
     },
     {
-      "brief": "Ripple lending plan nears tapping XRP Ledger's $800 million in stablecoins",
-      "why": "Shows stablecoins being used as lending liquidity onchain.",
+      "brief": "Ripple's lending plan nears use of XRP Ledger's $800 million in stablecoins",
+      "why": "Shows stablecoin liquidity on a ledger being tied to a lending system.",
       "category": "Stablecoin",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins",
@@ -67,8 +67,8 @@
       "dateLabel": "27 Nov 2026"
     },
     {
-      "brief": "EU banking regulator concerned about DeFi impact on investors, stablecoins",
-      "why": "EBA scrutiny may shape MiCA stablecoin rules affecting tokenization.",
+      "brief": "EU banking regulator concerned about DeFi impact on investors and stablecoins",
+      "why": "EBA scrutiny of DeFi could affect MiCA-regulated stablecoin oversight.",
       "category": "Stablecoin",
       "source": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/eu-banking-regulator-concerned-about-impact-of-defi-on-investors-stablecoins/",
@@ -77,21 +77,12 @@
     },
     {
       "brief": "Nasdaq exec pushes for common EU rules on tokenized securities",
-      "why": "Exchange push for harmonized EU rules could shape tokenized securities market.",
+      "why": "Exchange advocacy and DLT license point toward regulated tokenized securities in EU.",
       "category": "Tokenization",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/nasdaq-exec-eu-wide-legal-framework-tokenized-securities?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
       "date": "2026-11-26",
       "dateLabel": "26 Nov 2026"
-    },
-    {
-      "brief": "Why ECB collateral eligibility could boost demand for tokenized bonds",
-      "why": "Collateral rules may drive demand for tokenized bonds.",
-      "category": "RWA",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/why-ecb-collateral-eligibility-could-boost-demand-tokenized-bonds?utm_source=rss_feed&utm_medium=rss_tag_tokenization&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-25",
-      "dateLabel": "25 Nov 2026"
     }
   ],
   "feedsOk": [
